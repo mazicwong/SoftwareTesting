@@ -1,0 +1,1477 @@
+{
+  "19": {
+    "instructions": [{"goto block_21": {
+      "eline": 84,
+      "epos": 63,
+      "spos": 29,
+      "sline": 84
+    }}],
+    "preds": [18],
+    "succs": [21]
+  },
+  "35": {
+    "instructions": [{"goto block_46": {
+      "eline": 109,
+      "epos": 13,
+      "spos": 20,
+      "sline": 89
+    }}],
+    "preds": [
+      27,
+      30
+    ],
+    "succs": [46]
+  },
+  "17": {
+    "instructions": [{"goto block_22": {
+      "eline": 83,
+      "epos": 42,
+      "spos": 37,
+      "sline": 83
+    }}],
+    "preds": [16],
+    "succs": [22]
+  },
+  "36": {
+    "instructions": [
+      {"temp$84 = c": {
+        "eline": 100,
+        "epos": 31,
+        "spos": 21,
+        "sline": 100
+      }},
+      {"temp$85 = 1": {
+        "reliable": false,
+        "eline": 100,
+        "epos": 31,
+        "spos": 21,
+        "sline": 100
+      }},
+      {"temp$86 = temp$84[temp$85]": {
+        "eline": 100,
+        "epos": 31,
+        "spos": 21,
+        "sline": 100
+      }},
+      {"temp$87 = (int) temp$86": {
+        "eline": 100,
+        "epos": 31,
+        "spos": 21,
+        "sline": 100
+      }},
+      {"if temp$87 == 48 goto block_38 #11": {
+        "eline": 100,
+        "epos": 31,
+        "ifpos": "(99, 16)-(99, 31)",
+        "spos": 21,
+        "sline": 100
+      }}
+    ],
+    "preds": [24],
+    "succs": [
+      37,
+      38
+    ]
+  },
+  "18": {
+    "instructions": [
+      {"temp$34 = c": {
+        "eline": 84,
+        "epos": 63,
+        "spos": 29,
+        "sline": 84
+      }},
+      {"temp$35 = 1": {
+        "reliable": false,
+        "eline": 84,
+        "epos": 63,
+        "spos": 29,
+        "sline": 84
+      }},
+      {"temp$36 = temp$34[temp$35]": {
+        "eline": 84,
+        "epos": 63,
+        "spos": 29,
+        "sline": 84
+      }},
+      {"temp$37 = staticinvoke <java.lang.String: java.lang.String valueOf(int)>(i)": {
+        "eline": 84,
+        "epos": 63,
+        "spos": 29,
+        "sline": 84
+      }},
+      {"temp$38 = virtualinvoke temp$37.<java.lang.String: char charAt(int)>(0)": {
+        "eline": 84,
+        "epos": 63,
+        "spos": 29,
+        "sline": 84
+      }},
+      {"temp$39 = (int) temp$36": {
+        "eline": 84,
+        "epos": 63,
+        "spos": 29,
+        "sline": 84
+      }},
+      {"temp$40 = (int) temp$38": {
+        "eline": 84,
+        "epos": 63,
+        "spos": 29,
+        "sline": 84
+      }},
+      {"if temp$39 == temp$40 goto block_20 #6": {
+        "eline": 84,
+        "epos": 63,
+        "ifpos": "(83, 24)-(83, 63)",
+        "spos": 29,
+        "sline": 84
+      }}
+    ],
+    "preds": [16],
+    "succs": [
+      19,
+      20
+    ]
+  },
+  "33": {
+    "instructions": [
+      {"temp$74 = new java.lang.StringBuffer": {
+        "eline": 95,
+        "epos": 73,
+        "spos": 29,
+        "sline": 95
+      }},
+      {"specialinvoke temp$74.<java.lang.StringBuffer: void <init>()>()": {
+        "eline": 95,
+        "epos": 72,
+        "spos": 38,
+        "sline": 95
+      }},
+      {"temp$75 = <TextUtils: java.lang.String[] LUNAR_HEADER>": {
+        "eline": 95,
+        "epos": 72,
+        "spos": 38,
+        "sline": 95
+      }},
+      {"temp$76 = 2": {
+        "reliable": false,
+        "eline": 95,
+        "epos": 72,
+        "spos": 38,
+        "sline": 95
+      }},
+      {"temp$77 = temp$75[temp$76]": {
+        "eline": 95,
+        "epos": 72,
+        "spos": 38,
+        "sline": 95
+      }},
+      {"virtualinvoke temp$74.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(temp$77)": {
+        "eline": 95,
+        "epos": 72,
+        "spos": 38,
+        "sline": 95
+      }},
+      {"temp$78 = <TextUtils: java.lang.String[] NUMBER_CAPITAL>": {
+        "eline": 95,
+        "epos": 72,
+        "spos": 38,
+        "sline": 95
+      }},
+      {"temp$79 = i": {
+        "eline": 95,
+        "epos": 72,
+        "spos": 38,
+        "sline": 95
+      }},
+      {"temp$80 = temp$78[temp$79]": {
+        "eline": 95,
+        "epos": 72,
+        "spos": 38,
+        "sline": 95
+      }},
+      {"virtualinvoke temp$74.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(temp$80)": {
+        "eline": 95,
+        "epos": 72,
+        "spos": 38,
+        "sline": 95
+      }},
+      {"temp$81 = virtualinvoke temp$74.<java.lang.StringBuffer: java.lang.String toString()>()": {
+        "eline": 95,
+        "epos": 72,
+        "spos": 38,
+        "sline": 95
+      }},
+      {"result = temp$81": {
+        "eline": 95,
+        "epos": 34,
+        "spos": 29,
+        "sline": 95
+      }}
+    ],
+    "preds": [31],
+    "succs": [34]
+  },
+  "15": {
+    "instructions": [{"i = 1": {
+      "eline": 83,
+      "epos": 34,
+      "spos": 26,
+      "sline": 83
+    }}],
+    "preds": [13],
+    "succs": [16]
+  },
+  "34": {
+    "instructions": [
+      {"temp$82 = i": {
+        "eline": 93,
+        "epos": 47,
+        "spos": 45,
+        "sline": 93
+      }},
+      {"temp$83 = temp$82 + 1": {
+        "eline": 93,
+        "epos": 45,
+        "spos": 45,
+        "sline": 93
+      }},
+      {"i = temp$83": {
+        "eline": 93,
+        "epos": 45,
+        "spos": 45,
+        "sline": 93
+      }},
+      {"goto block_29": {
+        "eline": 97,
+        "epos": 21,
+        "spos": 21,
+        "sline": 93
+      }}
+    ],
+    "preds": [
+      32,
+      33
+    ],
+    "succs": [29]
+  },
+  "16": {
+    "instructions": [{"if i < 10 goto block_18 #5": {
+      "eline": 83,
+      "epos": 42,
+      "ifpos": "(82, 34)-(82, 42)",
+      "spos": 37,
+      "sline": 83
+    }}],
+    "preds": [
+      15,
+      21
+    ],
+    "succs": [
+      17,
+      18
+    ]
+  },
+  "39": {
+    "instructions": [{"i = 1": {
+      "eline": 103,
+      "epos": 34,
+      "spos": 26,
+      "sline": 103
+    }}],
+    "preds": [37],
+    "succs": [40]
+  },
+  "13": {
+    "instructions": [{"goto block_15": {
+      "eline": 80,
+      "epos": 31,
+      "spos": 21,
+      "sline": 80
+    }}],
+    "preds": [12],
+    "succs": [15]
+  },
+  "14": {
+    "instructions": [
+      {"temp$26 = new java.lang.StringBuffer": {
+        "eline": 81,
+        "epos": 63,
+        "spos": 21,
+        "sline": 81
+      }},
+      {"specialinvoke temp$26.<java.lang.StringBuffer: void <init>()>()": {
+        "eline": 81,
+        "epos": 62,
+        "spos": 30,
+        "sline": 81
+      }},
+      {"temp$27 = <TextUtils: java.lang.String[] LUNAR_HEADER>": {
+        "eline": 81,
+        "epos": 62,
+        "spos": 30,
+        "sline": 81
+      }},
+      {"temp$28 = 0": {
+        "reliable": false,
+        "eline": 81,
+        "epos": 62,
+        "spos": 30,
+        "sline": 81
+      }},
+      {"temp$29 = temp$27[temp$28]": {
+        "eline": 81,
+        "epos": 62,
+        "spos": 30,
+        "sline": 81
+      }},
+      {"virtualinvoke temp$26.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(temp$29)": {
+        "eline": 81,
+        "epos": 62,
+        "spos": 30,
+        "sline": 81
+      }},
+      {"temp$30 = <TextUtils: java.lang.String[] LUNAR_HEADER>": {
+        "eline": 81,
+        "epos": 62,
+        "spos": 30,
+        "sline": 81
+      }},
+      {"temp$31 = 1": {
+        "reliable": false,
+        "eline": 81,
+        "epos": 62,
+        "spos": 30,
+        "sline": 81
+      }},
+      {"temp$32 = temp$30[temp$31]": {
+        "eline": 81,
+        "epos": 62,
+        "spos": 30,
+        "sline": 81
+      }},
+      {"virtualinvoke temp$26.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(temp$32)": {
+        "eline": 81,
+        "epos": 62,
+        "spos": 30,
+        "sline": 81
+      }},
+      {"temp$33 = virtualinvoke temp$26.<java.lang.StringBuffer: java.lang.String toString()>()": {
+        "eline": 81,
+        "epos": 62,
+        "spos": 30,
+        "sline": 81
+      }},
+      {"result = temp$33": {
+        "eline": 81,
+        "epos": 26,
+        "spos": 21,
+        "sline": 81
+      }},
+      {"goto block_22": {
+        "eline": 88,
+        "epos": 17,
+        "spos": 17,
+        "sline": 80
+      }}
+    ],
+    "preds": [12],
+    "succs": [22]
+  },
+  "37": {
+    "instructions": [{"goto block_39": {
+      "eline": 100,
+      "epos": 31,
+      "spos": 21,
+      "sline": 100
+    }}],
+    "preds": [36],
+    "succs": [39]
+  },
+  "11": {
+    "instructions": [{"goto block_23": {
+      "eline": 79,
+      "epos": 27,
+      "spos": 17,
+      "sline": 79
+    }}],
+    "preds": [10],
+    "succs": [23]
+  },
+  "38": {
+    "instructions": [
+      {"temp$88 = new java.lang.StringBuffer": {
+        "eline": 101,
+        "epos": 63,
+        "spos": 21,
+        "sline": 101
+      }},
+      {"specialinvoke temp$88.<java.lang.StringBuffer: void <init>()>()": {
+        "eline": 101,
+        "epos": 62,
+        "spos": 30,
+        "sline": 101
+      }},
+      {"temp$89 = <TextUtils: java.lang.String[] LUNAR_HEADER>": {
+        "eline": 101,
+        "epos": 62,
+        "spos": 30,
+        "sline": 101
+      }},
+      {"temp$90 = 3": {
+        "reliable": false,
+        "eline": 101,
+        "epos": 62,
+        "spos": 30,
+        "sline": 101
+      }},
+      {"temp$91 = temp$89[temp$90]": {
+        "eline": 101,
+        "epos": 62,
+        "spos": 30,
+        "sline": 101
+      }},
+      {"virtualinvoke temp$88.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(temp$91)": {
+        "eline": 101,
+        "epos": 62,
+        "spos": 30,
+        "sline": 101
+      }},
+      {"temp$92 = <TextUtils: java.lang.String[] LUNAR_HEADER>": {
+        "eline": 101,
+        "epos": 62,
+        "spos": 30,
+        "sline": 101
+      }},
+      {"temp$93 = 1": {
+        "reliable": false,
+        "eline": 101,
+        "epos": 62,
+        "spos": 30,
+        "sline": 101
+      }},
+      {"temp$94 = temp$92[temp$93]": {
+        "eline": 101,
+        "epos": 62,
+        "spos": 30,
+        "sline": 101
+      }},
+      {"virtualinvoke temp$88.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(temp$94)": {
+        "eline": 101,
+        "epos": 62,
+        "spos": 30,
+        "sline": 101
+      }},
+      {"temp$95 = virtualinvoke temp$88.<java.lang.StringBuffer: java.lang.String toString()>()": {
+        "eline": 101,
+        "epos": 62,
+        "spos": 30,
+        "sline": 101
+      }},
+      {"result = temp$95": {
+        "eline": 101,
+        "epos": 26,
+        "spos": 21,
+        "sline": 101
+      }},
+      {"goto block_46": {
+        "eline": 108,
+        "epos": 17,
+        "spos": 17,
+        "sline": 100
+      }}
+    ],
+    "preds": [36],
+    "succs": [46]
+  },
+  "12": {
+    "instructions": [
+      {"temp$22 = c": {
+        "eline": 80,
+        "epos": 31,
+        "spos": 21,
+        "sline": 80
+      }},
+      {"temp$23 = 1": {
+        "reliable": false,
+        "eline": 80,
+        "epos": 31,
+        "spos": 21,
+        "sline": 80
+      }},
+      {"temp$24 = temp$22[temp$23]": {
+        "eline": 80,
+        "epos": 31,
+        "spos": 21,
+        "sline": 80
+      }},
+      {"temp$25 = (int) temp$24": {
+        "eline": 80,
+        "epos": 31,
+        "spos": 21,
+        "sline": 80
+      }},
+      {"if temp$25 == 48 goto block_14 #4": {
+        "eline": 80,
+        "epos": 31,
+        "ifpos": "(79, 16)-(79, 31)",
+        "spos": 21,
+        "sline": 80
+      }}
+    ],
+    "preds": [10],
+    "succs": [
+      13,
+      14
+    ]
+  },
+  "21": {
+    "instructions": [
+      {"temp$49 = i": {
+        "eline": 83,
+        "epos": 47,
+        "spos": 45,
+        "sline": 83
+      }},
+      {"temp$50 = temp$49 + 1": {
+        "eline": 83,
+        "epos": 45,
+        "spos": 45,
+        "sline": 83
+      }},
+      {"i = temp$50": {
+        "eline": 83,
+        "epos": 45,
+        "spos": 45,
+        "sline": 83
+      }},
+      {"goto block_16": {
+        "eline": 87,
+        "epos": 21,
+        "spos": 21,
+        "sline": 83
+      }}
+    ],
+    "preds": [
+      19,
+      20
+    ],
+    "succs": [16]
+  },
+  "20": {
+    "instructions": [
+      {"temp$41 = new java.lang.StringBuffer": {
+        "eline": 85,
+        "epos": 73,
+        "spos": 29,
+        "sline": 85
+      }},
+      {"specialinvoke temp$41.<java.lang.StringBuffer: void <init>()>()": {
+        "eline": 85,
+        "epos": 72,
+        "spos": 38,
+        "sline": 85
+      }},
+      {"temp$42 = <TextUtils: java.lang.String[] LUNAR_HEADER>": {
+        "eline": 85,
+        "epos": 72,
+        "spos": 38,
+        "sline": 85
+      }},
+      {"temp$43 = 1": {
+        "reliable": false,
+        "eline": 85,
+        "epos": 72,
+        "spos": 38,
+        "sline": 85
+      }},
+      {"temp$44 = temp$42[temp$43]": {
+        "eline": 85,
+        "epos": 72,
+        "spos": 38,
+        "sline": 85
+      }},
+      {"virtualinvoke temp$41.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(temp$44)": {
+        "eline": 85,
+        "epos": 72,
+        "spos": 38,
+        "sline": 85
+      }},
+      {"temp$45 = <TextUtils: java.lang.String[] NUMBER_CAPITAL>": {
+        "eline": 85,
+        "epos": 72,
+        "spos": 38,
+        "sline": 85
+      }},
+      {"temp$46 = i": {
+        "eline": 85,
+        "epos": 72,
+        "spos": 38,
+        "sline": 85
+      }},
+      {"temp$47 = temp$45[temp$46]": {
+        "eline": 85,
+        "epos": 72,
+        "spos": 38,
+        "sline": 85
+      }},
+      {"virtualinvoke temp$41.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(temp$47)": {
+        "eline": 85,
+        "epos": 72,
+        "spos": 38,
+        "sline": 85
+      }},
+      {"temp$48 = virtualinvoke temp$41.<java.lang.StringBuffer: java.lang.String toString()>()": {
+        "eline": 85,
+        "epos": 72,
+        "spos": 38,
+        "sline": 85
+      }},
+      {"result = temp$48": {
+        "eline": 85,
+        "epos": 34,
+        "spos": 29,
+        "sline": 85
+      }}
+    ],
+    "preds": [18],
+    "succs": [21]
+  },
+  "43": {
+    "instructions": [{"goto block_45": {
+      "eline": 104,
+      "epos": 63,
+      "spos": 29,
+      "sline": 104
+    }}],
+    "preds": [42],
+    "succs": [45]
+  },
+  "42": {
+    "instructions": [
+      {"temp$96 = c": {
+        "eline": 104,
+        "epos": 63,
+        "spos": 29,
+        "sline": 104
+      }},
+      {"temp$97 = 1": {
+        "reliable": false,
+        "eline": 104,
+        "epos": 63,
+        "spos": 29,
+        "sline": 104
+      }},
+      {"temp$98 = temp$96[temp$97]": {
+        "eline": 104,
+        "epos": 63,
+        "spos": 29,
+        "sline": 104
+      }},
+      {"temp$99 = staticinvoke <java.lang.String: java.lang.String valueOf(int)>(i)": {
+        "eline": 104,
+        "epos": 63,
+        "spos": 29,
+        "sline": 104
+      }},
+      {"temp$100 = virtualinvoke temp$99.<java.lang.String: char charAt(int)>(0)": {
+        "eline": 104,
+        "epos": 63,
+        "spos": 29,
+        "sline": 104
+      }},
+      {"temp$101 = (int) temp$98": {
+        "eline": 104,
+        "epos": 63,
+        "spos": 29,
+        "sline": 104
+      }},
+      {"temp$102 = (int) temp$100": {
+        "eline": 104,
+        "epos": 63,
+        "spos": 29,
+        "sline": 104
+      }},
+      {"if temp$101 == temp$102 goto block_44 #13": {
+        "eline": 104,
+        "epos": 63,
+        "ifpos": "(103, 24)-(103, 63)",
+        "spos": 29,
+        "sline": 104
+      }}
+    ],
+    "preds": [40],
+    "succs": [
+      43,
+      44
+    ]
+  },
+  "41": {
+    "instructions": [{"goto block_46": {
+      "eline": 103,
+      "epos": 42,
+      "spos": 37,
+      "sline": 103
+    }}],
+    "preds": [40],
+    "succs": [46]
+  },
+  "40": {
+    "instructions": [{"if i < 10 goto block_42 #12": {
+      "eline": 103,
+      "epos": 42,
+      "ifpos": "(102, 34)-(102, 42)",
+      "spos": 37,
+      "sline": 103
+    }}],
+    "preds": [
+      39,
+      45
+    ],
+    "succs": [
+      41,
+      42
+    ]
+  },
+  "45": {
+    "instructions": [
+      {"temp$111 = i": {
+        "eline": 103,
+        "epos": 47,
+        "spos": 45,
+        "sline": 103
+      }},
+      {"temp$112 = temp$111 + 1": {
+        "eline": 103,
+        "epos": 45,
+        "spos": 45,
+        "sline": 103
+      }},
+      {"i = temp$112": {
+        "eline": 103,
+        "epos": 45,
+        "spos": 45,
+        "sline": 103
+      }},
+      {"goto block_40": {
+        "eline": 107,
+        "epos": 21,
+        "spos": 21,
+        "sline": 103
+      }}
+    ],
+    "preds": [
+      43,
+      44
+    ],
+    "succs": [40]
+  },
+  "44": {
+    "instructions": [
+      {"temp$103 = new java.lang.StringBuffer": {
+        "eline": 105,
+        "epos": 73,
+        "spos": 29,
+        "sline": 105
+      }},
+      {"specialinvoke temp$103.<java.lang.StringBuffer: void <init>()>()": {
+        "eline": 105,
+        "epos": 72,
+        "spos": 38,
+        "sline": 105
+      }},
+      {"temp$104 = <TextUtils: java.lang.String[] LUNAR_HEADER>": {
+        "eline": 105,
+        "epos": 72,
+        "spos": 38,
+        "sline": 105
+      }},
+      {"temp$105 = 3": {
+        "reliable": false,
+        "eline": 105,
+        "epos": 72,
+        "spos": 38,
+        "sline": 105
+      }},
+      {"temp$106 = temp$104[temp$105]": {
+        "eline": 105,
+        "epos": 72,
+        "spos": 38,
+        "sline": 105
+      }},
+      {"virtualinvoke temp$103.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(temp$106)": {
+        "eline": 105,
+        "epos": 72,
+        "spos": 38,
+        "sline": 105
+      }},
+      {"temp$107 = <TextUtils: java.lang.String[] NUMBER_CAPITAL>": {
+        "eline": 105,
+        "epos": 72,
+        "spos": 38,
+        "sline": 105
+      }},
+      {"temp$108 = i": {
+        "eline": 105,
+        "epos": 72,
+        "spos": 38,
+        "sline": 105
+      }},
+      {"temp$109 = temp$107[temp$108]": {
+        "eline": 105,
+        "epos": 72,
+        "spos": 38,
+        "sline": 105
+      }},
+      {"virtualinvoke temp$103.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(temp$109)": {
+        "eline": 105,
+        "epos": 72,
+        "spos": 38,
+        "sline": 105
+      }},
+      {"temp$110 = virtualinvoke temp$103.<java.lang.StringBuffer: java.lang.String toString()>()": {
+        "eline": 105,
+        "epos": 72,
+        "spos": 38,
+        "sline": 105
+      }},
+      {"result = temp$110": {
+        "eline": 105,
+        "epos": 34,
+        "spos": 29,
+        "sline": 105
+      }}
+    ],
+    "preds": [42],
+    "succs": [45]
+  },
+  "46": {
+    "instructions": [{"return result": {
+      "eline": 111,
+      "epos": 22,
+      "spos": 9,
+      "sline": 111
+    }}],
+    "preds": [
+      9,
+      22,
+      35,
+      38,
+      41
+    ],
+    "succs": []
+  },
+  "22": {
+    "instructions": [{"goto block_46": {
+      "eline": 109,
+      "epos": 13,
+      "spos": 13,
+      "sline": 79
+    }}],
+    "preds": [
+      14,
+      17
+    ],
+    "succs": [46]
+  },
+  "23": {
+    "instructions": [
+      {"temp$51 = c": {
+        "eline": 89,
+        "epos": 34,
+        "spos": 24,
+        "sline": 89
+      }},
+      {"temp$52 = 0": {
+        "reliable": false,
+        "eline": 89,
+        "epos": 34,
+        "spos": 24,
+        "sline": 89
+      }},
+      {"temp$53 = temp$51[temp$52]": {
+        "eline": 89,
+        "epos": 34,
+        "spos": 24,
+        "sline": 89
+      }},
+      {"temp$54 = (int) temp$53": {
+        "eline": 89,
+        "epos": 34,
+        "spos": 24,
+        "sline": 89
+      }},
+      {"if temp$54 == 50 goto block_25 #7": {
+        "eline": 89,
+        "epos": 34,
+        "ifpos": "(88, 19)-(88, 34)",
+        "spos": 24,
+        "sline": 89
+      }}
+    ],
+    "preds": [11],
+    "succs": [
+      24,
+      25
+    ]
+  },
+  "24": {
+    "instructions": [{"goto block_36": {
+      "eline": 89,
+      "epos": 34,
+      "spos": 24,
+      "sline": 89
+    }}],
+    "preds": [23],
+    "succs": [36]
+  },
+  "25": {
+    "instructions": [
+      {"temp$55 = c": {
+        "eline": 90,
+        "epos": 31,
+        "spos": 21,
+        "sline": 90
+      }},
+      {"temp$56 = 1": {
+        "reliable": false,
+        "eline": 90,
+        "epos": 31,
+        "spos": 21,
+        "sline": 90
+      }},
+      {"temp$57 = temp$55[temp$56]": {
+        "eline": 90,
+        "epos": 31,
+        "spos": 21,
+        "sline": 90
+      }},
+      {"temp$58 = (int) temp$57": {
+        "eline": 90,
+        "epos": 31,
+        "spos": 21,
+        "sline": 90
+      }},
+      {"if temp$58 == 48 goto block_27 #8": {
+        "eline": 90,
+        "epos": 31,
+        "ifpos": "(89, 16)-(89, 31)",
+        "spos": 21,
+        "sline": 90
+      }}
+    ],
+    "preds": [23],
+    "succs": [
+      26,
+      27
+    ]
+  },
+  "26": {
+    "instructions": [{"goto block_28": {
+      "eline": 90,
+      "epos": 31,
+      "spos": 21,
+      "sline": 90
+    }}],
+    "preds": [25],
+    "succs": [28]
+  },
+  "27": {
+    "instructions": [
+      {"temp$59 = new java.lang.StringBuffer": {
+        "eline": 91,
+        "epos": 63,
+        "spos": 21,
+        "sline": 91
+      }},
+      {"specialinvoke temp$59.<java.lang.StringBuffer: void <init>()>()": {
+        "eline": 91,
+        "epos": 62,
+        "spos": 30,
+        "sline": 91
+      }},
+      {"temp$60 = <TextUtils: java.lang.String[] LUNAR_HEADER>": {
+        "eline": 91,
+        "epos": 62,
+        "spos": 30,
+        "sline": 91
+      }},
+      {"temp$61 = 2": {
+        "reliable": false,
+        "eline": 91,
+        "epos": 62,
+        "spos": 30,
+        "sline": 91
+      }},
+      {"temp$62 = temp$60[temp$61]": {
+        "eline": 91,
+        "epos": 62,
+        "spos": 30,
+        "sline": 91
+      }},
+      {"virtualinvoke temp$59.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(temp$62)": {
+        "eline": 91,
+        "epos": 62,
+        "spos": 30,
+        "sline": 91
+      }},
+      {"temp$63 = <TextUtils: java.lang.String[] LUNAR_HEADER>": {
+        "eline": 91,
+        "epos": 62,
+        "spos": 30,
+        "sline": 91
+      }},
+      {"temp$64 = 1": {
+        "reliable": false,
+        "eline": 91,
+        "epos": 62,
+        "spos": 30,
+        "sline": 91
+      }},
+      {"temp$65 = temp$63[temp$64]": {
+        "eline": 91,
+        "epos": 62,
+        "spos": 30,
+        "sline": 91
+      }},
+      {"virtualinvoke temp$59.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(temp$65)": {
+        "eline": 91,
+        "epos": 62,
+        "spos": 30,
+        "sline": 91
+      }},
+      {"temp$66 = virtualinvoke temp$59.<java.lang.StringBuffer: java.lang.String toString()>()": {
+        "eline": 91,
+        "epos": 62,
+        "spos": 30,
+        "sline": 91
+      }},
+      {"result = temp$66": {
+        "eline": 91,
+        "epos": 26,
+        "spos": 21,
+        "sline": 91
+      }},
+      {"goto block_35": {
+        "eline": 98,
+        "epos": 17,
+        "spos": 17,
+        "sline": 90
+      }}
+    ],
+    "preds": [25],
+    "succs": [35]
+  },
+  "28": {
+    "instructions": [{"i = 1": {
+      "eline": 93,
+      "epos": 34,
+      "spos": 26,
+      "sline": 93
+    }}],
+    "preds": [26],
+    "succs": [29]
+  },
+  "29": {
+    "instructions": [{"if i < 10 goto block_31 #9": {
+      "eline": 93,
+      "epos": 42,
+      "ifpos": "(92, 34)-(92, 42)",
+      "spos": 37,
+      "sline": 93
+    }}],
+    "preds": [
+      28,
+      34
+    ],
+    "succs": [
+      30,
+      31
+    ]
+  },
+  "3": {
+    "instructions": [{"if i < 10 goto block_5 #1": {
+      "eline": 73,
+      "epos": 34,
+      "ifpos": "(72, 26)-(72, 34)",
+      "spos": 29,
+      "sline": 73
+    }}],
+    "preds": [
+      2,
+      8
+    ],
+    "succs": [
+      4,
+      5
+    ]
+  },
+  "2": {
+    "instructions": [{"i = 1": {
+      "eline": 73,
+      "epos": 26,
+      "spos": 18,
+      "sline": 73
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "10": {
+    "instructions": [
+      {"temp$18 = c": {
+        "eline": 79,
+        "epos": 27,
+        "spos": 17,
+        "sline": 79
+      }},
+      {"temp$19 = 0": {
+        "reliable": false,
+        "eline": 79,
+        "epos": 27,
+        "spos": 17,
+        "sline": 79
+      }},
+      {"temp$20 = temp$18[temp$19]": {
+        "eline": 79,
+        "epos": 27,
+        "spos": 17,
+        "sline": 79
+      }},
+      {"temp$21 = (int) temp$20": {
+        "eline": 79,
+        "epos": 27,
+        "spos": 17,
+        "sline": 79
+      }},
+      {"if temp$21 == 49 goto block_12 #3": {
+        "eline": 79,
+        "epos": 27,
+        "ifpos": "(78, 12)-(78, 27)",
+        "spos": 17,
+        "sline": 79
+      }}
+    ],
+    "preds": [1],
+    "succs": [
+      11,
+      12
+    ]
+  },
+  "1": {
+    "instructions": [{"goto block_10": {
+      "eline": 72,
+      "epos": 25,
+      "spos": 13,
+      "sline": 72
+    }}],
+    "preds": [0],
+    "succs": [10]
+  },
+  "0": {
+    "instructions": [
+      {"result = \"\"": {
+        "eline": 71,
+        "epos": 27,
+        "spos": 9,
+        "sline": 71
+      }},
+      {"temp$0 = lengthof c": {
+        "eline": 72,
+        "epos": 25,
+        "spos": 13,
+        "sline": 72
+      }},
+      {"if temp$0 == 1 goto block_2 #0": {
+        "eline": 72,
+        "epos": 25,
+        "ifpos": "(71, 8)-(71, 25)",
+        "spos": 13,
+        "sline": 72
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  },
+  "30": {
+    "instructions": [{"goto block_35": {
+      "eline": 93,
+      "epos": 42,
+      "spos": 37,
+      "sline": 93
+    }}],
+    "preds": [29],
+    "succs": [35]
+  },
+  "7": {
+    "instructions": [
+      {"temp$8 = new java.lang.StringBuffer": {
+        "eline": 75,
+        "epos": 65,
+        "spos": 21,
+        "sline": 75
+      }},
+      {"specialinvoke temp$8.<java.lang.StringBuffer: void <init>()>()": {
+        "eline": 75,
+        "epos": 64,
+        "spos": 30,
+        "sline": 75
+      }},
+      {"temp$9 = <TextUtils: java.lang.String[] LUNAR_HEADER>": {
+        "eline": 75,
+        "epos": 64,
+        "spos": 30,
+        "sline": 75
+      }},
+      {"temp$10 = 0": {
+        "reliable": false,
+        "eline": 75,
+        "epos": 64,
+        "spos": 30,
+        "sline": 75
+      }},
+      {"temp$11 = temp$9[temp$10]": {
+        "eline": 75,
+        "epos": 64,
+        "spos": 30,
+        "sline": 75
+      }},
+      {"virtualinvoke temp$8.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(temp$11)": {
+        "eline": 75,
+        "epos": 64,
+        "spos": 30,
+        "sline": 75
+      }},
+      {"temp$12 = <TextUtils: java.lang.String[] NUMBER_CAPITAL>": {
+        "eline": 75,
+        "epos": 64,
+        "spos": 30,
+        "sline": 75
+      }},
+      {"temp$13 = i": {
+        "eline": 75,
+        "epos": 64,
+        "spos": 30,
+        "sline": 75
+      }},
+      {"temp$14 = temp$12[temp$13]": {
+        "eline": 75,
+        "epos": 64,
+        "spos": 30,
+        "sline": 75
+      }},
+      {"virtualinvoke temp$8.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(temp$14)": {
+        "eline": 75,
+        "epos": 64,
+        "spos": 30,
+        "sline": 75
+      }},
+      {"temp$15 = virtualinvoke temp$8.<java.lang.StringBuffer: java.lang.String toString()>()": {
+        "eline": 75,
+        "epos": 64,
+        "spos": 30,
+        "sline": 75
+      }},
+      {"result = temp$15": {
+        "eline": 75,
+        "epos": 26,
+        "spos": 21,
+        "sline": 75
+      }}
+    ],
+    "preds": [5],
+    "succs": [8]
+  },
+  "6": {
+    "instructions": [{"goto block_8": {
+      "eline": 74,
+      "epos": 55,
+      "spos": 21,
+      "sline": 74
+    }}],
+    "preds": [5],
+    "succs": [8]
+  },
+  "32": {
+    "instructions": [{"goto block_34": {
+      "eline": 94,
+      "epos": 63,
+      "spos": 29,
+      "sline": 94
+    }}],
+    "preds": [31],
+    "succs": [34]
+  },
+  "5": {
+    "instructions": [
+      {"temp$1 = c": {
+        "eline": 74,
+        "epos": 55,
+        "spos": 21,
+        "sline": 74
+      }},
+      {"temp$2 = 0": {
+        "reliable": false,
+        "eline": 74,
+        "epos": 55,
+        "spos": 21,
+        "sline": 74
+      }},
+      {"temp$3 = temp$1[temp$2]": {
+        "eline": 74,
+        "epos": 55,
+        "spos": 21,
+        "sline": 74
+      }},
+      {"temp$4 = staticinvoke <java.lang.String: java.lang.String valueOf(int)>(i)": {
+        "eline": 74,
+        "epos": 55,
+        "spos": 21,
+        "sline": 74
+      }},
+      {"temp$5 = virtualinvoke temp$4.<java.lang.String: char charAt(int)>(0)": {
+        "eline": 74,
+        "epos": 55,
+        "spos": 21,
+        "sline": 74
+      }},
+      {"temp$6 = (int) temp$3": {
+        "eline": 74,
+        "epos": 55,
+        "spos": 21,
+        "sline": 74
+      }},
+      {"temp$7 = (int) temp$5": {
+        "eline": 74,
+        "epos": 55,
+        "spos": 21,
+        "sline": 74
+      }},
+      {"if temp$6 == temp$7 goto block_7 #2": {
+        "eline": 74,
+        "epos": 55,
+        "ifpos": "(73, 16)-(73, 55)",
+        "spos": 21,
+        "sline": 74
+      }}
+    ],
+    "preds": [3],
+    "succs": [
+      6,
+      7
+    ]
+  },
+  "31": {
+    "instructions": [
+      {"temp$67 = c": {
+        "eline": 94,
+        "epos": 63,
+        "spos": 29,
+        "sline": 94
+      }},
+      {"temp$68 = 1": {
+        "reliable": false,
+        "eline": 94,
+        "epos": 63,
+        "spos": 29,
+        "sline": 94
+      }},
+      {"temp$69 = temp$67[temp$68]": {
+        "eline": 94,
+        "epos": 63,
+        "spos": 29,
+        "sline": 94
+      }},
+      {"temp$70 = staticinvoke <java.lang.String: java.lang.String valueOf(int)>(i)": {
+        "eline": 94,
+        "epos": 63,
+        "spos": 29,
+        "sline": 94
+      }},
+      {"temp$71 = virtualinvoke temp$70.<java.lang.String: char charAt(int)>(0)": {
+        "eline": 94,
+        "epos": 63,
+        "spos": 29,
+        "sline": 94
+      }},
+      {"temp$72 = (int) temp$69": {
+        "eline": 94,
+        "epos": 63,
+        "spos": 29,
+        "sline": 94
+      }},
+      {"temp$73 = (int) temp$71": {
+        "eline": 94,
+        "epos": 63,
+        "spos": 29,
+        "sline": 94
+      }},
+      {"if temp$72 == temp$73 goto block_33 #10": {
+        "eline": 94,
+        "epos": 63,
+        "ifpos": "(93, 24)-(93, 63)",
+        "spos": 29,
+        "sline": 94
+      }}
+    ],
+    "preds": [29],
+    "succs": [
+      32,
+      33
+    ]
+  },
+  "4": {
+    "instructions": [{"goto block_9": {
+      "eline": 73,
+      "epos": 34,
+      "spos": 29,
+      "sline": 73
+    }}],
+    "preds": [3],
+    "succs": [9]
+  },
+  "9": {
+    "instructions": [{"goto block_46": {
+      "eline": 110,
+      "epos": 9,
+      "spos": 9,
+      "sline": 72
+    }}],
+    "preds": [4],
+    "succs": [46]
+  },
+  "8": {
+    "instructions": [
+      {"temp$16 = i": {
+        "eline": 73,
+        "epos": 39,
+        "spos": 37,
+        "sline": 73
+      }},
+      {"temp$17 = temp$16 + 1": {
+        "eline": 73,
+        "epos": 37,
+        "spos": 37,
+        "sline": 73
+      }},
+      {"i = temp$17": {
+        "eline": 73,
+        "epos": 37,
+        "spos": 37,
+        "sline": 73
+      }},
+      {"goto block_3": {
+        "eline": 77,
+        "epos": 13,
+        "spos": 13,
+        "sline": 73
+      }}
+    ],
+    "preds": [
+      6,
+      7
+    ],
+    "succs": [3]
+  }
+}

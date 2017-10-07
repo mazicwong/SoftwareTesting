@@ -1,0 +1,24 @@
+{"0": {
+  "instructions": [
+    {"virtualinvoke this.<Gregorian: void checkYear(int)>(year)": {
+      "eline": 18,
+      "epos": 23,
+      "spos": 9,
+      "sline": 18
+    }},
+    {"virtualinvoke this.<Gregorian: void init(int,int,int)>(year, month, day)": {
+      "eline": 19,
+      "epos": 30,
+      "spos": 9,
+      "sline": 19
+    }},
+    {"return": {
+      "eline": 19,
+      "epos": 30,
+      "spos": 9,
+      "sline": 19
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

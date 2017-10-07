@@ -1,0 +1,87 @@
+{
+  "3": {
+    "instructions": [{"goto block_5": {
+      "eline": 29,
+      "epos": 38,
+      "spos": 28,
+      "sline": 29
+    }}],
+    "preds": [2],
+    "succs": [5]
+  },
+  "2": {
+    "instructions": [{"if year > 2100 goto block_4 #0": {
+      "eline": 29,
+      "epos": 38,
+      "ifpos": "(28, 8)-(28, 38)",
+      "spos": 28,
+      "sline": 29
+    }}],
+    "preds": [1],
+    "succs": [
+      3,
+      4
+    ]
+  },
+  "1": {
+    "instructions": [{"goto block_2": {
+      "eline": 29,
+      "epos": 23,
+      "spos": 13,
+      "sline": 29
+    }}],
+    "preds": [0],
+    "succs": [2]
+  },
+  "0": {
+    "instructions": [{"if year < 1900 goto block_4 #0": {
+      "eline": 29,
+      "epos": 23,
+      "ifpos": "(28, 8)-(28, 38)",
+      "spos": 13,
+      "sline": 29
+    }}],
+    "preds": [],
+    "succs": [
+      1,
+      4
+    ]
+  },
+  "5": {
+    "instructions": [{"return": {
+      "eline": 30,
+      "epos": 78,
+      "spos": 19,
+      "sline": 30
+    }}],
+    "preds": [3],
+    "succs": []
+  },
+  "4": {
+    "instructions": [
+      {"temp$0 = new java.lang.RuntimeException": {
+        "eline": 30,
+        "epos": 79,
+        "spos": 13,
+        "sline": 30
+      }},
+      {"specialinvoke temp$0.<java.lang.RuntimeException: void <init>(java.lang.String)>(\"Year should be between 1900 and 2100\")": {
+        "eline": 30,
+        "epos": 78,
+        "spos": 19,
+        "sline": 30
+      }},
+      {"throw temp$0": {
+        "eline": 30,
+        "epos": 78,
+        "spos": 19,
+        "sline": 30
+      }}
+    ],
+    "preds": [
+      0,
+      2
+    ],
+    "succs": []
+  }
+}

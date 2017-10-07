@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "\t\tthis.predicate = predicate; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.arguments = arguments; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic Predicate getPredicate() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn this.predicate; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic Argument[] getArguments() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn this.arguments; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  }
+]

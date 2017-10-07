@@ -1,0 +1,1 @@
+{"<Example: int B(int)>":{"ExampleTest : testA":[0,2],"ExampleTest : testC":[0,1,3]},"<Example: void <init>(int,int,int)>":{"ExampleTest : testA":[0,0],"ExampleTest : testC":[0,0]},"<Example: int C(int)>":{"ExampleTest : testC":[0]},"<Example: int A(int)>":{"ExampleTest : testA":[0,1,3]}}

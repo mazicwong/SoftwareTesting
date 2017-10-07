@@ -1,0 +1,172 @@
+[
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "                ",
+    "blocks": []
+  },
+  {
+    "codes": "            ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic Datalog applyOn(Datalog atom) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tArgument[] args = atom.getArguments(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tArgument[] newArgs = new Argument[args.length]; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tfor (int i = 0; i < args.length; i++) { ",
+    "blocks": [
+      0,
+      1,
+      2,
+      11,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\tif (args[i].isVariable()) { ",
+    "blocks": [
+      3,
+      4,
+      9,
+      11,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\t\tint index = this.from.indexOf(args[i].getVariable()); ",
+    "blocks": [
+      5,
+      9,
+      11,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\t\tif (index != -1) { ",
+    "blocks": [
+      5,
+      6,
+      7,
+      9,
+      11,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t                               ",
+    "blocks": [
+      7,
+      9,
+      11,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\tnewArgs[i] = Argument.value(this.to.get(index)); ",
+    "blocks": [
+      7,
+      9,
+      11,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\t\t} else { ",
+    "blocks": [
+      7,
+      9,
+      11,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\tnewArgs[i] = args[i]; ",
+    "blocks": [
+      7,
+      8,
+      9,
+      11,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\t\t} ",
+    "blocks": [
+      7,
+      9,
+      11,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\t} else { ",
+    "blocks": [
+      9,
+      11,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\t\tnewArgs[i] = args[i]; ",
+    "blocks": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": [
+      9,
+      11,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": [
+      11,
+      12
+    ]
+  },
+  {
+    "codes": "\t\treturn new Datalog(atom.getPredicate(), newArgs); ",
+    "blocks": [12]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                                       ",
+    "blocks": []
+  },
+  {
+    "codes": "               ",
+    "blocks": []
+  }
+]

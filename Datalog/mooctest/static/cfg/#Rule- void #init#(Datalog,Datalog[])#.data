@@ -1,0 +1,50 @@
+[
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tprivate final Datalog head; ",
+    "blocks": []
+  },
+  {
+    "codes": "\tprivate final Datalog[] body; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic Rule(Datalog head, Datalog... body) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.head = head; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tthis.body = body; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic Datalog getHead() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn this.head; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  }
+]

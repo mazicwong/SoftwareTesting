@@ -1,0 +1,74 @@
+[
+  {
+    "codes": "        zb[1] -= GXC_k * Math.sin(zb[1]) * (Math.sin(dL) - e * Math.sin(dP)); ",
+    "blocks": []
+  },
+  {
+    "codes": "        zb[0] = rad2mrad(zb[0]); ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private double[] earCal(double jd) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        EnnT = jd / 365250; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        double[] llr = new double[3]; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        double t1 = EnnT, t2 = t1 * t1, t3 = t2 * t1, t4 = t3 * t1, t5 = t4 * t1; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        llr[0] = Enn(E10) + Enn(E11) * t1 + Enn(E12) * t2 + Enn(E13) * t3 + Enn(E14) * t4 + Enn(E15) * t5; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        llr[1] = Enn(E20) + Enn(E21) * t1; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        llr[2] = Enn(E30) + Enn(E31) * t1 + Enn(E32) * t2 + Enn(E33) * t3; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        llr[0] = rad2mrad(llr[0]); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        return llr; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private double rad2mrad(double v) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        v = v % (2 * Math.PI); ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (v < 0) ",
+    "blocks": []
+  }
+]

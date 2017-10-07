@@ -1,0 +1,57 @@
+[
+  {
+    "codes": "            return v + 2 * Math.PI; ",
+    "blocks": []
+  },
+  {
+    "codes": "        return v; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private double Enn(double[] f) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        double v = 0; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        for (int i = 0; i < f.length; i += 3) ",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "            v += f[i] * Math.cos(f[i + 1] + EnnT * f[i + 2]); ",
+    "blocks": [
+      0,
+      3
+    ]
+  },
+  {
+    "codes": "        return v; ",
+    "blocks": [
+      0,
+      4
+    ]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,24 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = this.<Value: java.lang.String value>": {
+      "eline": 27,
+      "epos": 14,
+      "spos": 10,
+      "sline": 27
+    }},
+    {"temp$1 = virtualinvoke temp$0.<java.lang.String: int hashCode()>()": {
+      "eline": 27,
+      "epos": 14,
+      "spos": 10,
+      "sline": 27
+    }},
+    {"return temp$1": {
+      "eline": 27,
+      "epos": 26,
+      "spos": 3,
+      "sline": 27
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

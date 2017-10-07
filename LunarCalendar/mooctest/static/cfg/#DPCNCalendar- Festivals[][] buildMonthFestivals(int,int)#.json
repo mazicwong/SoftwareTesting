@@ -1,0 +1,649 @@
+{
+  "19": {
+    "instructions": [
+      {"temp$47 = i": {
+        "eline": 128,
+        "epos": 43,
+        "spos": 41,
+        "sline": 128
+      }},
+      {"temp$48 = temp$47 + 1": {
+        "eline": 128,
+        "epos": 41,
+        "spos": 41,
+        "sline": 128
+      }},
+      {"i = temp$48": {
+        "eline": 128,
+        "epos": 41,
+        "spos": 41,
+        "sline": 128
+      }},
+      {"goto block_1": {
+        "eline": 151,
+        "epos": 9,
+        "spos": 9,
+        "sline": 128
+      }}
+    ],
+    "preds": [5],
+    "succs": [1]
+  },
+  "17": {
+    "instructions": [
+      {"temp$40 = tmp": {
+        "eline": 148,
+        "epos": 42,
+        "spos": 21,
+        "sline": 148
+      }},
+      {"temp$41 = i": {
+        "eline": 148,
+        "epos": 42,
+        "spos": 21,
+        "sline": 148
+      }},
+      {"temp$42 = temp$40[temp$41]": {
+        "eline": 148,
+        "epos": 42,
+        "spos": 21,
+        "sline": 148
+      }},
+      {"temp$43 = j": {
+        "eline": 148,
+        "epos": 42,
+        "spos": 21,
+        "sline": 148
+      }},
+      {"temp$44 = temp$42[temp$43]": {
+        "eline": 148,
+        "epos": 42,
+        "spos": 21,
+        "sline": 148
+      }},
+      {"virtualinvoke temp$44.<Festivals: void add(java.lang.String)>(result)": {
+        "eline": 148,
+        "epos": 42,
+        "spos": 21,
+        "sline": 148
+      }}
+    ],
+    "preds": [15],
+    "succs": [18]
+  },
+  "18": {
+    "instructions": [
+      {"temp$45 = j": {
+        "eline": 129,
+        "epos": 50,
+        "spos": 48,
+        "sline": 129
+      }},
+      {"temp$46 = temp$45 + 1": {
+        "eline": 129,
+        "epos": 48,
+        "spos": 48,
+        "sline": 129
+      }},
+      {"j = temp$46": {
+        "eline": 129,
+        "epos": 48,
+        "spos": 48,
+        "sline": 129
+      }},
+      {"goto block_4": {
+        "eline": 150,
+        "epos": 13,
+        "spos": 13,
+        "sline": 129
+      }}
+    ],
+    "preds": [
+      8,
+      16,
+      17
+    ],
+    "succs": [4]
+  },
+  "15": {
+    "instructions": [
+      {"temp$37 = gregorian.<Gregorian: int day>": {
+        "eline": 146,
+        "epos": 66,
+        "spos": 17,
+        "sline": 146
+      }},
+      {"temp$38 = staticinvoke <DPCNCalendar: java.lang.String getSolarTerm(int,int,int)>(year, month, temp$37)": {
+        "eline": 146,
+        "epos": 66,
+        "spos": 17,
+        "sline": 146
+      }},
+      {"result = temp$38": {
+        "eline": 146,
+        "epos": 22,
+        "spos": 17,
+        "sline": 146
+      }},
+      {"temp$39 = staticinvoke <TextUtils: boolean isEmpty(java.lang.String)>(result)": {
+        "eline": 147,
+        "epos": 46,
+        "spos": 32,
+        "sline": 147
+      }},
+      {"if temp$39 == 0 goto block_17 #5": {
+        "eline": 147,
+        "epos": 46,
+        "ifpos": "(146, 16)-(146, 46)",
+        "spos": 32,
+        "sline": 147
+      }}
+    ],
+    "preds": [
+      13,
+      14
+    ],
+    "succs": [
+      16,
+      17
+    ]
+  },
+  "16": {
+    "instructions": [{"goto block_18": {
+      "eline": 147,
+      "epos": 46,
+      "spos": 32,
+      "sline": 147
+    }}],
+    "preds": [15],
+    "succs": [18]
+  },
+  "13": {
+    "instructions": [{"goto block_15": {
+      "eline": 142,
+      "epos": 46,
+      "spos": 32,
+      "sline": 142
+    }}],
+    "preds": [12],
+    "succs": [15]
+  },
+  "14": {
+    "instructions": [
+      {"temp$32 = tmp": {
+        "eline": 143,
+        "epos": 42,
+        "spos": 21,
+        "sline": 143
+      }},
+      {"temp$33 = i": {
+        "eline": 143,
+        "epos": 42,
+        "spos": 21,
+        "sline": 143
+      }},
+      {"temp$34 = temp$32[temp$33]": {
+        "eline": 143,
+        "epos": 42,
+        "spos": 21,
+        "sline": 143
+      }},
+      {"temp$35 = j": {
+        "eline": 143,
+        "epos": 42,
+        "spos": 21,
+        "sline": 143
+      }},
+      {"temp$36 = temp$34[temp$35]": {
+        "eline": 143,
+        "epos": 42,
+        "spos": 21,
+        "sline": 143
+      }},
+      {"virtualinvoke temp$36.<Festivals: void add(java.lang.String)>(result)": {
+        "eline": 143,
+        "epos": 42,
+        "spos": 21,
+        "sline": 143
+      }}
+    ],
+    "preds": [12],
+    "succs": [15]
+  },
+  "11": {
+    "instructions": [
+      {"temp$25 = tmp": {
+        "eline": 138,
+        "epos": 42,
+        "spos": 21,
+        "sline": 138
+      }},
+      {"temp$26 = i": {
+        "eline": 138,
+        "epos": 42,
+        "spos": 21,
+        "sline": 138
+      }},
+      {"temp$27 = temp$25[temp$26]": {
+        "eline": 138,
+        "epos": 42,
+        "spos": 21,
+        "sline": 138
+      }},
+      {"temp$28 = j": {
+        "eline": 138,
+        "epos": 42,
+        "spos": 21,
+        "sline": 138
+      }},
+      {"temp$29 = temp$27[temp$28]": {
+        "eline": 138,
+        "epos": 42,
+        "spos": 21,
+        "sline": 138
+      }},
+      {"virtualinvoke temp$29.<Festivals: void add(java.lang.String)>(result)": {
+        "eline": 138,
+        "epos": 42,
+        "spos": 21,
+        "sline": 138
+      }}
+    ],
+    "preds": [9],
+    "succs": [12]
+  },
+  "12": {
+    "instructions": [
+      {"temp$30 = staticinvoke <DPCNCalendar: java.lang.String getFestivalGregorian(Gregorian)>(gregorian)": {
+        "eline": 141,
+        "epos": 57,
+        "spos": 17,
+        "sline": 141
+      }},
+      {"result = temp$30": {
+        "eline": 141,
+        "epos": 22,
+        "spos": 17,
+        "sline": 141
+      }},
+      {"temp$31 = staticinvoke <TextUtils: boolean isEmpty(java.lang.String)>(result)": {
+        "eline": 142,
+        "epos": 46,
+        "spos": 32,
+        "sline": 142
+      }},
+      {"if temp$31 == 0 goto block_14 #4": {
+        "eline": 142,
+        "epos": 46,
+        "ifpos": "(141, 16)-(141, 46)",
+        "spos": 32,
+        "sline": 142
+      }}
+    ],
+    "preds": [
+      10,
+      11
+    ],
+    "succs": [
+      13,
+      14
+    ]
+  },
+  "3": {
+    "instructions": [{"j = 0": {
+      "eline": 129,
+      "epos": 26,
+      "spos": 18,
+      "sline": 129
+    }}],
+    "preds": [1],
+    "succs": [4]
+  },
+  "20": {
+    "instructions": [{"return tmp": {
+      "eline": 152,
+      "epos": 19,
+      "spos": 9,
+      "sline": 152
+    }}],
+    "preds": [2],
+    "succs": []
+  },
+  "2": {
+    "instructions": [{"goto block_20": {
+      "eline": 128,
+      "epos": 38,
+      "spos": 25,
+      "sline": 128
+    }}],
+    "preds": [1],
+    "succs": [20]
+  },
+  "1": {
+    "instructions": [
+      {"temp$2 = lengthof tmp": {
+        "eline": 128,
+        "epos": 38,
+        "spos": 25,
+        "sline": 128
+      }},
+      {"if i < temp$2 goto block_3 #0": {
+        "eline": 128,
+        "epos": 38,
+        "ifpos": "(127, 22)-(127, 38)",
+        "spos": 25,
+        "sline": 128
+      }}
+    ],
+    "preds": [
+      0,
+      19
+    ],
+    "succs": [
+      2,
+      3
+    ]
+  },
+  "10": {
+    "instructions": [{"goto block_12": {
+      "eline": 137,
+      "epos": 46,
+      "spos": 32,
+      "sline": 137
+    }}],
+    "preds": [9],
+    "succs": [12]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = staticinvoke <DPCNCalendar: int[][] buildMonthGregorian(int,int)>(year, month)": {
+        "eline": 125,
+        "epos": 66,
+        "spos": 9,
+        "sline": 125
+      }},
+      {"gregorianMonth = temp$0": {
+        "eline": 125,
+        "epos": 66,
+        "spos": 9,
+        "sline": 125
+      }},
+      {"temp$1 = new Gregorian": {
+        "eline": 126,
+        "epos": 56,
+        "spos": 9,
+        "sline": 126
+      }},
+      {"specialinvoke temp$1.<Gregorian: void <init>(int,int,int)>(2000, 1, 1)": {
+        "eline": 126,
+        "epos": 55,
+        "spos": 31,
+        "sline": 126
+      }},
+      {"gregorian = temp$1": {
+        "eline": 126,
+        "epos": 55,
+        "spos": 31,
+        "sline": 126
+      }},
+      {"tmp = newmultiarray (Festivals)[6][7]": {
+        "eline": 127,
+        "epos": 48,
+        "spos": 9,
+        "sline": 127
+      }},
+      {"i = 0": {
+        "eline": 128,
+        "epos": 22,
+        "spos": 14,
+        "sline": 128
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  },
+  "7": {
+    "instructions": [{"goto block_9": {
+      "eline": 130,
+      "epos": 53,
+      "spos": 21,
+      "sline": 130
+    }}],
+    "preds": [6],
+    "succs": [9]
+  },
+  "6": {
+    "instructions": [
+      {"temp$7 = gregorianMonth": {
+        "eline": 130,
+        "epos": 53,
+        "spos": 21,
+        "sline": 130
+      }},
+      {"temp$8 = i": {
+        "eline": 130,
+        "epos": 53,
+        "spos": 21,
+        "sline": 130
+      }},
+      {"temp$9 = temp$7[temp$8]": {
+        "eline": 130,
+        "epos": 53,
+        "spos": 21,
+        "sline": 130
+      }},
+      {"temp$10 = j": {
+        "eline": 130,
+        "epos": 53,
+        "spos": 21,
+        "sline": 130
+      }},
+      {"temp$11 = temp$9[temp$10]": {
+        "eline": 130,
+        "epos": 53,
+        "spos": 21,
+        "sline": 130
+      }},
+      {"if temp$11 == -1 goto block_8 #2": {
+        "eline": 130,
+        "epos": 53,
+        "ifpos": "(129, 16)-(129, 53)",
+        "spos": 21,
+        "sline": 130
+      }}
+    ],
+    "preds": [4],
+    "succs": [
+      7,
+      8
+    ]
+  },
+  "5": {
+    "instructions": [{"goto block_19": {
+      "eline": 129,
+      "epos": 45,
+      "spos": 29,
+      "sline": 129
+    }}],
+    "preds": [4],
+    "succs": [19]
+  },
+  "4": {
+    "instructions": [
+      {"temp$3 = tmp": {
+        "eline": 129,
+        "epos": 45,
+        "spos": 29,
+        "sline": 129
+      }},
+      {"temp$4 = 0": {
+        "reliable": false,
+        "eline": 129,
+        "epos": 45,
+        "spos": 29,
+        "sline": 129
+      }},
+      {"temp$5 = temp$3[temp$4]": {
+        "eline": 129,
+        "epos": 45,
+        "spos": 29,
+        "sline": 129
+      }},
+      {"temp$6 = lengthof temp$5": {
+        "eline": 129,
+        "epos": 45,
+        "spos": 29,
+        "sline": 129
+      }},
+      {"if j < temp$6 goto block_6 #1": {
+        "eline": 129,
+        "epos": 45,
+        "ifpos": "(128, 26)-(128, 45)",
+        "spos": 29,
+        "sline": 129
+      }}
+    ],
+    "preds": [
+      3,
+      18
+    ],
+    "succs": [
+      5,
+      6
+    ]
+  },
+  "9": {
+    "instructions": [
+      {"temp$12 = tmp": {
+        "eline": 132,
+        "epos": 44,
+        "spos": 17,
+        "sline": 132
+      }},
+      {"temp$13 = i": {
+        "eline": 132,
+        "epos": 44,
+        "spos": 17,
+        "sline": 132
+      }},
+      {"temp$14 = temp$12[temp$13]": {
+        "eline": 132,
+        "epos": 44,
+        "spos": 17,
+        "sline": 132
+      }},
+      {"temp$15 = j": {
+        "eline": 132,
+        "epos": 44,
+        "spos": 17,
+        "sline": 132
+      }},
+      {"temp$16 = new Festivals": {
+        "eline": 132,
+        "epos": 44,
+        "spos": 17,
+        "sline": 132
+      }},
+      {"specialinvoke temp$16.<Festivals: void <init>()>()": {
+        "eline": 132,
+        "epos": 43,
+        "spos": 29,
+        "sline": 132
+      }},
+      {"temp$14[temp$15] = temp$16": {
+        "eline": 132,
+        "epos": 25,
+        "spos": 23,
+        "sline": 132
+      }},
+      {"temp$17 = gregorianMonth": {
+        "eline": 133,
+        "epos": 67,
+        "spos": 17,
+        "sline": 133
+      }},
+      {"temp$18 = i": {
+        "eline": 133,
+        "epos": 67,
+        "spos": 17,
+        "sline": 133
+      }},
+      {"temp$19 = temp$17[temp$18]": {
+        "eline": 133,
+        "epos": 67,
+        "spos": 17,
+        "sline": 133
+      }},
+      {"temp$20 = j": {
+        "eline": 133,
+        "epos": 67,
+        "spos": 17,
+        "sline": 133
+      }},
+      {"temp$21 = temp$19[temp$20]": {
+        "eline": 133,
+        "epos": 67,
+        "spos": 17,
+        "sline": 133
+      }},
+      {"virtualinvoke gregorian.<Gregorian: void reset(int,int,int)>(year, month, temp$21)": {
+        "eline": 133,
+        "epos": 67,
+        "spos": 17,
+        "sline": 133
+      }},
+      {"temp$22 = staticinvoke <DPCNCalendar: Lunar gregorianToLunar(Gregorian)>(gregorian)": {
+        "eline": 134,
+        "epos": 58,
+        "spos": 17,
+        "sline": 134
+      }},
+      {"lunar = temp$22": {
+        "eline": 134,
+        "epos": 58,
+        "spos": 17,
+        "sline": 134
+      }},
+      {"temp$23 = staticinvoke <DPCNCalendar: java.lang.String getFestivalLunar(Lunar)>(lunar)": {
+        "eline": 136,
+        "epos": 56,
+        "spos": 17,
+        "sline": 136
+      }},
+      {"result = temp$23": {
+        "eline": 136,
+        "epos": 56,
+        "spos": 17,
+        "sline": 136
+      }},
+      {"temp$24 = staticinvoke <TextUtils: boolean isEmpty(java.lang.String)>(result)": {
+        "eline": 137,
+        "epos": 46,
+        "spos": 32,
+        "sline": 137
+      }},
+      {"if temp$24 == 0 goto block_11 #3": {
+        "eline": 137,
+        "epos": 46,
+        "ifpos": "(136, 16)-(136, 46)",
+        "spos": 32,
+        "sline": 137
+      }}
+    ],
+    "preds": [7],
+    "succs": [
+      10,
+      11
+    ]
+  },
+  "8": {
+    "instructions": [{"goto block_18": {
+      "eline": 131,
+      "epos": 29,
+      "spos": 21,
+      "sline": 131
+    }}],
+    "preds": [6],
+    "succs": [18]
+  }
+}

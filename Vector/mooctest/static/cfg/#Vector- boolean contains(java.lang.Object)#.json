@@ -1,0 +1,77 @@
+{
+  "3": {
+    "instructions": [{"temp$1 = 1": {
+      "reliable": false,
+      "eline": 78,
+      "epos": 31,
+      "spos": 16,
+      "sline": 78
+    }}],
+    "preds": [0],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [
+      {"temp$1 = 0": {
+        "reliable": false,
+        "eline": 78,
+        "epos": 31,
+        "spos": 16,
+        "sline": 78
+      }},
+      {"goto block_4": {
+        "eline": 78,
+        "epos": 31,
+        "spos": 16,
+        "sline": 78
+      }}
+    ],
+    "preds": [1],
+    "succs": [4]
+  },
+  "1": {
+    "instructions": [{"goto block_2": {
+      "eline": 78,
+      "epos": 31,
+      "spos": 16,
+      "sline": 78
+    }}],
+    "preds": [0],
+    "succs": [2]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = virtualinvoke this.<Vector: int indexOf(java.lang.Object,int)>(elem, 0)": {
+        "eline": 78,
+        "epos": 31,
+        "spos": 16,
+        "sline": 78
+      }},
+      {"if temp$0 >= 0 goto block_3 #0": {
+        "eline": 78,
+        "epos": 31,
+        "ifpos": "(72, 27)-(77, 36)",
+        "spos": 16,
+        "sline": 78
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      3
+    ]
+  },
+  "4": {
+    "instructions": [{"return temp$1": {
+      "eline": 78,
+      "epos": 37,
+      "spos": 9,
+      "sline": 78
+    }}],
+    "preds": [
+      2,
+      3
+    ],
+    "succs": []
+  }
+}

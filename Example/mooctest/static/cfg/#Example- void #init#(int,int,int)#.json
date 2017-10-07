@@ -1,0 +1,31 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+    {"this.<Example: int a> = m": {
+      "eline": 8,
+      "epos": 3,
+      "spos": 3,
+      "sline": 8
+    }},
+    {"this.<Example: int b> = n": {
+      "eline": 9,
+      "epos": 9,
+      "spos": 9,
+      "sline": 9
+    }},
+    {"this.<Example: int c> = i": {
+      "eline": 10,
+      "epos": 9,
+      "spos": 9,
+      "sline": 10
+    }},
+    {"return": {
+      "eline": 10,
+      "epos": 9,
+      "spos": 9,
+      "sline": 10
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

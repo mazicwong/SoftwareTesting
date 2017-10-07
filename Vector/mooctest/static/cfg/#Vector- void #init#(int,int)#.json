@@ -1,0 +1,118 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$3 = newarray (java.lang.Object)[initialCapacity]": {
+        "eline": 30,
+        "epos": 12,
+        "spos": 9,
+        "sline": 30
+      }},
+      {"this.<Vector: java.lang.Object[] elementData> = temp$3": {
+        "eline": 30,
+        "epos": 24,
+        "spos": 14,
+        "sline": 30
+      }},
+      {"this.<Vector: int capacityIncrement> = capacityIncrement": {
+        "eline": 31,
+        "epos": 30,
+        "spos": 14,
+        "sline": 31
+      }},
+      {"return": {
+        "eline": 31,
+        "epos": 30,
+        "spos": 14,
+        "sline": 31
+      }}
+    ],
+    "preds": [1],
+    "succs": []
+  },
+  "2": {
+    "instructions": [
+      {"temp$0 = new java.lang.IllegalArgumentException": {
+        "eline": 29,
+        "epos": 66,
+        "spos": 13,
+        "sline": 28
+      }},
+      {"temp$1 = new java.lang.StringBuffer": {
+        "eline": 29,
+        "epos": 66,
+        "spos": 13,
+        "sline": 28
+      }},
+      {"specialinvoke temp$1.<java.lang.StringBuffer: void <init>()>()": {
+        "eline": 29,
+        "epos": 64,
+        "spos": 48,
+        "sline": 28
+      }},
+      {"virtualinvoke temp$1.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(\"Illegal Capacity: \")": {
+        "eline": 29,
+        "epos": 64,
+        "spos": 48,
+        "sline": 28
+      }},
+      {"virtualinvoke temp$1.<java.lang.StringBuffer: java.lang.StringBuffer append(int)>(initialCapacity)": {
+        "eline": 29,
+        "epos": 64,
+        "spos": 48,
+        "sline": 28
+      }},
+      {"temp$2 = virtualinvoke temp$1.<java.lang.StringBuffer: java.lang.String toString()>()": {
+        "eline": 29,
+        "epos": 64,
+        "spos": 48,
+        "sline": 28
+      }},
+      {"specialinvoke temp$0.<java.lang.IllegalArgumentException: void <init>(java.lang.String)>(temp$2)": {
+        "eline": 29,
+        "epos": 65,
+        "spos": 19,
+        "sline": 28
+      }},
+      {"throw temp$0": {
+        "eline": 29,
+        "epos": 65,
+        "spos": 19,
+        "sline": 28
+      }}
+    ],
+    "preds": [0],
+    "succs": []
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 27,
+      "epos": 31,
+      "spos": 13,
+      "sline": 27
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [
+      {"specialinvoke this.<java.util.AbstractList: void <init>()>()": {
+        "eline": 26,
+        "epos": 16,
+        "spos": 9,
+        "sline": 26
+      }},
+      {"if initialCapacity < 0 goto block_2 #0": {
+        "eline": 27,
+        "epos": 31,
+        "ifpos": "(26, 8)-(26, 31)",
+        "spos": 13,
+        "sline": 27
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  }
+}

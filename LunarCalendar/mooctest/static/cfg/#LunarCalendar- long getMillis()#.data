@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "        Calendar calendar = new GregorianCalendar(year, month - 1, day); ",
+    "blocks": []
+  },
+  {
+    "codes": "        return calendar.getTime(); ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public long getMillis() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        return getDate().getTime(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "                     ",
+    "blocks": []
+  },
+  {
+    "codes": "       ",
+    "blocks": []
+  }
+]

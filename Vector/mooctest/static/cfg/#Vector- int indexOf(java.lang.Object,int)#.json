@@ -1,0 +1,316 @@
+{
+  "17": {
+    "instructions": [
+      {"temp$12 = -1": {
+        "reliable": false,
+        "eline": 93,
+        "epos": 29,
+        "spos": 13,
+        "sline": 91
+      }},
+      {"return temp$12": {
+        "eline": 95,
+        "epos": 18,
+        "spos": 9,
+        "sline": 95
+      }}
+    ],
+    "preds": [
+      9,
+      12
+    ],
+    "succs": []
+  },
+  "15": {
+    "instructions": [{"return i": {
+      "eline": 93,
+      "epos": 29,
+      "spos": 21,
+      "sline": 93
+    }}],
+    "preds": [13],
+    "succs": []
+  },
+  "16": {
+    "instructions": [
+      {"temp$10 = i": {
+        "eline": 91,
+        "epos": 53,
+        "spos": 51,
+        "sline": 91
+      }},
+      {"temp$11 = temp$10 + 1": {
+        "eline": 91,
+        "epos": 51,
+        "spos": 51,
+        "sline": 91
+      }},
+      {"i = temp$11": {
+        "eline": 91,
+        "epos": 51,
+        "spos": 51,
+        "sline": 91
+      }},
+      {"goto block_11": {
+        "eline": 93,
+        "epos": 29,
+        "spos": 13,
+        "sline": 91
+      }}
+    ],
+    "preds": [14],
+    "succs": [11]
+  },
+  "13": {
+    "instructions": [
+      {"temp$7 = this.<Vector: java.lang.Object[] elementData>": {
+        "eline": 92,
+        "epos": 39,
+        "spos": 29,
+        "sline": 92
+      }},
+      {"temp$8 = i": {
+        "eline": 92,
+        "epos": 39,
+        "spos": 29,
+        "sline": 92
+      }},
+      {"temp$9 = temp$7[temp$8]": {
+        "eline": 92,
+        "epos": 39,
+        "spos": 29,
+        "sline": 92
+      }},
+      {"if elem == temp$9 goto block_15 #4": {
+        "eline": 92,
+        "epos": 39,
+        "ifpos": "(91, 16)-(91, 42)",
+        "spos": 29,
+        "sline": 92
+      }}
+    ],
+    "preds": [11],
+    "succs": [
+      14,
+      15
+    ]
+  },
+  "14": {
+    "instructions": [{"goto block_16": {
+      "eline": 92,
+      "epos": 39,
+      "spos": 29,
+      "sline": 92
+    }}],
+    "preds": [13],
+    "succs": [16]
+  },
+  "11": {
+    "instructions": [
+      {"temp$6 = this.<Vector: int elementCount>": {
+        "eline": 91,
+        "epos": 48,
+        "spos": 37,
+        "sline": 91
+      }},
+      {"if i < temp$6 goto block_13 #3": {
+        "eline": 91,
+        "epos": 48,
+        "ifpos": "(90, 30)-(90, 48)",
+        "spos": 37,
+        "sline": 91
+      }}
+    ],
+    "preds": [
+      10,
+      16
+    ],
+    "succs": [
+      12,
+      13
+    ]
+  },
+  "12": {
+    "instructions": [{"goto block_17": {
+      "eline": 91,
+      "epos": 48,
+      "spos": 37,
+      "sline": 91
+    }}],
+    "preds": [11],
+    "succs": [17]
+  },
+  "3": {
+    "instructions": [
+      {"temp$0 = this.<Vector: int elementCount>": {
+        "eline": 87,
+        "epos": 48,
+        "spos": 37,
+        "sline": 87
+      }},
+      {"if i < temp$0 goto block_5 #1": {
+        "eline": 87,
+        "epos": 48,
+        "ifpos": "(86, 30)-(86, 48)",
+        "spos": 37,
+        "sline": 87
+      }}
+    ],
+    "preds": [
+      2,
+      8
+    ],
+    "succs": [
+      4,
+      5
+    ]
+  },
+  "2": {
+    "instructions": [{"i = index": {
+      "eline": 87,
+      "epos": 30,
+      "spos": 18,
+      "sline": 87
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "1": {
+    "instructions": [{"goto block_10": {
+      "eline": 86,
+      "epos": 24,
+      "spos": 13,
+      "sline": 86
+    }}],
+    "preds": [0],
+    "succs": [10]
+  },
+  "10": {
+    "instructions": [{"i = index": {
+      "eline": 91,
+      "epos": 30,
+      "spos": 18,
+      "sline": 91
+    }}],
+    "preds": [1],
+    "succs": [11]
+  },
+  "0": {
+    "instructions": [{"if elem == null goto block_2 #0": {
+      "eline": 86,
+      "epos": 24,
+      "ifpos": "(85, 8)-(85, 24)",
+      "spos": 13,
+      "sline": 86
+    }}],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  },
+  "7": {
+    "instructions": [{"return i": {
+      "eline": 89,
+      "epos": 29,
+      "spos": 21,
+      "sline": 89
+    }}],
+    "preds": [5],
+    "succs": []
+  },
+  "6": {
+    "instructions": [{"goto block_8": {
+      "eline": 88,
+      "epos": 31,
+      "spos": 21,
+      "sline": 88
+    }}],
+    "preds": [5],
+    "succs": [8]
+  },
+  "5": {
+    "instructions": [
+      {"temp$1 = this.<Vector: java.lang.Object[] elementData>": {
+        "eline": 88,
+        "epos": 31,
+        "spos": 21,
+        "sline": 88
+      }},
+      {"temp$2 = i": {
+        "eline": 88,
+        "epos": 31,
+        "spos": 21,
+        "sline": 88
+      }},
+      {"temp$3 = temp$1[temp$2]": {
+        "eline": 88,
+        "epos": 31,
+        "spos": 21,
+        "sline": 88
+      }},
+      {"if temp$3 == null goto block_7 #2": {
+        "eline": 88,
+        "epos": 31,
+        "ifpos": "(87, 16)-(87, 42)",
+        "spos": 21,
+        "sline": 88
+      }}
+    ],
+    "preds": [3],
+    "succs": [
+      6,
+      7
+    ]
+  },
+  "4": {
+    "instructions": [{"goto block_9": {
+      "eline": 87,
+      "epos": 48,
+      "spos": 37,
+      "sline": 87
+    }}],
+    "preds": [3],
+    "succs": [9]
+  },
+  "9": {
+    "instructions": [{"goto block_17": {
+      "eline": 94,
+      "epos": 9,
+      "spos": 9,
+      "sline": 86
+    }}],
+    "preds": [4],
+    "succs": [17]
+  },
+  "8": {
+    "instructions": [
+      {"temp$4 = i": {
+        "eline": 87,
+        "epos": 53,
+        "spos": 51,
+        "sline": 87
+      }},
+      {"temp$5 = temp$4 + 1": {
+        "eline": 87,
+        "epos": 51,
+        "spos": 51,
+        "sline": 87
+      }},
+      {"i = temp$5": {
+        "eline": 87,
+        "epos": 51,
+        "spos": 51,
+        "sline": 87
+      }},
+      {"goto block_3": {
+        "eline": 89,
+        "epos": 29,
+        "spos": 13,
+        "sline": 87
+      }}
+    ],
+    "preds": [6],
+    "succs": [3]
+  }
+}

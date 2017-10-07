@@ -1,0 +1,24 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = virtualinvoke this.<LunarCalendar: java.util.Date getDate()>()": {
+      "eline": 72,
+      "epos": 24,
+      "spos": 16,
+      "sline": 72
+    }},
+    {"temp$1 = virtualinvoke temp$0.<java.util.Date: long getTime()>()": {
+      "eline": 72,
+      "epos": 24,
+      "spos": 16,
+      "sline": 72
+    }},
+    {"return temp$1": {
+      "eline": 72,
+      "epos": 35,
+      "spos": 9,
+      "sline": 72
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

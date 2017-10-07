@@ -1,0 +1,25 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = -2767605614048989439L": {
+      "reliable": false,
+      "eline": 151,
+      "epos": 1,
+      "spos": 1,
+      "sline": 13
+    }},
+    {"<Vector: long serialVersionUID> = temp$0": {
+      "eline": 22,
+      "epos": 71,
+      "spos": 5,
+      "sline": 22
+    }},
+    {"return": {
+      "eline": 22,
+      "epos": 71,
+      "spos": 5,
+      "sline": 22
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

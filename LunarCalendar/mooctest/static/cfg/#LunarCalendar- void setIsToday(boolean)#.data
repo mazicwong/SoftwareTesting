@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "    void setFestivals(Festivals festivals) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        this.festivals = festivals; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    void setIsToday(boolean isToday) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        this.isToday = isToday; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    void setSolarTerm(String solarTerm) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        this.solarTerm = solarTerm; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  }
+]

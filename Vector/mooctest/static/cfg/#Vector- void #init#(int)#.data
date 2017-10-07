@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "        this.elementData = new Object[initialCapacity]; ",
+    "blocks": []
+  },
+  {
+    "codes": "        this.capacityIncrement = capacityIncrement; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public Vector(int initialCapacity) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        this(initialCapacity, 0); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public Vector() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        this(10); ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  }
+]

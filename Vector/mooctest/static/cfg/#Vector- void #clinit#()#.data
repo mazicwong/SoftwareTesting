@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "    protected int elementCount; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    protected int capacityIncrement; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                                    ",
+    "blocks": []
+  },
+  {
+    "codes": "    private static final long serialVersionUID = -2767605614048989439L; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public Vector(int initialCapacity, int capacityIncrement) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        super(); ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (initialCapacity < 0) ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,248 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$2 = t": {
+        "eline": 212,
+        "epos": 20,
+        "spos": 13,
+        "sline": 212
+      }},
+      {"temp$3 = temp$2 * t1": {
+        "eline": 212,
+        "epos": 20,
+        "spos": 13,
+        "sline": 212
+      }},
+      {"t = temp$3": {
+        "eline": 212,
+        "epos": 13,
+        "spos": 13,
+        "sline": 212
+      }},
+      {"temp$4 = v": {
+        "eline": 213,
+        "epos": 31,
+        "spos": 13,
+        "sline": 213
+      }},
+      {"temp$5 = <SolarTerm: double[] preceB>": {
+        "eline": 213,
+        "epos": 31,
+        "spos": 13,
+        "sline": 213
+      }},
+      {"temp$6 = i": {
+        "eline": 213,
+        "epos": 31,
+        "spos": 13,
+        "sline": 213
+      }},
+      {"temp$7 = temp$5[temp$6]": {
+        "eline": 213,
+        "epos": 31,
+        "spos": 13,
+        "sline": 213
+      }},
+      {"temp$8 = temp$7 * t": {
+        "eline": 213,
+        "epos": 31,
+        "spos": 13,
+        "sline": 213
+      }},
+      {"temp$9 = temp$4 + temp$8": {
+        "eline": 213,
+        "epos": 31,
+        "spos": 13,
+        "sline": 213
+      }},
+      {"v = temp$9": {
+        "eline": 213,
+        "epos": 13,
+        "spos": 13,
+        "sline": 213
+      }},
+      {"temp$10 = i": {
+        "eline": 211,
+        "epos": 30,
+        "spos": 28,
+        "sline": 211
+      }},
+      {"temp$11 = temp$10 + 1": {
+        "eline": 211,
+        "epos": 28,
+        "spos": 28,
+        "sline": 211
+      }},
+      {"i = temp$11": {
+        "eline": 211,
+        "epos": 28,
+        "spos": 28,
+        "sline": 211
+      }},
+      {"goto block_1": {
+        "eline": 214,
+        "epos": 9,
+        "spos": 9,
+        "sline": 211
+      }}
+    ],
+    "preds": [1],
+    "succs": [1]
+  },
+  "2": {
+    "instructions": [{"goto block_4": {
+      "eline": 211,
+      "epos": 25,
+      "spos": 21,
+      "sline": 211
+    }}],
+    "preds": [1],
+    "succs": [4]
+  },
+  "1": {
+    "instructions": [{"if i < 8 goto block_3 #0": {
+      "eline": 211,
+      "epos": 25,
+      "ifpos": "(210, 18)-(210, 25)",
+      "spos": 21,
+      "sline": 211
+    }}],
+    "preds": [
+      0,
+      3
+    ],
+    "succs": [
+      2,
+      3
+    ]
+  },
+  "0": {
+    "instructions": [
+      {"t = 1.0": {
+        "eline": 210,
+        "epos": 20,
+        "spos": 9,
+        "sline": 210
+      }},
+      {"v = 0.0": {
+        "eline": 210,
+        "epos": 27,
+        "spos": 23,
+        "sline": 210
+      }},
+      {"temp$0 = jd / 365250.0": {
+        "eline": 210,
+        "epos": 45,
+        "spos": 30,
+        "sline": 210
+      }},
+      {"t1 = temp$0": {
+        "eline": 210,
+        "epos": 45,
+        "spos": 30,
+        "sline": 210
+      }},
+      {"temp$1 = 1": {
+        "reliable": false,
+        "eline": 211,
+        "epos": 14,
+        "spos": 14,
+        "sline": 211
+      }},
+      {"i = temp$1": {
+        "eline": 211,
+        "epos": 14,
+        "spos": 14,
+        "sline": 211
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  },
+  "4": {
+    "instructions": [
+      {"temp$12 = zb": {
+        "eline": 215,
+        "epos": 58,
+        "spos": 9,
+        "sline": 215
+      }},
+      {"temp$13 = 0": {
+        "reliable": false,
+        "eline": 215,
+        "epos": 58,
+        "spos": 9,
+        "sline": 215
+      }},
+      {"temp$14 = zb": {
+        "eline": 215,
+        "epos": 57,
+        "spos": 17,
+        "sline": 215
+      }},
+      {"temp$15 = 0": {
+        "reliable": false,
+        "eline": 215,
+        "epos": 57,
+        "spos": 17,
+        "sline": 215
+      }},
+      {"temp$16 = temp$14[temp$15]": {
+        "eline": 215,
+        "epos": 57,
+        "spos": 17,
+        "sline": 215
+      }},
+      {"temp$17 = v": {
+        "eline": 215,
+        "epos": 57,
+        "spos": 17,
+        "sline": 215
+      }},
+      {"temp$18 = 2.9965 * t1": {
+        "eline": 215,
+        "epos": 57,
+        "spos": 17,
+        "sline": 215
+      }},
+      {"temp$19 = temp$17 + temp$18": {
+        "eline": 215,
+        "epos": 57,
+        "spos": 17,
+        "sline": 215
+      }},
+      {"temp$20 = temp$19 / 206264.80624709636": {
+        "eline": 215,
+        "epos": 57,
+        "spos": 17,
+        "sline": 215
+      }},
+      {"temp$21 = temp$16 + temp$20": {
+        "eline": 215,
+        "epos": 57,
+        "spos": 17,
+        "sline": 215
+      }},
+      {"temp$22 = virtualinvoke this.<SolarTerm: double rad2mrad(double)>(temp$21)": {
+        "eline": 215,
+        "epos": 57,
+        "spos": 17,
+        "sline": 215
+      }},
+      {"temp$12[temp$13] = temp$22": {
+        "eline": 215,
+        "epos": 13,
+        "spos": 11,
+        "sline": 215
+      }},
+      {"return": {
+        "eline": 215,
+        "epos": 13,
+        "spos": 11,
+        "sline": 215
+      }}
+    ],
+    "preds": [2],
+    "succs": []
+  }
+}

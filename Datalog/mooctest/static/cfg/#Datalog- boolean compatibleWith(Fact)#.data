@@ -1,0 +1,51 @@
+[
+  {
+    "codes": "                                      ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                                           ",
+    "blocks": []
+  },
+  {
+    "codes": "                                              ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic boolean compatibleWith(Fact fact) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn this.substituteTo(fact) != null; ",
+    "blocks": [
+      0,
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                                             ",
+    "blocks": []
+  },
+  {
+    "codes": "                                ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,161 @@
+[
+  {
+    "codes": "                                  ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "\tprivate static LinkedList<Substitution> findAllSubstitutions( ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\tCollection<Fact> database, LinkedList<Datalog> workList) { ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tLinkedList<Substitution> res = new LinkedList<Substitution>(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\t                                ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif (workList.size() == 0) { ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\tres.add(new Substitution()); ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\t\treturn res; ",
+    "blocks": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t                                                    ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tfor (Fact fact : database) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\tSubstitution s = workList.get(0).substituteTo(fact); ",
+    "blocks": [5]
+  },
+  {
+    "codes": "\t\t\tif (s == null) ",
+    "blocks": [
+      5,
+      6
+    ]
+  },
+  {
+    "codes": "\t\t\t\tcontinue; ",
+    "blocks": [7]
+  },
+  {
+    "codes": "\t\t\t                                                                    ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\t                      ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\tLinkedList<Datalog> newWorkList = new LinkedList<Datalog>(); ",
+    "blocks": [8]
+  },
+  {
+    "codes": "\t\t\tfor (int i = 1; i < workList.size(); i++) { ",
+    "blocks": [
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "\t\t\t\tnewWorkList.add(s.applyOn(workList.get(i))); ",
+    "blocks": [11]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": [11]
+  },
+  {
+    "codes": "\t\t\t                                ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\tLinkedList<Substitution> recSub = findAllSubstitutions(database, ",
+    "blocks": [12]
+  },
+  {
+    "codes": "\t\t\t\t\tnewWorkList); ",
+    "blocks": [12]
+  },
+  {
+    "codes": "\t\t\t                                                                 ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\t           ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\tres.addAll(s.extendAll(recSub)); ",
+    "blocks": [
+      12,
+      13
+    ]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn res; ",
+    "blocks": [14]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic String toString() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tString res =head.toString() + \" :- \"; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tfor (int i = 0; i < body.length - 1; i++) { ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,30 @@
+{"0": {
+  "instructions": [
+    {"this.<Gregorian: int year> = year": {
+      "eline": 23,
+      "epos": 17,
+      "spos": 14,
+      "sline": 23
+    }},
+    {"this.<Gregorian: int month> = month": {
+      "eline": 24,
+      "epos": 18,
+      "spos": 14,
+      "sline": 24
+    }},
+    {"this.<Gregorian: int day> = day": {
+      "eline": 25,
+      "epos": 16,
+      "spos": 14,
+      "sline": 25
+    }},
+    {"return": {
+      "eline": 25,
+      "epos": 16,
+      "spos": 14,
+      "sline": 25
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

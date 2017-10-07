@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "\tpublic boolean isVariable() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn !this.isValue; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic Value getValue() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn this.value; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic Variable getVariable() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn this.variable; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  }
+]

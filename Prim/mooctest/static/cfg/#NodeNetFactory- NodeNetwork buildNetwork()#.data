@@ -1,0 +1,166 @@
+[
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "public class NodeNetFactory { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic static NodeNetwork buildNetwork(){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tNode v1 = new Node(\"V1\"); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tNode v2 = new Node(\"V2\"); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tNode v3 = new Node(\"V3\"); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tNode v4 = new Node(\"V4\"); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tNode v5 = new Node(\"V5\"); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tNode v6 = new Node(\"V6\"); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tNode v7 = new Node(\"V7\"); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tv1.addPathWithoutSource(new Path(4, v2)); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tv1.addPathWithoutSource(new Path(1, v3)); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tv1.addPathWithoutSource(new Path(5, v6)); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tv1.addPathWithoutSource(new Path(3, v7)); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tv1.addPathWithoutSource(new Path(6, v4)); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tv2.addPathWithoutSource(new Path(1, v6)); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tv2.addPathWithoutSource(new Path(3, v5)); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tv3.addPathWithoutSource(new Path(8, v5)); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tv3.addPathWithoutSource(new Path(9, v6)); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tv4.addPathWithoutSource(new Path(5, v5)); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tv4.addPathWithoutSource(new Path(5, v7)); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tv4.addPathWithoutSource(new Path(4, v6)); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tv5.addPathWithoutSource(new Path(2, v6)); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tv6.addPathWithoutSource(new Path(6, v7)); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tv6.addPathWithoutSource(new Path(9, v3)); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tv6.addPathWithoutSource(new Path(4, v4)); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tv6.addPathWithoutSource(new Path(5, v1)); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tNodeNetwork network = new NodeNetwork(v1,v2,v3,v4,v5,v6,v7); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn network;  ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

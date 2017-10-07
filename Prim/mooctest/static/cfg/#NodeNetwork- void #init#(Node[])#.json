@@ -1,0 +1,31 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+    {"temp$0 = staticinvoke <java.util.Arrays: java.util.List asList(java.lang.Object[])>(nodes)": {
+      "eline": 19,
+      "epos": 6,
+      "spos": 3,
+      "sline": 19
+    }},
+    {"temp$1 = (java.util.List) temp$0": {
+      "eline": 19,
+      "epos": 6,
+      "spos": 3,
+      "sline": 19
+    }},
+    {"virtualinvoke this.<NodeNetwork: void setNodes(java.util.List)>(temp$1)": {
+      "eline": 19,
+      "epos": 6,
+      "spos": 3,
+      "sline": 19
+    }},
+    {"return": {
+      "eline": 19,
+      "epos": 6,
+      "spos": 3,
+      "sline": 19
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

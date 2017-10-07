@@ -1,0 +1,80 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$2 = virtualinvoke this.<Example: int B(int)>(a)": {
+        "eline": 18,
+        "epos": 9,
+        "spos": 6,
+        "sline": 18
+      }},
+      {"a = temp$2": {
+        "eline": 18,
+        "epos": 4,
+        "spos": 4,
+        "sline": 18
+      }},
+      {"return a": {
+        "eline": 19,
+        "epos": 12,
+        "spos": 4,
+        "sline": 19
+      }}
+    ],
+    "preds": [1],
+    "succs": []
+  },
+  "2": {
+    "instructions": [
+      {"temp$0 = a - 18": {
+        "eline": 15,
+        "epos": 12,
+        "spos": 6,
+        "sline": 15
+      }},
+      {"temp$1 = virtualinvoke this.<Example: int B(int)>(temp$0)": {
+        "eline": 15,
+        "epos": 12,
+        "spos": 6,
+        "sline": 15
+      }},
+      {"a = temp$1": {
+        "eline": 15,
+        "epos": 4,
+        "spos": 4,
+        "sline": 15
+      }},
+      {"return a": {
+        "eline": 16,
+        "epos": 12,
+        "spos": 4,
+        "sline": 16
+      }}
+    ],
+    "preds": [0],
+    "succs": []
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 14,
+      "epos": 8,
+      "spos": 6,
+      "sline": 14
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [{"if a > 8 goto block_2 #0": {
+      "eline": 14,
+      "epos": 8,
+      "ifpos": "(13, 2)-(13, 8)",
+      "spos": 6,
+      "sline": 14
+    }}],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  }
+}

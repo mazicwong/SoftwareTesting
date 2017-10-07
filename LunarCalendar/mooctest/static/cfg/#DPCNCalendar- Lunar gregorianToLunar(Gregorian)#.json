@@ -1,0 +1,755 @@
+{
+  "19": {
+    "instructions": [{"goto block_21": {
+      "eline": 275,
+      "epos": 34,
+      "spos": 17,
+      "sline": 275
+    }}],
+    "preds": [18],
+    "succs": [21]
+  },
+  "17": {
+    "instructions": [{"goto block_21": {
+      "eline": 273,
+      "epos": 38,
+      "spos": 26,
+      "sline": 273
+    }}],
+    "preds": [16],
+    "succs": [21]
+  },
+  "18": {
+    "instructions": [
+      {"temp$52 = lunarM - 1": {
+        "eline": 274,
+        "epos": 37,
+        "spos": 13,
+        "sline": 274
+      }},
+      {"lunar.<Lunar: int month> = temp$52": {
+        "eline": 274,
+        "epos": 23,
+        "spos": 19,
+        "sline": 274
+      }},
+      {"temp$53 = leap": {
+        "eline": 275,
+        "epos": 34,
+        "spos": 17,
+        "sline": 275
+      }},
+      {"temp$54 = temp$53 + 1": {
+        "eline": 275,
+        "epos": 34,
+        "spos": 17,
+        "sline": 275
+      }},
+      {"if lunarM == temp$54 goto block_20 #5": {
+        "eline": 275,
+        "epos": 34,
+        "ifpos": "(274, 12)-(274, 34)",
+        "spos": 17,
+        "sline": 275
+      }}
+    ],
+    "preds": [16],
+    "succs": [
+      19,
+      20
+    ]
+  },
+  "15": {
+    "instructions": [{"goto block_21": {
+      "eline": 273,
+      "epos": 21,
+      "spos": 13,
+      "sline": 273
+    }}],
+    "preds": [14],
+    "succs": [21]
+  },
+  "16": {
+    "instructions": [{"if lunarM > leap goto block_18 #4": {
+      "eline": 273,
+      "epos": 38,
+      "ifpos": "(272, 8)-(272, 38)",
+      "spos": 26,
+      "sline": 273
+    }}],
+    "preds": [14],
+    "succs": [
+      17,
+      18
+    ]
+  },
+  "13": {
+    "instructions": [
+      {"temp$42 = lunarM": {
+        "eline": 267,
+        "epos": 21,
+        "spos": 13,
+        "sline": 267
+      }},
+      {"temp$43 = temp$42 + 1": {
+        "eline": 267,
+        "epos": 18,
+        "spos": 13,
+        "sline": 267
+      }},
+      {"lunarM = temp$43": {
+        "eline": 267,
+        "epos": 18,
+        "spos": 13,
+        "sline": 267
+      }},
+      {"temp$44 = offset": {
+        "eline": 268,
+        "epos": 25,
+        "spos": 13,
+        "sline": 268
+      }},
+      {"temp$45 = (long) dm": {
+        "eline": 268,
+        "epos": 25,
+        "spos": 13,
+        "sline": 268
+      }},
+      {"temp$46 = temp$44 - temp$45": {
+        "eline": 268,
+        "epos": 25,
+        "spos": 13,
+        "sline": 268
+      }},
+      {"offset = temp$46": {
+        "eline": 268,
+        "epos": 18,
+        "spos": 13,
+        "sline": 268
+      }},
+      {"temp$47 = i": {
+        "eline": 263,
+        "epos": 35,
+        "spos": 33,
+        "sline": 263
+      }},
+      {"temp$48 = temp$47 + 1": {
+        "eline": 263,
+        "epos": 33,
+        "spos": 33,
+        "sline": 263
+      }},
+      {"i = temp$48": {
+        "eline": 263,
+        "epos": 33,
+        "spos": 33,
+        "sline": 263
+      }},
+      {"goto block_4": {
+        "eline": 269,
+        "epos": 9,
+        "spos": 9,
+        "sline": 263
+      }}
+    ],
+    "preds": [10],
+    "succs": [4]
+  },
+  "14": {
+    "instructions": [
+      {"temp$49 = (int) offset": {
+        "eline": 270,
+        "epos": 30,
+        "spos": 9,
+        "sline": 270
+      }},
+      {"lunarD = temp$49": {
+        "eline": 270,
+        "epos": 14,
+        "spos": 9,
+        "sline": 270
+      }},
+      {"temp$50 = new Lunar": {
+        "eline": 271,
+        "epos": 56,
+        "spos": 9,
+        "sline": 271
+      }},
+      {"specialinvoke temp$50.<Lunar: void <init>(int,int,int)>(lunarY, lunarM, lunarD)": {
+        "eline": 271,
+        "epos": 55,
+        "spos": 23,
+        "sline": 271
+      }},
+      {"lunar = temp$50": {
+        "eline": 271,
+        "epos": 55,
+        "spos": 23,
+        "sline": 271
+      }},
+      {"temp$51 = 0": {
+        "reliable": false,
+        "eline": 272,
+        "epos": 20,
+        "spos": 15,
+        "sline": 272
+      }},
+      {"lunar.<Lunar: boolean isLeap> = temp$51": {
+        "eline": 272,
+        "epos": 20,
+        "spos": 15,
+        "sline": 272
+      }},
+      {"if leap != 0 goto block_16 #4": {
+        "eline": 273,
+        "epos": 21,
+        "ifpos": "(272, 8)-(272, 38)",
+        "spos": 13,
+        "sline": 273
+      }}
+    ],
+    "preds": [
+      5,
+      12
+    ],
+    "succs": [
+      15,
+      16
+    ]
+  },
+  "11": {
+    "instructions": [{"goto block_12": {
+      "eline": 265,
+      "epos": 28,
+      "spos": 17,
+      "sline": 265
+    }}],
+    "preds": [10],
+    "succs": [12]
+  },
+  "12": {
+    "instructions": [{"goto block_14": {
+      "eline": 266,
+      "epos": 22,
+      "spos": 17,
+      "sline": 266
+    }}],
+    "preds": [11],
+    "succs": [14]
+  },
+  "21": {
+    "instructions": [{"return lunar": {
+      "eline": 279,
+      "epos": 21,
+      "spos": 9,
+      "sline": 279
+    }}],
+    "preds": [
+      15,
+      17,
+      19,
+      20
+    ],
+    "succs": []
+  },
+  "3": {
+    "instructions": [
+      {"temp$17 = <DPCNCalendar: int[] DAYS_AND_LEAP_MONTH_OF_LUNAR>": {
+        "eline": 249,
+        "epos": 75,
+        "spos": 9,
+        "sline": 249
+      }},
+      {"temp$18 = index": {
+        "eline": 249,
+        "epos": 75,
+        "spos": 9,
+        "sline": 249
+      }},
+      {"lunarFirstDayInGregorian = temp$17[temp$18]": {
+        "eline": 249,
+        "epos": 75,
+        "spos": 9,
+        "sline": 249
+      }},
+      {"temp$19 = staticinvoke <DPCNCalendar: int getBitInt(int,int,int)>(lunarFirstDayInGregorian, 12, 9)": {
+        "eline": 250,
+        "epos": 59,
+        "spos": 9,
+        "sline": 250
+      }},
+      {"y = temp$19": {
+        "eline": 250,
+        "epos": 59,
+        "spos": 9,
+        "sline": 250
+      }},
+      {"temp$20 = staticinvoke <DPCNCalendar: int getBitInt(int,int,int)>(lunarFirstDayInGregorian, 4, 5)": {
+        "eline": 251,
+        "epos": 58,
+        "spos": 9,
+        "sline": 251
+      }},
+      {"m = temp$20": {
+        "eline": 251,
+        "epos": 58,
+        "spos": 9,
+        "sline": 251
+      }},
+      {"temp$21 = staticinvoke <DPCNCalendar: int getBitInt(int,int,int)>(lunarFirstDayInGregorian, 5, 0)": {
+        "eline": 252,
+        "epos": 58,
+        "spos": 9,
+        "sline": 252
+      }},
+      {"d = temp$21": {
+        "eline": 252,
+        "epos": 58,
+        "spos": 9,
+        "sline": 252
+      }},
+      {"temp$22 = gregorian.<Gregorian: int year>": {
+        "eline": 254,
+        "epos": 111,
+        "spos": 9,
+        "sline": 254
+      }},
+      {"temp$23 = gregorian.<Gregorian: int month>": {
+        "eline": 254,
+        "epos": 111,
+        "spos": 9,
+        "sline": 254
+      }},
+      {"temp$24 = gregorian.<Gregorian: int day>": {
+        "eline": 254,
+        "epos": 111,
+        "spos": 9,
+        "sline": 254
+      }},
+      {"temp$25 = staticinvoke <DPCNCalendar: long gregorianToNum(int,int,int)>(temp$22, temp$23, temp$24)": {
+        "eline": 254,
+        "epos": 111,
+        "spos": 9,
+        "sline": 254
+      }},
+      {"temp$26 = staticinvoke <DPCNCalendar: long gregorianToNum(int,int,int)>(y, m, d)": {
+        "eline": 254,
+        "epos": 111,
+        "spos": 9,
+        "sline": 254
+      }},
+      {"temp$27 = temp$25 - temp$26": {
+        "eline": 254,
+        "epos": 111,
+        "spos": 9,
+        "sline": 254
+      }},
+      {"offset = temp$27": {
+        "eline": 254,
+        "epos": 111,
+        "spos": 9,
+        "sline": 254
+      }},
+      {"temp$28 = <DPCNCalendar: int[] FIRST_DAY_OF_LUNAR_IN_GREGORIAN>": {
+        "eline": 255,
+        "epos": 58,
+        "spos": 9,
+        "sline": 255
+      }},
+      {"temp$29 = index": {
+        "eline": 255,
+        "epos": 58,
+        "spos": 9,
+        "sline": 255
+      }},
+      {"days = temp$28[temp$29]": {
+        "eline": 255,
+        "epos": 58,
+        "spos": 9,
+        "sline": 255
+      }},
+      {"temp$30 = staticinvoke <DPCNCalendar: int getBitInt(int,int,int)>(days, 4, 13)": {
+        "eline": 256,
+        "epos": 42,
+        "spos": 9,
+        "sline": 256
+      }},
+      {"leap = temp$30": {
+        "eline": 256,
+        "epos": 42,
+        "spos": 9,
+        "sline": 256
+      }},
+      {"temp$31 = index": {
+        "eline": 258,
+        "epos": 61,
+        "spos": 9,
+        "sline": 258
+      }},
+      {"temp$32 = <DPCNCalendar: int[] DAYS_AND_LEAP_MONTH_OF_LUNAR>": {
+        "eline": 258,
+        "epos": 61,
+        "spos": 9,
+        "sline": 258
+      }},
+      {"temp$33 = 0": {
+        "reliable": false,
+        "eline": 258,
+        "epos": 61,
+        "spos": 9,
+        "sline": 258
+      }},
+      {"temp$34 = temp$32[temp$33]": {
+        "eline": 258,
+        "epos": 61,
+        "spos": 9,
+        "sline": 258
+      }},
+      {"lunarY = temp$31 + temp$34": {
+        "eline": 258,
+        "epos": 61,
+        "spos": 9,
+        "sline": 258
+      }},
+      {"lunarM = 1": {
+        "eline": 259,
+        "epos": 23,
+        "spos": 9,
+        "sline": 259
+      }},
+      {"temp$35 = offset": {
+        "eline": 261,
+        "epos": 20,
+        "spos": 9,
+        "sline": 261
+      }},
+      {"temp$36 = temp$35 + 1L": {
+        "eline": 261,
+        "epos": 20,
+        "spos": 9,
+        "sline": 261
+      }},
+      {"offset = temp$36": {
+        "eline": 261,
+        "epos": 14,
+        "spos": 9,
+        "sline": 261
+      }},
+      {"i = 0": {
+        "eline": 263,
+        "epos": 22,
+        "spos": 14,
+        "sline": 263
+      }}
+    ],
+    "preds": [
+      1,
+      2
+    ],
+    "succs": [4]
+  },
+  "20": {
+    "instructions": [
+      {"temp$55 = 1": {
+        "reliable": false,
+        "eline": 276,
+        "epos": 28,
+        "spos": 23,
+        "sline": 276
+      }},
+      {"lunar.<Lunar: boolean isLeap> = temp$55": {
+        "eline": 276,
+        "epos": 28,
+        "spos": 23,
+        "sline": 276
+      }}
+    ],
+    "preds": [18],
+    "succs": [21]
+  },
+  "2": {
+    "instructions": [
+      {"temp$15 = index": {
+        "eline": 247,
+        "epos": 20,
+        "spos": 13,
+        "sline": 247
+      }},
+      {"temp$16 = temp$15 + -1": {
+        "eline": 247,
+        "epos": 17,
+        "spos": 13,
+        "sline": 247
+      }},
+      {"index = temp$16": {
+        "eline": 247,
+        "epos": 17,
+        "spos": 13,
+        "sline": 247
+      }}
+    ],
+    "preds": [0],
+    "succs": [3]
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 246,
+      "epos": 54,
+      "spos": 13,
+      "sline": 246
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "10": {
+    "instructions": [
+      {"dm = temp$37": {
+        "eline": 264,
+        "epos": 52,
+        "spos": 22,
+        "sline": 264
+      }},
+      {"temp$40 = (long) dm": {
+        "eline": 265,
+        "epos": 28,
+        "spos": 17,
+        "sline": 265
+      }},
+      {"temp$41 = offset cmp temp$40": {
+        "eline": 265,
+        "epos": 28,
+        "spos": 17,
+        "sline": 265
+      }},
+      {"if temp$41 > 0 goto block_13 #3": {
+        "eline": 265,
+        "epos": 28,
+        "ifpos": "(264, 12)-(264, 28)",
+        "spos": 17,
+        "sline": 265
+      }}
+    ],
+    "preds": [
+      8,
+      9
+    ],
+    "succs": [
+      11,
+      13
+    ]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = <DPCNCalendar: int[] DAYS_AND_LEAP_MONTH_OF_LUNAR>": {
+        "eline": 244,
+        "epos": 69,
+        "spos": 9,
+        "sline": 244
+      }},
+      {"temp$1 = 0": {
+        "reliable": false,
+        "eline": 244,
+        "epos": 69,
+        "spos": 9,
+        "sline": 244
+      }},
+      {"temp$2 = gregorian.<Gregorian: int year>": {
+        "eline": 244,
+        "epos": 69,
+        "spos": 9,
+        "sline": 244
+      }},
+      {"temp$3 = temp$0[temp$1]": {
+        "eline": 244,
+        "epos": 69,
+        "spos": 9,
+        "sline": 244
+      }},
+      {"temp$4 = temp$2 - temp$3": {
+        "eline": 244,
+        "epos": 69,
+        "spos": 9,
+        "sline": 244
+      }},
+      {"index = temp$4": {
+        "eline": 244,
+        "epos": 69,
+        "spos": 9,
+        "sline": 244
+      }},
+      {"temp$5 = gregorian.<Gregorian: int year>": {
+        "eline": 245,
+        "epos": 84,
+        "spos": 9,
+        "sline": 245
+      }},
+      {"temp$6 = temp$5 << 9": {
+        "eline": 245,
+        "epos": 84,
+        "spos": 9,
+        "sline": 245
+      }},
+      {"temp$7 = gregorian.<Gregorian: int month>": {
+        "eline": 245,
+        "epos": 84,
+        "spos": 9,
+        "sline": 245
+      }},
+      {"temp$8 = temp$7 << 5": {
+        "eline": 245,
+        "epos": 84,
+        "spos": 9,
+        "sline": 245
+      }},
+      {"temp$9 = temp$6 | temp$8": {
+        "eline": 245,
+        "epos": 84,
+        "spos": 9,
+        "sline": 245
+      }},
+      {"temp$10 = gregorian.<Gregorian: int day>": {
+        "eline": 245,
+        "epos": 84,
+        "spos": 9,
+        "sline": 245
+      }},
+      {"temp$11 = temp$9 | temp$10": {
+        "eline": 245,
+        "epos": 84,
+        "spos": 9,
+        "sline": 245
+      }},
+      {"data = temp$11": {
+        "eline": 245,
+        "epos": 84,
+        "spos": 9,
+        "sline": 245
+      }},
+      {"temp$12 = <DPCNCalendar: int[] DAYS_AND_LEAP_MONTH_OF_LUNAR>": {
+        "eline": 246,
+        "epos": 54,
+        "spos": 13,
+        "sline": 246
+      }},
+      {"temp$13 = index": {
+        "eline": 246,
+        "epos": 54,
+        "spos": 13,
+        "sline": 246
+      }},
+      {"temp$14 = temp$12[temp$13]": {
+        "eline": 246,
+        "epos": 54,
+        "spos": 13,
+        "sline": 246
+      }},
+      {"if temp$14 > data goto block_2 #0": {
+        "eline": 246,
+        "epos": 54,
+        "ifpos": "(245, 8)-(245, 54)",
+        "spos": 13,
+        "sline": 246
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  },
+  "7": {
+    "instructions": [{"goto block_9": {
+      "eline": 264,
+      "epos": 52,
+      "spos": 22,
+      "sline": 264
+    }}],
+    "preds": [6],
+    "succs": [9]
+  },
+  "6": {
+    "instructions": [
+      {"temp$38 = 12 - i": {
+        "eline": 264,
+        "epos": 52,
+        "spos": 22,
+        "sline": 264
+      }},
+      {"temp$39 = staticinvoke <DPCNCalendar: int getBitInt(int,int,int)>(days, 1, temp$38)": {
+        "eline": 264,
+        "epos": 52,
+        "spos": 22,
+        "sline": 264
+      }},
+      {"if temp$39 == 1 goto block_8 #2": {
+        "eline": 264,
+        "epos": 52,
+        "ifpos": "(262, 30)-(263, 53)",
+        "spos": 22,
+        "sline": 264
+      }}
+    ],
+    "preds": [4],
+    "succs": [
+      7,
+      8
+    ]
+  },
+  "5": {
+    "instructions": [{"goto block_14": {
+      "eline": 263,
+      "epos": 30,
+      "spos": 25,
+      "sline": 263
+    }}],
+    "preds": [4],
+    "succs": [14]
+  },
+  "4": {
+    "instructions": [{"if i < 13 goto block_6 #1": {
+      "eline": 263,
+      "epos": 30,
+      "ifpos": "(262, 22)-(262, 30)",
+      "spos": 25,
+      "sline": 263
+    }}],
+    "preds": [
+      3,
+      13
+    ],
+    "succs": [
+      5,
+      6
+    ]
+  },
+  "9": {
+    "instructions": [{"temp$37 = 29": {
+      "reliable": false,
+      "eline": 264,
+      "epos": 52,
+      "spos": 22,
+      "sline": 264
+    }}],
+    "preds": [7],
+    "succs": [10]
+  },
+  "8": {
+    "instructions": [
+      {"temp$37 = 30": {
+        "reliable": false,
+        "eline": 264,
+        "epos": 52,
+        "spos": 22,
+        "sline": 264
+      }},
+      {"goto block_10": {
+        "eline": 264,
+        "epos": 52,
+        "spos": 22,
+        "sline": 264
+      }}
+    ],
+    "preds": [6],
+    "succs": [10]
+  }
+}

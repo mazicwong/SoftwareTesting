@@ -1,0 +1,1 @@
+{"classes":[{"testCases":[{"failureMessage":"expected: java.lang.String<4> but was: java.lang.Integer<4>","success":"0","methodName":"testA"},{"failureMessage":"expected: java.lang.String<-4> but was: java.lang.Integer<-4>","success":"0","methodName":"testC"}],"className":"ExampleTest"}],"totalNum":2,"proName":"Example","successNum":0,"failureNum":2}

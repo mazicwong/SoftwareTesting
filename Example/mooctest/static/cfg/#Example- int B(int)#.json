@@ -1,0 +1,80 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$2 = b - 3": {
+        "eline": 28,
+        "epos": 11,
+        "spos": 4,
+        "sline": 28
+      }},
+      {"b = temp$2": {
+        "eline": 28,
+        "epos": 4,
+        "spos": 4,
+        "sline": 28
+      }},
+      {"return b": {
+        "eline": 29,
+        "epos": 12,
+        "spos": 4,
+        "sline": 29
+      }}
+    ],
+    "preds": [1],
+    "succs": []
+  },
+  "2": {
+    "instructions": [
+      {"temp$0 = b": {
+        "eline": 25,
+        "epos": 11,
+        "spos": 4,
+        "sline": 25
+      }},
+      {"temp$1 = temp$0 + 3": {
+        "eline": 25,
+        "epos": 11,
+        "spos": 4,
+        "sline": 25
+      }},
+      {"b = temp$1": {
+        "eline": 25,
+        "epos": 4,
+        "spos": 4,
+        "sline": 25
+      }},
+      {"return b": {
+        "eline": 26,
+        "epos": 12,
+        "spos": 4,
+        "sline": 26
+      }}
+    ],
+    "preds": [0],
+    "succs": []
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 24,
+      "epos": 9,
+      "spos": 6,
+      "sline": 24
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [{"if b >= 0 goto block_2 #0": {
+      "eline": 24,
+      "epos": 9,
+      "ifpos": "(23, 2)-(23, 9)",
+      "spos": 6,
+      "sline": 24
+    }}],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  }
+}

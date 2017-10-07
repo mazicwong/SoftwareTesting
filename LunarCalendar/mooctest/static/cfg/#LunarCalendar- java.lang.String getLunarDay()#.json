@@ -1,0 +1,54 @@
+{"0": {
+  "instructions": [
+    {"virtualinvoke this.<LunarCalendar: void checkLunar()>()": {
+      "eline": 113,
+      "epos": 20,
+      "spos": 9,
+      "sline": 113
+    }},
+    {"temp$0 = this.<LunarCalendar: Lunar lunar>": {
+      "eline": 114,
+      "epos": 39,
+      "spos": 35,
+      "sline": 114
+    }},
+    {"temp$1 = temp$0.<Lunar: int day>": {
+      "eline": 114,
+      "epos": 39,
+      "spos": 35,
+      "sline": 114
+    }},
+    {"temp$2 = staticinvoke <java.lang.String: java.lang.String valueOf(int)>(temp$1)": {
+      "eline": 114,
+      "epos": 39,
+      "spos": 35,
+      "sline": 114
+    }},
+    {"temp$3 = virtualinvoke temp$2.<java.lang.String: char[] toCharArray()>()": {
+      "eline": 114,
+      "epos": 39,
+      "spos": 35,
+      "sline": 114
+    }},
+    {"c = temp$3": {
+      "eline": 114,
+      "epos": 39,
+      "spos": 35,
+      "sline": 114
+    }},
+    {"temp$4 = staticinvoke <TextUtils: java.lang.String lunarNumToStr(char[])>(c)": {
+      "eline": 114,
+      "epos": 39,
+      "spos": 35,
+      "sline": 114
+    }},
+    {"return temp$4": {
+      "eline": 115,
+      "epos": 42,
+      "spos": 9,
+      "sline": 115
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "\tvoid addNode(Node node){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.getNodes().add(node); ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic List<Node> getNodes() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn nodes; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic void setNodes(List<Node> nodes) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.nodes = nodes; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  }
+]

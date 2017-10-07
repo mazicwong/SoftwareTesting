@@ -1,0 +1,100 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+    {"temp$0 = null": {}},
+    {"this.<SundySearch: java.lang.String text> = temp$0": {
+      "eline": 7,
+      "epos": 23,
+      "spos": 5,
+      "sline": 7
+    }},
+    {"temp$1 = null": {
+      "reliable": false,
+      "eline": 7,
+      "epos": 23,
+      "spos": 5,
+      "sline": 7
+    }},
+    {"this.<SundySearch: java.lang.String pattern> = temp$1": {
+      "eline": 8,
+      "epos": 26,
+      "spos": 5,
+      "sline": 8
+    }},
+    {"temp$2 = 0": {
+      "reliable": false,
+      "eline": 8,
+      "epos": 26,
+      "spos": 5,
+      "sline": 8
+    }},
+    {"this.<SundySearch: int currentPos> = temp$2": {
+      "eline": 9,
+      "epos": 23,
+      "spos": 5,
+      "sline": 9
+    }},
+    {"temp$3 = new java.util.LinkedList": {
+      "eline": 9,
+      "epos": 23,
+      "spos": 5,
+      "sline": 9
+    }},
+    {"specialinvoke temp$3.<java.util.LinkedList: void <init>()>()": {
+      "eline": 13,
+      "epos": 60,
+      "spos": 36,
+      "sline": 13
+    }},
+    {"this.<SundySearch: java.util.List matchedPosList> = temp$3": {
+      "eline": 13,
+      "epos": 61,
+      "spos": 5,
+      "sline": 13
+    }},
+    {"temp$4 = new java.util.HashMap": {
+      "eline": 13,
+      "epos": 61,
+      "spos": 5,
+      "sline": 13
+    }},
+    {"specialinvoke temp$4.<java.util.HashMap: void <init>()>()": {
+      "eline": 18,
+      "epos": 67,
+      "spos": 35,
+      "sline": 18
+    }},
+    {"this.<SundySearch: java.util.Map map> = temp$4": {
+      "eline": 18,
+      "epos": 68,
+      "spos": 5,
+      "sline": 18
+    }},
+    {"this.<SundySearch: java.lang.String text> = text": {
+      "eline": 20,
+      "epos": 17,
+      "spos": 14,
+      "sline": 20
+    }},
+    {"this.<SundySearch: java.lang.String pattern> = pattern": {
+      "eline": 21,
+      "epos": 20,
+      "spos": 14,
+      "sline": 21
+    }},
+    {"virtualinvoke this.<SundySearch: void initMap()>()": {
+      "eline": 22,
+      "epos": 12,
+      "spos": 9,
+      "sline": 22
+    }},
+    {"return": {
+      "eline": 22,
+      "epos": 12,
+      "spos": 9,
+      "sline": 22
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

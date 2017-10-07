@@ -1,0 +1,46 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+    {"temp$0 = 0.0": {}},
+    {"this.<SolarTerm: double EnnT> = temp$0": {
+      "eline": 72,
+      "epos": 28,
+      "spos": 5,
+      "sline": 72
+    }},
+    {"temp$1 = 0.0": {
+      "reliable": false,
+      "eline": 72,
+      "epos": 28,
+      "spos": 5,
+      "sline": 72
+    }},
+    {"this.<SolarTerm: double MnnT> = temp$1": {
+      "eline": 73,
+      "epos": 28,
+      "spos": 5,
+      "sline": 73
+    }},
+    {"temp$2 = 1.0": {
+      "reliable": false,
+      "eline": 73,
+      "epos": 28,
+      "spos": 5,
+      "sline": 73
+    }},
+    {"this.<SolarTerm: double D> = temp$2": {
+      "eline": 75,
+      "epos": 25,
+      "spos": 5,
+      "sline": 75
+    }},
+    {"return": {
+      "eline": 75,
+      "epos": 25,
+      "spos": 5,
+      "sline": 75
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

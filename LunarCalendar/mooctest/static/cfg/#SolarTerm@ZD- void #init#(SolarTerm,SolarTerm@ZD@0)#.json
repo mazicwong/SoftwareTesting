@@ -1,0 +1,9 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<SolarTerm$ZD: void <init>(SolarTerm)>(temp$0)": {}},
+    {"this.<SolarTerm$ZD: SolarTerm this$0> = temp$1": {}},
+    {"return": {}}
+  ],
+  "preds": [],
+  "succs": []
+}}

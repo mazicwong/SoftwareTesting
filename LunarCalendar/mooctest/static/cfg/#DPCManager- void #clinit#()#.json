@@ -1,0 +1,30 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = new java.util.WeakHashMap": {
+      "eline": 98,
+      "epos": 1,
+      "spos": 1,
+      "sline": 14
+    }},
+    {"specialinvoke temp$0.<java.util.WeakHashMap: void <init>()>()": {
+      "eline": 15,
+      "epos": 143,
+      "spos": 85,
+      "sline": 15
+    }},
+    {"<DPCManager: java.util.Map DATE_CACHE> = temp$0": {
+      "eline": 15,
+      "epos": 144,
+      "spos": 5,
+      "sline": 15
+    }},
+    {"return": {
+      "eline": 15,
+      "epos": 144,
+      "spos": 5,
+      "sline": 15
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

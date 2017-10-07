@@ -1,0 +1,255 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$9 = temp$6[temp$7]": {
+        "eline": 66,
+        "epos": 4,
+        "spos": 4,
+        "sline": 64
+      }},
+      {"rule = temp$9": {
+        "eline": 66,
+        "epos": 4,
+        "spos": 4,
+        "sline": 64
+      }},
+      {"temp$10 = virtualinvoke rule.<Rule: java.util.LinkedList deriveOnce(java.util.Collection)>(allFacts)": {
+        "eline": 65,
+        "epos": 47,
+        "spos": 5,
+        "sline": 65
+      }},
+      {"virtualinvoke allFacts.<java.util.AbstractCollection: boolean addAll(java.util.Collection)>(temp$10)": {
+        "eline": 65,
+        "epos": 47,
+        "spos": 5,
+        "sline": 65
+      }},
+      {"temp$7 = temp$7 + 1": {
+        "eline": 65,
+        "epos": 47,
+        "spos": 5,
+        "sline": 65
+      }},
+      {"goto block_2": {
+        "eline": 65,
+        "epos": 47,
+        "spos": 5,
+        "sline": 65
+      }}
+    ],
+    "preds": [2],
+    "succs": [2]
+  },
+  "2": {
+    "instructions": [
+      {"temp$8 = lengthof temp$6": {
+        "eline": 66,
+        "epos": 4,
+        "spos": 4,
+        "sline": 64
+      }},
+      {"if temp$7 >= temp$8 goto block_4 #0": {
+        "eline": 66,
+        "epos": 4,
+        "ifpos": "(61, 18)-(66, 47)",
+        "spos": 4,
+        "sline": 64
+      }}
+    ],
+    "preds": [
+      1,
+      3
+    ],
+    "succs": [
+      3,
+      4
+    ]
+  },
+  "1": {
+    "instructions": [
+      {"temp$6 = this.<Program: Rule[] program>": {
+        "eline": 64,
+        "epos": 27,
+        "spos": 21,
+        "sline": 64
+      }},
+      {"temp$7 = 0": {
+        "reliable": false,
+        "eline": 64,
+        "epos": 27,
+        "spos": 21,
+        "sline": 64
+      }}
+    ],
+    "preds": [
+      0,
+      4
+    ],
+    "succs": [2]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = new java.util.HashSet": {
+        "eline": 60,
+        "epos": 70,
+        "spos": 3,
+        "sline": 60
+      }},
+      {"temp$1 = staticinvoke <java.util.Arrays: java.util.List asList(java.lang.Object[])>(database)": {
+        "eline": 60,
+        "epos": 70,
+        "spos": 3,
+        "sline": 60
+      }},
+      {"temp$2 = (java.util.List) temp$1": {
+        "eline": 60,
+        "epos": 70,
+        "spos": 3,
+        "sline": 60
+      }},
+      {"specialinvoke temp$0.<java.util.HashSet: void <init>(java.util.Collection)>(temp$2)": {
+        "eline": 60,
+        "epos": 69,
+        "spos": 28,
+        "sline": 60
+      }},
+      {"allFacts = temp$0": {
+        "eline": 60,
+        "epos": 69,
+        "spos": 28,
+        "sline": 60
+      }},
+      {"temp$3 = new java.util.HashSet": {
+        "eline": 61,
+        "epos": 70,
+        "spos": 3,
+        "sline": 61
+      }},
+      {"temp$4 = staticinvoke <java.util.Arrays: java.util.List asList(java.lang.Object[])>(database)": {
+        "eline": 61,
+        "epos": 70,
+        "spos": 3,
+        "sline": 61
+      }},
+      {"temp$5 = (java.util.List) temp$4": {
+        "eline": 61,
+        "epos": 70,
+        "spos": 3,
+        "sline": 61
+      }},
+      {"specialinvoke temp$3.<java.util.HashSet: void <init>(java.util.Collection)>(temp$5)": {
+        "eline": 61,
+        "epos": 69,
+        "spos": 28,
+        "sline": 61
+      }},
+      {"oldFacts = temp$3": {
+        "eline": 61,
+        "epos": 69,
+        "spos": 28,
+        "sline": 61
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  },
+  "6": {
+    "instructions": [
+      {"temp$17 = newarray (Fact)[0]": {
+        "eline": 69,
+        "epos": 24,
+        "spos": 12,
+        "sline": 69
+      }},
+      {"temp$18 = virtualinvoke allFacts.<java.util.AbstractCollection: java.lang.Object[] toArray(java.lang.Object[])>(temp$17)": {
+        "eline": 69,
+        "epos": 24,
+        "spos": 12,
+        "sline": 69
+      }},
+      {"temp$19 = (Fact[]) temp$18": {
+        "eline": 69,
+        "epos": 24,
+        "spos": 12,
+        "sline": 69
+      }},
+      {"return temp$19": {
+        "eline": 70,
+        "epos": 39,
+        "spos": 3,
+        "sline": 70
+      }}
+    ],
+    "preds": [5],
+    "succs": []
+  },
+  "5": {
+    "instructions": [{"goto block_6": {
+      "eline": 69,
+      "epos": 24,
+      "spos": 12,
+      "sline": 69
+    }}],
+    "preds": [4],
+    "succs": [6]
+  },
+  "4": {
+    "instructions": [
+      {"temp$12 = virtualinvoke allFacts.<java.util.HashSet: int size()>()": {
+        "eline": 67,
+        "epos": 48,
+        "spos": 4,
+        "sline": 67
+      }},
+      {"temp$13 = virtualinvoke oldFacts.<java.util.HashSet: int size()>()": {
+        "eline": 67,
+        "epos": 48,
+        "spos": 4,
+        "sline": 67
+      }},
+      {"temp$14 = temp$12 - temp$13": {
+        "eline": 67,
+        "epos": 48,
+        "spos": 4,
+        "sline": 67
+      }},
+      {"newFacts = temp$14": {
+        "eline": 67,
+        "epos": 11,
+        "spos": 4,
+        "sline": 67
+      }},
+      {"temp$15 = virtualinvoke allFacts.<java.util.HashSet: java.lang.Object clone()>()": {
+        "eline": 68,
+        "epos": 47,
+        "spos": 4,
+        "sline": 68
+      }},
+      {"temp$16 = (java.util.HashSet) temp$15": {
+        "eline": 68,
+        "epos": 47,
+        "spos": 4,
+        "sline": 68
+      }},
+      {"oldFacts = temp$16": {
+        "eline": 68,
+        "epos": 11,
+        "spos": 4,
+        "sline": 68
+      }},
+      {"if newFacts != 0 goto block_1 #1": {
+        "eline": 69,
+        "epos": 24,
+        "ifpos": "(68, 4)-(68, 24)",
+        "spos": 12,
+        "sline": 69
+      }}
+    ],
+    "preds": [2],
+    "succs": [
+      5,
+      1
+    ]
+  }
+}

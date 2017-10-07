@@ -1,0 +1,25 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+    {"this.<Rule: Datalog head> = head": {
+      "eline": 12,
+      "epos": 11,
+      "spos": 8,
+      "sline": 12
+    }},
+    {"this.<Rule: Datalog[] body> = body": {
+      "eline": 13,
+      "epos": 11,
+      "spos": 8,
+      "sline": 13
+    }},
+    {"return": {
+      "eline": 13,
+      "epos": 11,
+      "spos": 8,
+      "sline": 13
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

@@ -1,0 +1,80 @@
+[
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tprivate final Predicate predicate; ",
+    "blocks": []
+  },
+  {
+    "codes": "\tprivate final Value[] values; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic Fact(Predicate predicate, Value... values) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif (predicate == null) { ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\tthrow new NullPointerException(\"Predicate cannot be null\"); ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif (values == null) { ",
+    "blocks": [
+      3,
+      4
+    ]
+  },
+  {
+    "codes": "\t\t\tthrow new NullPointerException(\"Values cannot be null\"); ",
+    "blocks": [5]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.predicate = predicate; ",
+    "blocks": [6]
+  },
+  {
+    "codes": "\t\tthis.values = values; ",
+    "blocks": [6]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic Predicate getPredicate() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn this.predicate; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  }
+]

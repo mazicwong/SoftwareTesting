@@ -1,0 +1,61 @@
+[
+  {
+    "codes": "public class Value { ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tprivate final String value; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic Value(String value) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif (value == null) { ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\tthrow new NullPointerException(\"Value cannot be null\"); ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.value = value; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic String getValue() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn this.value; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  }
+]

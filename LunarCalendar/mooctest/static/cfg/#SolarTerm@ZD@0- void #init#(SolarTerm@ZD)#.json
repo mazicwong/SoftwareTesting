@@ -1,0 +1,9 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+    {"this.<SolarTerm$ZD$0: SolarTerm$ZD this$0> = temp$0": {}},
+    {"return": {}}
+  ],
+  "preds": [],
+  "succs": []
+}}

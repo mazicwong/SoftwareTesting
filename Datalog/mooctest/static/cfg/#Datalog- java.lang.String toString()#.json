@@ -1,0 +1,384 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$8 = new java.lang.StringBuffer": {
+        "eline": 111,
+        "epos": 34,
+        "spos": 4,
+        "sline": 111
+      }},
+      {"specialinvoke temp$8.<java.lang.StringBuffer: void <init>(java.lang.String)>(res)": {
+        "eline": 111,
+        "epos": 33,
+        "spos": 4,
+        "sline": 111
+      }},
+      {"temp$9 = this.<Datalog: Argument[] arguments>": {
+        "eline": 111,
+        "epos": 19,
+        "spos": 11,
+        "sline": 111
+      }},
+      {"temp$10 = i": {
+        "eline": 111,
+        "epos": 19,
+        "spos": 11,
+        "sline": 111
+      }},
+      {"temp$11 = temp$9[temp$10]": {
+        "eline": 111,
+        "epos": 19,
+        "spos": 11,
+        "sline": 111
+      }},
+      {"temp$12 = virtualinvoke temp$11.<Argument: java.lang.String toString()>()": {
+        "eline": 111,
+        "epos": 19,
+        "spos": 11,
+        "sline": 111
+      }},
+      {"temp$13 = virtualinvoke temp$8.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(temp$12)": {
+        "eline": 111,
+        "epos": 19,
+        "spos": 11,
+        "sline": 111
+      }},
+      {"temp$14 = virtualinvoke temp$13.<java.lang.StringBuffer: java.lang.String toString()>()": {
+        "eline": 111,
+        "epos": 19,
+        "spos": 11,
+        "sline": 111
+      }},
+      {"res = temp$14": {
+        "eline": 111,
+        "epos": 6,
+        "spos": 4,
+        "sline": 111
+      }},
+      {"temp$15 = new java.lang.StringBuffer": {
+        "eline": 112,
+        "epos": 14,
+        "spos": 4,
+        "sline": 112
+      }},
+      {"specialinvoke temp$15.<java.lang.StringBuffer: void <init>(java.lang.String)>(res)": {
+        "eline": 112,
+        "epos": 13,
+        "spos": 4,
+        "sline": 112
+      }},
+      {"temp$16 = virtualinvoke temp$15.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(\",\")": {
+        "eline": 112,
+        "epos": 13,
+        "spos": 4,
+        "sline": 112
+      }},
+      {"temp$17 = virtualinvoke temp$16.<java.lang.StringBuffer: java.lang.String toString()>()": {
+        "eline": 112,
+        "epos": 13,
+        "spos": 4,
+        "sline": 112
+      }},
+      {"res = temp$17": {
+        "eline": 112,
+        "epos": 6,
+        "spos": 4,
+        "sline": 112
+      }},
+      {"temp$18 = i": {
+        "eline": 110,
+        "epos": 47,
+        "spos": 45,
+        "sline": 110
+      }},
+      {"temp$19 = temp$18 + 1": {
+        "eline": 110,
+        "epos": 45,
+        "spos": 45,
+        "sline": 110
+      }},
+      {"i = temp$19": {
+        "eline": 110,
+        "epos": 45,
+        "spos": 45,
+        "sline": 110
+      }},
+      {"goto block_1": {
+        "eline": 113,
+        "epos": 3,
+        "spos": 3,
+        "sline": 110
+      }}
+    ],
+    "preds": [1],
+    "succs": [1]
+  },
+  "2": {
+    "instructions": [{"goto block_4": {
+      "eline": 110,
+      "epos": 31,
+      "spos": 23,
+      "sline": 110
+    }}],
+    "preds": [1],
+    "succs": [4]
+  },
+  "1": {
+    "instructions": [
+      {"temp$5 = this.<Datalog: Argument[] arguments>": {
+        "eline": 110,
+        "epos": 31,
+        "spos": 23,
+        "sline": 110
+      }},
+      {"temp$6 = lengthof temp$5": {
+        "eline": 110,
+        "epos": 31,
+        "spos": 23,
+        "sline": 110
+      }},
+      {"temp$7 = temp$6 - 1": {
+        "eline": 110,
+        "epos": 31,
+        "spos": 23,
+        "sline": 110
+      }},
+      {"if i < temp$7 goto block_3 #0": {
+        "eline": 110,
+        "epos": 31,
+        "ifpos": "(109, 16)-(109, 42)",
+        "spos": 23,
+        "sline": 110
+      }}
+    ],
+    "preds": [
+      0,
+      3
+    ],
+    "succs": [
+      2,
+      3
+    ]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = this.<Datalog: Predicate predicate>": {
+        "eline": 108,
+        "epos": 19,
+        "spos": 16,
+        "sline": 108
+      }},
+      {"temp$1 = virtualinvoke temp$0.<Predicate: java.lang.String toString()>()": {
+        "eline": 108,
+        "epos": 19,
+        "spos": 16,
+        "sline": 108
+      }},
+      {"res = temp$1": {
+        "eline": 108,
+        "epos": 19,
+        "spos": 16,
+        "sline": 108
+      }},
+      {"temp$2 = new java.lang.StringBuffer": {
+        "eline": 109,
+        "epos": 13,
+        "spos": 3,
+        "sline": 109
+      }},
+      {"specialinvoke temp$2.<java.lang.StringBuffer: void <init>(java.lang.String)>(res)": {
+        "eline": 109,
+        "epos": 12,
+        "spos": 3,
+        "sline": 109
+      }},
+      {"temp$3 = virtualinvoke temp$2.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(\"(\")": {
+        "eline": 109,
+        "epos": 12,
+        "spos": 3,
+        "sline": 109
+      }},
+      {"temp$4 = virtualinvoke temp$3.<java.lang.StringBuffer: java.lang.String toString()>()": {
+        "eline": 109,
+        "epos": 12,
+        "spos": 3,
+        "sline": 109
+      }},
+      {"res = temp$4": {
+        "eline": 109,
+        "epos": 5,
+        "spos": 3,
+        "sline": 109
+      }},
+      {"i = 0": {
+        "eline": 110,
+        "epos": 16,
+        "spos": 8,
+        "sline": 110
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  },
+  "7": {
+    "instructions": [
+      {"temp$32 = new java.lang.StringBuffer": {
+        "eline": 117,
+        "epos": 13,
+        "spos": 3,
+        "sline": 117
+      }},
+      {"specialinvoke temp$32.<java.lang.StringBuffer: void <init>(java.lang.String)>(res)": {
+        "eline": 117,
+        "epos": 12,
+        "spos": 3,
+        "sline": 117
+      }},
+      {"temp$33 = virtualinvoke temp$32.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(\")\")": {
+        "eline": 117,
+        "epos": 12,
+        "spos": 3,
+        "sline": 117
+      }},
+      {"temp$34 = virtualinvoke temp$33.<java.lang.StringBuffer: java.lang.String toString()>()": {
+        "eline": 117,
+        "epos": 12,
+        "spos": 3,
+        "sline": 117
+      }},
+      {"res = temp$34": {
+        "eline": 117,
+        "epos": 5,
+        "spos": 3,
+        "sline": 117
+      }},
+      {"return res": {
+        "eline": 118,
+        "epos": 13,
+        "spos": 3,
+        "sline": 118
+      }}
+    ],
+    "preds": [
+      5,
+      6
+    ],
+    "succs": []
+  },
+  "6": {
+    "instructions": [
+      {"temp$22 = new java.lang.StringBuffer": {
+        "eline": 115,
+        "epos": 53,
+        "spos": 4,
+        "sline": 115
+      }},
+      {"specialinvoke temp$22.<java.lang.StringBuffer: void <init>(java.lang.String)>(res)": {
+        "eline": 115,
+        "epos": 52,
+        "spos": 4,
+        "sline": 115
+      }},
+      {"temp$23 = this.<Datalog: Argument[] arguments>": {
+        "eline": 115,
+        "epos": 19,
+        "spos": 11,
+        "sline": 115
+      }},
+      {"temp$24 = this.<Datalog: Argument[] arguments>": {
+        "eline": 115,
+        "epos": 29,
+        "spos": 21,
+        "sline": 115
+      }},
+      {"temp$25 = lengthof temp$24": {
+        "eline": 115,
+        "epos": 29,
+        "spos": 21,
+        "sline": 115
+      }},
+      {"temp$26 = temp$25 - 1": {
+        "eline": 115,
+        "epos": 29,
+        "spos": 21,
+        "sline": 115
+      }},
+      {"temp$27 = temp$26": {
+        "eline": 115,
+        "epos": 29,
+        "spos": 21,
+        "sline": 115
+      }},
+      {"temp$28 = temp$23[temp$27]": {
+        "eline": 115,
+        "epos": 29,
+        "spos": 21,
+        "sline": 115
+      }},
+      {"temp$29 = virtualinvoke temp$28.<Argument: java.lang.String toString()>()": {
+        "eline": 115,
+        "epos": 29,
+        "spos": 21,
+        "sline": 115
+      }},
+      {"temp$30 = virtualinvoke temp$22.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(temp$29)": {
+        "eline": 115,
+        "epos": 29,
+        "spos": 21,
+        "sline": 115
+      }},
+      {"temp$31 = virtualinvoke temp$30.<java.lang.StringBuffer: java.lang.String toString()>()": {
+        "eline": 115,
+        "epos": 29,
+        "spos": 21,
+        "sline": 115
+      }},
+      {"res = temp$31": {
+        "eline": 115,
+        "epos": 6,
+        "spos": 4,
+        "sline": 115
+      }}
+    ],
+    "preds": [4],
+    "succs": [7]
+  },
+  "5": {
+    "instructions": [{"goto block_7": {
+      "eline": 114,
+      "epos": 15,
+      "spos": 7,
+      "sline": 114
+    }}],
+    "preds": [4],
+    "succs": [7]
+  },
+  "4": {
+    "instructions": [
+      {"temp$20 = this.<Datalog: Argument[] arguments>": {
+        "eline": 114,
+        "epos": 15,
+        "spos": 7,
+        "sline": 114
+      }},
+      {"temp$21 = lengthof temp$20": {
+        "eline": 114,
+        "epos": 15,
+        "spos": 7,
+        "sline": 114
+      }},
+      {"if temp$21 > 0 goto block_6 #1": {
+        "eline": 114,
+        "epos": 15,
+        "ifpos": "(113, 2)-(113, 26)",
+        "spos": 7,
+        "sline": 114
+      }}
+    ],
+    "preds": [2],
+    "succs": [
+      5,
+      6
+    ]
+  }
+}

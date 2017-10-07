@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "\t\t\tpaths.add(path); ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\tpath.getDestinationNode().addPathWithSource(new Path(path.getWeight(), this, path.getDestinationNode())); ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic String getName(){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn this.name; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t@Override ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic boolean equals(Object objToCompare){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif(objToCompare instanceof Node){ ",
+    "blocks": []
+  }
+]

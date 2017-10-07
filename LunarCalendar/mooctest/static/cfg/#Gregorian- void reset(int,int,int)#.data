@@ -1,0 +1,50 @@
+[
+  {
+    "codes": "        checkYear(year); ",
+    "blocks": []
+  },
+  {
+    "codes": "        init(year, month, day); ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    void reset(int year, int month, int day) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        checkYear(year); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        init(year, month, day); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private void init(int year, int month, int day) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        this.year = year; ",
+    "blocks": []
+  },
+  {
+    "codes": "        this.month = month; ",
+    "blocks": []
+  }
+]

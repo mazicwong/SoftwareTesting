@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "\t\tthis.destinationNode = destinationNode; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic int getWeight() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn weight; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic Node getDestinationNode() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn destinationNode; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  }
+]

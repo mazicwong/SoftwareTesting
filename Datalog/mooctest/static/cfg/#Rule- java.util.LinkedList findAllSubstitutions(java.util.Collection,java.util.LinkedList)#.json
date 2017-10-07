@@ -1,0 +1,361 @@
+{
+  "3": {
+    "instructions": [{"temp$4 = interfaceinvoke database.<java.lang.Iterable: java.util.Iterator iterator()>()": {
+      "eline": 61,
+      "epos": 14,
+      "spos": 4,
+      "sline": 61
+    }}],
+    "preds": [1],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [
+      {"temp$2 = new Substitution": {
+        "eline": 60,
+        "epos": 31,
+        "spos": 4,
+        "sline": 60
+      }},
+      {"specialinvoke temp$2.<Substitution: void <init>()>()": {
+        "eline": 60,
+        "epos": 29,
+        "spos": 12,
+        "sline": 60
+      }},
+      {"virtualinvoke res.<java.util.LinkedList: boolean add(java.lang.Object)>(temp$2)": {
+        "eline": 60,
+        "epos": 29,
+        "spos": 12,
+        "sline": 60
+      }},
+      {"return res": {
+        "eline": 61,
+        "epos": 14,
+        "spos": 4,
+        "sline": 61
+      }}
+    ],
+    "preds": [0],
+    "succs": []
+  },
+  "10": {
+    "instructions": [{"goto block_12": {
+      "eline": 71,
+      "epos": 38,
+      "spos": 20,
+      "sline": 71
+    }}],
+    "preds": [9],
+    "succs": [12]
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 59,
+      "epos": 26,
+      "spos": 7,
+      "sline": 59
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = new java.util.LinkedList": {
+        "eline": 57,
+        "epos": 64,
+        "spos": 3,
+        "sline": 57
+      }},
+      {"specialinvoke temp$0.<java.util.LinkedList: void <init>()>()": {
+        "eline": 57,
+        "epos": 63,
+        "spos": 34,
+        "sline": 57
+      }},
+      {"res = temp$0": {
+        "eline": 57,
+        "epos": 63,
+        "spos": 34,
+        "sline": 57
+      }},
+      {"temp$1 = virtualinvoke workList.<java.util.LinkedList: int size()>()": {
+        "eline": 59,
+        "epos": 26,
+        "spos": 7,
+        "sline": 59
+      }},
+      {"if temp$1 == 0 goto block_2 #0": {
+        "eline": 59,
+        "epos": 26,
+        "ifpos": "(58, 2)-(58, 26)",
+        "spos": 7,
+        "sline": 59
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  },
+  "7": {
+    "instructions": [{"goto block_13": {
+      "eline": 67,
+      "epos": 13,
+      "spos": 5,
+      "sline": 67
+    }}],
+    "preds": [5],
+    "succs": [13]
+  },
+  "6": {
+    "instructions": [{"goto block_8": {
+      "eline": 66,
+      "epos": 16,
+      "spos": 8,
+      "sline": 66
+    }}],
+    "preds": [5],
+    "succs": [8]
+  },
+  "5": {
+    "instructions": [
+      {"temp$6 = interfaceinvoke temp$4.<java.util.Iterator: java.lang.Object next()>()": {
+        "eline": 61,
+        "epos": 14,
+        "spos": 4,
+        "sline": 61
+      }},
+      {"fact = (Fact) temp$6": {
+        "eline": 61,
+        "epos": 14,
+        "spos": 4,
+        "sline": 61
+      }},
+      {"temp$7 = virtualinvoke workList.<java.util.LinkedList: java.lang.Object get(int)>(0)": {
+        "eline": 65,
+        "epos": 55,
+        "spos": 4,
+        "sline": 65
+      }},
+      {"temp$8 = (Datalog) temp$7": {
+        "eline": 65,
+        "epos": 55,
+        "spos": 4,
+        "sline": 65
+      }},
+      {"temp$9 = virtualinvoke temp$8.<Datalog: Substitution substituteTo(Fact)>(fact)": {
+        "eline": 65,
+        "epos": 55,
+        "spos": 4,
+        "sline": 65
+      }},
+      {"s = temp$9": {
+        "eline": 65,
+        "epos": 55,
+        "spos": 4,
+        "sline": 65
+      }},
+      {"if s == null goto block_7 #2": {
+        "eline": 66,
+        "epos": 16,
+        "ifpos": "(65, 3)-(65, 16)",
+        "spos": 8,
+        "sline": 66
+      }}
+    ],
+    "preds": [4],
+    "succs": [
+      6,
+      7
+    ]
+  },
+  "4": {
+    "instructions": [
+      {"temp$5 = interfaceinvoke temp$4.<java.util.Iterator: boolean hasNext()>()": {
+        "eline": 61,
+        "epos": 14,
+        "spos": 4,
+        "sline": 61
+      }},
+      {"if temp$5 == 0 goto block_14 #1": {
+        "eline": 61,
+        "epos": 14,
+        "ifpos": "(59, 30)-(60, 13)",
+        "spos": 4,
+        "sline": 61
+      }}
+    ],
+    "preds": [
+      3,
+      13
+    ],
+    "succs": [
+      5,
+      14
+    ]
+  },
+  "9": {
+    "instructions": [
+      {"temp$11 = virtualinvoke workList.<java.util.LinkedList: int size()>()": {
+        "eline": 71,
+        "epos": 38,
+        "spos": 20,
+        "sline": 71
+      }},
+      {"if i < temp$11 goto block_11 #3": {
+        "eline": 71,
+        "epos": 38,
+        "ifpos": "(70, 17)-(70, 38)",
+        "spos": 20,
+        "sline": 71
+      }}
+    ],
+    "preds": [
+      8,
+      11
+    ],
+    "succs": [
+      10,
+      11
+    ]
+  },
+  "8": {
+    "instructions": [
+      {"temp$10 = new java.util.LinkedList": {
+        "eline": 70,
+        "epos": 63,
+        "spos": 4,
+        "sline": 70
+      }},
+      {"specialinvoke temp$10.<java.util.LinkedList: void <init>()>()": {
+        "eline": 70,
+        "epos": 62,
+        "spos": 38,
+        "sline": 70
+      }},
+      {"newWorkList = temp$10": {
+        "eline": 70,
+        "epos": 62,
+        "spos": 38,
+        "sline": 70
+      }},
+      {"i = 1": {
+        "eline": 71,
+        "epos": 17,
+        "spos": 9,
+        "sline": 71
+      }}
+    ],
+    "preds": [6],
+    "succs": [9]
+  },
+  "13": {
+    "instructions": [{"goto block_4": {
+      "eline": 79,
+      "epos": 35,
+      "spos": 4,
+      "sline": 79
+    }}],
+    "preds": [
+      7,
+      12
+    ],
+    "succs": [4]
+  },
+  "14": {
+    "instructions": [{"return res": {
+      "eline": 81,
+      "epos": 13,
+      "spos": 3,
+      "sline": 81
+    }}],
+    "preds": [4],
+    "succs": []
+  },
+  "11": {
+    "instructions": [
+      {"temp$12 = virtualinvoke workList.<java.util.LinkedList: java.lang.Object get(int)>(i)": {
+        "eline": 72,
+        "epos": 48,
+        "spos": 5,
+        "sline": 72
+      }},
+      {"temp$13 = (Datalog) temp$12": {
+        "eline": 72,
+        "epos": 48,
+        "spos": 5,
+        "sline": 72
+      }},
+      {"temp$14 = virtualinvoke s.<Substitution: Datalog applyOn(Datalog)>(temp$13)": {
+        "eline": 72,
+        "epos": 48,
+        "spos": 5,
+        "sline": 72
+      }},
+      {"virtualinvoke newWorkList.<java.util.LinkedList: boolean add(java.lang.Object)>(temp$14)": {
+        "eline": 72,
+        "epos": 48,
+        "spos": 5,
+        "sline": 72
+      }},
+      {"temp$16 = i": {
+        "eline": 71,
+        "epos": 43,
+        "spos": 41,
+        "sline": 71
+      }},
+      {"temp$17 = temp$16 + 1": {
+        "eline": 71,
+        "epos": 41,
+        "spos": 41,
+        "sline": 71
+      }},
+      {"i = temp$17": {
+        "eline": 71,
+        "epos": 41,
+        "spos": 41,
+        "sline": 71
+      }},
+      {"goto block_9": {
+        "eline": 73,
+        "epos": 4,
+        "spos": 4,
+        "sline": 71
+      }}
+    ],
+    "preds": [9],
+    "succs": [9]
+  },
+  "12": {
+    "instructions": [
+      {"temp$18 = staticinvoke <Rule: java.util.LinkedList findAllSubstitutions(java.util.Collection,java.util.LinkedList)>(database, newWorkList)": {
+        "eline": 76,
+        "epos": 18,
+        "spos": 4,
+        "sline": 75
+      }},
+      {"recSub = temp$18": {
+        "eline": 76,
+        "epos": 18,
+        "spos": 4,
+        "sline": 75
+      }},
+      {"temp$19 = virtualinvoke s.<Substitution: java.util.LinkedList extendAll(java.util.LinkedList)>(recSub)": {
+        "eline": 79,
+        "epos": 35,
+        "spos": 4,
+        "sline": 79
+      }},
+      {"virtualinvoke res.<java.util.LinkedList: boolean addAll(java.util.Collection)>(temp$19)": {
+        "eline": 79,
+        "epos": 35,
+        "spos": 4,
+        "sline": 79
+      }}
+    ],
+    "preds": [10],
+    "succs": [13]
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "codes": "\t\treturn this.name; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t@Override ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic boolean equals(Object objToCompare){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif(objToCompare instanceof Node){ ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\tNode nodeToCompare = (Node) objToCompare;  ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\t\tif(this.getName().equals(nodeToCompare.getName())){ ",
+    "blocks": [
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "\t\t\t\treturn true;  ",
+    "blocks": [4]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn false;  ",
+    "blocks": [5]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

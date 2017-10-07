@@ -1,0 +1,19 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+    {"virtualinvoke this.<NodeNetwork: void setNodes(java.util.List)>(nodes)": {
+      "eline": 15,
+      "epos": 6,
+      "spos": 3,
+      "sline": 15
+    }},
+    {"return": {
+      "eline": 15,
+      "epos": 6,
+      "spos": 3,
+      "sline": 15
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

@@ -1,0 +1,83 @@
+[
+  {
+    "codes": "        return llr; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private void addPrece(double jd, double[] zb) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        int i; ",
+    "blocks": []
+  },
+  {
+    "codes": "        double t = 1, v = 0, t1 = jd / 365250; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        for (i = 1; i < 8; i++) { ",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "            t *= t1; ",
+    "blocks": [
+      0,
+      3
+    ]
+  },
+  {
+    "codes": "            v += preceB[i] * t; ",
+    "blocks": [
+      0,
+      3
+    ]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [
+      0,
+      3
+    ]
+  },
+  {
+    "codes": "        zb[0] = rad2mrad(zb[0] + (v + 2.9965 * t1) / rad); ",
+    "blocks": [
+      0,
+      4
+    ]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private double Mnn(double[] f) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        double v = 0, t1 = MnnT, t2 = t1 * t1, t3 = t2 * t1, t4 = t3 * t1; ",
+    "blocks": []
+  },
+  {
+    "codes": "        for (int i = 0; i < f.length; i += 6) ",
+    "blocks": []
+  }
+]

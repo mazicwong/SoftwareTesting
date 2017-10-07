@@ -1,0 +1,232 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$5 = daysInMonth": {
+        "eline": 232,
+        "epos": 47,
+        "spos": 17,
+        "sline": 232
+      }},
+      {"temp$6 = i": {
+        "eline": 232,
+        "epos": 47,
+        "spos": 17,
+        "sline": 232
+      }},
+      {"temp$7 = gregorian.<Gregorian: int day>": {
+        "eline": 232,
+        "epos": 47,
+        "spos": 17,
+        "sline": 232
+      }},
+      {"temp$8 = temp$5[temp$6]": {
+        "eline": 232,
+        "epos": 47,
+        "spos": 17,
+        "sline": 232
+      }},
+      {"if temp$7 == temp$8 goto block_5 #1": {
+        "eline": 232,
+        "epos": 47,
+        "ifpos": "(231, 12)-(231, 47)",
+        "spos": 17,
+        "sline": 232
+      }}
+    ],
+    "preds": [1],
+    "succs": [
+      4,
+      5
+    ]
+  },
+  "2": {
+    "instructions": [{"goto block_7": {
+      "eline": 231,
+      "epos": 46,
+      "spos": 25,
+      "sline": 231
+    }}],
+    "preds": [1],
+    "succs": [7]
+  },
+  "1": {
+    "instructions": [
+      {"temp$4 = lengthof daysInMonth": {
+        "eline": 231,
+        "epos": 46,
+        "spos": 25,
+        "sline": 231
+      }},
+      {"if i < temp$4 goto block_3 #0": {
+        "eline": 231,
+        "epos": 46,
+        "ifpos": "(230, 22)-(230, 46)",
+        "spos": 25,
+        "sline": 231
+      }}
+    ],
+    "preds": [
+      0,
+      6
+    ],
+    "succs": [
+      2,
+      3
+    ]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = <DPCNCalendar: int[][] FESTIVAL_G_DATE>": {
+        "eline": 230,
+        "epos": 65,
+        "spos": 9,
+        "sline": 230
+      }},
+      {"temp$1 = gregorian.<Gregorian: int month>": {
+        "eline": 230,
+        "epos": 65,
+        "spos": 9,
+        "sline": 230
+      }},
+      {"temp$2 = temp$1 - 1": {
+        "eline": 230,
+        "epos": 65,
+        "spos": 9,
+        "sline": 230
+      }},
+      {"temp$3 = temp$2": {
+        "eline": 230,
+        "epos": 65,
+        "spos": 9,
+        "sline": 230
+      }},
+      {"daysInMonth = temp$0[temp$3]": {
+        "eline": 230,
+        "epos": 65,
+        "spos": 9,
+        "sline": 230
+      }},
+      {"i = 0": {
+        "eline": 231,
+        "epos": 22,
+        "spos": 14,
+        "sline": 231
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  },
+  "7": {
+    "instructions": [
+      {"temp$18 = null": {
+        "reliable": false,
+        "eline": 233,
+        "epos": 66,
+        "spos": 9,
+        "sline": 231
+      }},
+      {"return temp$18": {
+        "eline": 234,
+        "epos": 20,
+        "spos": 9,
+        "sline": 234
+      }}
+    ],
+    "preds": [2],
+    "succs": []
+  },
+  "6": {
+    "instructions": [
+      {"temp$16 = i": {
+        "eline": 231,
+        "epos": 51,
+        "spos": 49,
+        "sline": 231
+      }},
+      {"temp$17 = temp$16 + 1": {
+        "eline": 231,
+        "epos": 49,
+        "spos": 49,
+        "sline": 231
+      }},
+      {"i = temp$17": {
+        "eline": 231,
+        "epos": 49,
+        "spos": 49,
+        "sline": 231
+      }},
+      {"goto block_1": {
+        "eline": 233,
+        "epos": 66,
+        "spos": 9,
+        "sline": 231
+      }}
+    ],
+    "preds": [4],
+    "succs": [1]
+  },
+  "5": {
+    "instructions": [
+      {"temp$9 = <DPCNCalendar: java.lang.String[][] FESTIVAL_GREGORIAN>": {
+        "eline": 232,
+        "epos": 47,
+        "spos": 17,
+        "sline": 232
+      }},
+      {"temp$10 = gregorian.<Gregorian: int month>": {
+        "eline": 232,
+        "epos": 47,
+        "spos": 17,
+        "sline": 232
+      }},
+      {"temp$11 = temp$10 - 1": {
+        "eline": 232,
+        "epos": 47,
+        "spos": 17,
+        "sline": 232
+      }},
+      {"temp$12 = temp$11": {
+        "eline": 232,
+        "epos": 47,
+        "spos": 17,
+        "sline": 232
+      }},
+      {"temp$13 = temp$9[temp$12]": {
+        "eline": 232,
+        "epos": 47,
+        "spos": 17,
+        "sline": 232
+      }},
+      {"temp$14 = i": {
+        "eline": 232,
+        "epos": 47,
+        "spos": 17,
+        "sline": 232
+      }},
+      {"temp$15 = temp$13[temp$14]": {
+        "eline": 232,
+        "epos": 47,
+        "spos": 17,
+        "sline": 232
+      }},
+      {"return temp$15": {
+        "eline": 233,
+        "epos": 66,
+        "spos": 17,
+        "sline": 233
+      }}
+    ],
+    "preds": [3],
+    "succs": []
+  },
+  "4": {
+    "instructions": [{"goto block_6": {
+      "eline": 232,
+      "epos": 47,
+      "spos": 17,
+      "sline": 232
+    }}],
+    "preds": [3],
+    "succs": [6]
+  }
+}

@@ -1,0 +1,36 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = this.<Vector: int modCount>": {
+      "eline": 51,
+      "epos": 16,
+      "spos": 9,
+      "sline": 51
+    }},
+    {"temp$1 = temp$0 + 1": {
+      "eline": 51,
+      "epos": 16,
+      "spos": 9,
+      "sline": 51
+    }},
+    {"this.<Vector: int modCount> = temp$1": {
+      "eline": 51,
+      "epos": 16,
+      "spos": 9,
+      "sline": 51
+    }},
+    {"virtualinvoke this.<Vector: void ensureCapacityHelper(int)>(minCapacity)": {
+      "eline": 52,
+      "epos": 41,
+      "spos": 9,
+      "sline": 52
+    }},
+    {"return": {
+      "eline": 52,
+      "epos": 41,
+      "spos": 9,
+      "sline": 52
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

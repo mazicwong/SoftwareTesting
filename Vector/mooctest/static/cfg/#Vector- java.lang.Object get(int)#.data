@@ -1,0 +1,53 @@
+[
+  {
+    "codes": "        } ",
+    "blocks": []
+  },
+  {
+    "codes": "        return false; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "    public synchronized E get(int index) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (index >= elementCount) ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "            throw new ArrayIndexOutOfBoundsException(index); ",
+    "blocks": [2]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        return (E) elementData[index]; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

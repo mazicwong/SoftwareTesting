@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "    Festivals() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        festivals = new HashSet<String>(); ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    void add(String festival) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        festivals.add(festival); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public Set<String> getSet() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        return festivals; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  }
+]

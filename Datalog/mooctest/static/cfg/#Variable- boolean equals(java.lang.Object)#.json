@@ -1,0 +1,132 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$1 = o instanceof Variable": {
+        "eline": 20,
+        "epos": 27,
+        "spos": 7,
+        "sline": 20
+      }},
+      {"if temp$1 == 0 goto block_6 #1": {
+        "eline": 20,
+        "epos": 27,
+        "ifpos": "(19, 2)-(19, 27)",
+        "spos": 7,
+        "sline": 20
+      }}
+    ],
+    "preds": [1],
+    "succs": [
+      4,
+      6
+    ]
+  },
+  "2": {
+    "instructions": [
+      {"temp$0 = 0": {
+        "reliable": false,
+        "eline": 18,
+        "epos": 15,
+        "spos": 7,
+        "sline": 18
+      }},
+      {"return temp$0": {
+        "eline": 19,
+        "epos": 16,
+        "spos": 4,
+        "sline": 19
+      }}
+    ],
+    "preds": [0],
+    "succs": []
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 18,
+      "epos": 15,
+      "spos": 7,
+      "sline": 18
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [{"if o == null goto block_2 #0": {
+      "eline": 18,
+      "epos": 15,
+      "ifpos": "(17, 2)-(17, 15)",
+      "spos": 7,
+      "sline": 18
+    }}],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  },
+  "6": {
+    "instructions": [
+      {"temp$6 = 0": {
+        "reliable": false,
+        "eline": 21,
+        "epos": 60,
+        "spos": 4,
+        "sline": 21
+      }},
+      {"return temp$6": {
+        "eline": 23,
+        "epos": 15,
+        "spos": 3,
+        "sline": 23
+      }}
+    ],
+    "preds": [3],
+    "succs": []
+  },
+  "5": {
+    "instructions": [
+      {"temp$2 = (Variable) o": {
+        "eline": 20,
+        "epos": 27,
+        "spos": 7,
+        "sline": 20
+      }},
+      {"temp$3 = temp$2.<Variable: java.lang.String identifier>": {
+        "eline": 20,
+        "epos": 27,
+        "spos": 7,
+        "sline": 20
+      }},
+      {"temp$4 = this.<Variable: java.lang.String identifier>": {
+        "eline": 21,
+        "epos": 47,
+        "spos": 44,
+        "sline": 21
+      }},
+      {"temp$5 = virtualinvoke temp$3.<java.lang.String: boolean equals(java.lang.Object)>(temp$4)": {
+        "eline": 21,
+        "epos": 47,
+        "spos": 44,
+        "sline": 21
+      }},
+      {"return temp$5": {
+        "eline": 21,
+        "epos": 60,
+        "spos": 4,
+        "sline": 21
+      }}
+    ],
+    "preds": [4],
+    "succs": []
+  },
+  "4": {
+    "instructions": [{"goto block_5": {
+      "eline": 20,
+      "epos": 27,
+      "spos": 7,
+      "sline": 20
+    }}],
+    "preds": [3],
+    "succs": [5]
+  }
+}

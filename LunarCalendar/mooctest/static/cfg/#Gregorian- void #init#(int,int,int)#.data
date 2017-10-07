@@ -1,0 +1,50 @@
+[
+  {
+    "codes": "    public int year; ",
+    "blocks": []
+  },
+  {
+    "codes": "    public int month; ",
+    "blocks": []
+  },
+  {
+    "codes": "    public int day; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    Gregorian(int year, int month, int day) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        checkYear(year); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        init(year, month, day); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    void reset(int year, int month, int day) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        checkYear(year); ",
+    "blocks": []
+  },
+  {
+    "codes": "        init(year, month, day); ",
+    "blocks": []
+  }
+]

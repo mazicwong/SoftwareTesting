@@ -1,0 +1,18 @@
+{"0": {
+  "instructions": [
+    {"this.<LunarCalendar: boolean isToday> = isToday": {
+      "eline": 44,
+      "epos": 20,
+      "spos": 14,
+      "sline": 44
+    }},
+    {"return": {
+      "eline": 44,
+      "epos": 20,
+      "spos": 14,
+      "sline": 44
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

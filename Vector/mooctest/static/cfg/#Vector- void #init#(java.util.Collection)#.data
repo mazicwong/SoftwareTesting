@@ -1,0 +1,62 @@
+[
+  {
+    "codes": "    public Vector() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        this(10); ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public Vector(Collection<? extends E> c) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        elementCount = c.size(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                          ",
+    "blocks": []
+  },
+  {
+    "codes": "        elementData = new Object[(int) Math.min((elementCount * 110L) / 100, ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                                                Integer.MAX_VALUE)]; ",
+    "blocks": []
+  },
+  {
+    "codes": "        c.toArray(elementData); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public void ensureCapacity(int minCapacity) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        modCount++; ",
+    "blocks": []
+  },
+  {
+    "codes": "        ensureCapacityHelper(minCapacity); ",
+    "blocks": []
+  }
+]

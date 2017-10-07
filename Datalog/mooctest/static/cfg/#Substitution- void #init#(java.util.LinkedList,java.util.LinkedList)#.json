@@ -1,0 +1,56 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+    {"temp$0 = new java.util.LinkedList": {}},
+    {"specialinvoke temp$0.<java.util.LinkedList: void <init>()>()": {
+      "eline": 6,
+      "epos": 63,
+      "spos": 38,
+      "sline": 6
+    }},
+    {"this.<Substitution: java.util.LinkedList 'from'> = temp$0": {
+      "eline": 6,
+      "epos": 64,
+      "spos": 2,
+      "sline": 6
+    }},
+    {"temp$1 = new java.util.LinkedList": {
+      "eline": 6,
+      "epos": 64,
+      "spos": 2,
+      "sline": 6
+    }},
+    {"specialinvoke temp$1.<java.util.LinkedList: void <init>()>()": {
+      "eline": 7,
+      "epos": 55,
+      "spos": 33,
+      "sline": 7
+    }},
+    {"this.<Substitution: java.util.LinkedList 'to'> = temp$1": {
+      "eline": 7,
+      "epos": 56,
+      "spos": 2,
+      "sline": 7
+    }},
+    {"this.<Substitution: java.util.LinkedList 'from'> = from": {
+      "eline": 14,
+      "epos": 11,
+      "spos": 8,
+      "sline": 14
+    }},
+    {"this.<Substitution: java.util.LinkedList 'to'> = to": {
+      "eline": 15,
+      "epos": 9,
+      "spos": 8,
+      "sline": 15
+    }},
+    {"return": {
+      "eline": 15,
+      "epos": 9,
+      "spos": 8,
+      "sline": 15
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

@@ -1,0 +1,362 @@
+[
+  {
+    "codes": "                               ",
+    "blocks": []
+  },
+  {
+    "codes": "   ",
+    "blocks": []
+  },
+  {
+    "codes": "                                 ",
+    "blocks": []
+  },
+  {
+    "codes": "                                ",
+    "blocks": []
+  },
+  {
+    "codes": "    ",
+    "blocks": []
+  },
+  {
+    "codes": "class DPCManager { ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    private static final Map<Integer, Map<Integer, LunarCalendar[][]>> DATE_CACHE = new WeakHashMap<Integer, Map<Integer, LunarCalendar[][]>>(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    private static DPCManager sManager; ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        ",
+    "blocks": [0]
+  },
+  {
+    "codes": "               ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                                ",
+    "blocks": [0]
+  },
+  {
+    "codes": "       ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                     ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    static DPCManager getInstance() { ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        if (null == sManager) { ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            sManager = new DPCManager(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        return sManager; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                     ",
+    "blocks": [0]
+  },
+  {
+    "codes": "       ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                        ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                        ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                                                     ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    LunarCalendar[][] obtainDPInfo(int year, int month) { ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        Map<Integer, LunarCalendar[][]> dataOfYear = DATE_CACHE.get(year); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        if (null != dataOfYear && dataOfYear.size() != 0) { ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            LunarCalendar[][] dataOfMonth = dataOfYear.get(month); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            if (dataOfMonth != null) { ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                return dataOfMonth; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            } ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            dataOfMonth = buildDPInfo(year, month); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            dataOfYear.put(month, dataOfMonth); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            return dataOfMonth; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        if (null == dataOfYear) { ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            dataOfYear = new HashMap<Integer, LunarCalendar[][]>(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        LunarCalendar[][] dataOfMonth = buildDPInfo(year, month); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        dataOfYear.put(month, dataOfMonth); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        DATE_CACHE.put(year, dataOfYear); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        return dataOfMonth; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    private LunarCalendar[][] buildDPInfo(int year, int month) { ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        LunarCalendar[][] info = new LunarCalendar[6][7]; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        int[][] monthGregorian = DPCNCalendar.buildMonthGregorian(year, month); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        Festivals[][] strF = DPCNCalendar.buildMonthFestivals(year, month); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        Set<Integer> weekends = DPCNCalendar.buildMonthWeekend(year, month); ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        for (int i = 0; i < info.length; i++) { ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            for (int j = 0; j < info[i].length; j++) { ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                           ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                if (monthGregorian[i][j] == DPCNCalendar.NOT_A_DAY) { ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                    continue; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                } ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                LunarCalendar tmp = new LunarCalendar(year, month, monthGregorian[i][j]); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                String strG = tmp.getDay() + \"\"; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                tmp.setFestivals(strF[i][j]); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                tmp.setIsToday(DPCNCalendar.isToday(tmp)); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                if (weekends.contains(tmp.getDay())) { ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                    tmp.setIsWeekend(true); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                } ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                if (!TextUtils.isEmpty(strG)) { ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                    tmp.setSolarTerm(DPCNCalendar.getSolarTerm(year, month, tmp.getDay())); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                } ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                info[i][j] = tmp; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            } ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        return info; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    LunarCalendar getDPInfo(int year, int month, int day) { ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        LunarCalendar[][] monthInfo = obtainDPInfo(year, month); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        for (LunarCalendar[] items : monthInfo) { ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            for (LunarCalendar item : items) { ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                if (item != null && item.getDay() == day) ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                    return item; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            } ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        throw new RuntimeException(\"This day is NOT FOUND!\"); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": [0]
+  },
+  {
+    "codes": "} ",
+    "blocks": [0]
+  }
+]

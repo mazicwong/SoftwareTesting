@@ -1,0 +1,221 @@
+[
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tprivate List<Node> findWholeCaravaneWithPrim(Node startNode, ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\tList<Node> foundNodes, int k) { ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tPath smallPath = null; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tStringBuilder sBuilder = new StringBuilder(\"{\"); ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tList<Path> possibilities = getPossibilities(startNode, foundNodes); ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tIterator<Path> pathIt = possibilities.iterator(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\twhile (pathIt.hasNext()) { ",
+    "blocks": [
+      1,
+      2,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\tPath currentPath = pathIt.next(); ",
+    "blocks": [
+      3,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\tif (foundNodes.contains(currentPath.getDestinationNode())) { ",
+    "blocks": [
+      3,
+      4,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\t\tcontinue; ",
+    "blocks": [
+      5,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": [12]
+  },
+  {
+    "codes": "\t\t\tsBuilder.append(String.format(\"(%s - %d -> %s), \", currentPath ",
+    "blocks": [
+      6,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t.getSrcNode().getName(), currentPath.getWeight(), currentPath ",
+    "blocks": [
+      6,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t.getDestinationNode().getName())); ",
+    "blocks": [
+      6,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\t ",
+    "blocks": [12]
+  },
+  {
+    "codes": "\t\t\tif (smallPath == null) { ",
+    "blocks": [
+      6,
+      7,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\t\tsmallPath = currentPath; ",
+    "blocks": [
+      8,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\t\tcontinue; ",
+    "blocks": [
+      8,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": [12]
+  },
+  {
+    "codes": "\t\t\tif (smallPath.getWeight() > currentPath.getWeight()) { ",
+    "blocks": [
+      9,
+      10,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\t\tsmallPath = currentPath; ",
+    "blocks": [
+      11,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": [12]
+  },
+  {
+    "codes": " ",
+    "blocks": [12]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": [12]
+  },
+  {
+    "codes": "\t\tsBuilder.append(\"}\"); ",
+    "blocks": [13]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif (smallPath != null) { ",
+    "blocks": [
+      13,
+      14
+    ]
+  },
+  {
+    "codes": "\t\t\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\tfoundNodes.add(smallPath.getDestinationNode()); ",
+    "blocks": [15]
+  },
+  {
+    "codes": "\t\t\treturn findWholeCaravaneWithPrim(smallPath.getDestinationNode(), ",
+    "blocks": [15]
+  },
+  {
+    "codes": "\t\t\t\t\tfoundNodes, ++k); ",
+    "blocks": [15]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn foundNodes; ",
+    "blocks": [16]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tprivate StringBuilder findWholeCaravaneWithPrim(Node startNode, ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\tList<Node> foundNodes, int k, StringBuilder pathExpl) { ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  }
+]

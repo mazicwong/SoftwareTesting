@@ -1,0 +1,209 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$1 = v": {
+        "eline": 276,
+        "epos": 61,
+        "spos": 13,
+        "sline": 276
+      }},
+      {"temp$2 = f": {
+        "eline": 276,
+        "epos": 61,
+        "spos": 13,
+        "sline": 276
+      }},
+      {"temp$3 = i": {
+        "eline": 276,
+        "epos": 61,
+        "spos": 13,
+        "sline": 276
+      }},
+      {"temp$4 = f": {
+        "eline": 276,
+        "epos": 61,
+        "spos": 13,
+        "sline": 276
+      }},
+      {"temp$5 = i": {
+        "eline": 276,
+        "epos": 61,
+        "spos": 13,
+        "sline": 276
+      }},
+      {"temp$6 = temp$5 + 1": {
+        "eline": 276,
+        "epos": 61,
+        "spos": 13,
+        "sline": 276
+      }},
+      {"temp$7 = temp$4[temp$6]": {
+        "eline": 276,
+        "epos": 61,
+        "spos": 13,
+        "sline": 276
+      }},
+      {"temp$8 = f": {
+        "eline": 276,
+        "epos": 48,
+        "spos": 45,
+        "sline": 276
+      }},
+      {"temp$9 = i": {
+        "eline": 276,
+        "epos": 48,
+        "spos": 45,
+        "sline": 276
+      }},
+      {"temp$10 = temp$9 + 2": {
+        "eline": 276,
+        "epos": 48,
+        "spos": 45,
+        "sline": 276
+      }},
+      {"temp$11 = this.<SolarTerm: double EnnT>": {
+        "eline": 276,
+        "epos": 48,
+        "spos": 45,
+        "sline": 276
+      }},
+      {"temp$12 = temp$8[temp$10]": {
+        "eline": 276,
+        "epos": 48,
+        "spos": 45,
+        "sline": 276
+      }},
+      {"temp$13 = temp$11 * temp$12": {
+        "eline": 276,
+        "epos": 48,
+        "spos": 45,
+        "sline": 276
+      }},
+      {"temp$14 = temp$7 + temp$13": {
+        "eline": 276,
+        "epos": 48,
+        "spos": 45,
+        "sline": 276
+      }},
+      {"temp$15 = staticinvoke <java.lang.Math: double cos(double)>(temp$14)": {
+        "eline": 276,
+        "epos": 48,
+        "spos": 45,
+        "sline": 276
+      }},
+      {"temp$16 = temp$2[temp$3]": {
+        "eline": 276,
+        "epos": 48,
+        "spos": 45,
+        "sline": 276
+      }},
+      {"temp$17 = temp$16 * temp$15": {
+        "eline": 276,
+        "epos": 48,
+        "spos": 45,
+        "sline": 276
+      }},
+      {"temp$18 = temp$1 + temp$17": {
+        "eline": 276,
+        "epos": 48,
+        "spos": 45,
+        "sline": 276
+      }},
+      {"v = temp$18": {
+        "eline": 276,
+        "epos": 13,
+        "spos": 13,
+        "sline": 276
+      }},
+      {"temp$19 = i": {
+        "eline": 275,
+        "epos": 44,
+        "spos": 39,
+        "sline": 275
+      }},
+      {"temp$20 = temp$19 + 3": {
+        "eline": 275,
+        "epos": 44,
+        "spos": 39,
+        "sline": 275
+      }},
+      {"i = temp$20": {
+        "eline": 275,
+        "epos": 39,
+        "spos": 39,
+        "sline": 275
+      }},
+      {"goto block_1": {
+        "eline": 276,
+        "epos": 61,
+        "spos": 9,
+        "sline": 275
+      }}
+    ],
+    "preds": [1],
+    "succs": [1]
+  },
+  "2": {
+    "instructions": [{"goto block_4": {
+      "eline": 275,
+      "epos": 36,
+      "spos": 25,
+      "sline": 275
+    }}],
+    "preds": [1],
+    "succs": [4]
+  },
+  "1": {
+    "instructions": [
+      {"temp$0 = lengthof f": {
+        "eline": 275,
+        "epos": 36,
+        "spos": 25,
+        "sline": 275
+      }},
+      {"if i < temp$0 goto block_3 #0": {
+        "eline": 275,
+        "epos": 36,
+        "ifpos": "(274, 22)-(274, 36)",
+        "spos": 25,
+        "sline": 275
+      }}
+    ],
+    "preds": [
+      0,
+      3
+    ],
+    "succs": [
+      2,
+      3
+    ]
+  },
+  "0": {
+    "instructions": [
+      {"v = 0.0": {
+        "eline": 274,
+        "epos": 21,
+        "spos": 9,
+        "sline": 274
+      }},
+      {"i = 0": {
+        "eline": 275,
+        "epos": 22,
+        "spos": 14,
+        "sline": 275
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  },
+  "4": {
+    "instructions": [{"return v": {
+      "eline": 277,
+      "epos": 17,
+      "spos": 9,
+      "sline": 277
+    }}],
+    "preds": [2],
+    "succs": []
+  }
+}

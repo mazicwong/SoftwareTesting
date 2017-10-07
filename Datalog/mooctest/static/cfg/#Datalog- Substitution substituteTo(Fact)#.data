@@ -1,0 +1,167 @@
+[
+  {
+    "codes": "                                    ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                                         ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                                  ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic Substitution substituteTo(Fact fact) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif (!fact.getPredicate().equals(this.predicate)) ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\treturn null; ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\tif (fact.getValues().length != this.arguments.length) ",
+    "blocks": [
+      3,
+      4
+    ]
+  },
+  {
+    "codes": "\t\t\treturn null; ",
+    "blocks": [5]
+  },
+  {
+    "codes": "\t\tSubstitution s = new Substitution(); ",
+    "blocks": [6]
+  },
+  {
+    "codes": "\t\tfor (int i = 0; i < fact.getValues().length; i++) { ",
+    "blocks": [
+      18,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "codes": "\t\t\tArgument arg = this.arguments[i]; ",
+    "blocks": [
+      18,
+      9
+    ]
+  },
+  {
+    "codes": "\t\t\tValue val = fact.getValues()[i]; ",
+    "blocks": [
+      18,
+      9
+    ]
+  },
+  {
+    "codes": "\t\t\tif (arg.isValue()) { ",
+    "blocks": [
+      18,
+      9,
+      10
+    ]
+  },
+  {
+    "codes": "\t\t\t\tif (!val.equals(arg.getValue())) { ",
+    "blocks": [
+      18,
+      11,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\treturn null; ",
+    "blocks": [
+      18,
+      13
+    ]
+  },
+  {
+    "codes": "\t\t\t\t} else { ",
+    "blocks": [18]
+  },
+  {
+    "codes": "\t\t\t\t\tcontinue;                                           ",
+    "blocks": [
+      18,
+      14
+    ]
+  },
+  {
+    "codes": "\t\t\t\t} ",
+    "blocks": [18]
+  },
+  {
+    "codes": "\t\t\t} else { ",
+    "blocks": [18]
+  },
+  {
+    "codes": "\t\t\t\ts = s.extend(arg.getVariable(), val); ",
+    "blocks": [
+      18,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t\tif (s == null) ",
+    "blocks": [
+      16,
+      18,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\treturn null; ",
+    "blocks": [
+      17,
+      18
+    ]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": [18]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": [18]
+  },
+  {
+    "codes": "\t\treturn s; ",
+    "blocks": [19]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                                          ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  }
+]

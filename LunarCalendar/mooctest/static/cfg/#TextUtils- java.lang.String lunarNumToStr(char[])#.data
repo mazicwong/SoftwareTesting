@@ -1,0 +1,448 @@
+[
+  {
+    "codes": "        } ",
+    "blocks": []
+  },
+  {
+    "codes": "        return tmp; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public static String lunarNumToStr(char[] c) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        String result = \"\"; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        if (c.length == 1) { ",
+    "blocks": [
+      0,
+      1,
+      9
+    ]
+  },
+  {
+    "codes": "            for (int i = 1; i < 10; i++) { ",
+    "blocks": [
+      0,
+      2,
+      3,
+      4,
+      8,
+      9
+    ]
+  },
+  {
+    "codes": "                if (c[0] == String.valueOf(i).charAt(0)) { ",
+    "blocks": [
+      0,
+      5,
+      6,
+      8,
+      9
+    ]
+  },
+  {
+    "codes": "                    result = LUNAR_HEADER[0] + NUMBER_CAPITAL[i]; ",
+    "blocks": [
+      0,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "codes": "                } ",
+    "blocks": [
+      0,
+      8,
+      9
+    ]
+  },
+  {
+    "codes": "            } ",
+    "blocks": [
+      0,
+      8,
+      9
+    ]
+  },
+  {
+    "codes": "        } else { ",
+    "blocks": [
+      0,
+      9
+    ]
+  },
+  {
+    "codes": "            if (c[0] == '1') { ",
+    "blocks": [
+      0,
+      22,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "codes": "                if (c[1] == '0') { ",
+    "blocks": [
+      0,
+      22,
+      9,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "codes": "                    result = LUNAR_HEADER[0] + LUNAR_HEADER[1]; ",
+    "blocks": [
+      0,
+      22,
+      9,
+      14
+    ]
+  },
+  {
+    "codes": "                } else { ",
+    "blocks": [
+      0,
+      22,
+      9,
+      14
+    ]
+  },
+  {
+    "codes": "                    for (int i = 1; i < 10; i++) { ",
+    "blocks": [
+      17,
+      0,
+      16,
+      21,
+      22,
+      9,
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "                        if (c[1] == String.valueOf(i).charAt(0)) { ",
+    "blocks": [
+      0,
+      19,
+      18,
+      21,
+      22,
+      9,
+      14
+    ]
+  },
+  {
+    "codes": "                            result = LUNAR_HEADER[1] + NUMBER_CAPITAL[i]; ",
+    "blocks": [
+      0,
+      21,
+      20,
+      22,
+      9,
+      14
+    ]
+  },
+  {
+    "codes": "                        } ",
+    "blocks": [
+      0,
+      21,
+      22,
+      9,
+      14
+    ]
+  },
+  {
+    "codes": "                    } ",
+    "blocks": [
+      0,
+      21,
+      22,
+      9,
+      14
+    ]
+  },
+  {
+    "codes": "                } ",
+    "blocks": [
+      0,
+      22,
+      9,
+      14
+    ]
+  },
+  {
+    "codes": "            } else if (c[0] == '2') { ",
+    "blocks": [
+      0,
+      35,
+      23,
+      22,
+      24,
+      9
+    ]
+  },
+  {
+    "codes": "                if (c[1] == '0') { ",
+    "blocks": [
+      0,
+      35,
+      22,
+      25,
+      9,
+      27,
+      26
+    ]
+  },
+  {
+    "codes": "                    result = LUNAR_HEADER[2] + LUNAR_HEADER[1]; ",
+    "blocks": [
+      0,
+      35,
+      22,
+      9,
+      27
+    ]
+  },
+  {
+    "codes": "                } else { ",
+    "blocks": [
+      0,
+      35,
+      22,
+      9,
+      27
+    ]
+  },
+  {
+    "codes": "                    for (int i = 1; i < 10; i++) { ",
+    "blocks": [
+      34,
+      0,
+      35,
+      22,
+      9,
+      27,
+      29,
+      28,
+      30
+    ]
+  },
+  {
+    "codes": "                        if (c[1] == String.valueOf(i).charAt(0)) { ",
+    "blocks": [
+      34,
+      0,
+      35,
+      32,
+      22,
+      9,
+      27,
+      31
+    ]
+  },
+  {
+    "codes": "                            result = LUNAR_HEADER[2] + NUMBER_CAPITAL[i]; ",
+    "blocks": [
+      34,
+      0,
+      35,
+      33,
+      22,
+      9,
+      27
+    ]
+  },
+  {
+    "codes": "                        } ",
+    "blocks": [
+      34,
+      0,
+      35,
+      22,
+      9,
+      27
+    ]
+  },
+  {
+    "codes": "                    } ",
+    "blocks": [
+      34,
+      0,
+      35,
+      22,
+      9,
+      27
+    ]
+  },
+  {
+    "codes": "                } ",
+    "blocks": [
+      0,
+      35,
+      22,
+      9,
+      27
+    ]
+  },
+  {
+    "codes": "            } else { ",
+    "blocks": [
+      0,
+      35,
+      22,
+      9
+    ]
+  },
+  {
+    "codes": "                if (c[1] == '0') { ",
+    "blocks": [
+      0,
+      35,
+      38,
+      36,
+      37,
+      22,
+      9
+    ]
+  },
+  {
+    "codes": "                    result = LUNAR_HEADER[3] + LUNAR_HEADER[1]; ",
+    "blocks": [
+      0,
+      35,
+      38,
+      22,
+      9
+    ]
+  },
+  {
+    "codes": "                } else { ",
+    "blocks": [
+      0,
+      35,
+      38,
+      22,
+      9
+    ]
+  },
+  {
+    "codes": "                    for (int i = 1; i < 10; i++) { ",
+    "blocks": [
+      0,
+      35,
+      38,
+      39,
+      22,
+      9,
+      40,
+      41,
+      45
+    ]
+  },
+  {
+    "codes": "                        if (c[1] == String.valueOf(i).charAt(0)) { ",
+    "blocks": [
+      0,
+      35,
+      38,
+      22,
+      42,
+      43,
+      9,
+      45
+    ]
+  },
+  {
+    "codes": "                            result = LUNAR_HEADER[3] + NUMBER_CAPITAL[i]; ",
+    "blocks": [
+      0,
+      35,
+      38,
+      22,
+      9,
+      44,
+      45
+    ]
+  },
+  {
+    "codes": "                        } ",
+    "blocks": [
+      0,
+      35,
+      38,
+      22,
+      9,
+      45
+    ]
+  },
+  {
+    "codes": "                    } ",
+    "blocks": [
+      0,
+      35,
+      38,
+      22,
+      9,
+      45
+    ]
+  },
+  {
+    "codes": "                } ",
+    "blocks": [
+      0,
+      35,
+      38,
+      22,
+      9
+    ]
+  },
+  {
+    "codes": "            } ",
+    "blocks": [
+      0,
+      35,
+      22,
+      9
+    ]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [
+      0,
+      9
+    ]
+  },
+  {
+    "codes": "        return result; ",
+    "blocks": [
+      0,
+      46
+    ]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

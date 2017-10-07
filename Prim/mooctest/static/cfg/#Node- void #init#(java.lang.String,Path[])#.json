@@ -1,0 +1,56 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+    {"temp$0 = new java.util.ArrayList": {}},
+    {"specialinvoke temp$0.<java.util.ArrayList: void <init>()>()": {
+      "eline": 8,
+      "epos": 49,
+      "spos": 29,
+      "sline": 8
+    }},
+    {"this.<Node: java.util.List paths> = temp$0": {
+      "eline": 8,
+      "epos": 50,
+      "spos": 2,
+      "sline": 8
+    }},
+    {"temp$1 = this.<Node: java.util.List paths>": {
+      "eline": 12,
+      "epos": 6,
+      "spos": 3,
+      "sline": 12
+    }},
+    {"temp$2 = staticinvoke <java.util.Arrays: java.util.List asList(java.lang.Object[])>(paths)": {
+      "eline": 12,
+      "epos": 6,
+      "spos": 3,
+      "sline": 12
+    }},
+    {"temp$3 = (java.util.List) temp$2": {
+      "eline": 12,
+      "epos": 6,
+      "spos": 3,
+      "sline": 12
+    }},
+    {"interfaceinvoke temp$1.<java.util.List: boolean addAll(java.util.Collection)>(temp$3)": {
+      "eline": 12,
+      "epos": 6,
+      "spos": 3,
+      "sline": 12
+    }},
+    {"this.<Node: java.lang.String name> = name": {
+      "eline": 13,
+      "epos": 11,
+      "spos": 8,
+      "sline": 13
+    }},
+    {"return": {
+      "eline": 13,
+      "epos": 11,
+      "spos": 8,
+      "sline": 13
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

@@ -1,0 +1,107 @@
+{
+  "3": {
+    "instructions": [{"return": {
+      "eline": 35,
+      "epos": 106,
+      "spos": 48,
+      "sline": 35
+    }}],
+    "preds": [
+      1,
+      2
+    ],
+    "succs": []
+  },
+  "2": {
+    "instructions": [
+      {"temp$2 = this.<Node: java.util.List paths>": {
+        "eline": 34,
+        "epos": 8,
+        "spos": 4,
+        "sline": 34
+      }},
+      {"interfaceinvoke temp$2.<java.util.List: boolean add(java.lang.Object)>(path)": {
+        "eline": 34,
+        "epos": 8,
+        "spos": 4,
+        "sline": 34
+      }},
+      {"temp$4 = virtualinvoke path.<Path: Node getDestinationNode()>()": {
+        "eline": 35,
+        "epos": 108,
+        "spos": 4,
+        "sline": 35
+      }},
+      {"temp$5 = new Path": {
+        "eline": 35,
+        "epos": 108,
+        "spos": 4,
+        "sline": 35
+      }},
+      {"temp$6 = virtualinvoke path.<Path: int getWeight()>()": {
+        "eline": 35,
+        "epos": 108,
+        "spos": 4,
+        "sline": 35
+      }},
+      {"temp$7 = virtualinvoke path.<Path: Node getDestinationNode()>()": {
+        "eline": 35,
+        "epos": 78,
+        "spos": 75,
+        "sline": 35
+      }},
+      {"specialinvoke temp$5.<Path: void <init>(int,Node,Node)>(temp$6, this, temp$7)": {
+        "eline": 35,
+        "epos": 106,
+        "spos": 48,
+        "sline": 35
+      }},
+      {"virtualinvoke temp$4.<Node: void addPathWithSource(Path)>(temp$5)": {
+        "eline": 35,
+        "epos": 106,
+        "spos": 48,
+        "sline": 35
+      }}
+    ],
+    "preds": [0],
+    "succs": [3]
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 33,
+      "epos": 10,
+      "spos": 7,
+      "sline": 33
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = this.<Node: java.util.List paths>": {
+        "eline": 33,
+        "epos": 10,
+        "spos": 7,
+        "sline": 33
+      }},
+      {"temp$1 = interfaceinvoke temp$0.<java.util.List: boolean contains(java.lang.Object)>(path)": {
+        "eline": 33,
+        "epos": 10,
+        "spos": 7,
+        "sline": 33
+      }},
+      {"if temp$1 == 0 goto block_2 #0": {
+        "eline": 33,
+        "epos": 10,
+        "ifpos": "(32, 2)-(32, 31)",
+        "spos": 7,
+        "sline": 33
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "codes": "    void setIsWeekend(boolean isWeekend) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        this.isWeekend = isWeekend; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public Festivals getFestivals() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (festivals == null) { ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "            festivals = DPCNCalendar.buildDayFestivals(year, month, day); ",
+    "blocks": [
+      0,
+      2
+    ]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        return festivals; ",
+    "blocks": [
+      0,
+      3
+    ]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public String getSolarTerm() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        return solarTerm; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  }
+]

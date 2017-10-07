@@ -1,0 +1,31 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+    {"temp$0 = new java.util.HashSet": {
+      "eline": 16,
+      "epos": 17,
+      "spos": 9,
+      "sline": 16
+    }},
+    {"specialinvoke temp$0.<java.util.HashSet: void <init>()>()": {
+      "eline": 16,
+      "epos": 41,
+      "spos": 21,
+      "sline": 16
+    }},
+    {"this.<Festivals: java.util.Set festivals> = temp$0": {
+      "eline": 16,
+      "epos": 17,
+      "spos": 9,
+      "sline": 16
+    }},
+    {"return": {
+      "eline": 16,
+      "epos": 17,
+      "spos": 9,
+      "sline": 16
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

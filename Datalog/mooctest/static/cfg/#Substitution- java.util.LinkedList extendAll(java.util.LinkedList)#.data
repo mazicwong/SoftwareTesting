@@ -1,0 +1,111 @@
+[
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "                ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                           ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic LinkedList<Substitution> extendAll(LinkedList<Substitution> subs) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tLinkedList<Substitution> res = new LinkedList<Substitution>(); ",
+    "blocks": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "codes": "\t\tfor (Substitution s : subs) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\tSubstitution newS = this; ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\t\tfor (int i = 0; i < s.from.size(); i++) { ",
+    "blocks": [
+      2,
+      3,
+      4,
+      8
+    ]
+  },
+  {
+    "codes": "\t\t\t\tnewS = newS.extend(s.from.get(i), s.to.get(i)); ",
+    "blocks": [
+      5,
+      8
+    ]
+  },
+  {
+    "codes": "\t\t\t\tif (newS == null) ",
+    "blocks": [
+      5,
+      6,
+      8
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\tbreak; ",
+    "blocks": [
+      7,
+      8
+    ]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": [8]
+  },
+  {
+    "codes": "\t\t\tif (newS != null) { ",
+    "blocks": [
+      9,
+      10
+    ]
+  },
+  {
+    "codes": "\t\t\t\tres.add(newS); ",
+    "blocks": [
+      11,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn res; ",
+    "blocks": [13]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

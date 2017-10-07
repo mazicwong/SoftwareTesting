@@ -1,0 +1,57 @@
+[
+  {
+    "codes": "        char[] c = String.valueOf(lunar.day).toCharArray(); ",
+    "blocks": []
+  },
+  {
+    "codes": "        return TextUtils.lunarNumToStr(c); ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private void checkLunar() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (lunar == null) { ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "            lunar = getLunar(); ",
+    "blocks": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "        } ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public String getLunarMonth() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        checkLunar(); ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,102 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$4 = 0": {
+        "reliable": false,
+        "eline": 139,
+        "epos": 24,
+        "spos": 13,
+        "sline": 139
+      }},
+      {"return temp$4": {
+        "eline": 141,
+        "epos": 21,
+        "spos": 9,
+        "sline": 141
+      }}
+    ],
+    "preds": [1],
+    "succs": []
+  },
+  "2": {
+    "instructions": [
+      {"virtualinvoke this.<Vector: void removeElementAt(int)>(i)": {
+        "eline": 138,
+        "epos": 30,
+        "spos": 13,
+        "sline": 138
+      }},
+      {"temp$3 = 1": {
+        "reliable": false,
+        "eline": 138,
+        "epos": 30,
+        "spos": 13,
+        "sline": 138
+      }},
+      {"return temp$3": {
+        "eline": 139,
+        "epos": 24,
+        "spos": 13,
+        "sline": 139
+      }}
+    ],
+    "preds": [0],
+    "succs": []
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 137,
+      "epos": 18,
+      "spos": 13,
+      "sline": 137
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = this.<Vector: int modCount>": {
+        "eline": 135,
+        "epos": 16,
+        "spos": 9,
+        "sline": 135
+      }},
+      {"temp$1 = temp$0 + 1": {
+        "eline": 135,
+        "epos": 16,
+        "spos": 9,
+        "sline": 135
+      }},
+      {"this.<Vector: int modCount> = temp$1": {
+        "eline": 135,
+        "epos": 16,
+        "spos": 9,
+        "sline": 135
+      }},
+      {"temp$2 = virtualinvoke this.<Vector: int indexOf(java.lang.Object)>(obj)": {
+        "eline": 136,
+        "epos": 28,
+        "spos": 17,
+        "sline": 136
+      }},
+      {"i = temp$2": {
+        "eline": 136,
+        "epos": 28,
+        "spos": 17,
+        "sline": 136
+      }},
+      {"if i >= 0 goto block_2 #0": {
+        "eline": 137,
+        "epos": 18,
+        "ifpos": "(136, 8)-(136, 18)",
+        "spos": 13,
+        "sline": 137
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  }
+}

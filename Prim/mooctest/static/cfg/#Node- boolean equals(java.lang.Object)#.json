@@ -1,0 +1,125 @@
+{
+  "3": {
+    "instructions": [{"goto block_4": {
+      "eline": 46,
+      "epos": 10,
+      "spos": 7,
+      "sline": 46
+    }}],
+    "preds": [2],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [
+      {"nodeToCompare = (Node) objToCompare": {
+        "eline": 45,
+        "epos": 44,
+        "spos": 4,
+        "sline": 45
+      }},
+      {"temp$1 = virtualinvoke this.<Node: java.lang.String getName()>()": {
+        "eline": 46,
+        "epos": 10,
+        "spos": 7,
+        "sline": 46
+      }},
+      {"temp$2 = virtualinvoke nodeToCompare.<Node: java.lang.String getName()>()": {
+        "eline": 46,
+        "epos": 10,
+        "spos": 7,
+        "sline": 46
+      }},
+      {"temp$3 = virtualinvoke temp$1.<java.lang.String: boolean equals(java.lang.Object)>(temp$2)": {
+        "eline": 46,
+        "epos": 10,
+        "spos": 7,
+        "sline": 46
+      }},
+      {"if temp$3 == 0 goto block_5 #1": {
+        "eline": 46,
+        "epos": 10,
+        "ifpos": "(45, 3)-(45, 52)",
+        "spos": 7,
+        "sline": 46
+      }}
+    ],
+    "preds": [1],
+    "succs": [
+      3,
+      5
+    ]
+  },
+  "1": {
+    "instructions": [{"goto block_2": {
+      "eline": 44,
+      "epos": 33,
+      "spos": 6,
+      "sline": 44
+    }}],
+    "preds": [0],
+    "succs": [2]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = objToCompare instanceof Node": {
+        "eline": 44,
+        "epos": 33,
+        "spos": 6,
+        "sline": 44
+      }},
+      {"if temp$0 == 0 goto block_5 #0": {
+        "eline": 44,
+        "epos": 33,
+        "ifpos": "(43, 2)-(43, 33)",
+        "spos": 6,
+        "sline": 44
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      5
+    ]
+  },
+  "5": {
+    "instructions": [
+      {"temp$5 = 0": {
+        "reliable": false,
+        "eline": 47,
+        "epos": 16,
+        "spos": 5,
+        "sline": 47
+      }},
+      {"return temp$5": {
+        "eline": 51,
+        "epos": 15,
+        "spos": 3,
+        "sline": 51
+      }}
+    ],
+    "preds": [
+      0,
+      2
+    ],
+    "succs": []
+  },
+  "4": {
+    "instructions": [
+      {"temp$4 = 1": {
+        "reliable": false,
+        "eline": 46,
+        "epos": 10,
+        "spos": 7,
+        "sline": 46
+      }},
+      {"return temp$4": {
+        "eline": 47,
+        "epos": 16,
+        "spos": 5,
+        "sline": 47
+      }}
+    ],
+    "preds": [3],
+    "succs": []
+  }
+}

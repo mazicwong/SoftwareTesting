@@ -1,0 +1,84 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = this.<Vector: int modCount>": {
+      "eline": 129,
+      "epos": 16,
+      "spos": 9,
+      "sline": 129
+    }},
+    {"temp$1 = temp$0 + 1": {
+      "eline": 129,
+      "epos": 16,
+      "spos": 9,
+      "sline": 129
+    }},
+    {"this.<Vector: int modCount> = temp$1": {
+      "eline": 129,
+      "epos": 16,
+      "spos": 9,
+      "sline": 129
+    }},
+    {"temp$2 = this.<Vector: int elementCount>": {
+      "eline": 130,
+      "epos": 41,
+      "spos": 30,
+      "sline": 130
+    }},
+    {"temp$3 = temp$2 + 1": {
+      "eline": 130,
+      "epos": 41,
+      "spos": 30,
+      "sline": 130
+    }},
+    {"virtualinvoke this.<Vector: void ensureCapacityHelper(int)>(temp$3)": {
+      "eline": 130,
+      "epos": 41,
+      "spos": 30,
+      "sline": 130
+    }},
+    {"temp$4 = this.<Vector: java.lang.Object[] elementData>": {
+      "eline": 131,
+      "epos": 19,
+      "spos": 9,
+      "sline": 131
+    }},
+    {"temp$5 = this.<Vector: int elementCount>": {
+      "eline": 131,
+      "epos": 32,
+      "spos": 21,
+      "sline": 131
+    }},
+    {"temp$6 = temp$5 + 1": {
+      "eline": 131,
+      "epos": 32,
+      "spos": 21,
+      "sline": 131
+    }},
+    {"this.<Vector: int elementCount> = temp$6": {
+      "eline": 131,
+      "epos": 32,
+      "spos": 21,
+      "sline": 131
+    }},
+    {"temp$7 = temp$5": {
+      "eline": 131,
+      "epos": 32,
+      "spos": 21,
+      "sline": 131
+    }},
+    {"temp$4[temp$7] = obj": {
+      "eline": 131,
+      "epos": 35,
+      "spos": 20,
+      "sline": 131
+    }},
+    {"return": {
+      "eline": 131,
+      "epos": 35,
+      "spos": 20,
+      "sline": 131
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

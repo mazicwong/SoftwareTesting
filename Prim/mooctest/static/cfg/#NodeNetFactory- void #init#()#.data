@@ -1,0 +1,22 @@
+[
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "public class NodeNetFactory { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic static NodeNetwork buildNetwork(){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tNode v1 = new Node(\"V1\"); ",
+    "blocks": []
+  }
+]

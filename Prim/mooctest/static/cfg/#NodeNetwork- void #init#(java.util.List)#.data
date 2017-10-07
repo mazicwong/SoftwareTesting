@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "\tpublic NodeNetwork(){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.setNodes(new ArrayList<Node>()); ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic NodeNetwork(List<Node> nodes){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.setNodes(nodes); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic NodeNetwork(Node... nodes){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.setNodes(Arrays.asList(nodes)); ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  }
+]

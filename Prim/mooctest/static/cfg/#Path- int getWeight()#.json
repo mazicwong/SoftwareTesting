@@ -1,0 +1,18 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = this.<Path: int weight>": {
+      "eline": 24,
+      "epos": 15,
+      "spos": 10,
+      "sline": 24
+    }},
+    {"return temp$0": {
+      "eline": 24,
+      "epos": 16,
+      "spos": 3,
+      "sline": 24
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

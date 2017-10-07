@@ -1,0 +1,55 @@
+[
+  {
+    "codes": "\tpublic Rule[] getProgram() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn this.program; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic boolean canDerive(Fact fact, Fact[] database) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tDatalog atom = new Datalog(fact.getPredicate(), valToArg(fact.getValues())); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\treturn query(atom, database).length == 1; ",
+    "blocks": [
+      0,
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tprivate Argument[] valToArg(Value[] values) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tArgument[] arguments = new Argument[values.length]; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tfor (int i = 0; i < values.length; i++) ",
+    "blocks": []
+  }
+]

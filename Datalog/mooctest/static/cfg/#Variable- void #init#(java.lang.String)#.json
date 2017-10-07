@@ -1,0 +1,71 @@
+{
+  "3": {
+    "instructions": [
+      {"this.<Variable: java.lang.String identifier> = identifier": {
+        "eline": 10,
+        "epos": 17,
+        "spos": 8,
+        "sline": 10
+      }},
+      {"return": {
+        "eline": 10,
+        "epos": 17,
+        "spos": 8,
+        "sline": 10
+      }}
+    ],
+    "preds": [1],
+    "succs": []
+  },
+  "2": {
+    "instructions": [
+      {"temp$0 = new java.lang.NullPointerException": {
+        "eline": 8,
+        "epos": 63,
+        "spos": 4,
+        "sline": 8
+      }},
+      {"specialinvoke temp$0.<java.lang.NullPointerException: void <init>(java.lang.String)>(\"Identifier cannot be null\")": {
+        "eline": 8,
+        "epos": 62,
+        "spos": 10,
+        "sline": 8
+      }},
+      {"throw temp$0": {
+        "eline": 8,
+        "epos": 62,
+        "spos": 10,
+        "sline": 8
+      }}
+    ],
+    "preds": [0],
+    "succs": []
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 7,
+      "epos": 24,
+      "spos": 7,
+      "sline": 7
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [
+      {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+      {"if identifier == null goto block_2 #0": {
+        "eline": 7,
+        "epos": 24,
+        "ifpos": "(6, 2)-(6, 24)",
+        "spos": 7,
+        "sline": 7
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "3": {
+    "instructions": [{"i = 0": {
+      "eline": 92,
+      "epos": 22,
+      "spos": 14,
+      "sline": 92
+    }}],
+    "preds": [1],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [
+      {"temp$5 = 0": {
+        "reliable": false,
+        "eline": 89,
+        "epos": 41,
+        "spos": 35,
+        "sline": 89
+      }},
+      {"return temp$5": {
+        "eline": 90,
+        "epos": 25,
+        "spos": 13,
+        "sline": 90
+      }}
+    ],
+    "preds": [0],
+    "succs": []
+  },
+  "10": {
+    "instructions": [
+      {"temp$19 = 1": {
+        "reliable": false,
+        "eline": 94,
+        "epos": 33,
+        "spos": 27,
+        "sline": 94
+      }},
+      {"return temp$19": {
+        "eline": 95,
+        "epos": 32,
+        "spos": 21,
+        "sline": 95
+      }}
+    ],
+    "preds": [8],
+    "succs": []
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 89,
+      "epos": 41,
+      "spos": 35,
+      "sline": 89
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = this.<SundySearch: java.lang.String text>": {
+        "eline": 89,
+        "epos": 17,
+        "spos": 14,
+        "sline": 89
+      }},
+      {"temp$1 = virtualinvoke temp$0.<java.lang.String: int length()>()": {
+        "eline": 89,
+        "epos": 17,
+        "spos": 14,
+        "sline": 89
+      }},
+      {"temp$2 = temp$1 - pos": {
+        "eline": 89,
+        "epos": 17,
+        "spos": 14,
+        "sline": 89
+      }},
+      {"temp$3 = this.<SundySearch: java.lang.String pattern>": {
+        "eline": 89,
+        "epos": 41,
+        "spos": 35,
+        "sline": 89
+      }},
+      {"temp$4 = virtualinvoke temp$3.<java.lang.String: int length()>()": {
+        "eline": 89,
+        "epos": 41,
+        "spos": 35,
+        "sline": 89
+      }},
+      {"if temp$2 < temp$4 goto block_2 #0": {
+        "eline": 89,
+        "epos": 41,
+        "ifpos": "(88, 8)-(88, 50)",
+        "spos": 35,
+        "sline": 89
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  },
+  "7": {
+    "instructions": [{"goto block_12": {
+      "eline": 93,
+      "epos": 47,
+      "spos": 41,
+      "sline": 93
+    }}],
+    "preds": [6],
+    "succs": [12]
+  },
+  "6": {
+    "instructions": [
+      {"temp$8 = this.<SundySearch: java.lang.String text>": {
+        "eline": 93,
+        "epos": 20,
+        "spos": 17,
+        "sline": 93
+      }},
+      {"temp$9 = pos": {
+        "eline": 93,
+        "epos": 20,
+        "spos": 17,
+        "sline": 93
+      }},
+      {"temp$10 = temp$9 + i": {
+        "eline": 93,
+        "epos": 20,
+        "spos": 17,
+        "sline": 93
+      }},
+      {"temp$11 = virtualinvoke temp$8.<java.lang.String: char charAt(int)>(temp$10)": {
+        "eline": 93,
+        "epos": 20,
+        "spos": 17,
+        "sline": 93
+      }},
+      {"temp$12 = this.<SundySearch: java.lang.String pattern>": {
+        "eline": 93,
+        "epos": 47,
+        "spos": 41,
+        "sline": 93
+      }},
+      {"temp$13 = virtualinvoke temp$12.<java.lang.String: char charAt(int)>(i)": {
+        "eline": 93,
+        "epos": 47,
+        "spos": 41,
+        "sline": 93
+      }},
+      {"temp$14 = (int) temp$11": {
+        "eline": 93,
+        "epos": 47,
+        "spos": 41,
+        "sline": 93
+      }},
+      {"temp$15 = (int) temp$13": {
+        "eline": 93,
+        "epos": 47,
+        "spos": 41,
+        "sline": 93
+      }},
+      {"if temp$14 == temp$15 goto block_8 #2": {
+        "eline": 93,
+        "epos": 47,
+        "ifpos": "(92, 12)-(92, 57)",
+        "spos": 41,
+        "sline": 93
+      }}
+    ],
+    "preds": [4],
+    "succs": [
+      7,
+      8
+    ]
+  },
+  "5": {
+    "instructions": [{"goto block_14": {
+      "eline": 92,
+      "epos": 35,
+      "spos": 29,
+      "sline": 92
+    }}],
+    "preds": [4],
+    "succs": [14]
+  },
+  "4": {
+    "instructions": [
+      {"temp$6 = this.<SundySearch: java.lang.String pattern>": {
+        "eline": 92,
+        "epos": 35,
+        "spos": 29,
+        "sline": 92
+      }},
+      {"temp$7 = virtualinvoke temp$6.<java.lang.String: int length()>()": {
+        "eline": 92,
+        "epos": 35,
+        "spos": 29,
+        "sline": 92
+      }},
+      {"if i < temp$7 goto block_6 #1": {
+        "eline": 92,
+        "epos": 35,
+        "ifpos": "(91, 22)-(91, 44)",
+        "spos": 29,
+        "sline": 92
+      }}
+    ],
+    "preds": [
+      3,
+      13
+    ],
+    "succs": [
+      5,
+      6
+    ]
+  },
+  "9": {
+    "instructions": [{"goto block_11": {
+      "eline": 94,
+      "epos": 33,
+      "spos": 27,
+      "sline": 94
+    }}],
+    "preds": [8],
+    "succs": [11]
+  },
+  "8": {
+    "instructions": [
+      {"temp$16 = this.<SundySearch: java.lang.String pattern>": {
+        "eline": 94,
+        "epos": 33,
+        "spos": 27,
+        "sline": 94
+      }},
+      {"temp$17 = virtualinvoke temp$16.<java.lang.String: int length()>()": {
+        "eline": 94,
+        "epos": 33,
+        "spos": 27,
+        "sline": 94
+      }},
+      {"temp$18 = temp$17 - 1": {
+        "eline": 94,
+        "epos": 33,
+        "spos": 27,
+        "sline": 94
+      }},
+      {"if i == temp$18 goto block_10 #3": {
+        "eline": 94,
+        "epos": 33,
+        "ifpos": "(93, 16)-(93, 45)",
+        "spos": 27,
+        "sline": 94
+      }}
+    ],
+    "preds": [6],
+    "succs": [
+      9,
+      10
+    ]
+  },
+  "13": {
+    "instructions": [
+      {"temp$20 = i": {
+        "eline": 92,
+        "epos": 49,
+        "spos": 47,
+        "sline": 92
+      }},
+      {"temp$21 = temp$20 + 1": {
+        "eline": 92,
+        "epos": 47,
+        "spos": 47,
+        "sline": 92
+      }},
+      {"i = temp$21": {
+        "eline": 92,
+        "epos": 47,
+        "spos": 47,
+        "sline": 92
+      }},
+      {"goto block_4": {
+        "eline": 101,
+        "epos": 9,
+        "spos": 9,
+        "sline": 92
+      }}
+    ],
+    "preds": [11],
+    "succs": [4]
+  },
+  "14": {
+    "instructions": [
+      {"temp$22 = 0": {
+        "reliable": false,
+        "eline": 101,
+        "epos": 9,
+        "spos": 9,
+        "sline": 92
+      }},
+      {"return temp$22": {
+        "eline": 103,
+        "epos": 21,
+        "spos": 9,
+        "sline": 103
+      }}
+    ],
+    "preds": [
+      5,
+      12
+    ],
+    "succs": []
+  },
+  "11": {
+    "instructions": [{"goto block_13": {
+      "eline": 97,
+      "epos": 25,
+      "spos": 17,
+      "sline": 97
+    }}],
+    "preds": [9],
+    "succs": [13]
+  },
+  "12": {
+    "instructions": [{"goto block_14": {
+      "eline": 99,
+      "epos": 22,
+      "spos": 17,
+      "sline": 99
+    }}],
+    "preds": [7],
+    "succs": [14]
+  }
+}

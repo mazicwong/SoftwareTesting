@@ -1,0 +1,50 @@
+[
+  {
+    "codes": "                                                Integer.MAX_VALUE)]; ",
+    "blocks": []
+  },
+  {
+    "codes": "        c.toArray(elementData); ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public void ensureCapacity(int minCapacity) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        modCount++; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        ensureCapacityHelper(minCapacity); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private void ensureCapacityHelper(int minCapacity) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        int oldCapacity = elementData.length; ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (minCapacity > oldCapacity) { ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "public class Program { ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tprivate final Rule[] program; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic Program(Rule... rules) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.program = rules; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic Rule[] getProgram() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn this.program; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  }
+]

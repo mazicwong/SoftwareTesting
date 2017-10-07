@@ -1,0 +1,18 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = virtualinvoke this.<Vector: int indexOf(java.lang.Object,int)>(elem, 0)": {
+      "eline": 82,
+      "epos": 31,
+      "spos": 16,
+      "sline": 82
+    }},
+    {"return temp$0": {
+      "eline": 82,
+      "epos": 32,
+      "spos": 9,
+      "sline": 82
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

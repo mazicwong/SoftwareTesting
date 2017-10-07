@@ -1,0 +1,50 @@
+[
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic static Argument value(Value value) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn new Argument(value, null, true); ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic static Argument variable(Variable variable) { ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\treturn new Argument(null, variable, false); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic boolean isValue() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn this.isValue; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  }
+]

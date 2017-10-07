@@ -1,0 +1,68 @@
+[
+  {
+    "codes": "                                ",
+    "blocks": []
+  },
+  {
+    "codes": "       ",
+    "blocks": []
+  },
+  {
+    "codes": "                     ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "    static DPCManager getInstance() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (null == sManager) { ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "            sManager = new DPCManager(); ",
+    "blocks": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        return sManager; ",
+    "blocks": [
+      0,
+      3
+    ]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "                     ",
+    "blocks": []
+  },
+  {
+    "codes": "       ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "codes": "            lunar = DPCNCalendar.getLunar(year, month, day); ",
+    "blocks": []
+  },
+  {
+    "codes": "        return lunar; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    LunarCalendar(int year, int month, int day) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        this.year = year; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        this.month = month; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        this.day = day; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public static LunarCalendar obtainCalendar(int year, int month, int day) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        return DPCManager.getInstance().getDPInfo(year, month, day); ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  }
+]

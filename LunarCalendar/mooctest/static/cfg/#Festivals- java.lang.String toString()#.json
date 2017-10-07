@@ -1,0 +1,147 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$6 = new java.lang.StringBuffer": {
+        "eline": 31,
+        "epos": 32,
+        "spos": 13,
+        "sline": 31
+      }},
+      {"specialinvoke temp$6.<java.lang.StringBuffer: void <init>()>()": {
+        "eline": 33,
+        "epos": 47,
+        "spos": 16,
+        "sline": 33
+      }},
+      {"virtualinvoke temp$6.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(\"Festivals{\")": {
+        "eline": 33,
+        "epos": 47,
+        "spos": 16,
+        "sline": 33
+      }},
+      {"temp$7 = virtualinvoke buffer.<java.lang.StringBuilder: java.lang.String toString()>()": {
+        "eline": 33,
+        "epos": 47,
+        "spos": 16,
+        "sline": 33
+      }},
+      {"virtualinvoke temp$6.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(temp$7)": {
+        "eline": 33,
+        "epos": 47,
+        "spos": 16,
+        "sline": 33
+      }},
+      {"virtualinvoke temp$6.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(\"}\")": {
+        "eline": 33,
+        "epos": 53,
+        "spos": 16,
+        "sline": 33
+      }},
+      {"temp$8 = virtualinvoke temp$6.<java.lang.StringBuffer: java.lang.String toString()>()": {
+        "eline": 33,
+        "epos": 53,
+        "spos": 16,
+        "sline": 33
+      }},
+      {"return temp$8": {
+        "eline": 33,
+        "epos": 54,
+        "spos": 9,
+        "sline": 33
+      }}
+    ],
+    "preds": [1],
+    "succs": []
+  },
+  "2": {
+    "instructions": [
+      {"temp$4 = interfaceinvoke temp$2.<java.util.Iterator: java.lang.Object next()>()": {
+        "eline": 30,
+        "epos": 35,
+        "spos": 27,
+        "sline": 30
+      }},
+      {"item = (java.lang.String) temp$4": {
+        "eline": 30,
+        "epos": 35,
+        "spos": 27,
+        "sline": 30
+      }},
+      {"virtualinvoke buffer.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(item)": {
+        "eline": 31,
+        "epos": 32,
+        "spos": 13,
+        "sline": 31
+      }},
+      {"goto block_1": {
+        "eline": 31,
+        "epos": 32,
+        "spos": 13,
+        "sline": 31
+      }}
+    ],
+    "preds": [1],
+    "succs": [1]
+  },
+  "1": {
+    "instructions": [
+      {"temp$3 = interfaceinvoke temp$2.<java.util.Iterator: boolean hasNext()>()": {
+        "eline": 30,
+        "epos": 35,
+        "spos": 27,
+        "sline": 30
+      }},
+      {"if temp$3 == 0 goto block_3 #0": {
+        "eline": 30,
+        "epos": 35,
+        "ifpos": "(28, 50)-(30, 31)",
+        "spos": 27,
+        "sline": 30
+      }}
+    ],
+    "preds": [
+      0,
+      2
+    ],
+    "succs": [
+      2,
+      3
+    ]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = new java.lang.StringBuilder": {
+        "eline": 29,
+        "epos": 51,
+        "spos": 9,
+        "sline": 29
+      }},
+      {"specialinvoke temp$0.<java.lang.StringBuilder: void <init>()>()": {
+        "eline": 29,
+        "epos": 50,
+        "spos": 32,
+        "sline": 29
+      }},
+      {"buffer = temp$0": {
+        "eline": 29,
+        "epos": 50,
+        "spos": 32,
+        "sline": 29
+      }},
+      {"temp$1 = this.<Festivals: java.util.Set festivals>": {
+        "eline": 30,
+        "epos": 35,
+        "spos": 27,
+        "sline": 30
+      }},
+      {"temp$2 = interfaceinvoke temp$1.<java.lang.Iterable: java.util.Iterator iterator()>()": {
+        "eline": 30,
+        "epos": 35,
+        "spos": 27,
+        "sline": 30
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  }
+}

@@ -1,0 +1,18 @@
+{"0": {
+  "instructions": [
+    {"this.<LunarCalendar: Festivals festivals> = festivals": {
+      "eline": 40,
+      "epos": 22,
+      "spos": 14,
+      "sline": 40
+    }},
+    {"return": {
+      "eline": 40,
+      "epos": 22,
+      "spos": 14,
+      "sline": 40
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

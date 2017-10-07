@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "\tpublic List<Node> getNodes() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn nodes; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic void setNodes(List<Node> nodes) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.nodes = nodes; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t@Override ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic String toString(){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tStringBuilder builder = new StringBuilder(); ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "codes": "\tpublic String getValue() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn this.value; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic boolean equals(Object o) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif (o == null) ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\treturn false; ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\tif (o instanceof Value) { ",
+    "blocks": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codes": "\t\t\treturn ((Value) o).value.equals(this.value); ",
+    "blocks": [5]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn false; ",
+    "blocks": [6]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic int hashCode() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn value.hashCode(); ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  }
+]

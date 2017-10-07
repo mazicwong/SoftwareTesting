@@ -1,0 +1,149 @@
+{
+  "3": {
+    "instructions": [{"return": {
+      "eline": 36,
+      "epos": 52,
+      "spos": 4,
+      "sline": 36
+    }}],
+    "preds": [
+      1,
+      2
+    ],
+    "succs": []
+  },
+  "2": {
+    "instructions": [
+      {"temp$3 = this.<Prim: NodeNetwork nodeNet>": {
+        "eline": 30,
+        "epos": 22,
+        "spos": 16,
+        "sline": 30
+      }},
+      {"temp$4 = virtualinvoke temp$3.<NodeNetwork: java.util.List getNodes()>()": {
+        "eline": 30,
+        "epos": 22,
+        "spos": 16,
+        "sline": 30
+      }},
+      {"temp$5 = interfaceinvoke temp$4.<java.util.List: java.lang.Object get(int)>(0)": {
+        "eline": 30,
+        "epos": 22,
+        "spos": 16,
+        "sline": 30
+      }},
+      {"temp$6 = (Node) temp$5": {
+        "eline": 30,
+        "epos": 22,
+        "spos": 16,
+        "sline": 30
+      }},
+      {"node = temp$6": {
+        "eline": 30,
+        "epos": 22,
+        "spos": 16,
+        "sline": 30
+      }},
+      {"temp$7 = new java.util.ArrayList": {
+        "eline": 32,
+        "epos": 54,
+        "spos": 4,
+        "sline": 32
+      }},
+      {"specialinvoke temp$7.<java.util.ArrayList: void <init>()>()": {
+        "eline": 32,
+        "epos": 53,
+        "spos": 33,
+        "sline": 32
+      }},
+      {"foundNodes = temp$7": {
+        "eline": 32,
+        "epos": 53,
+        "spos": 33,
+        "sline": 32
+      }},
+      {"temp$8 = new java.lang.StringBuilder": {
+        "eline": 35,
+        "epos": 28,
+        "spos": 29,
+        "sline": 34
+      }},
+      {"specialinvoke temp$8.<java.lang.StringBuilder: void <init>()>()": {
+        "eline": 35,
+        "epos": 27,
+        "spos": 9,
+        "sline": 35
+      }},
+      {"temp$9 = virtualinvoke this.<Prim: java.lang.StringBuilder findWholeCaravaneWithPrim(Node,java.util.List,int,java.lang.StringBuilder)>(node, foundNodes, 1, temp$8)": {
+        "eline": 35,
+        "epos": 27,
+        "spos": 9,
+        "sline": 35
+      }},
+      {"primPath = temp$9": {
+        "eline": 35,
+        "epos": 27,
+        "spos": 9,
+        "sline": 35
+      }},
+      {"temp$10 = virtualinvoke primPath.<java.lang.StringBuilder: int lastIndexOf(java.lang.String)>(\",\")": {
+        "eline": 36,
+        "epos": 52,
+        "spos": 4,
+        "sline": 36
+      }},
+      {"virtualinvoke primPath.<java.lang.StringBuilder: java.lang.StringBuilder deleteCharAt(int)>(temp$10)": {
+        "eline": 36,
+        "epos": 52,
+        "spos": 4,
+        "sline": 36
+      }}
+    ],
+    "preds": [0],
+    "succs": [3]
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 29,
+      "epos": 14,
+      "spos": 8,
+      "sline": 29
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = this.<Prim: NodeNetwork nodeNet>": {
+        "eline": 29,
+        "epos": 14,
+        "spos": 8,
+        "sline": 29
+      }},
+      {"temp$1 = virtualinvoke temp$0.<NodeNetwork: java.util.List getNodes()>()": {
+        "eline": 29,
+        "epos": 14,
+        "spos": 8,
+        "sline": 29
+      }},
+      {"temp$2 = interfaceinvoke temp$1.<java.util.List: boolean isEmpty()>()": {
+        "eline": 29,
+        "epos": 14,
+        "spos": 8,
+        "sline": 29
+      }},
+      {"if temp$2 == 0 goto block_2 #0": {
+        "eline": 29,
+        "epos": 14,
+        "ifpos": "(28, 2)-(28, 35)",
+        "spos": 8,
+        "sline": 29
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  }
+}

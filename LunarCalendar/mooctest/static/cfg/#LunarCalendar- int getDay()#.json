@@ -1,0 +1,18 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = this.<LunarCalendar: int day>": {
+      "eline": 101,
+      "epos": 18,
+      "spos": 16,
+      "sline": 101
+    }},
+    {"return temp$0": {
+      "eline": 101,
+      "epos": 19,
+      "spos": 9,
+      "sline": 101
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

@@ -1,0 +1,135 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$2 = this.<SundySearch: java.util.Map map>": {
+        "eline": 29,
+        "epos": 16,
+        "spos": 13,
+        "sline": 29
+      }},
+      {"temp$3 = this.<SundySearch: java.lang.String pattern>": {
+        "eline": 29,
+        "epos": 32,
+        "spos": 26,
+        "sline": 29
+      }},
+      {"temp$4 = virtualinvoke temp$3.<java.lang.String: char charAt(int)>(i)": {
+        "eline": 29,
+        "epos": 32,
+        "spos": 26,
+        "sline": 29
+      }},
+      {"temp$5 = staticinvoke <java.lang.Character: java.lang.Character valueOf(char)>(temp$4)": {
+        "eline": 29,
+        "epos": 32,
+        "spos": 26,
+        "sline": 29
+      }},
+      {"temp$6 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(i)": {
+        "eline": 29,
+        "epos": 32,
+        "spos": 26,
+        "sline": 29
+      }},
+      {"temp$7 = interfaceinvoke temp$2.<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>(temp$5, temp$6)": {
+        "eline": 29,
+        "epos": 32,
+        "spos": 26,
+        "sline": 29
+      }},
+      {"temp$8 = (java.lang.Integer) temp$7": {
+        "eline": 29,
+        "epos": 32,
+        "spos": 26,
+        "sline": 29
+      }},
+      {"temp$9 = i": {
+        "eline": 28,
+        "epos": 49,
+        "spos": 47,
+        "sline": 28
+      }},
+      {"temp$10 = temp$9 + 1": {
+        "eline": 28,
+        "epos": 47,
+        "spos": 47,
+        "sline": 28
+      }},
+      {"i = temp$10": {
+        "eline": 28,
+        "epos": 47,
+        "spos": 47,
+        "sline": 28
+      }},
+      {"goto block_1": {
+        "eline": 30,
+        "epos": 9,
+        "spos": 9,
+        "sline": 28
+      }}
+    ],
+    "preds": [1],
+    "succs": [1]
+  },
+  "2": {
+    "instructions": [{"goto block_4": {
+      "eline": 28,
+      "epos": 35,
+      "spos": 29,
+      "sline": 28
+    }}],
+    "preds": [1],
+    "succs": [4]
+  },
+  "1": {
+    "instructions": [
+      {"temp$0 = this.<SundySearch: java.lang.String pattern>": {
+        "eline": 28,
+        "epos": 35,
+        "spos": 29,
+        "sline": 28
+      }},
+      {"temp$1 = virtualinvoke temp$0.<java.lang.String: int length()>()": {
+        "eline": 28,
+        "epos": 35,
+        "spos": 29,
+        "sline": 28
+      }},
+      {"if i < temp$1 goto block_3 #0": {
+        "eline": 28,
+        "epos": 35,
+        "ifpos": "(27, 22)-(27, 44)",
+        "spos": 29,
+        "sline": 28
+      }}
+    ],
+    "preds": [
+      0,
+      3
+    ],
+    "succs": [
+      2,
+      3
+    ]
+  },
+  "0": {
+    "instructions": [{"i = 0": {
+      "eline": 28,
+      "epos": 22,
+      "spos": 14,
+      "sline": 28
+    }}],
+    "preds": [],
+    "succs": [1]
+  },
+  "4": {
+    "instructions": [{"return": {
+      "eline": 30,
+      "epos": 9,
+      "spos": 9,
+      "sline": 28
+    }}],
+    "preds": [2],
+    "succs": []
+  }
+}

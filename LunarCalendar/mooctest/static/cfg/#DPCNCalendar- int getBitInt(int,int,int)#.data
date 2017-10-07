@@ -1,0 +1,42 @@
+[
+  {
+    "codes": "                             ",
+    "blocks": []
+  },
+  {
+    "codes": "                                ",
+    "blocks": []
+  },
+  {
+    "codes": "                                        ",
+    "blocks": []
+  },
+  {
+    "codes": "                        ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "    private static int getBitInt(int data, int length, int shift) { ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        return (data & (((1 << length) - 1) << shift)) >> shift; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,80 @@
+{
+  "3": {
+    "instructions": [{"return v": {
+      "eline": 270,
+      "epos": 17,
+      "spos": 9,
+      "sline": 270
+    }}],
+    "preds": [0],
+    "succs": []
+  },
+  "2": {
+    "instructions": [
+      {"temp$2 = v": {
+        "eline": 268,
+        "epos": 17,
+        "spos": 13,
+        "sline": 268
+      }},
+      {"temp$3 = temp$2 + 6.283185307179586": {
+        "eline": 268,
+        "epos": 17,
+        "spos": 13,
+        "sline": 268
+      }},
+      {"return temp$3": {
+        "eline": 269,
+        "epos": 35,
+        "spos": 13,
+        "sline": 269
+      }}
+    ],
+    "preds": [1],
+    "succs": []
+  },
+  "1": {
+    "instructions": [{"goto block_2": {
+      "eline": 268,
+      "epos": 17,
+      "spos": 13,
+      "sline": 268
+    }}],
+    "preds": [0],
+    "succs": [2]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = v % 6.283185307179586": {
+        "eline": 267,
+        "epos": 30,
+        "spos": 9,
+        "sline": 267
+      }},
+      {"v = temp$0": {
+        "eline": 267,
+        "epos": 9,
+        "spos": 9,
+        "sline": 267
+      }},
+      {"temp$1 = v cmpg 0.0": {
+        "eline": 268,
+        "epos": 17,
+        "spos": 13,
+        "sline": 268
+      }},
+      {"if temp$1 >= 0 goto block_3 #0": {
+        "eline": 268,
+        "epos": 17,
+        "ifpos": "(267, 8)-(267, 17)",
+        "spos": 13,
+        "sline": 268
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      3
+    ]
+  }
+}

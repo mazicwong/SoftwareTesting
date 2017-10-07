@@ -1,0 +1,79 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$2 = <DPCManager: DPCManager sManager>": {
+        "eline": 28,
+        "epos": 20,
+        "spos": 13,
+        "sline": 28
+      }},
+      {"return temp$2": {
+        "eline": 30,
+        "epos": 24,
+        "spos": 9,
+        "sline": 30
+      }}
+    ],
+    "preds": [
+      1,
+      2
+    ],
+    "succs": []
+  },
+  "2": {
+    "instructions": [
+      {"temp$1 = new DPCManager": {
+        "eline": 28,
+        "epos": 40,
+        "spos": 13,
+        "sline": 28
+      }},
+      {"specialinvoke temp$1.<DPCManager: void <init>()>()": {
+        "eline": 28,
+        "epos": 39,
+        "spos": 24,
+        "sline": 28
+      }},
+      {"<DPCManager: DPCManager sManager> = temp$1": {
+        "eline": 28,
+        "epos": 20,
+        "spos": 13,
+        "sline": 28
+      }}
+    ],
+    "preds": [0],
+    "succs": [3]
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 27,
+      "epos": 28,
+      "spos": 13,
+      "sline": 27
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = <DPCManager: DPCManager sManager>": {
+        "eline": 27,
+        "epos": 28,
+        "spos": 13,
+        "sline": 27
+      }},
+      {"if null == temp$0 goto block_2 #0": {
+        "eline": 27,
+        "epos": 28,
+        "ifpos": "(26, 8)-(26, 28)",
+        "spos": 13,
+        "sline": 27
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  }
+}

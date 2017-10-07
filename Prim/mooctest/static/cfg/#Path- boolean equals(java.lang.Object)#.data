@@ -1,0 +1,93 @@
+[
+  {
+    "codes": "\t\tthis.srcNode = node; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t@Override ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic boolean equals(Object objectToCompare){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif(objectToCompare instanceof Path){ ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\tPath pathToCompare = (Path) objectToCompare; ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\t\tif((this.srcNode.equals(pathToCompare.getSrcNode()) &&  ",
+    "blocks": [
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\tthis.destinationNode.equals(pathToCompare.getDestinationNode()))  ",
+    "blocks": [
+      4,
+      5
+    ]
+  },
+  {
+    "codes": "\t\t\t\t|| ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\t\t(this.srcNode.equals(pathToCompare.getDestinationNode())  ",
+    "blocks": [
+      6,
+      7
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t\t&& this.destinationNode.equals(pathToCompare.getSrcNode()))){ ",
+    "blocks": [
+      8,
+      9
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\treturn true;  ",
+    "blocks": [10]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn false; ",
+    "blocks": [11]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

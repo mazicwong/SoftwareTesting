@@ -1,0 +1,18 @@
+{"0": {
+  "instructions": [
+    {"this.<LunarCalendar: boolean isWeekend> = isWeekend": {
+      "eline": 52,
+      "epos": 22,
+      "spos": 14,
+      "sline": 52
+    }},
+    {"return": {
+      "eline": 52,
+      "epos": 22,
+      "spos": 14,
+      "sline": 52
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

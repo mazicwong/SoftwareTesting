@@ -1,0 +1,69 @@
+[
+  {
+    "codes": "\t\t\treturn a; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t}; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic int B(int b){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif(b>=0){ ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\tb = b+3; ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\t\treturn b; ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\t}else{ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\tb = b-3; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "\t\t\treturn b; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t}; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic int C(int c ){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tc=B(c); ",
+    "blocks": []
+  }
+]

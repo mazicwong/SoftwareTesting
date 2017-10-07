@@ -1,0 +1,242 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$1 = o instanceof Fact": {
+        "eline": 31,
+        "epos": 23,
+        "spos": 7,
+        "sline": 31
+      }},
+      {"if temp$1 == 0 goto block_12 #1": {
+        "eline": 31,
+        "epos": 23,
+        "ifpos": "(30, 2)-(30, 23)",
+        "spos": 7,
+        "sline": 31
+      }}
+    ],
+    "preds": [1],
+    "succs": [
+      4,
+      12
+    ]
+  },
+  "2": {
+    "instructions": [
+      {"temp$0 = 0": {
+        "reliable": false,
+        "eline": 29,
+        "epos": 15,
+        "spos": 7,
+        "sline": 29
+      }},
+      {"return temp$0": {
+        "eline": 30,
+        "epos": 16,
+        "spos": 4,
+        "sline": 30
+      }}
+    ],
+    "preds": [0],
+    "succs": []
+  },
+  "10": {
+    "instructions": [{"temp$10 = 1": {
+      "reliable": false,
+      "eline": 33,
+      "epos": 45,
+      "spos": 42,
+      "sline": 33
+    }}],
+    "preds": [8],
+    "succs": [11]
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 29,
+      "epos": 15,
+      "spos": 7,
+      "sline": 29
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [{"if o == null goto block_2 #0": {
+      "eline": 29,
+      "epos": 15,
+      "ifpos": "(28, 2)-(28, 15)",
+      "spos": 7,
+      "sline": 29
+    }}],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  },
+  "7": {
+    "instructions": [
+      {"temp$6 = (Fact) o": {
+        "eline": 33,
+        "epos": 53,
+        "spos": 16,
+        "sline": 33
+      }},
+      {"temp$7 = temp$6.<Fact: Value[] values>": {
+        "eline": 33,
+        "epos": 53,
+        "spos": 16,
+        "sline": 33
+      }},
+      {"temp$8 = this.<Fact: Value[] values>": {
+        "eline": 33,
+        "epos": 45,
+        "spos": 42,
+        "sline": 33
+      }},
+      {"temp$9 = staticinvoke <java.util.Arrays: boolean equals(java.lang.Object[],java.lang.Object[])>(temp$7, temp$8)": {
+        "eline": 33,
+        "epos": 45,
+        "spos": 42,
+        "sline": 33
+      }},
+      {"if temp$9 == 0 goto block_9 #2": {
+        "eline": 33,
+        "epos": 45,
+        "ifpos": "(30, 23)-(32, 53)",
+        "spos": 42,
+        "sline": 33
+      }}
+    ],
+    "preds": [6],
+    "succs": [
+      8,
+      9
+    ]
+  },
+  "6": {
+    "instructions": [{"goto block_7": {
+      "eline": 32,
+      "epos": 42,
+      "spos": 39,
+      "sline": 32
+    }}],
+    "preds": [5],
+    "succs": [7]
+  },
+  "5": {
+    "instructions": [
+      {"temp$2 = (Fact) o": {
+        "eline": 32,
+        "epos": 53,
+        "spos": 32,
+        "sline": 32
+      }},
+      {"temp$3 = temp$2.<Fact: Predicate predicate>": {
+        "eline": 32,
+        "epos": 53,
+        "spos": 32,
+        "sline": 32
+      }},
+      {"temp$4 = this.<Fact: Predicate predicate>": {
+        "eline": 32,
+        "epos": 42,
+        "spos": 39,
+        "sline": 32
+      }},
+      {"temp$5 = virtualinvoke temp$3.<Predicate: boolean equals(java.lang.Object)>(temp$4)": {
+        "eline": 32,
+        "epos": 42,
+        "spos": 39,
+        "sline": 32
+      }},
+      {"if temp$5 == 0 goto block_9 #2": {
+        "eline": 32,
+        "epos": 42,
+        "ifpos": "(30, 23)-(32, 53)",
+        "spos": 39,
+        "sline": 32
+      }}
+    ],
+    "preds": [4],
+    "succs": [
+      6,
+      9
+    ]
+  },
+  "4": {
+    "instructions": [{"goto block_5": {
+      "eline": 31,
+      "epos": 23,
+      "spos": 7,
+      "sline": 31
+    }}],
+    "preds": [3],
+    "succs": [5]
+  },
+  "9": {
+    "instructions": [
+      {"temp$10 = 0": {
+        "reliable": false,
+        "eline": 33,
+        "epos": 45,
+        "spos": 42,
+        "sline": 33
+      }},
+      {"goto block_11": {
+        "eline": 33,
+        "epos": 45,
+        "spos": 42,
+        "sline": 33
+      }}
+    ],
+    "preds": [
+      5,
+      7
+    ],
+    "succs": [11]
+  },
+  "8": {
+    "instructions": [{"goto block_10": {
+      "eline": 33,
+      "epos": 45,
+      "spos": 42,
+      "sline": 33
+    }}],
+    "preds": [7],
+    "succs": [10]
+  },
+  "11": {
+    "instructions": [{"return temp$10": {
+      "eline": 33,
+      "epos": 54,
+      "spos": 4,
+      "sline": 32
+    }}],
+    "preds": [
+      9,
+      10
+    ],
+    "succs": []
+  },
+  "12": {
+    "instructions": [
+      {"temp$11 = 0": {
+        "reliable": false,
+        "eline": 33,
+        "epos": 54,
+        "spos": 4,
+        "sline": 32
+      }},
+      {"return temp$11": {
+        "eline": 35,
+        "epos": 15,
+        "spos": 3,
+        "sline": 35
+      }}
+    ],
+    "preds": [3],
+    "succs": []
+  }
+}

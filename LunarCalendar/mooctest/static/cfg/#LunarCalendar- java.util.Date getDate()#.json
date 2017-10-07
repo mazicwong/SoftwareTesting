@@ -1,0 +1,60 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = new java.util.GregorianCalendar": {
+      "eline": 67,
+      "epos": 72,
+      "spos": 9,
+      "sline": 67
+    }},
+    {"temp$1 = this.<LunarCalendar: int year>": {
+      "eline": 67,
+      "epos": 54,
+      "spos": 51,
+      "sline": 67
+    }},
+    {"temp$2 = this.<LunarCalendar: int month>": {
+      "eline": 67,
+      "epos": 61,
+      "spos": 57,
+      "sline": 67
+    }},
+    {"temp$3 = temp$2 - 1": {
+      "eline": 67,
+      "epos": 61,
+      "spos": 57,
+      "sline": 67
+    }},
+    {"temp$4 = this.<LunarCalendar: int day>": {
+      "eline": 67,
+      "epos": 70,
+      "spos": 68,
+      "sline": 67
+    }},
+    {"specialinvoke temp$0.<java.util.GregorianCalendar: void <init>(int,int,int)>(temp$1, temp$3, temp$4)": {
+      "eline": 67,
+      "epos": 71,
+      "spos": 29,
+      "sline": 67
+    }},
+    {"calendar = temp$0": {
+      "eline": 67,
+      "epos": 71,
+      "spos": 29,
+      "sline": 67
+    }},
+    {"temp$5 = virtualinvoke calendar.<java.util.Calendar: java.util.Date getTime()>()": {
+      "eline": 67,
+      "epos": 71,
+      "spos": 29,
+      "sline": 67
+    }},
+    {"return temp$5": {
+      "eline": 68,
+      "epos": 34,
+      "spos": 9,
+      "sline": 68
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

@@ -1,0 +1,130 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$5 = this.<Vector: java.lang.Object[] elementData>": {
+        "eline": 104,
+        "epos": 19,
+        "spos": 9,
+        "sline": 104
+      }},
+      {"temp$6 = index": {
+        "eline": 104,
+        "epos": 19,
+        "spos": 9,
+        "sline": 104
+      }},
+      {"temp$5[temp$6] = obj": {
+        "eline": 104,
+        "epos": 26,
+        "spos": 20,
+        "sline": 104
+      }},
+      {"return": {
+        "eline": 104,
+        "epos": 26,
+        "spos": 20,
+        "sline": 104
+      }}
+    ],
+    "preds": [1],
+    "succs": []
+  },
+  "2": {
+    "instructions": [
+      {"temp$1 = new java.lang.ArrayIndexOutOfBoundsException": {
+        "eline": 102,
+        "epos": 36,
+        "spos": 13,
+        "sline": 101
+      }},
+      {"temp$2 = new java.lang.StringBuffer": {
+        "eline": 102,
+        "epos": 36,
+        "spos": 13,
+        "sline": 101
+      }},
+      {"specialinvoke temp$2.<java.lang.StringBuffer: void <init>()>()": {
+        "eline": 101,
+        "epos": 67,
+        "spos": 54,
+        "sline": 101
+      }},
+      {"virtualinvoke temp$2.<java.lang.StringBuffer: java.lang.StringBuffer append(int)>(index)": {
+        "eline": 101,
+        "epos": 67,
+        "spos": 54,
+        "sline": 101
+      }},
+      {"virtualinvoke temp$2.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(\" >= \")": {
+        "eline": 101,
+        "epos": 67,
+        "spos": 54,
+        "sline": 101
+      }},
+      {"temp$3 = this.<Vector: int elementCount>": {
+        "eline": 102,
+        "epos": 34,
+        "spos": 23,
+        "sline": 102
+      }},
+      {"virtualinvoke temp$2.<java.lang.StringBuffer: java.lang.StringBuffer append(int)>(temp$3)": {
+        "eline": 102,
+        "epos": 34,
+        "spos": 23,
+        "sline": 102
+      }},
+      {"temp$4 = virtualinvoke temp$2.<java.lang.StringBuffer: java.lang.String toString()>()": {
+        "eline": 102,
+        "epos": 34,
+        "spos": 23,
+        "sline": 102
+      }},
+      {"specialinvoke temp$1.<java.lang.ArrayIndexOutOfBoundsException: void <init>(java.lang.String)>(temp$4)": {
+        "eline": 102,
+        "epos": 35,
+        "spos": 19,
+        "sline": 101
+      }},
+      {"throw temp$1": {
+        "eline": 102,
+        "epos": 35,
+        "spos": 19,
+        "sline": 101
+      }}
+    ],
+    "preds": [0],
+    "succs": []
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 100,
+      "epos": 33,
+      "spos": 22,
+      "sline": 100
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = this.<Vector: int elementCount>": {
+        "eline": 100,
+        "epos": 33,
+        "spos": 22,
+        "sline": 100
+      }},
+      {"if index >= temp$0 goto block_2 #0": {
+        "eline": 100,
+        "epos": 33,
+        "ifpos": "(99, 8)-(99, 33)",
+        "spos": 22,
+        "sline": 100
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+    {"temp$0 = new java.util.ArrayList": {
+      "eline": 11,
+      "epos": 6,
+      "spos": 3,
+      "sline": 11
+    }},
+    {"specialinvoke temp$0.<java.util.ArrayList: void <init>()>()": {
+      "eline": 11,
+      "epos": 37,
+      "spos": 17,
+      "sline": 11
+    }},
+    {"virtualinvoke this.<NodeNetwork: void setNodes(java.util.List)>(temp$0)": {
+      "eline": 11,
+      "epos": 37,
+      "spos": 17,
+      "sline": 11
+    }},
+    {"return": {
+      "eline": 11,
+      "epos": 37,
+      "spos": 17,
+      "sline": 11
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

@@ -1,0 +1,87 @@
+[
+  {
+    "codes": "                           ",
+    "blocks": []
+  },
+  {
+    "codes": "                                      ",
+    "blocks": []
+  },
+  {
+    "codes": "                    ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "    static String[][] arraysConvert(String[] src, int column) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        int row = src.length / column; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        String[][] tmp = new String[row][src.length / row]; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        for (int i = 0; i < row; i++) { ",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "            tmp[i] = new String[column]; ",
+    "blocks": [
+      0,
+      3
+    ]
+  },
+  {
+    "codes": "            System.arraycopy(src, i * column, tmp[i], 0, column); ",
+    "blocks": [
+      0,
+      3
+    ]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [
+      0,
+      3
+    ]
+  },
+  {
+    "codes": "        return tmp; ",
+    "blocks": [
+      0,
+      4
+    ]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public static String lunarNumToStr(char[] c) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        String result = \"\"; ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (c.length == 1) { ",
+    "blocks": []
+  }
+]

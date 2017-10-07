@@ -1,0 +1,483 @@
+{
+  "17": {
+    "instructions": [
+      {"temp$26 = i": {
+        "eline": 329,
+        "epos": 34,
+        "spos": 32,
+        "sline": 329
+      }},
+      {"temp$27 = temp$26 + 1": {
+        "eline": 329,
+        "epos": 32,
+        "spos": 32,
+        "sline": 329
+      }},
+      {"i = temp$27": {
+        "eline": 329,
+        "epos": 32,
+        "spos": 32,
+        "sline": 329
+      }},
+      {"goto block_1": {
+        "eline": 342,
+        "epos": 9,
+        "spos": 9,
+        "sline": 329
+      }}
+    ],
+    "preds": [5],
+    "succs": [1]
+  },
+  "18": {
+    "instructions": [{"return tmp": {
+      "eline": 343,
+      "epos": 19,
+      "spos": 9,
+      "sline": 343
+    }}],
+    "preds": [2],
+    "succs": []
+  },
+  "15": {
+    "instructions": [
+      {"temp$18 = tmp": {
+        "eline": 338,
+        "epos": 36,
+        "spos": 21,
+        "sline": 338
+      }},
+      {"temp$19 = i": {
+        "eline": 338,
+        "epos": 36,
+        "spos": 21,
+        "sline": 338
+      }},
+      {"temp$20 = temp$18[temp$19]": {
+        "eline": 338,
+        "epos": 36,
+        "spos": 21,
+        "sline": 338
+      }},
+      {"temp$21 = j": {
+        "eline": 338,
+        "epos": 36,
+        "spos": 21,
+        "sline": 338
+      }},
+      {"temp$20[temp$21] = day": {
+        "eline": 338,
+        "epos": 29,
+        "spos": 27,
+        "sline": 338
+      }},
+      {"temp$22 = day": {
+        "eline": 339,
+        "epos": 26,
+        "spos": 21,
+        "sline": 339
+      }},
+      {"temp$23 = temp$22 + 1": {
+        "eline": 339,
+        "epos": 23,
+        "spos": 21,
+        "sline": 339
+      }},
+      {"day = temp$23": {
+        "eline": 339,
+        "epos": 23,
+        "spos": 21,
+        "sline": 339
+      }}
+    ],
+    "preds": [13],
+    "succs": [16]
+  },
+  "16": {
+    "instructions": [
+      {"temp$24 = j": {
+        "eline": 330,
+        "epos": 57,
+        "spos": 55,
+        "sline": 330
+      }},
+      {"temp$25 = temp$24 + 1": {
+        "eline": 330,
+        "epos": 55,
+        "spos": 55,
+        "sline": 330
+      }},
+      {"j = temp$25": {
+        "eline": 330,
+        "epos": 55,
+        "spos": 55,
+        "sline": 330
+      }},
+      {"goto block_4": {
+        "eline": 341,
+        "epos": 13,
+        "spos": 13,
+        "sline": 330
+      }}
+    ],
+    "preds": [
+      10,
+      12,
+      14,
+      15
+    ],
+    "succs": [4]
+  },
+  "13": {
+    "instructions": [{"if day <= daysInMonth goto block_15 #3": {
+      "eline": 337,
+      "epos": 47,
+      "ifpos": "(336, 16)-(336, 47)",
+      "spos": 30,
+      "sline": 337
+    }}],
+    "preds": [11],
+    "succs": [
+      14,
+      15
+    ]
+  },
+  "14": {
+    "instructions": [{"goto block_16": {
+      "eline": 337,
+      "epos": 47,
+      "spos": 30,
+      "sline": 337
+    }}],
+    "preds": [13],
+    "succs": [16]
+  },
+  "11": {
+    "instructions": [{"if i > 0 goto block_13 #3": {
+      "eline": 337,
+      "epos": 25,
+      "ifpos": "(336, 16)-(336, 47)",
+      "spos": 21,
+      "sline": 337
+    }}],
+    "preds": [
+      7,
+      9
+    ],
+    "succs": [
+      12,
+      13
+    ]
+  },
+  "12": {
+    "instructions": [{"goto block_16": {
+      "eline": 337,
+      "epos": 25,
+      "spos": 21,
+      "sline": 337
+    }}],
+    "preds": [11],
+    "succs": [16]
+  },
+  "3": {
+    "instructions": [{"j = 0": {
+      "eline": 330,
+      "epos": 26,
+      "spos": 18,
+      "sline": 330
+    }}],
+    "preds": [1],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [{"goto block_18": {
+      "eline": 329,
+      "epos": 29,
+      "spos": 25,
+      "sline": 329
+    }}],
+    "preds": [1],
+    "succs": [18]
+  },
+  "1": {
+    "instructions": [{"if i < 6 goto block_3 #0": {
+      "eline": 329,
+      "epos": 29,
+      "ifpos": "(328, 22)-(328, 29)",
+      "spos": 25,
+      "sline": 329
+    }}],
+    "preds": [
+      0,
+      17
+    ],
+    "succs": [
+      2,
+      3
+    ]
+  },
+  "10": {
+    "instructions": [
+      {"temp$12 = tmp": {
+        "eline": 333,
+        "epos": 36,
+        "spos": 21,
+        "sline": 333
+      }},
+      {"temp$13 = i": {
+        "eline": 333,
+        "epos": 36,
+        "spos": 21,
+        "sline": 333
+      }},
+      {"temp$14 = temp$12[temp$13]": {
+        "eline": 333,
+        "epos": 36,
+        "spos": 21,
+        "sline": 333
+      }},
+      {"temp$15 = j": {
+        "eline": 333,
+        "epos": 36,
+        "spos": 21,
+        "sline": 333
+      }},
+      {"temp$14[temp$15] = day": {
+        "eline": 333,
+        "epos": 29,
+        "spos": 27,
+        "sline": 333
+      }},
+      {"temp$16 = day": {
+        "eline": 334,
+        "epos": 26,
+        "spos": 21,
+        "sline": 334
+      }},
+      {"temp$17 = temp$16 + 1": {
+        "eline": 334,
+        "epos": 23,
+        "spos": 21,
+        "sline": 334
+      }},
+      {"day = temp$17": {
+        "eline": 334,
+        "epos": 23,
+        "spos": 21,
+        "sline": 334
+      }},
+      {"goto block_16": {
+        "eline": 335,
+        "epos": 29,
+        "spos": 21,
+        "sline": 335
+      }}
+    ],
+    "preds": [8],
+    "succs": [16]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = <DPCNCalendar: java.util.Calendar calendar>": {
+        "eline": 321,
+        "epos": 25,
+        "spos": 9,
+        "sline": 321
+      }},
+      {"virtualinvoke temp$0.<java.util.Calendar: void clear()>()": {
+        "eline": 321,
+        "epos": 25,
+        "spos": 9,
+        "sline": 321
+      }},
+      {"tmp = newmultiarray (int)[6][7]": {
+        "eline": 322,
+        "epos": 36,
+        "spos": 9,
+        "sline": 322
+      }},
+      {"temp$1 = <DPCNCalendar: java.util.Calendar calendar>": {
+        "eline": 325,
+        "epos": 41,
+        "spos": 9,
+        "sline": 325
+      }},
+      {"temp$2 = month - 1": {
+        "eline": 325,
+        "epos": 41,
+        "spos": 9,
+        "sline": 325
+      }},
+      {"virtualinvoke temp$1.<java.util.Calendar: void set(int,int,int)>(year, temp$2, 1)": {
+        "eline": 325,
+        "epos": 41,
+        "spos": 9,
+        "sline": 325
+      }},
+      {"temp$3 = staticinvoke <DPCNCalendar: int getDaysInMonth(int,int)>(year, month)": {
+        "eline": 326,
+        "epos": 54,
+        "spos": 9,
+        "sline": 326
+      }},
+      {"daysInMonth = temp$3": {
+        "eline": 326,
+        "epos": 54,
+        "spos": 9,
+        "sline": 326
+      }},
+      {"temp$4 = <DPCNCalendar: java.util.Calendar calendar>": {
+        "eline": 327,
+        "epos": 77,
+        "spos": 9,
+        "sline": 327
+      }},
+      {"temp$5 = virtualinvoke temp$4.<java.util.Calendar: int get(int)>(7)": {
+        "eline": 327,
+        "epos": 77,
+        "spos": 9,
+        "sline": 327
+      }},
+      {"temp$6 = temp$5 - 1": {
+        "eline": 327,
+        "epos": 77,
+        "spos": 9,
+        "sline": 327
+      }},
+      {"dayOfWeek = temp$6": {
+        "eline": 327,
+        "epos": 77,
+        "spos": 9,
+        "sline": 327
+      }},
+      {"day = 1": {
+        "eline": 328,
+        "epos": 20,
+        "spos": 9,
+        "sline": 328
+      }},
+      {"i = 0": {
+        "eline": 329,
+        "epos": 22,
+        "spos": 14,
+        "sline": 329
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  },
+  "7": {
+    "instructions": [{"goto block_11": {
+      "eline": 332,
+      "epos": 26,
+      "spos": 21,
+      "sline": 332
+    }}],
+    "preds": [6],
+    "succs": [11]
+  },
+  "6": {
+    "instructions": [
+      {"temp$7 = tmp": {
+        "eline": 331,
+        "epos": 38,
+        "spos": 17,
+        "sline": 331
+      }},
+      {"temp$8 = i": {
+        "eline": 331,
+        "epos": 38,
+        "spos": 17,
+        "sline": 331
+      }},
+      {"temp$9 = temp$7[temp$8]": {
+        "eline": 331,
+        "epos": 38,
+        "spos": 17,
+        "sline": 331
+      }},
+      {"temp$10 = j": {
+        "eline": 331,
+        "epos": 38,
+        "spos": 17,
+        "sline": 331
+      }},
+      {"temp$11 = -1": {
+        "reliable": false,
+        "eline": 331,
+        "epos": 25,
+        "spos": 23,
+        "sline": 331
+      }},
+      {"temp$9[temp$10] = temp$11": {
+        "eline": 331,
+        "epos": 25,
+        "spos": 23,
+        "sline": 331
+      }},
+      {"if i == 0 goto block_8 #2": {
+        "eline": 332,
+        "epos": 26,
+        "ifpos": "(331, 16)-(331, 44)",
+        "spos": 21,
+        "sline": 332
+      }}
+    ],
+    "preds": [4],
+    "succs": [
+      7,
+      8
+    ]
+  },
+  "5": {
+    "instructions": [{"goto block_17": {
+      "eline": 330,
+      "epos": 52,
+      "spos": 29,
+      "sline": 330
+    }}],
+    "preds": [4],
+    "succs": [17]
+  },
+  "4": {
+    "instructions": [{"if j < 7 goto block_6 #1": {
+      "eline": 330,
+      "epos": 52,
+      "ifpos": "(329, 26)-(329, 52)",
+      "spos": 29,
+      "sline": 330
+    }}],
+    "preds": [
+      3,
+      16
+    ],
+    "succs": [
+      5,
+      6
+    ]
+  },
+  "9": {
+    "instructions": [{"goto block_11": {
+      "eline": 332,
+      "epos": 44,
+      "spos": 31,
+      "sline": 332
+    }}],
+    "preds": [8],
+    "succs": [11]
+  },
+  "8": {
+    "instructions": [{"if j >= dayOfWeek goto block_10 #2": {
+      "eline": 332,
+      "epos": 44,
+      "ifpos": "(331, 16)-(331, 44)",
+      "spos": 31,
+      "sline": 332
+    }}],
+    "preds": [6],
+    "succs": [
+      9,
+      10
+    ]
+  }
+}

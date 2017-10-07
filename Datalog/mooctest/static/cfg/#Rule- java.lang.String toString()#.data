@@ -1,0 +1,77 @@
+[
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn res; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic String toString() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tString res =head.toString() + \" :- \"; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tfor (int i = 0; i < body.length - 1; i++) { ",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "\t\t\tres += body[i].toString(); ",
+    "blocks": [3]
+  },
+  {
+    "codes": "\t\t\tres += \",\"; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": [3]
+  },
+  {
+    "codes": "\t\tif (body.length > 0) { ",
+    "blocks": [
+      4,
+      5
+    ]
+  },
+  {
+    "codes": "\t\t\tres += body[body.length - 1].toString(); ",
+    "blocks": [
+      6,
+      7
+    ]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn res + \".\"; ",
+    "blocks": [7]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

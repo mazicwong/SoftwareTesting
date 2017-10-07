@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn false; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic int hashCode() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn 17 * this.predicate.hashCode() + 13 * Arrays.hashCode(this.arguments); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                                             ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                                              ",
+    "blocks": []
+  }
+]

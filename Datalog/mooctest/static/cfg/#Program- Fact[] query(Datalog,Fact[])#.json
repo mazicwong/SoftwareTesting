@@ -1,0 +1,175 @@
+{
+  "3": {
+    "instructions": [{"goto block_4": {
+      "eline": 45,
+      "epos": 32,
+      "spos": 13,
+      "sline": 45
+    }}],
+    "preds": [2],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [
+      {"temp$4 = allFacts[temp$2]": {
+        "eline": 47,
+        "epos": 3,
+        "spos": 3,
+        "sline": 44
+      }},
+      {"fact = temp$4": {
+        "eline": 47,
+        "epos": 3,
+        "spos": 3,
+        "sline": 44
+      }},
+      {"temp$5 = virtualinvoke atom.<Datalog: boolean compatibleWith(Fact)>(fact)": {
+        "eline": 45,
+        "epos": 32,
+        "spos": 13,
+        "sline": 45
+      }},
+      {"if temp$5 == 0 goto block_5 #1": {
+        "eline": 45,
+        "epos": 32,
+        "ifpos": "(44, 3)-(44, 32)",
+        "spos": 13,
+        "sline": 45
+      }}
+    ],
+    "preds": [1],
+    "succs": [
+      3,
+      5
+    ]
+  },
+  "1": {
+    "instructions": [
+      {"temp$3 = lengthof allFacts": {
+        "eline": 47,
+        "epos": 3,
+        "spos": 3,
+        "sline": 44
+      }},
+      {"if temp$2 >= temp$3 goto block_6 #0": {
+        "eline": 47,
+        "epos": 3,
+        "ifpos": "(42, 50)-(47, 36)",
+        "spos": 3,
+        "sline": 44
+      }}
+    ],
+    "preds": [
+      0,
+      5
+    ],
+    "succs": [
+      2,
+      6
+    ]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = virtualinvoke this.<Program: Fact[] deriveAll(Fact[])>(database)": {
+        "eline": 42,
+        "epos": 39,
+        "spos": 21,
+        "sline": 42
+      }},
+      {"allFacts = temp$0": {
+        "eline": 42,
+        "epos": 39,
+        "spos": 21,
+        "sline": 42
+      }},
+      {"temp$1 = new java.util.LinkedList": {
+        "eline": 43,
+        "epos": 51,
+        "spos": 3,
+        "sline": 43
+      }},
+      {"specialinvoke temp$1.<java.util.LinkedList: void <init>()>()": {
+        "eline": 43,
+        "epos": 50,
+        "spos": 29,
+        "sline": 43
+      }},
+      {"result = temp$1": {
+        "eline": 43,
+        "epos": 50,
+        "spos": 29,
+        "sline": 43
+      }},
+      {"temp$2 = 0": {
+        "reliable": false,
+        "eline": 43,
+        "epos": 50,
+        "spos": 29,
+        "sline": 43
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  },
+  "6": {
+    "instructions": [
+      {"temp$7 = newarray (Fact)[0]": {
+        "eline": 46,
+        "epos": 21,
+        "spos": 5,
+        "sline": 46
+      }},
+      {"temp$8 = virtualinvoke result.<java.util.LinkedList: java.lang.Object[] toArray(java.lang.Object[])>(temp$7)": {
+        "eline": 46,
+        "epos": 21,
+        "spos": 5,
+        "sline": 46
+      }},
+      {"temp$9 = (Fact[]) temp$8": {
+        "eline": 46,
+        "epos": 21,
+        "spos": 5,
+        "sline": 46
+      }},
+      {"return temp$9": {
+        "eline": 48,
+        "epos": 37,
+        "spos": 3,
+        "sline": 48
+      }}
+    ],
+    "preds": [1],
+    "succs": []
+  },
+  "5": {
+    "instructions": [
+      {"temp$2 = temp$2 + 1": {
+        "eline": 46,
+        "epos": 21,
+        "spos": 5,
+        "sline": 46
+      }},
+      {"goto block_1": {
+        "eline": 46,
+        "epos": 21,
+        "spos": 5,
+        "sline": 46
+      }}
+    ],
+    "preds": [
+      2,
+      4
+    ],
+    "succs": [1]
+  },
+  "4": {
+    "instructions": [{"virtualinvoke result.<java.util.LinkedList: boolean add(java.lang.Object)>(fact)": {
+      "eline": 46,
+      "epos": 21,
+      "spos": 5,
+      "sline": 46
+    }}],
+    "preds": [3],
+    "succs": [5]
+  }
+}

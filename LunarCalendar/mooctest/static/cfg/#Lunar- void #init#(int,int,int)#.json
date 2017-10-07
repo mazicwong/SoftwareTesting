@@ -1,0 +1,18 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<Gregorian: void <init>(int,int,int)>(y, m, d)": {
+      "eline": 11,
+      "epos": 23,
+      "spos": 9,
+      "sline": 11
+    }},
+    {"return": {
+      "eline": 11,
+      "epos": 23,
+      "spos": 9,
+      "sline": 11
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

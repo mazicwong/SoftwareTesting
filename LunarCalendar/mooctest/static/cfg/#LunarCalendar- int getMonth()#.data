@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "    public int getDay() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        return day; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public int getMonth() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        return month; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public int getYear() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        return year; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  }
+]

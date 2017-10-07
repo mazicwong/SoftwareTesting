@@ -1,0 +1,66 @@
+[
+  {
+    "codes": "import java.util.Arrays; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "import java.util.List; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "public class Node { ",
+    "blocks": []
+  },
+  {
+    "codes": "\tprivate List<Path> paths = new ArrayList<Path>();;  ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\tprivate final String name;  ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic Node(String name, Path... paths){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.paths.addAll(Arrays.asList(paths)); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tthis.name = name; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic Node(String name){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.name = name; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,264 @@
+{
+  "3": {
+    "instructions": [{"goto block_4": {
+      "eline": 43,
+      "epos": 11,
+      "spos": 8,
+      "sline": 43
+    }}],
+    "preds": [2],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [
+      {"pathToCompare = (Path) objectToCompare": {
+        "eline": 42,
+        "epos": 47,
+        "spos": 4,
+        "sline": 42
+      }},
+      {"temp$1 = this.<Path: Node srcNode>": {
+        "eline": 43,
+        "epos": 11,
+        "spos": 8,
+        "sline": 43
+      }},
+      {"temp$2 = virtualinvoke pathToCompare.<Path: Node getSrcNode()>()": {
+        "eline": 43,
+        "epos": 11,
+        "spos": 8,
+        "sline": 43
+      }},
+      {"temp$3 = virtualinvoke temp$1.<Node: boolean equals(java.lang.Object)>(temp$2)": {
+        "eline": 43,
+        "epos": 11,
+        "spos": 8,
+        "sline": 43
+      }},
+      {"if temp$3 == 0 goto block_6 #1": {
+        "eline": 43,
+        "epos": 11,
+        "ifpos": "(42, 3)-(46, 65)",
+        "spos": 8,
+        "sline": 43
+      }}
+    ],
+    "preds": [1],
+    "succs": [
+      3,
+      6
+    ]
+  },
+  "10": {
+    "instructions": [
+      {"temp$13 = 1": {
+        "reliable": false,
+        "eline": 47,
+        "epos": 13,
+        "spos": 10,
+        "sline": 47
+      }},
+      {"return temp$13": {
+        "eline": 48,
+        "epos": 17,
+        "spos": 6,
+        "sline": 48
+      }}
+    ],
+    "preds": [
+      5,
+      9
+    ],
+    "succs": []
+  },
+  "1": {
+    "instructions": [{"goto block_2": {
+      "eline": 41,
+      "epos": 36,
+      "spos": 6,
+      "sline": 41
+    }}],
+    "preds": [0],
+    "succs": [2]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = objectToCompare instanceof Path": {
+        "eline": 41,
+        "epos": 36,
+        "spos": 6,
+        "sline": 41
+      }},
+      {"if temp$0 == 0 goto block_11 #0": {
+        "eline": 41,
+        "epos": 36,
+        "ifpos": "(40, 2)-(40, 36)",
+        "spos": 6,
+        "sline": 41
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      11
+    ]
+  },
+  "7": {
+    "instructions": [{"goto block_8": {
+      "eline": 46,
+      "epos": 9,
+      "spos": 6,
+      "sline": 46
+    }}],
+    "preds": [6],
+    "succs": [8]
+  },
+  "6": {
+    "instructions": [
+      {"temp$7 = this.<Path: Node srcNode>": {
+        "eline": 46,
+        "epos": 9,
+        "spos": 6,
+        "sline": 46
+      }},
+      {"temp$8 = virtualinvoke pathToCompare.<Path: Node getDestinationNode()>()": {
+        "eline": 46,
+        "epos": 9,
+        "spos": 6,
+        "sline": 46
+      }},
+      {"temp$9 = virtualinvoke temp$7.<Node: boolean equals(java.lang.Object)>(temp$8)": {
+        "eline": 46,
+        "epos": 9,
+        "spos": 6,
+        "sline": 46
+      }},
+      {"if temp$9 == 0 goto block_11 #1": {
+        "eline": 46,
+        "epos": 9,
+        "ifpos": "(42, 3)-(46, 65)",
+        "spos": 6,
+        "sline": 46
+      }}
+    ],
+    "preds": [
+      2,
+      4
+    ],
+    "succs": [
+      7,
+      11
+    ]
+  },
+  "5": {
+    "instructions": [{"goto block_10": {
+      "eline": 44,
+      "epos": 9,
+      "spos": 6,
+      "sline": 44
+    }}],
+    "preds": [4],
+    "succs": [10]
+  },
+  "4": {
+    "instructions": [
+      {"temp$4 = this.<Path: Node destinationNode>": {
+        "eline": 44,
+        "epos": 9,
+        "spos": 6,
+        "sline": 44
+      }},
+      {"temp$5 = virtualinvoke pathToCompare.<Path: Node getDestinationNode()>()": {
+        "eline": 44,
+        "epos": 9,
+        "spos": 6,
+        "sline": 44
+      }},
+      {"temp$6 = virtualinvoke temp$4.<Node: boolean equals(java.lang.Object)>(temp$5)": {
+        "eline": 44,
+        "epos": 9,
+        "spos": 6,
+        "sline": 44
+      }},
+      {"if temp$6 == 0 goto block_6 #1": {
+        "eline": 44,
+        "epos": 9,
+        "ifpos": "(42, 3)-(46, 65)",
+        "spos": 6,
+        "sline": 44
+      }}
+    ],
+    "preds": [3],
+    "succs": [
+      5,
+      6
+    ]
+  },
+  "9": {
+    "instructions": [{"goto block_10": {
+      "eline": 47,
+      "epos": 13,
+      "spos": 10,
+      "sline": 47
+    }}],
+    "preds": [8],
+    "succs": [10]
+  },
+  "8": {
+    "instructions": [
+      {"temp$10 = this.<Path: Node destinationNode>": {
+        "eline": 47,
+        "epos": 13,
+        "spos": 10,
+        "sline": 47
+      }},
+      {"temp$11 = virtualinvoke pathToCompare.<Path: Node getSrcNode()>()": {
+        "eline": 47,
+        "epos": 13,
+        "spos": 10,
+        "sline": 47
+      }},
+      {"temp$12 = virtualinvoke temp$10.<Node: boolean equals(java.lang.Object)>(temp$11)": {
+        "eline": 47,
+        "epos": 13,
+        "spos": 10,
+        "sline": 47
+      }},
+      {"if temp$12 == 0 goto block_11 #1": {
+        "eline": 47,
+        "epos": 13,
+        "ifpos": "(42, 3)-(46, 65)",
+        "spos": 10,
+        "sline": 47
+      }}
+    ],
+    "preds": [7],
+    "succs": [
+      9,
+      11
+    ]
+  },
+  "11": {
+    "instructions": [
+      {"temp$14 = 0": {
+        "reliable": false,
+        "eline": 48,
+        "epos": 17,
+        "spos": 6,
+        "sline": 48
+      }},
+      {"return temp$14": {
+        "eline": 51,
+        "epos": 15,
+        "spos": 3,
+        "sline": 51
+      }}
+    ],
+    "preds": [
+      0,
+      6,
+      8
+    ],
+    "succs": []
+  }
+}

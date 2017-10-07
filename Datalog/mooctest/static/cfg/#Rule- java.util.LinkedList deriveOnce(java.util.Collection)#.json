@@ -1,0 +1,163 @@
+{
+  "3": {
+    "instructions": [{"return result": {
+      "eline": 40,
+      "epos": 16,
+      "spos": 3,
+      "sline": 40
+    }}],
+    "preds": [1],
+    "succs": []
+  },
+  "2": {
+    "instructions": [
+      {"temp$8 = interfaceinvoke temp$6.<java.util.Iterator: java.lang.Object next()>()": {
+        "eline": 36,
+        "epos": 50,
+        "spos": 29,
+        "sline": 36
+      }},
+      {"s = (Substitution) temp$8": {
+        "eline": 36,
+        "epos": 50,
+        "spos": 29,
+        "sline": 36
+      }},
+      {"temp$9 = this.<Rule: Datalog head>": {
+        "eline": 38,
+        "epos": 28,
+        "spos": 25,
+        "sline": 38
+      }},
+      {"temp$10 = virtualinvoke s.<Substitution: Datalog applyOn(Datalog)>(temp$9)": {
+        "eline": 38,
+        "epos": 28,
+        "spos": 25,
+        "sline": 38
+      }},
+      {"temp$11 = virtualinvoke temp$10.<Datalog: Fact toFact()>()": {
+        "eline": 38,
+        "epos": 28,
+        "spos": 25,
+        "sline": 38
+      }},
+      {"virtualinvoke result.<java.util.LinkedList: boolean add(java.lang.Object)>(temp$11)": {
+        "eline": 38,
+        "epos": 28,
+        "spos": 25,
+        "sline": 38
+      }},
+      {"goto block_1": {
+        "eline": 38,
+        "epos": 28,
+        "spos": 25,
+        "sline": 38
+      }}
+    ],
+    "preds": [1],
+    "succs": [1]
+  },
+  "1": {
+    "instructions": [
+      {"temp$7 = interfaceinvoke temp$6.<java.util.Iterator: boolean hasNext()>()": {
+        "eline": 36,
+        "epos": 50,
+        "spos": 29,
+        "sline": 36
+      }},
+      {"if temp$7 == 0 goto block_3 #0": {
+        "eline": 36,
+        "epos": 50,
+        "ifpos": "(34, 74)-(35, 50)",
+        "spos": 29,
+        "sline": 36
+      }}
+    ],
+    "preds": [
+      0,
+      2
+    ],
+    "succs": [
+      2,
+      3
+    ]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = new java.util.LinkedList": {
+        "eline": 34,
+        "epos": 78,
+        "spos": 3,
+        "sline": 34
+      }},
+      {"temp$1 = this.<Rule: Datalog[] body>": {
+        "eline": 34,
+        "epos": 75,
+        "spos": 72,
+        "sline": 34
+      }},
+      {"temp$2 = staticinvoke <java.util.Arrays: java.util.List asList(java.lang.Object[])>(temp$1)": {
+        "eline": 34,
+        "epos": 75,
+        "spos": 72,
+        "sline": 34
+      }},
+      {"temp$3 = (java.util.List) temp$2": {
+        "eline": 34,
+        "epos": 75,
+        "spos": 72,
+        "sline": 34
+      }},
+      {"specialinvoke temp$0.<java.util.LinkedList: void <init>(java.util.Collection)>(temp$3)": {
+        "eline": 34,
+        "epos": 77,
+        "spos": 34,
+        "sline": 34
+      }},
+      {"bodyList = temp$0": {
+        "eline": 34,
+        "epos": 77,
+        "spos": 34,
+        "sline": 34
+      }},
+      {"temp$4 = staticinvoke <Rule: java.util.LinkedList findAllSubstitutions(java.util.Collection,java.util.LinkedList)>(database, bodyList)": {
+        "eline": 35,
+        "epos": 75,
+        "spos": 3,
+        "sline": 35
+      }},
+      {"subs = temp$4": {
+        "eline": 35,
+        "epos": 75,
+        "spos": 3,
+        "sline": 35
+      }},
+      {"temp$5 = new java.util.LinkedList": {
+        "eline": 36,
+        "epos": 51,
+        "spos": 3,
+        "sline": 36
+      }},
+      {"specialinvoke temp$5.<java.util.LinkedList: void <init>()>()": {
+        "eline": 36,
+        "epos": 50,
+        "spos": 29,
+        "sline": 36
+      }},
+      {"result = temp$5": {
+        "eline": 36,
+        "epos": 50,
+        "spos": 29,
+        "sline": 36
+      }},
+      {"temp$6 = interfaceinvoke subs.<java.lang.Iterable: java.util.Iterator iterator()>()": {
+        "eline": 36,
+        "epos": 50,
+        "spos": 29,
+        "sline": 36
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  }
+}

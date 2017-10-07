@@ -1,0 +1,143 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$2 = arguments": {
+        "eline": 26,
+        "epos": 44,
+        "spos": 4,
+        "sline": 26
+      }},
+      {"temp$3 = i": {
+        "eline": 26,
+        "epos": 44,
+        "spos": 4,
+        "sline": 26
+      }},
+      {"temp$4 = values": {
+        "eline": 26,
+        "epos": 44,
+        "spos": 4,
+        "sline": 26
+      }},
+      {"temp$5 = i": {
+        "eline": 26,
+        "epos": 44,
+        "spos": 4,
+        "sline": 26
+      }},
+      {"temp$6 = temp$4[temp$5]": {
+        "eline": 26,
+        "epos": 44,
+        "spos": 4,
+        "sline": 26
+      }},
+      {"temp$7 = staticinvoke <Argument: Argument value(Value)>(temp$6)": {
+        "eline": 26,
+        "epos": 44,
+        "spos": 4,
+        "sline": 26
+      }},
+      {"temp$2[temp$3] = temp$7": {
+        "eline": 26,
+        "epos": 15,
+        "spos": 13,
+        "sline": 26
+      }},
+      {"temp$8 = i": {
+        "eline": 25,
+        "epos": 40,
+        "spos": 38,
+        "sline": 25
+      }},
+      {"temp$9 = temp$8 + 1": {
+        "eline": 25,
+        "epos": 38,
+        "spos": 38,
+        "sline": 25
+      }},
+      {"i = temp$9": {
+        "eline": 25,
+        "epos": 38,
+        "spos": 38,
+        "sline": 25
+      }},
+      {"goto block_1": {
+        "eline": 26,
+        "epos": 44,
+        "spos": 3,
+        "sline": 25
+      }}
+    ],
+    "preds": [1],
+    "succs": [1]
+  },
+  "2": {
+    "instructions": [{"goto block_4": {
+      "eline": 25,
+      "epos": 35,
+      "spos": 19,
+      "sline": 25
+    }}],
+    "preds": [1],
+    "succs": [4]
+  },
+  "1": {
+    "instructions": [
+      {"temp$1 = lengthof values": {
+        "eline": 25,
+        "epos": 35,
+        "spos": 19,
+        "sline": 25
+      }},
+      {"if i < temp$1 goto block_3 #0": {
+        "eline": 25,
+        "epos": 35,
+        "ifpos": "(24, 16)-(24, 35)",
+        "spos": 19,
+        "sline": 25
+      }}
+    ],
+    "preds": [
+      0,
+      3
+    ],
+    "succs": [
+      2,
+      3
+    ]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = lengthof values": {
+        "eline": 24,
+        "epos": 53,
+        "spos": 3,
+        "sline": 24
+      }},
+      {"arguments = newarray (Argument)[temp$0]": {
+        "eline": 24,
+        "epos": 53,
+        "spos": 3,
+        "sline": 24
+      }},
+      {"i = 0": {
+        "eline": 25,
+        "epos": 16,
+        "spos": 8,
+        "sline": 25
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  },
+  "4": {
+    "instructions": [{"return arguments": {
+      "eline": 27,
+      "epos": 19,
+      "spos": 3,
+      "sline": 27
+    }}],
+    "preds": [2],
+    "succs": []
+  }
+}

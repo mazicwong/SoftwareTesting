@@ -1,0 +1,65 @@
+{
+  "3": {
+    "instructions": [
+      {"virtualinvoke this.<Node: void addPathWithSource(Path)>(path)": {
+        "eline": 27,
+        "epos": 6,
+        "spos": 3,
+        "sline": 27
+      }},
+      {"return": {
+        "eline": 27,
+        "epos": 6,
+        "spos": 3,
+        "sline": 27
+      }}
+    ],
+    "preds": [
+      1,
+      2
+    ],
+    "succs": []
+  },
+  "2": {
+    "instructions": [{"virtualinvoke path.<Path: void setSrcNode(Node)>(this)": {
+      "eline": 25,
+      "epos": 23,
+      "spos": 20,
+      "sline": 25
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 24,
+      "epos": 30,
+      "spos": 6,
+      "sline": 24
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = virtualinvoke path.<Path: Node getSrcNode()>()": {
+        "eline": 24,
+        "epos": 30,
+        "spos": 6,
+        "sline": 24
+      }},
+      {"if temp$0 == null goto block_2 #0": {
+        "eline": 24,
+        "epos": 30,
+        "ifpos": "(23, 2)-(23, 30)",
+        "spos": 6,
+        "sline": 24
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  }
+}

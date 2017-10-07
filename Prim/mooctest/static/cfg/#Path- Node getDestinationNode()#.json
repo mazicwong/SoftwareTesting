@@ -1,0 +1,18 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = this.<Path: Node destinationNode>": {
+      "eline": 28,
+      "epos": 24,
+      "spos": 10,
+      "sline": 28
+    }},
+    {"return temp$0": {
+      "eline": 28,
+      "epos": 25,
+      "spos": 3,
+      "sline": 28
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

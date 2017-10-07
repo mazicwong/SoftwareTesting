@@ -1,0 +1,46 @@
+{"0": {
+  "instructions": [
+    {"virtualinvoke this.<LunarCalendar: void checkLunar()>()": {
+      "eline": 135,
+      "epos": 20,
+      "spos": 9,
+      "sline": 135
+    }},
+    {"temp$0 = newarray (java.lang.Object)[3]": {
+      "eline": 135,
+      "epos": 20,
+      "spos": 9,
+      "sline": 135
+    }},
+    {"temp$1 = virtualinvoke this.<LunarCalendar: java.lang.String getLunarYear()>()": {
+      "eline": 136,
+      "epos": 55,
+      "spos": 42,
+      "sline": 136
+    }},
+    {"temp$0[0] = temp$1": {}},
+    {"temp$2 = virtualinvoke this.<LunarCalendar: java.lang.String getLunarMonth()>()": {
+      "eline": 136,
+      "epos": 72,
+      "spos": 58,
+      "sline": 136
+    }},
+    {"temp$0[1] = temp$2": {}},
+    {"temp$3 = virtualinvoke this.<LunarCalendar: java.lang.String getLunarDay()>()": {
+      "eline": 136,
+      "epos": 87,
+      "spos": 75,
+      "sline": 136
+    }},
+    {"temp$0[2] = temp$3": {}},
+    {"temp$4 = staticinvoke <java.lang.String: java.lang.String format(java.lang.String,java.lang.Object[])>(\"%s\\u5e74%s\\u6708%s\", temp$0)": {}},
+    {"return temp$4": {
+      "eline": 136,
+      "epos": 89,
+      "spos": 9,
+      "sline": 136
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

@@ -1,0 +1,18 @@
+{"0": {
+  "instructions": [
+    {"this.<Path: Node srcNode> = node": {
+      "eline": 36,
+      "epos": 14,
+      "spos": 8,
+      "sline": 36
+    }},
+    {"return": {
+      "eline": 36,
+      "epos": 14,
+      "spos": 8,
+      "sline": 36
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

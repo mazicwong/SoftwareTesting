@@ -1,0 +1,54 @@
+[
+  {
+    "codes": "\tint a; ",
+    "blocks": []
+  },
+  {
+    "codes": "    int b; ",
+    "blocks": []
+  },
+  {
+    "codes": "    int c; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public Example(int m, int n, int i){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\ta = m; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        b = n; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        c = i; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic int A(int a){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif(a>8){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\ta=B(a-18); ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "codes": "\tpublic Variable getVariable() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn this.variable; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic String toString() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif (isValue) ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\treturn value.toString(); ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\treturn variable.toString(); ",
+    "blocks": [3]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

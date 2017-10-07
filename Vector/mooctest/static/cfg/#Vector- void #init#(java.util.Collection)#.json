@@ -1,0 +1,85 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.util.AbstractList: void <init>()>()": {}},
+    {"temp$0 = interfaceinvoke c.<java.util.Collection: int size()>()": {
+      "eline": 43,
+      "epos": 20,
+      "spos": 9,
+      "sline": 43
+    }},
+    {"this.<Vector: int elementCount> = temp$0": {
+      "eline": 43,
+      "epos": 20,
+      "spos": 9,
+      "sline": 43
+    }},
+    {"temp$1 = this.<Vector: int elementCount>": {
+      "eline": 45,
+      "epos": 61,
+      "spos": 50,
+      "sline": 45
+    }},
+    {"temp$2 = (long) temp$1": {
+      "eline": 45,
+      "epos": 61,
+      "spos": 50,
+      "sline": 45
+    }},
+    {"temp$3 = temp$2 * 110L": {
+      "eline": 45,
+      "epos": 61,
+      "spos": 50,
+      "sline": 45
+    }},
+    {"temp$4 = temp$3 / 100L": {
+      "eline": 45,
+      "epos": 61,
+      "spos": 50,
+      "sline": 45
+    }},
+    {"temp$5 = staticinvoke <java.lang.Math: long min(long,long)>(temp$4, 2147483647L)": {
+      "eline": 45,
+      "epos": 61,
+      "spos": 50,
+      "sline": 45
+    }},
+    {"temp$6 = (int) temp$5": {
+      "eline": 45,
+      "epos": 61,
+      "spos": 50,
+      "sline": 45
+    }},
+    {"temp$7 = newarray (java.lang.Object)[temp$6]": {
+      "eline": 45,
+      "epos": 61,
+      "spos": 50,
+      "sline": 45
+    }},
+    {"this.<Vector: java.lang.Object[] elementData> = temp$7": {
+      "eline": 45,
+      "epos": 19,
+      "spos": 9,
+      "sline": 45
+    }},
+    {"temp$8 = this.<Vector: java.lang.Object[] elementData>": {
+      "eline": 47,
+      "epos": 29,
+      "spos": 19,
+      "sline": 47
+    }},
+    {"interfaceinvoke c.<java.util.Collection: java.lang.Object[] toArray(java.lang.Object[])>(temp$8)": {
+      "eline": 47,
+      "epos": 29,
+      "spos": 19,
+      "sline": 47
+    }},
+    {"return": {
+      "eline": 47,
+      "epos": 29,
+      "spos": 19,
+      "sline": 47
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

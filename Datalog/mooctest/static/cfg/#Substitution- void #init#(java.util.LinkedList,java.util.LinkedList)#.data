@@ -1,0 +1,82 @@
+[
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "import java.util.LinkedList; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "public class Substitution { ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tprivate LinkedList<Variable> from = new LinkedList<Variable>(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\tprivate LinkedList<Value> to = new LinkedList<Value>(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic Substitution() { ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tprivate Substitution(LinkedList<Variable> from, LinkedList<Value> to) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.from = from; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tthis.to = to;  ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                                         ",
+    "blocks": []
+  },
+  {
+    "codes": "    ",
+    "blocks": []
+  }
+]

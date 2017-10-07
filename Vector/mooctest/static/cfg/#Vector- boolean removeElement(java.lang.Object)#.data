@@ -1,0 +1,73 @@
+[
+  {
+    "codes": "        ensureCapacityHelper(elementCount + 1); ",
+    "blocks": []
+  },
+  {
+    "codes": "        elementData[elementCount++] = obj; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public synchronized boolean removeElement(Object obj) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        modCount++; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        int i = indexOf(obj); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        if (i >= 0) { ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "            removeElementAt(i); ",
+    "blocks": [2]
+  },
+  {
+    "codes": "            return true; ",
+    "blocks": [2]
+  },
+  {
+    "codes": "        } ",
+    "blocks": []
+  },
+  {
+    "codes": "        return false; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "    public synchronized E get(int index) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (index >= elementCount) ",
+    "blocks": []
+  },
+  {
+    "codes": "            throw new ArrayIndexOutOfBoundsException(index); ",
+    "blocks": []
+  }
+]

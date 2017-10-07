@@ -1,0 +1,235 @@
+{
+  "15": {
+    "instructions": [
+      {"temp$4 = 31": {
+        "reliable": false,
+        "eline": 361,
+        "epos": 22,
+        "spos": 13,
+        "sline": 361
+      }},
+      {"return temp$4": {
+        "eline": 364,
+        "epos": 18,
+        "spos": 9,
+        "sline": 364
+      }}
+    ],
+    "preds": [10],
+    "succs": []
+  },
+  "13": {
+    "instructions": [
+      {"temp$2 = 29": {
+        "reliable": false,
+        "eline": 358,
+        "epos": 32,
+        "spos": 17,
+        "sline": 358
+      }},
+      {"return temp$2": {
+        "eline": 359,
+        "epos": 26,
+        "spos": 17,
+        "sline": 359
+      }}
+    ],
+    "preds": [12],
+    "succs": []
+  },
+  "14": {
+    "instructions": [
+      {"temp$3 = 28": {
+        "reliable": false,
+        "eline": 359,
+        "epos": 26,
+        "spos": 17,
+        "sline": 359
+      }},
+      {"return temp$3": {
+        "eline": 361,
+        "epos": 22,
+        "spos": 13,
+        "sline": 361
+      }}
+    ],
+    "preds": [11],
+    "succs": []
+  },
+  "11": {
+    "instructions": [
+      {"temp$1 = staticinvoke <DPCNCalendar: boolean isLeapYear(int)>(year)": {
+        "eline": 358,
+        "epos": 32,
+        "spos": 17,
+        "sline": 358
+      }},
+      {"if temp$1 == 0 goto block_14 #2": {
+        "eline": 358,
+        "epos": 32,
+        "ifpos": "(357, 12)-(357, 32)",
+        "spos": 17,
+        "sline": 358
+      }}
+    ],
+    "preds": [9],
+    "succs": [
+      12,
+      14
+    ]
+  },
+  "12": {
+    "instructions": [{"goto block_13": {
+      "eline": 358,
+      "epos": 32,
+      "spos": 17,
+      "sline": 358
+    }}],
+    "preds": [11],
+    "succs": [13]
+  },
+  "3": {
+    "instructions": [{"goto block_4": {
+      "eline": 354,
+      "epos": 36,
+      "spos": 27,
+      "sline": 354
+    }}],
+    "preds": [2],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [{"if month == 6 goto block_8 #0": {
+      "eline": 354,
+      "epos": 36,
+      "ifpos": "(353, 8)-(353, 65)",
+      "spos": 27,
+      "sline": 354
+    }}],
+    "preds": [1],
+    "succs": [
+      3,
+      8
+    ]
+  },
+  "1": {
+    "instructions": [{"goto block_2": {
+      "eline": 354,
+      "epos": 22,
+      "spos": 13,
+      "sline": 354
+    }}],
+    "preds": [0],
+    "succs": [2]
+  },
+  "10": {
+    "instructions": [{"goto block_15": {
+      "eline": 357,
+      "epos": 22,
+      "spos": 13,
+      "sline": 357
+    }}],
+    "preds": [9],
+    "succs": [15]
+  },
+  "0": {
+    "instructions": [{"if month == 4 goto block_8 #0": {
+      "eline": 354,
+      "epos": 22,
+      "ifpos": "(353, 8)-(353, 65)",
+      "spos": 13,
+      "sline": 354
+    }}],
+    "preds": [],
+    "succs": [
+      1,
+      8
+    ]
+  },
+  "7": {
+    "instructions": [{"goto block_9": {
+      "eline": 354,
+      "epos": 65,
+      "spos": 55,
+      "sline": 354
+    }}],
+    "preds": [6],
+    "succs": [9]
+  },
+  "6": {
+    "instructions": [{"if month == 11 goto block_8 #0": {
+      "eline": 354,
+      "epos": 65,
+      "ifpos": "(353, 8)-(353, 65)",
+      "spos": 55,
+      "sline": 354
+    }}],
+    "preds": [5],
+    "succs": [
+      7,
+      8
+    ]
+  },
+  "5": {
+    "instructions": [{"goto block_6": {
+      "eline": 354,
+      "epos": 50,
+      "spos": 41,
+      "sline": 354
+    }}],
+    "preds": [4],
+    "succs": [6]
+  },
+  "4": {
+    "instructions": [{"if month == 9 goto block_8 #0": {
+      "eline": 354,
+      "epos": 50,
+      "ifpos": "(353, 8)-(353, 65)",
+      "spos": 41,
+      "sline": 354
+    }}],
+    "preds": [3],
+    "succs": [
+      5,
+      8
+    ]
+  },
+  "9": {
+    "instructions": [{"if month == 2 goto block_11 #1": {
+      "eline": 357,
+      "epos": 22,
+      "ifpos": "(356, 8)-(356, 22)",
+      "spos": 13,
+      "sline": 357
+    }}],
+    "preds": [7],
+    "succs": [
+      10,
+      11
+    ]
+  },
+  "8": {
+    "instructions": [
+      {"temp$0 = 30": {
+        "reliable": false,
+        "eline": 354,
+        "epos": 65,
+        "spos": 55,
+        "sline": 354
+      }},
+      {"return temp$0": {
+        "eline": 355,
+        "epos": 22,
+        "spos": 13,
+        "sline": 355
+      }}
+    ],
+    "preds": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "succs": []
+  }
+}

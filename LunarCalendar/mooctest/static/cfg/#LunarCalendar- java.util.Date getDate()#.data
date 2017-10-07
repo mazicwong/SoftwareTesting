@@ -1,0 +1,50 @@
+[
+  {
+    "codes": "    public String getSolarTerm() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        return solarTerm; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public Date getDate() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        Calendar calendar = new GregorianCalendar(year, month - 1, day); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        return calendar.getTime(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public long getMillis() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        return getDate().getTime(); ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  }
+]

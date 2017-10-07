@@ -1,0 +1,312 @@
+{
+  "3": {
+    "instructions": [{"goto block_5": {
+      "eline": 59,
+      "epos": 48,
+      "spos": 32,
+      "sline": 59
+    }}],
+    "preds": [2],
+    "succs": [5]
+  },
+  "2": {
+    "instructions": [
+      {"oldData = this.<Vector: java.lang.Object[] elementData>": {
+        "eline": 58,
+        "epos": 42,
+        "spos": 32,
+        "sline": 58
+      }},
+      {"temp$2 = this.<Vector: int capacityIncrement>": {
+        "eline": 59,
+        "epos": 48,
+        "spos": 32,
+        "sline": 59
+      }},
+      {"if temp$2 > 0 goto block_4 #1": {
+        "eline": 59,
+        "epos": 48,
+        "ifpos": "(57, 42)-(58, 54)",
+        "spos": 32,
+        "sline": 59
+      }}
+    ],
+    "preds": [0],
+    "succs": [
+      3,
+      4
+    ]
+  },
+  "10": {
+    "instructions": [
+      {"temp$7 = this.<Vector: int elementCount>": {
+        "eline": 65,
+        "epos": 44,
+        "spos": 33,
+        "sline": 65
+      }},
+      {"if i < temp$7 goto block_12 #3": {
+        "eline": 65,
+        "epos": 44,
+        "ifpos": "(64, 26)-(64, 44)",
+        "spos": 33,
+        "sline": 65
+      }}
+    ],
+    "preds": [
+      9,
+      12
+    ],
+    "succs": [
+      11,
+      12
+    ]
+  },
+  "1": {
+    "instructions": [{"goto block_13": {
+      "eline": 57,
+      "epos": 37,
+      "spos": 13,
+      "sline": 57
+    }}],
+    "preds": [0],
+    "succs": [13]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = this.<Vector: java.lang.Object[] elementData>": {
+        "eline": 56,
+        "epos": 37,
+        "spos": 27,
+        "sline": 56
+      }},
+      {"oldCapacity = lengthof temp$0": {
+        "eline": 56,
+        "epos": 37,
+        "spos": 27,
+        "sline": 56
+      }},
+      {"if minCapacity > oldCapacity goto block_2 #0": {
+        "eline": 57,
+        "epos": 37,
+        "ifpos": "(56, 8)-(56, 37)",
+        "spos": 13,
+        "sline": 57
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  },
+  "7": {
+    "instructions": [{"goto block_9": {
+      "eline": 61,
+      "epos": 41,
+      "spos": 17,
+      "sline": 61
+    }}],
+    "preds": [6],
+    "succs": [9]
+  },
+  "6": {
+    "instructions": [
+      {"newCapacity = temp$1": {
+        "eline": 59,
+        "epos": 88,
+        "spos": 72,
+        "sline": 59
+      }},
+      {"if newCapacity < minCapacity goto block_8 #2": {
+        "eline": 61,
+        "epos": 41,
+        "ifpos": "(60, 12)-(60, 41)",
+        "spos": 17,
+        "sline": 61
+      }}
+    ],
+    "preds": [
+      4,
+      5
+    ],
+    "succs": [
+      7,
+      8
+    ]
+  },
+  "5": {
+    "instructions": [
+      {"temp$5 = oldCapacity * 2": {
+        "eline": 59,
+        "epos": 88,
+        "spos": 72,
+        "sline": 59
+      }},
+      {"temp$1 = temp$5": {
+        "eline": 59,
+        "epos": 88,
+        "spos": 72,
+        "sline": 59
+      }}
+    ],
+    "preds": [3],
+    "succs": [6]
+  },
+  "4": {
+    "instructions": [
+      {"temp$3 = oldCapacity": {
+        "eline": 59,
+        "epos": 48,
+        "spos": 32,
+        "sline": 59
+      }},
+      {"temp$4 = this.<Vector: int capacityIncrement>": {
+        "eline": 59,
+        "epos": 88,
+        "spos": 72,
+        "sline": 59
+      }},
+      {"temp$1 = temp$3 + temp$4": {
+        "eline": 59,
+        "epos": 88,
+        "spos": 72,
+        "sline": 59
+      }},
+      {"goto block_6": {
+        "eline": 59,
+        "epos": 88,
+        "spos": 72,
+        "sline": 59
+      }}
+    ],
+    "preds": [2],
+    "succs": [6]
+  },
+  "9": {
+    "instructions": [
+      {"temp$6 = newarray (java.lang.Object)[newCapacity]": {
+        "eline": 64,
+        "epos": 23,
+        "spos": 13,
+        "sline": 64
+      }},
+      {"this.<Vector: java.lang.Object[] elementData> = temp$6": {
+        "eline": 64,
+        "epos": 23,
+        "spos": 13,
+        "sline": 64
+      }},
+      {"i = 0": {
+        "eline": 65,
+        "epos": 26,
+        "spos": 18,
+        "sline": 65
+      }}
+    ],
+    "preds": [
+      7,
+      8
+    ],
+    "succs": [10]
+  },
+  "8": {
+    "instructions": [{"newCapacity = minCapacity": {
+      "eline": 62,
+      "epos": 27,
+      "spos": 17,
+      "sline": 62
+    }}],
+    "preds": [6],
+    "succs": [9]
+  },
+  "13": {
+    "instructions": [{"return": {
+      "eline": 67,
+      "epos": 13,
+      "spos": 13,
+      "sline": 65
+    }}],
+    "preds": [
+      1,
+      11
+    ],
+    "succs": []
+  },
+  "11": {
+    "instructions": [{"goto block_13": {
+      "eline": 65,
+      "epos": 44,
+      "spos": 33,
+      "sline": 65
+    }}],
+    "preds": [10],
+    "succs": [13]
+  },
+  "12": {
+    "instructions": [
+      {"temp$8 = this.<Vector: java.lang.Object[] elementData>": {
+        "eline": 66,
+        "epos": 27,
+        "spos": 17,
+        "sline": 66
+      }},
+      {"temp$9 = i": {
+        "eline": 66,
+        "epos": 27,
+        "spos": 17,
+        "sline": 66
+      }},
+      {"temp$10 = oldData": {
+        "eline": 66,
+        "epos": 27,
+        "spos": 17,
+        "sline": 66
+      }},
+      {"temp$11 = i": {
+        "eline": 66,
+        "epos": 27,
+        "spos": 17,
+        "sline": 66
+      }},
+      {"temp$12 = temp$10[temp$11]": {
+        "eline": 66,
+        "epos": 27,
+        "spos": 17,
+        "sline": 66
+      }},
+      {"temp$8[temp$9] = temp$12": {
+        "eline": 66,
+        "epos": 30,
+        "spos": 28,
+        "sline": 66
+      }},
+      {"temp$13 = i": {
+        "eline": 65,
+        "epos": 49,
+        "spos": 47,
+        "sline": 65
+      }},
+      {"temp$14 = temp$13 + 1": {
+        "eline": 65,
+        "epos": 47,
+        "spos": 47,
+        "sline": 65
+      }},
+      {"i = temp$14": {
+        "eline": 65,
+        "epos": 47,
+        "spos": 47,
+        "sline": 65
+      }},
+      {"goto block_10": {
+        "eline": 67,
+        "epos": 13,
+        "spos": 13,
+        "sline": 65
+      }}
+    ],
+    "preds": [10],
+    "succs": [10]
+  }
+}

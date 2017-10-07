@@ -1,0 +1,42 @@
+{"0": {
+  "instructions": [
+    {"virtualinvoke this.<LunarCalendar: void checkLunar()>()": {
+      "eline": 125,
+      "epos": 20,
+      "spos": 9,
+      "sline": 125
+    }},
+    {"temp$0 = <LunarCalendar: java.lang.String[] MONTH_NAME>": {
+      "eline": 125,
+      "epos": 20,
+      "spos": 9,
+      "sline": 125
+    }},
+    {"temp$1 = this.<LunarCalendar: Lunar lunar>": {
+      "eline": 126,
+      "epos": 31,
+      "spos": 27,
+      "sline": 126
+    }},
+    {"temp$2 = temp$1.<Lunar: int month>": {
+      "eline": 126,
+      "epos": 31,
+      "spos": 27,
+      "sline": 126
+    }},
+    {"temp$3 = temp$0[temp$2]": {
+      "eline": 126,
+      "epos": 31,
+      "spos": 27,
+      "sline": 126
+    }},
+    {"return temp$3": {
+      "eline": 126,
+      "epos": 39,
+      "spos": 9,
+      "sline": 126
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

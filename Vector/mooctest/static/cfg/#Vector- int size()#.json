@@ -1,0 +1,18 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = this.<Vector: int elementCount>": {
+      "eline": 73,
+      "epos": 27,
+      "spos": 16,
+      "sline": 73
+    }},
+    {"return temp$0": {
+      "eline": 73,
+      "epos": 28,
+      "spos": 9,
+      "sline": 73
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

@@ -1,0 +1,106 @@
+[
+  {
+    "codes": "import java.util.LinkedList; ",
+    "blocks": []
+  },
+  {
+    "codes": "import java.util.List; ",
+    "blocks": []
+  },
+  {
+    "codes": "import java.util.Map; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "public class SundySearch { ",
+    "blocks": []
+  },
+  {
+    "codes": "    String text = null; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    String pattern = null; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    int currentPos = 0; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "                              ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "    List<Integer> matchedPosList = new LinkedList<Integer>(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                            ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "    Map<Character, Integer> map = new HashMap<Character, Integer>(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    public SundySearch(String text, String pattern) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        this.text = text; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        this.pattern = pattern; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        this.initMap(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    }; ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                                 ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "    private void initMap() { ",
+    "blocks": []
+  }
+]

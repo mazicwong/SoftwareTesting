@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "    public Vector(int initialCapacity) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        this(initialCapacity, 0); ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public Vector() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        this(10); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public Vector(Collection<? extends E> c) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        elementCount = c.size(); ",
+    "blocks": []
+  },
+  {
+    "codes": "                          ",
+    "blocks": []
+  }
+]

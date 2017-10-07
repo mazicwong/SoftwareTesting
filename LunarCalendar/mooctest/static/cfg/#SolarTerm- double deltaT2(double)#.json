@@ -1,0 +1,42 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = jd / 365.2425": {
+      "eline": 137,
+      "epos": 19,
+      "spos": 16,
+      "sline": 137
+    }},
+    {"temp$1 = temp$0": {
+      "eline": 137,
+      "epos": 19,
+      "spos": 16,
+      "sline": 137
+    }},
+    {"temp$2 = temp$1 + 2000.0": {
+      "eline": 137,
+      "epos": 19,
+      "spos": 16,
+      "sline": 137
+    }},
+    {"temp$3 = virtualinvoke this.<SolarTerm: double deltaT(double)>(temp$2)": {
+      "eline": 137,
+      "epos": 19,
+      "spos": 16,
+      "sline": 137
+    }},
+    {"temp$4 = temp$3 / 86400.0": {
+      "eline": 137,
+      "epos": 19,
+      "spos": 16,
+      "sline": 137
+    }},
+    {"return temp$4": {
+      "eline": 137,
+      "epos": 59,
+      "spos": 9,
+      "sline": 137
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

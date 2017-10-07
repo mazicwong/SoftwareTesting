@@ -1,0 +1,54 @@
+[
+  {
+    "codes": "        checkYear(year); ",
+    "blocks": []
+  },
+  {
+    "codes": "        init(year, month, day); ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private void init(int year, int month, int day) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        this.year = year; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        this.month = month; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        this.day = day; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private void checkYear(int year) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (year < 1900 || year > 2100) ",
+    "blocks": []
+  },
+  {
+    "codes": "            throw new RuntimeException(\"Year should be between 1900 and 2100\"); ",
+    "blocks": []
+  }
+]

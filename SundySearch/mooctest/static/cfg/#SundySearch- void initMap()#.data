@@ -1,0 +1,66 @@
+[
+  {
+    "codes": "    }; ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                                 ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "    private void initMap() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        for (int i = 0; i < pattern.length(); i++) { ",
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "codes": "            this.map.put(pattern.charAt(i), i); ",
+    "blocks": [
+      3,
+      4
+    ]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [
+      3,
+      4
+    ]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "                                 ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "    public List<Integer> normalMatch() { ",
+    "blocks": []
+  }
+]

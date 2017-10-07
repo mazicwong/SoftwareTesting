@@ -1,0 +1,30 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.lang.Object: void <init>()>()": {
+      "eline": 17,
+      "epos": 10,
+      "spos": 3,
+      "sline": 17
+    }},
+    {"this.<Path: int weight> = weight": {
+      "eline": 18,
+      "epos": 13,
+      "spos": 8,
+      "sline": 18
+    }},
+    {"this.<Path: Node destinationNode> = destinationNode": {
+      "eline": 19,
+      "epos": 22,
+      "spos": 8,
+      "sline": 19
+    }},
+    {"return": {
+      "eline": 19,
+      "epos": 22,
+      "spos": 8,
+      "sline": 19
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

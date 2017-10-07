@@ -1,0 +1,18 @@
+{"0": {
+  "instructions": [
+    {"this.<NodeNetwork: java.util.List nodes> = nodes": {
+      "eline": 31,
+      "epos": 12,
+      "spos": 8,
+      "sline": 31
+    }},
+    {"return": {
+      "eline": 31,
+      "epos": 12,
+      "spos": 8,
+      "sline": 31
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

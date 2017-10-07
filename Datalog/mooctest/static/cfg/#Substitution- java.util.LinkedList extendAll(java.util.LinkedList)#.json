@@ -1,0 +1,302 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$4 = s.<Substitution: java.util.LinkedList 'from'>": {
+        "eline": 78,
+        "epos": 36,
+        "spos": 20,
+        "sline": 78
+      }},
+      {"temp$5 = virtualinvoke temp$4.<java.util.LinkedList: int size()>()": {
+        "eline": 78,
+        "epos": 36,
+        "spos": 20,
+        "sline": 78
+      }},
+      {"if i < temp$5 goto block_5 #1": {
+        "eline": 78,
+        "epos": 36,
+        "ifpos": "(77, 17)-(77, 36)",
+        "spos": 20,
+        "sline": 78
+      }}
+    ],
+    "preds": [
+      2,
+      8
+    ],
+    "succs": [
+      4,
+      5
+    ]
+  },
+  "2": {
+    "instructions": [
+      {"temp$3 = interfaceinvoke temp$1.<java.util.Iterator: java.lang.Object next()>()": {
+        "eline": 75,
+        "epos": 63,
+        "spos": 34,
+        "sline": 75
+      }},
+      {"s = (Substitution) temp$3": {
+        "eline": 75,
+        "epos": 63,
+        "spos": 34,
+        "sline": 75
+      }},
+      {"newS = this": {
+        "eline": 77,
+        "epos": 27,
+        "spos": 24,
+        "sline": 77
+      }},
+      {"i = 0": {
+        "eline": 78,
+        "epos": 17,
+        "spos": 9,
+        "sline": 78
+      }}
+    ],
+    "preds": [1],
+    "succs": [3]
+  },
+  "10": {
+    "instructions": [{"goto block_12": {
+      "eline": 83,
+      "epos": 19,
+      "spos": 8,
+      "sline": 83
+    }}],
+    "preds": [9],
+    "succs": [12]
+  },
+  "1": {
+    "instructions": [
+      {"temp$2 = interfaceinvoke temp$1.<java.util.Iterator: boolean hasNext()>()": {
+        "eline": 75,
+        "epos": 63,
+        "spos": 34,
+        "sline": 75
+      }},
+      {"if temp$2 == 0 goto block_13 #0": {
+        "eline": 75,
+        "epos": 63,
+        "ifpos": "(63, 50)-(74, 63)",
+        "spos": 34,
+        "sline": 75
+      }}
+    ],
+    "preds": [
+      0,
+      12
+    ],
+    "succs": [
+      2,
+      13
+    ]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = new java.util.LinkedList": {
+        "eline": 75,
+        "epos": 64,
+        "spos": 3,
+        "sline": 75
+      }},
+      {"specialinvoke temp$0.<java.util.LinkedList: void <init>()>()": {
+        "eline": 75,
+        "epos": 63,
+        "spos": 34,
+        "sline": 75
+      }},
+      {"res = temp$0": {
+        "eline": 75,
+        "epos": 63,
+        "spos": 34,
+        "sline": 75
+      }},
+      {"temp$1 = interfaceinvoke subs.<java.lang.Iterable: java.util.Iterator iterator()>()": {
+        "eline": 75,
+        "epos": 63,
+        "spos": 34,
+        "sline": 75
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  },
+  "7": {
+    "instructions": [{"goto block_9": {
+      "eline": 81,
+      "epos": 11,
+      "spos": 6,
+      "sline": 81
+    }}],
+    "preds": [5],
+    "succs": [9]
+  },
+  "6": {
+    "instructions": [{"goto block_8": {
+      "eline": 80,
+      "epos": 20,
+      "spos": 9,
+      "sline": 80
+    }}],
+    "preds": [5],
+    "succs": [8]
+  },
+  "5": {
+    "instructions": [
+      {"temp$6 = s.<Substitution: java.util.LinkedList 'from'>": {
+        "eline": 79,
+        "epos": 51,
+        "spos": 5,
+        "sline": 79
+      }},
+      {"temp$7 = virtualinvoke temp$6.<java.util.LinkedList: java.lang.Object get(int)>(i)": {
+        "eline": 79,
+        "epos": 51,
+        "spos": 5,
+        "sline": 79
+      }},
+      {"temp$8 = (Variable) temp$7": {
+        "eline": 79,
+        "epos": 51,
+        "spos": 5,
+        "sline": 79
+      }},
+      {"temp$9 = s.<Substitution: java.util.LinkedList 'to'>": {
+        "eline": 79,
+        "epos": 51,
+        "spos": 5,
+        "sline": 79
+      }},
+      {"temp$10 = virtualinvoke temp$9.<java.util.LinkedList: java.lang.Object get(int)>(i)": {
+        "eline": 79,
+        "epos": 51,
+        "spos": 5,
+        "sline": 79
+      }},
+      {"temp$11 = (Value) temp$10": {
+        "eline": 79,
+        "epos": 51,
+        "spos": 5,
+        "sline": 79
+      }},
+      {"temp$12 = virtualinvoke newS.<Substitution: Substitution extend(Variable,Value)>(temp$8, temp$11)": {
+        "eline": 79,
+        "epos": 51,
+        "spos": 5,
+        "sline": 79
+      }},
+      {"newS = temp$12": {
+        "eline": 79,
+        "epos": 8,
+        "spos": 5,
+        "sline": 79
+      }},
+      {"if newS == null goto block_7 #2": {
+        "eline": 80,
+        "epos": 20,
+        "ifpos": "(79, 4)-(79, 20)",
+        "spos": 9,
+        "sline": 80
+      }}
+    ],
+    "preds": [3],
+    "succs": [
+      6,
+      7
+    ]
+  },
+  "4": {
+    "instructions": [{"goto block_9": {
+      "eline": 78,
+      "epos": 36,
+      "spos": 20,
+      "sline": 78
+    }}],
+    "preds": [3],
+    "succs": [9]
+  },
+  "9": {
+    "instructions": [{"if newS != null goto block_11 #3": {
+      "eline": 83,
+      "epos": 19,
+      "ifpos": "(82, 3)-(82, 19)",
+      "spos": 8,
+      "sline": 83
+    }}],
+    "preds": [
+      4,
+      7
+    ],
+    "succs": [
+      10,
+      11
+    ]
+  },
+  "8": {
+    "instructions": [
+      {"temp$13 = i": {
+        "eline": 78,
+        "epos": 41,
+        "spos": 39,
+        "sline": 78
+      }},
+      {"temp$14 = temp$13 + 1": {
+        "eline": 78,
+        "epos": 39,
+        "spos": 39,
+        "sline": 78
+      }},
+      {"i = temp$14": {
+        "eline": 78,
+        "epos": 39,
+        "spos": 39,
+        "sline": 78
+      }},
+      {"goto block_3": {
+        "eline": 82,
+        "epos": 4,
+        "spos": 4,
+        "sline": 78
+      }}
+    ],
+    "preds": [6],
+    "succs": [3]
+  },
+  "13": {
+    "instructions": [{"return res": {
+      "eline": 87,
+      "epos": 13,
+      "spos": 3,
+      "sline": 87
+    }}],
+    "preds": [1],
+    "succs": []
+  },
+  "11": {
+    "instructions": [{"virtualinvoke res.<java.util.LinkedList: boolean add(java.lang.Object)>(newS)": {
+      "eline": 84,
+      "epos": 18,
+      "spos": 5,
+      "sline": 84
+    }}],
+    "preds": [9],
+    "succs": [12]
+  },
+  "12": {
+    "instructions": [{"goto block_1": {
+      "eline": 84,
+      "epos": 18,
+      "spos": 5,
+      "sline": 84
+    }}],
+    "preds": [
+      10,
+      11
+    ],
+    "succs": [1]
+  }
+}

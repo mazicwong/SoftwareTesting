@@ -1,0 +1,61 @@
+[
+  {
+    "codes": "public class Variable { ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tprivate final String identifier; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic Variable(String identifier) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif (identifier == null) { ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\tthrow new NullPointerException(\"Identifier cannot be null\"); ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.identifier = identifier; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic String getIdentifier() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn this.identifier; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  }
+]

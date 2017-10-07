@@ -1,0 +1,91 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$5 = this.<LunarCalendar: Lunar lunar>": {
+        "eline": 26,
+        "epos": 20,
+        "spos": 16,
+        "sline": 26
+      }},
+      {"return temp$5": {
+        "eline": 26,
+        "epos": 21,
+        "spos": 9,
+        "sline": 26
+      }}
+    ],
+    "preds": [
+      1,
+      2
+    ],
+    "succs": []
+  },
+  "2": {
+    "instructions": [
+      {"temp$1 = this.<LunarCalendar: int year>": {
+        "eline": 25,
+        "epos": 46,
+        "spos": 43,
+        "sline": 25
+      }},
+      {"temp$2 = this.<LunarCalendar: int month>": {
+        "eline": 25,
+        "epos": 53,
+        "spos": 49,
+        "sline": 25
+      }},
+      {"temp$3 = this.<LunarCalendar: int day>": {
+        "eline": 25,
+        "epos": 58,
+        "spos": 56,
+        "sline": 25
+      }},
+      {"temp$4 = staticinvoke <DPCNCalendar: Lunar getLunar(int,int,int)>(temp$1, temp$2, temp$3)": {
+        "eline": 25,
+        "epos": 58,
+        "spos": 56,
+        "sline": 25
+      }},
+      {"this.<LunarCalendar: Lunar lunar> = temp$4": {
+        "eline": 25,
+        "epos": 17,
+        "spos": 13,
+        "sline": 25
+      }}
+    ],
+    "preds": [0],
+    "succs": [3]
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 24,
+      "epos": 17,
+      "spos": 13,
+      "sline": 24
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = this.<LunarCalendar: Lunar lunar>": {
+        "eline": 24,
+        "epos": 17,
+        "spos": 13,
+        "sline": 24
+      }},
+      {"if temp$0 == null goto block_2 #0": {
+        "eline": 24,
+        "epos": 17,
+        "ifpos": "(23, 8)-(23, 25)",
+        "spos": 13,
+        "sline": 24
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  }
+}

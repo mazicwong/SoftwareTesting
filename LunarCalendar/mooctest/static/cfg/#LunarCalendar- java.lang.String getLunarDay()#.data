@@ -1,0 +1,54 @@
+[
+  {
+    "codes": "    public int getYear() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        return year; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public String getLunarDay() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        checkLunar(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        char[] c = String.valueOf(lunar.day).toCharArray(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        return TextUtils.lunarNumToStr(c); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private void checkLunar() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (lunar == null) { ",
+    "blocks": []
+  },
+  {
+    "codes": "            lunar = getLunar(); ",
+    "blocks": []
+  }
+]

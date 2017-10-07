@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "\tpublic Node(String name){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.name = name; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic List<Path> getPaths(){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn paths; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic void addPathWithoutSource(Path path){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif(path.getSrcNode() == null){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\tpath.setSrcNode(this); ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "\tpublic Node getSrcNode() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn srcNode; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic void setSrcNode(Node node) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.srcNode = node; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t@Override ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic boolean equals(Object objectToCompare){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif(objectToCompare instanceof Path){ ",
+    "blocks": []
+  }
+]

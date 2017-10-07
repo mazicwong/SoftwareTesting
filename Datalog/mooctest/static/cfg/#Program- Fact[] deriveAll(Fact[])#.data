@@ -1,0 +1,92 @@
+[
+  {
+    "codes": "                    ",
+    "blocks": []
+  },
+  {
+    "codes": "            ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "\t@SuppressWarnings(\"unchecked\") ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic Fact[] deriveAll(Fact[] database) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tHashSet<Fact> allFacts = new HashSet<Fact>(Arrays.asList(database)); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tHashSet<Fact> oldFacts = new HashSet<Fact>(Arrays.asList(database)); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tint newFacts = 0; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tdo { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\tfor (Rule rule : program) { ",
+    "blocks": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "\t\t\t\tallFacts.addAll(rule.deriveOnce(allFacts)); ",
+    "blocks": [
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": [
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "\t\t\tnewFacts = allFacts.size() - oldFacts.size(); ",
+    "blocks": [4]
+  },
+  {
+    "codes": "\t\t\toldFacts = (HashSet<Fact>) allFacts.clone(); ",
+    "blocks": [4]
+  },
+  {
+    "codes": "\t\t} while (newFacts != 0); ",
+    "blocks": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "codes": "\t\treturn allFacts.toArray(new Fact[0]); ",
+    "blocks": [6]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

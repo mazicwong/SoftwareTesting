@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "\tpublic NodeNetwork(Node... nodes){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.setNodes(Arrays.asList(nodes)); ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\tvoid addNode(Node node){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.getNodes().add(node); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic List<Node> getNodes() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn nodes; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  }
+]

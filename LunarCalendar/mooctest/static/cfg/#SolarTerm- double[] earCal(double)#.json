@@ -1,0 +1,455 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = jd / 365250.0": {
+      "eline": 256,
+      "epos": 12,
+      "spos": 9,
+      "sline": 256
+    }},
+    {"this.<SolarTerm: double EnnT> = temp$0": {
+      "eline": 256,
+      "epos": 12,
+      "spos": 9,
+      "sline": 256
+    }},
+    {"llr = newarray (double)[3]": {
+      "eline": 257,
+      "epos": 37,
+      "spos": 9,
+      "sline": 257
+    }},
+    {"t1 = this.<SolarTerm: double EnnT>": {
+      "eline": 258,
+      "epos": 24,
+      "spos": 21,
+      "sline": 258
+    }},
+    {"temp$1 = t1 * t1": {
+      "eline": 258,
+      "epos": 38,
+      "spos": 27,
+      "sline": 258
+    }},
+    {"t2 = temp$1": {
+      "eline": 258,
+      "epos": 38,
+      "spos": 27,
+      "sline": 258
+    }},
+    {"temp$2 = t2 * t1": {
+      "eline": 258,
+      "epos": 52,
+      "spos": 41,
+      "sline": 258
+    }},
+    {"t3 = temp$2": {
+      "eline": 258,
+      "epos": 52,
+      "spos": 41,
+      "sline": 258
+    }},
+    {"temp$3 = t3 * t1": {
+      "eline": 258,
+      "epos": 66,
+      "spos": 55,
+      "sline": 258
+    }},
+    {"t4 = temp$3": {
+      "eline": 258,
+      "epos": 66,
+      "spos": 55,
+      "sline": 258
+    }},
+    {"temp$4 = t4 * t1": {
+      "eline": 258,
+      "epos": 80,
+      "spos": 69,
+      "sline": 258
+    }},
+    {"t5 = temp$4": {
+      "eline": 258,
+      "epos": 80,
+      "spos": 69,
+      "sline": 258
+    }},
+    {"temp$5 = llr": {
+      "eline": 259,
+      "epos": 106,
+      "spos": 9,
+      "sline": 259
+    }},
+    {"temp$6 = 0": {
+      "reliable": false,
+      "eline": 259,
+      "epos": 106,
+      "spos": 9,
+      "sline": 259
+    }},
+    {"temp$7 = <SolarTerm: double[] E10>": {
+      "eline": 259,
+      "epos": 25,
+      "spos": 18,
+      "sline": 259
+    }},
+    {"temp$8 = virtualinvoke this.<SolarTerm: double Enn(double[])>(temp$7)": {
+      "eline": 259,
+      "epos": 25,
+      "spos": 18,
+      "sline": 259
+    }},
+    {"temp$9 = temp$8": {
+      "eline": 259,
+      "epos": 25,
+      "spos": 18,
+      "sline": 259
+    }},
+    {"temp$10 = <SolarTerm: double[] E11>": {
+      "eline": 259,
+      "epos": 36,
+      "spos": 29,
+      "sline": 259
+    }},
+    {"temp$11 = virtualinvoke this.<SolarTerm: double Enn(double[])>(temp$10)": {
+      "eline": 259,
+      "epos": 36,
+      "spos": 29,
+      "sline": 259
+    }},
+    {"temp$12 = temp$11 * t1": {
+      "eline": 259,
+      "epos": 36,
+      "spos": 29,
+      "sline": 259
+    }},
+    {"temp$13 = temp$9 + temp$12": {
+      "eline": 259,
+      "epos": 36,
+      "spos": 29,
+      "sline": 259
+    }},
+    {"temp$14 = <SolarTerm: double[] E12>": {
+      "eline": 259,
+      "epos": 52,
+      "spos": 45,
+      "sline": 259
+    }},
+    {"temp$15 = virtualinvoke this.<SolarTerm: double Enn(double[])>(temp$14)": {
+      "eline": 259,
+      "epos": 52,
+      "spos": 45,
+      "sline": 259
+    }},
+    {"temp$16 = temp$15 * t2": {
+      "eline": 259,
+      "epos": 52,
+      "spos": 45,
+      "sline": 259
+    }},
+    {"temp$17 = temp$13 + temp$16": {
+      "eline": 259,
+      "epos": 52,
+      "spos": 45,
+      "sline": 259
+    }},
+    {"temp$18 = <SolarTerm: double[] E13>": {
+      "eline": 259,
+      "epos": 68,
+      "spos": 61,
+      "sline": 259
+    }},
+    {"temp$19 = virtualinvoke this.<SolarTerm: double Enn(double[])>(temp$18)": {
+      "eline": 259,
+      "epos": 68,
+      "spos": 61,
+      "sline": 259
+    }},
+    {"temp$20 = temp$19 * t3": {
+      "eline": 259,
+      "epos": 68,
+      "spos": 61,
+      "sline": 259
+    }},
+    {"temp$21 = temp$17 + temp$20": {
+      "eline": 259,
+      "epos": 68,
+      "spos": 61,
+      "sline": 259
+    }},
+    {"temp$22 = <SolarTerm: double[] E14>": {
+      "eline": 259,
+      "epos": 84,
+      "spos": 77,
+      "sline": 259
+    }},
+    {"temp$23 = virtualinvoke this.<SolarTerm: double Enn(double[])>(temp$22)": {
+      "eline": 259,
+      "epos": 84,
+      "spos": 77,
+      "sline": 259
+    }},
+    {"temp$24 = temp$23 * t4": {
+      "eline": 259,
+      "epos": 84,
+      "spos": 77,
+      "sline": 259
+    }},
+    {"temp$25 = temp$21 + temp$24": {
+      "eline": 259,
+      "epos": 84,
+      "spos": 77,
+      "sline": 259
+    }},
+    {"temp$26 = <SolarTerm: double[] E15>": {
+      "eline": 259,
+      "epos": 100,
+      "spos": 93,
+      "sline": 259
+    }},
+    {"temp$27 = virtualinvoke this.<SolarTerm: double Enn(double[])>(temp$26)": {
+      "eline": 259,
+      "epos": 100,
+      "spos": 93,
+      "sline": 259
+    }},
+    {"temp$28 = temp$27 * t5": {
+      "eline": 259,
+      "epos": 100,
+      "spos": 93,
+      "sline": 259
+    }},
+    {"temp$29 = temp$25 + temp$28": {
+      "eline": 259,
+      "epos": 100,
+      "spos": 93,
+      "sline": 259
+    }},
+    {"temp$5[temp$6] = temp$29": {
+      "eline": 259,
+      "epos": 14,
+      "spos": 12,
+      "sline": 259
+    }},
+    {"temp$30 = llr": {
+      "eline": 260,
+      "epos": 42,
+      "spos": 9,
+      "sline": 260
+    }},
+    {"temp$31 = 1": {
+      "reliable": false,
+      "eline": 260,
+      "epos": 42,
+      "spos": 9,
+      "sline": 260
+    }},
+    {"temp$32 = <SolarTerm: double[] E20>": {
+      "eline": 260,
+      "epos": 25,
+      "spos": 18,
+      "sline": 260
+    }},
+    {"temp$33 = virtualinvoke this.<SolarTerm: double Enn(double[])>(temp$32)": {
+      "eline": 260,
+      "epos": 25,
+      "spos": 18,
+      "sline": 260
+    }},
+    {"temp$34 = temp$33": {
+      "eline": 260,
+      "epos": 25,
+      "spos": 18,
+      "sline": 260
+    }},
+    {"temp$35 = <SolarTerm: double[] E21>": {
+      "eline": 260,
+      "epos": 36,
+      "spos": 29,
+      "sline": 260
+    }},
+    {"temp$36 = virtualinvoke this.<SolarTerm: double Enn(double[])>(temp$35)": {
+      "eline": 260,
+      "epos": 36,
+      "spos": 29,
+      "sline": 260
+    }},
+    {"temp$37 = temp$36 * t1": {
+      "eline": 260,
+      "epos": 36,
+      "spos": 29,
+      "sline": 260
+    }},
+    {"temp$38 = temp$34 + temp$37": {
+      "eline": 260,
+      "epos": 36,
+      "spos": 29,
+      "sline": 260
+    }},
+    {"temp$30[temp$31] = temp$38": {
+      "eline": 260,
+      "epos": 14,
+      "spos": 12,
+      "sline": 260
+    }},
+    {"temp$39 = llr": {
+      "eline": 261,
+      "epos": 74,
+      "spos": 9,
+      "sline": 261
+    }},
+    {"temp$40 = 2": {
+      "reliable": false,
+      "eline": 261,
+      "epos": 74,
+      "spos": 9,
+      "sline": 261
+    }},
+    {"temp$41 = <SolarTerm: double[] E30>": {
+      "eline": 261,
+      "epos": 25,
+      "spos": 18,
+      "sline": 261
+    }},
+    {"temp$42 = virtualinvoke this.<SolarTerm: double Enn(double[])>(temp$41)": {
+      "eline": 261,
+      "epos": 25,
+      "spos": 18,
+      "sline": 261
+    }},
+    {"temp$43 = temp$42": {
+      "eline": 261,
+      "epos": 25,
+      "spos": 18,
+      "sline": 261
+    }},
+    {"temp$44 = <SolarTerm: double[] E31>": {
+      "eline": 261,
+      "epos": 36,
+      "spos": 29,
+      "sline": 261
+    }},
+    {"temp$45 = virtualinvoke this.<SolarTerm: double Enn(double[])>(temp$44)": {
+      "eline": 261,
+      "epos": 36,
+      "spos": 29,
+      "sline": 261
+    }},
+    {"temp$46 = temp$45 * t1": {
+      "eline": 261,
+      "epos": 36,
+      "spos": 29,
+      "sline": 261
+    }},
+    {"temp$47 = temp$43 + temp$46": {
+      "eline": 261,
+      "epos": 36,
+      "spos": 29,
+      "sline": 261
+    }},
+    {"temp$48 = <SolarTerm: double[] E32>": {
+      "eline": 261,
+      "epos": 52,
+      "spos": 45,
+      "sline": 261
+    }},
+    {"temp$49 = virtualinvoke this.<SolarTerm: double Enn(double[])>(temp$48)": {
+      "eline": 261,
+      "epos": 52,
+      "spos": 45,
+      "sline": 261
+    }},
+    {"temp$50 = temp$49 * t2": {
+      "eline": 261,
+      "epos": 52,
+      "spos": 45,
+      "sline": 261
+    }},
+    {"temp$51 = temp$47 + temp$50": {
+      "eline": 261,
+      "epos": 52,
+      "spos": 45,
+      "sline": 261
+    }},
+    {"temp$52 = <SolarTerm: double[] E33>": {
+      "eline": 261,
+      "epos": 68,
+      "spos": 61,
+      "sline": 261
+    }},
+    {"temp$53 = virtualinvoke this.<SolarTerm: double Enn(double[])>(temp$52)": {
+      "eline": 261,
+      "epos": 68,
+      "spos": 61,
+      "sline": 261
+    }},
+    {"temp$54 = temp$53 * t3": {
+      "eline": 261,
+      "epos": 68,
+      "spos": 61,
+      "sline": 261
+    }},
+    {"temp$55 = temp$51 + temp$54": {
+      "eline": 261,
+      "epos": 68,
+      "spos": 61,
+      "sline": 261
+    }},
+    {"temp$39[temp$40] = temp$55": {
+      "eline": 261,
+      "epos": 14,
+      "spos": 12,
+      "sline": 261
+    }},
+    {"temp$56 = llr": {
+      "eline": 262,
+      "epos": 34,
+      "spos": 9,
+      "sline": 262
+    }},
+    {"temp$57 = 0": {
+      "reliable": false,
+      "eline": 262,
+      "epos": 34,
+      "spos": 9,
+      "sline": 262
+    }},
+    {"temp$58 = llr": {
+      "eline": 262,
+      "epos": 33,
+      "spos": 18,
+      "sline": 262
+    }},
+    {"temp$59 = 0": {
+      "reliable": false,
+      "eline": 262,
+      "epos": 33,
+      "spos": 18,
+      "sline": 262
+    }},
+    {"temp$60 = temp$58[temp$59]": {
+      "eline": 262,
+      "epos": 33,
+      "spos": 18,
+      "sline": 262
+    }},
+    {"temp$61 = virtualinvoke this.<SolarTerm: double rad2mrad(double)>(temp$60)": {
+      "eline": 262,
+      "epos": 33,
+      "spos": 18,
+      "sline": 262
+    }},
+    {"temp$56[temp$57] = temp$61": {
+      "eline": 262,
+      "epos": 14,
+      "spos": 12,
+      "sline": 262
+    }},
+    {"return llr": {
+      "eline": 263,
+      "epos": 19,
+      "spos": 9,
+      "sline": 263
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

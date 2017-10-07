@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "\tpublic Datalog getHead() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn this.head; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic Datalog[] getBody() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn this.body; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                                             ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                                             ",
+    "blocks": []
+  }
+]

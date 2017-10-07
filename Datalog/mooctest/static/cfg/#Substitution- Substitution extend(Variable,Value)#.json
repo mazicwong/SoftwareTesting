@@ -1,0 +1,184 @@
+{
+  "3": {
+    "instructions": [{"goto block_5": {
+      "eline": 31,
+      "epos": 10,
+      "spos": 9,
+      "sline": 31
+    }}],
+    "preds": [2],
+    "succs": [5]
+  },
+  "2": {
+    "instructions": [
+      {"temp$2 = this.<Substitution: java.util.LinkedList 'to'>": {
+        "eline": 31,
+        "epos": 10,
+        "spos": 9,
+        "sline": 31
+      }},
+      {"temp$3 = virtualinvoke temp$2.<java.util.LinkedList: java.lang.Object get(int)>(index)": {
+        "eline": 31,
+        "epos": 10,
+        "spos": 9,
+        "sline": 31
+      }},
+      {"temp$4 = (Value) temp$3": {
+        "eline": 31,
+        "epos": 10,
+        "spos": 9,
+        "sline": 31
+      }},
+      {"temp$5 = virtualinvoke temp$4.<Value: boolean equals(java.lang.Object)>(value)": {
+        "eline": 31,
+        "epos": 10,
+        "spos": 9,
+        "sline": 31
+      }},
+      {"if temp$5 == 0 goto block_4 #1": {
+        "eline": 31,
+        "epos": 10,
+        "ifpos": "(30, 3)-(30, 35)",
+        "spos": 9,
+        "sline": 31
+      }}
+    ],
+    "preds": [0],
+    "succs": [
+      3,
+      4
+    ]
+  },
+  "1": {
+    "instructions": [{"goto block_5": {
+      "eline": 30,
+      "epos": 17,
+      "spos": 7,
+      "sline": 30
+    }}],
+    "preds": [0],
+    "succs": [5]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = this.<Substitution: java.util.LinkedList 'from'>": {
+        "eline": 29,
+        "epos": 18,
+        "spos": 15,
+        "sline": 29
+      }},
+      {"temp$1 = virtualinvoke temp$0.<java.util.LinkedList: int indexOf(java.lang.Object)>(variable)": {
+        "eline": 29,
+        "epos": 18,
+        "spos": 15,
+        "sline": 29
+      }},
+      {"index = temp$1": {
+        "eline": 29,
+        "epos": 18,
+        "spos": 15,
+        "sline": 29
+      }},
+      {"if index != -1 goto block_2 #0": {
+        "eline": 30,
+        "epos": 17,
+        "ifpos": "(29, 2)-(29, 17)",
+        "spos": 7,
+        "sline": 30
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  },
+  "5": {
+    "instructions": [
+      {"temp$7 = new Substitution": {
+        "eline": 35,
+        "epos": 56,
+        "spos": 3,
+        "sline": 35
+      }},
+      {"temp$8 = this.<Substitution: java.util.LinkedList 'from'>": {
+        "eline": 35,
+        "epos": 40,
+        "spos": 37,
+        "sline": 35
+      }},
+      {"temp$9 = this.<Substitution: java.util.LinkedList 'to'>": {
+        "eline": 35,
+        "epos": 51,
+        "spos": 48,
+        "sline": 35
+      }},
+      {"specialinvoke temp$7.<Substitution: void <init>(java.util.LinkedList,java.util.LinkedList)>(temp$8, temp$9)": {
+        "eline": 35,
+        "epos": 55,
+        "spos": 20,
+        "sline": 35
+      }},
+      {"s = temp$7": {
+        "eline": 35,
+        "epos": 55,
+        "spos": 20,
+        "sline": 35
+      }},
+      {"temp$10 = s.<Substitution: java.util.LinkedList 'from'>": {
+        "eline": 36,
+        "epos": 23,
+        "spos": 3,
+        "sline": 36
+      }},
+      {"virtualinvoke temp$10.<java.util.LinkedList: boolean add(java.lang.Object)>(variable)": {
+        "eline": 36,
+        "epos": 23,
+        "spos": 3,
+        "sline": 36
+      }},
+      {"temp$12 = s.<Substitution: java.util.LinkedList 'to'>": {
+        "eline": 37,
+        "epos": 18,
+        "spos": 3,
+        "sline": 37
+      }},
+      {"virtualinvoke temp$12.<java.util.LinkedList: boolean add(java.lang.Object)>(value)": {
+        "eline": 37,
+        "epos": 18,
+        "spos": 3,
+        "sline": 37
+      }},
+      {"return s": {
+        "eline": 38,
+        "epos": 11,
+        "spos": 3,
+        "sline": 38
+      }}
+    ],
+    "preds": [
+      1,
+      3
+    ],
+    "succs": []
+  },
+  "4": {
+    "instructions": [
+      {"temp$6 = null": {
+        "reliable": false,
+        "eline": 31,
+        "epos": 10,
+        "spos": 9,
+        "sline": 31
+      }},
+      {"return temp$6": {
+        "eline": 32,
+        "epos": 16,
+        "spos": 5,
+        "sline": 32
+      }}
+    ],
+    "preds": [2],
+    "succs": []
+  }
+}

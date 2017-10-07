@@ -1,0 +1,121 @@
+[
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "                                 ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "    public List<Integer> normalMatch() { ",
+    "blocks": []
+  },
+  {
+    "codes": "                            ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (!matchFromSpecialPos(currentPos)) { ",
+    "blocks": [
+      0,
+      1,
+      5
+    ]
+  },
+  {
+    "codes": "            currentPos += 1; ",
+    "blocks": [
+      2,
+      5
+    ]
+  },
+  {
+    "codes": "            if ((text.length() - currentPos) < pattern.length()) { ",
+    "blocks": [
+      2,
+      3,
+      5
+    ]
+  },
+  {
+    "codes": "                return matchedPosList; ",
+    "blocks": [
+      4,
+      5
+    ]
+  },
+  {
+    "codes": "            } ",
+    "blocks": [5]
+  },
+  {
+    "codes": "            normalMatch(); ",
+    "blocks": [5]
+  },
+  {
+    "codes": "        } else { ",
+    "blocks": [5]
+  },
+  {
+    "codes": "                            ",
+    "blocks": [5]
+  },
+  {
+    "codes": "            matchedPosList.add(currentPos); ",
+    "blocks": [
+      5,
+      6
+    ]
+  },
+  {
+    "codes": "            currentPos += 1; ",
+    "blocks": [
+      5,
+      6
+    ]
+  },
+  {
+    "codes": "            normalMatch(); ",
+    "blocks": [
+      5,
+      6
+    ]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [5]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        return matchedPosList; ",
+    "blocks": [7]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                             ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "    public List<Integer> sundayMatch() { ",
+    "blocks": []
+  }
+]

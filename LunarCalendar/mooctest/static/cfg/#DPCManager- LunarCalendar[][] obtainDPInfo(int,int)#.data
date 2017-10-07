@@ -1,0 +1,153 @@
+[
+  {
+    "codes": "                        ",
+    "blocks": []
+  },
+  {
+    "codes": "                        ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                     ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "    LunarCalendar[][] obtainDPInfo(int year, int month) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        Map<Integer, LunarCalendar[][]> dataOfYear = DATE_CACHE.get(year); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        if (null != dataOfYear && dataOfYear.size() != 0) { ",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "            LunarCalendar[][] dataOfMonth = dataOfYear.get(month); ",
+    "blocks": [
+      0,
+      4
+    ]
+  },
+  {
+    "codes": "            if (dataOfMonth != null) { ",
+    "blocks": [
+      0,
+      4,
+      5
+    ]
+  },
+  {
+    "codes": "                return dataOfMonth; ",
+    "blocks": [
+      0,
+      6
+    ]
+  },
+  {
+    "codes": "            } ",
+    "blocks": [0]
+  },
+  {
+    "codes": "            dataOfMonth = buildDPInfo(year, month); ",
+    "blocks": [
+      0,
+      7
+    ]
+  },
+  {
+    "codes": "            dataOfYear.put(month, dataOfMonth); ",
+    "blocks": [
+      0,
+      7
+    ]
+  },
+  {
+    "codes": "            return dataOfMonth; ",
+    "blocks": [
+      0,
+      7
+    ]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        if (null == dataOfYear) { ",
+    "blocks": [
+      0,
+      8,
+      9
+    ]
+  },
+  {
+    "codes": "            dataOfYear = new HashMap<Integer, LunarCalendar[][]>(); ",
+    "blocks": [
+      0,
+      10
+    ]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        LunarCalendar[][] dataOfMonth = buildDPInfo(year, month); ",
+    "blocks": [
+      0,
+      11
+    ]
+  },
+  {
+    "codes": "        dataOfYear.put(month, dataOfMonth); ",
+    "blocks": [
+      0,
+      11
+    ]
+  },
+  {
+    "codes": "        DATE_CACHE.put(year, dataOfYear); ",
+    "blocks": [
+      0,
+      11
+    ]
+  },
+  {
+    "codes": "        return dataOfMonth; ",
+    "blocks": [
+      0,
+      11
+    ]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private LunarCalendar[][] buildDPInfo(int year, int month) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        LunarCalendar[][] info = new LunarCalendar[6][7]; ",
+    "blocks": []
+  },
+  {
+    "codes": "        int[][] monthGregorian = DPCNCalendar.buildMonthGregorian(year, month); ",
+    "blocks": []
+  }
+]

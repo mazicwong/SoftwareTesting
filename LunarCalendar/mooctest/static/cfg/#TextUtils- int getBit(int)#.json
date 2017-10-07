@@ -1,0 +1,107 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$1 = temp": {
+        "eline": 47,
+        "epos": 23,
+        "spos": 13,
+        "sline": 47
+      }},
+      {"temp$2 = temp$1 * 10": {
+        "eline": 47,
+        "epos": 23,
+        "spos": 13,
+        "sline": 47
+      }},
+      {"temp = temp$2": {
+        "eline": 47,
+        "epos": 16,
+        "spos": 13,
+        "sline": 47
+      }},
+      {"temp$3 = bit + 1": {
+        "eline": 48,
+        "epos": 18,
+        "spos": 13,
+        "sline": 48
+      }},
+      {"bit = temp$3": {
+        "eline": 48,
+        "epos": 17,
+        "spos": 15,
+        "sline": 48
+      }},
+      {"goto block_1": {
+        "eline": 49,
+        "epos": 9,
+        "spos": 9,
+        "sline": 46
+      }}
+    ],
+    "preds": [1],
+    "succs": [1]
+  },
+  "2": {
+    "instructions": [{"goto block_4": {
+      "eline": 46,
+      "epos": 33,
+      "spos": 16,
+      "sline": 46
+    }}],
+    "preds": [1],
+    "succs": [4]
+  },
+  "1": {
+    "instructions": [
+      {"temp$0 = number / temp": {
+        "eline": 46,
+        "epos": 33,
+        "spos": 16,
+        "sline": 46
+      }},
+      {"if temp$0 != 0 goto block_3 #0": {
+        "eline": 46,
+        "epos": 33,
+        "ifpos": "(45, 8)-(45, 33)",
+        "spos": 16,
+        "sline": 46
+      }}
+    ],
+    "preds": [
+      0,
+      3
+    ],
+    "succs": [
+      2,
+      3
+    ]
+  },
+  "0": {
+    "instructions": [
+      {"temp = 10": {
+        "eline": 44,
+        "epos": 22,
+        "spos": 9,
+        "sline": 44
+      }},
+      {"bit = 1": {
+        "eline": 45,
+        "epos": 20,
+        "spos": 9,
+        "sline": 45
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  },
+  "4": {
+    "instructions": [{"return bit": {
+      "eline": 50,
+      "epos": 19,
+      "spos": 9,
+      "sline": 50
+    }}],
+    "preds": [2],
+    "succs": []
+  }
+}

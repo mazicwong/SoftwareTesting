@@ -1,0 +1,58 @@
+[
+  {
+    "codes": "        this.month = month; ",
+    "blocks": []
+  },
+  {
+    "codes": "        this.day = day; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private void checkYear(int year) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (year < 1900 || year > 2100) ",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "            throw new RuntimeException(\"Year should be between 1900 and 2100\"); ",
+    "blocks": [
+      4,
+      5
+    ]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    @Override ",
+    "blocks": []
+  },
+  {
+    "codes": "    public String toString() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        return \"Gregorian{\" + ",
+    "blocks": []
+  }
+]

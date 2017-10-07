@@ -1,0 +1,85 @@
+[
+  {
+    "codes": "\tpublic Value[] getValues() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn this.values; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic boolean equals(Object o) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif (o == null) ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\treturn false; ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\tif (o instanceof Fact) { ",
+    "blocks": [
+      3,
+      4
+    ]
+  },
+  {
+    "codes": "\t\t\treturn ((Fact) o).predicate.equals(this.predicate) ",
+    "blocks": [
+      5,
+      6,
+      11
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\t&& Arrays.equals(((Fact) o).values, this.values); ",
+    "blocks": [
+      7,
+      8,
+      9,
+      11
+    ]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn false; ",
+    "blocks": [12]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic int hashCode() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn 17 * this.predicate.hashCode() + 13 * Arrays.hashCode(this.values); ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  }
+]

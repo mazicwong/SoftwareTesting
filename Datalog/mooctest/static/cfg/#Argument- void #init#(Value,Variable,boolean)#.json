@@ -1,0 +1,31 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+    {"this.<Argument: Value value> = value": {
+      "eline": 9,
+      "epos": 12,
+      "spos": 8,
+      "sline": 9
+    }},
+    {"this.<Argument: Variable variable> = variable": {
+      "eline": 10,
+      "epos": 15,
+      "spos": 8,
+      "sline": 10
+    }},
+    {"this.<Argument: boolean isValue> = isValue": {
+      "eline": 11,
+      "epos": 14,
+      "spos": 8,
+      "sline": 11
+    }},
+    {"return": {
+      "eline": 11,
+      "epos": 14,
+      "spos": 8,
+      "sline": 11
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

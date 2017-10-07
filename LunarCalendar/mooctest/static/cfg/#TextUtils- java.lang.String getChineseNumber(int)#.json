@@ -1,0 +1,209 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$5 = number / temp": {
+        "eline": 29,
+        "epos": 36,
+        "spos": 13,
+        "sline": 29
+      }},
+      {"num = temp$5": {
+        "eline": 29,
+        "epos": 36,
+        "spos": 13,
+        "sline": 29
+      }},
+      {"temp$6 = <TextUtils: java.lang.String[] NUMBER_CAPITAL>": {
+        "eline": 30,
+        "epos": 48,
+        "spos": 13,
+        "sline": 30
+      }},
+      {"temp$7 = num": {
+        "eline": 30,
+        "epos": 48,
+        "spos": 13,
+        "sline": 30
+      }},
+      {"temp$8 = temp$6[temp$7]": {
+        "eline": 30,
+        "epos": 48,
+        "spos": 13,
+        "sline": 30
+      }},
+      {"virtualinvoke builder.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(temp$8)": {
+        "eline": 30,
+        "epos": 48,
+        "spos": 13,
+        "sline": 30
+      }},
+      {"temp$10 = number": {
+        "eline": 31,
+        "epos": 27,
+        "spos": 13,
+        "sline": 31
+      }},
+      {"temp$11 = temp$10 % temp": {
+        "eline": 31,
+        "epos": 27,
+        "spos": 13,
+        "sline": 31
+      }},
+      {"number = temp$11": {
+        "eline": 31,
+        "epos": 18,
+        "spos": 13,
+        "sline": 31
+      }},
+      {"temp$12 = temp": {
+        "eline": 32,
+        "epos": 23,
+        "spos": 13,
+        "sline": 32
+      }},
+      {"temp$13 = temp$12 / 10": {
+        "eline": 32,
+        "epos": 23,
+        "spos": 13,
+        "sline": 32
+      }},
+      {"temp = temp$13": {
+        "eline": 32,
+        "epos": 16,
+        "spos": 13,
+        "sline": 32
+      }},
+      {"temp$14 = i + 1": {
+        "eline": 28,
+        "epos": 36,
+        "spos": 34,
+        "sline": 28
+      }},
+      {"i = temp$14": {
+        "eline": 28,
+        "epos": 36,
+        "spos": 36,
+        "sline": 28
+      }},
+      {"goto block_1": {
+        "eline": 33,
+        "epos": 9,
+        "spos": 9,
+        "sline": 28
+      }}
+    ],
+    "preds": [1],
+    "succs": [1]
+  },
+  "2": {
+    "instructions": [{"goto block_4": {
+      "eline": 28,
+      "epos": 31,
+      "spos": 25,
+      "sline": 28
+    }}],
+    "preds": [1],
+    "succs": [4]
+  },
+  "1": {
+    "instructions": [{"if i < bit goto block_3 #0": {
+      "eline": 28,
+      "epos": 31,
+      "ifpos": "(27, 22)-(27, 31)",
+      "spos": 25,
+      "sline": 28
+    }}],
+    "preds": [
+      0,
+      3
+    ],
+    "succs": [
+      2,
+      3
+    ]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = new java.lang.StringBuilder": {
+        "eline": 25,
+        "epos": 52,
+        "spos": 9,
+        "sline": 25
+      }},
+      {"specialinvoke temp$0.<java.lang.StringBuilder: void <init>()>()": {
+        "eline": 25,
+        "epos": 51,
+        "spos": 33,
+        "sline": 25
+      }},
+      {"builder = temp$0": {
+        "eline": 25,
+        "epos": 51,
+        "spos": 33,
+        "sline": 25
+      }},
+      {"temp$1 = staticinvoke <TextUtils: int getBit(int)>(number)": {
+        "eline": 26,
+        "epos": 33,
+        "spos": 9,
+        "sline": 26
+      }},
+      {"bit = temp$1": {
+        "eline": 26,
+        "epos": 33,
+        "spos": 9,
+        "sline": 26
+      }},
+      {"temp$2 = bit - 1": {
+        "eline": 27,
+        "epos": 47,
+        "spos": 9,
+        "sline": 27
+      }},
+      {"temp$3 = (double) temp$2": {
+        "eline": 27,
+        "epos": 47,
+        "spos": 9,
+        "sline": 27
+      }},
+      {"temp$4 = staticinvoke <java.lang.Math: double pow(double,double)>(10.0, temp$3)": {
+        "eline": 27,
+        "epos": 47,
+        "spos": 9,
+        "sline": 27
+      }},
+      {"temp = (int) temp$4": {
+        "eline": 27,
+        "epos": 47,
+        "spos": 9,
+        "sline": 27
+      }},
+      {"i = 0": {
+        "eline": 28,
+        "epos": 22,
+        "spos": 14,
+        "sline": 28
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  },
+  "4": {
+    "instructions": [
+      {"temp$15 = virtualinvoke builder.<java.lang.StringBuilder: java.lang.String toString()>()": {
+        "eline": 33,
+        "epos": 9,
+        "spos": 9,
+        "sline": 28
+      }},
+      {"return temp$15": {
+        "eline": 34,
+        "epos": 34,
+        "spos": 9,
+        "sline": 34
+      }}
+    ],
+    "preds": [2],
+    "succs": []
+  }
+}

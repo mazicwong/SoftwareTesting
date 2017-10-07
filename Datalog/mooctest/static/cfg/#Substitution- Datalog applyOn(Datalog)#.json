@@ -1,0 +1,405 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$3 = args": {
+        "eline": 52,
+        "epos": 27,
+        "spos": 16,
+        "sline": 52
+      }},
+      {"temp$4 = i": {
+        "eline": 52,
+        "epos": 27,
+        "spos": 16,
+        "sline": 52
+      }},
+      {"temp$5 = temp$3[temp$4]": {
+        "eline": 52,
+        "epos": 27,
+        "spos": 16,
+        "sline": 52
+      }},
+      {"temp$6 = virtualinvoke temp$5.<Argument: boolean isVariable()>()": {
+        "eline": 52,
+        "epos": 27,
+        "spos": 16,
+        "sline": 52
+      }},
+      {"if temp$6 == 0 goto block_10 #1": {
+        "eline": 52,
+        "epos": 27,
+        "ifpos": "(51, 3)-(51, 27)",
+        "spos": 16,
+        "sline": 52
+      }}
+    ],
+    "preds": [1],
+    "succs": [
+      4,
+      10
+    ]
+  },
+  "2": {
+    "instructions": [{"goto block_12": {
+      "eline": 51,
+      "epos": 33,
+      "spos": 19,
+      "sline": 51
+    }}],
+    "preds": [1],
+    "succs": [12]
+  },
+  "10": {
+    "instructions": [
+      {"temp$24 = newArgs": {
+        "eline": 61,
+        "epos": 25,
+        "spos": 5,
+        "sline": 61
+      }},
+      {"temp$25 = i": {
+        "eline": 61,
+        "epos": 25,
+        "spos": 5,
+        "sline": 61
+      }},
+      {"temp$26 = args": {
+        "eline": 61,
+        "epos": 25,
+        "spos": 5,
+        "sline": 61
+      }},
+      {"temp$27 = i": {
+        "eline": 61,
+        "epos": 25,
+        "spos": 5,
+        "sline": 61
+      }},
+      {"temp$28 = temp$26[temp$27]": {
+        "eline": 61,
+        "epos": 25,
+        "spos": 5,
+        "sline": 61
+      }},
+      {"temp$24[temp$25] = temp$28": {
+        "eline": 61,
+        "epos": 14,
+        "spos": 12,
+        "sline": 61
+      }}
+    ],
+    "preds": [3],
+    "succs": [11]
+  },
+  "1": {
+    "instructions": [
+      {"temp$2 = lengthof args": {
+        "eline": 51,
+        "epos": 33,
+        "spos": 19,
+        "sline": 51
+      }},
+      {"if i < temp$2 goto block_3 #0": {
+        "eline": 51,
+        "epos": 33,
+        "ifpos": "(50, 16)-(50, 33)",
+        "spos": 19,
+        "sline": 51
+      }}
+    ],
+    "preds": [
+      0,
+      11
+    ],
+    "succs": [
+      2,
+      3
+    ]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = virtualinvoke atom.<Datalog: Argument[] getArguments()>()": {
+        "eline": 49,
+        "epos": 40,
+        "spos": 3,
+        "sline": 49
+      }},
+      {"args = temp$0": {
+        "eline": 49,
+        "epos": 40,
+        "spos": 3,
+        "sline": 49
+      }},
+      {"temp$1 = lengthof args": {
+        "eline": 50,
+        "epos": 49,
+        "spos": 3,
+        "sline": 50
+      }},
+      {"newArgs = newarray (Argument)[temp$1]": {
+        "eline": 50,
+        "epos": 49,
+        "spos": 3,
+        "sline": 50
+      }},
+      {"i = 0": {
+        "eline": 51,
+        "epos": 16,
+        "spos": 8,
+        "sline": 51
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  },
+  "7": {
+    "instructions": [
+      {"temp$13 = newArgs": {
+        "eline": 56,
+        "epos": 53,
+        "spos": 6,
+        "sline": 56
+      }},
+      {"temp$14 = i": {
+        "eline": 56,
+        "epos": 53,
+        "spos": 6,
+        "sline": 56
+      }},
+      {"temp$15 = this.<Substitution: java.util.LinkedList 'to'>": {
+        "eline": 56,
+        "epos": 37,
+        "spos": 34,
+        "sline": 56
+      }},
+      {"temp$16 = virtualinvoke temp$15.<java.util.LinkedList: java.lang.Object get(int)>(index)": {
+        "eline": 56,
+        "epos": 37,
+        "spos": 34,
+        "sline": 56
+      }},
+      {"temp$17 = (Value) temp$16": {
+        "eline": 56,
+        "epos": 37,
+        "spos": 34,
+        "sline": 56
+      }},
+      {"temp$18 = staticinvoke <Argument: Argument value(Value)>(temp$17)": {
+        "eline": 56,
+        "epos": 37,
+        "spos": 34,
+        "sline": 56
+      }},
+      {"temp$13[temp$14] = temp$18": {
+        "eline": 56,
+        "epos": 15,
+        "spos": 13,
+        "sline": 56
+      }},
+      {"goto block_9": {
+        "eline": 59,
+        "epos": 5,
+        "spos": 5,
+        "sline": 54
+      }}
+    ],
+    "preds": [5],
+    "succs": [9]
+  },
+  "6": {
+    "instructions": [{"goto block_8": {
+      "eline": 54,
+      "epos": 19,
+      "spos": 9,
+      "sline": 54
+    }}],
+    "preds": [5],
+    "succs": [8]
+  },
+  "5": {
+    "instructions": [
+      {"temp$7 = this.<Substitution: java.util.LinkedList 'from'>": {
+        "eline": 53,
+        "epos": 20,
+        "spos": 17,
+        "sline": 53
+      }},
+      {"temp$8 = args": {
+        "eline": 53,
+        "epos": 20,
+        "spos": 17,
+        "sline": 53
+      }},
+      {"temp$9 = i": {
+        "eline": 53,
+        "epos": 20,
+        "spos": 17,
+        "sline": 53
+      }},
+      {"temp$10 = temp$8[temp$9]": {
+        "eline": 53,
+        "epos": 20,
+        "spos": 17,
+        "sline": 53
+      }},
+      {"temp$11 = virtualinvoke temp$10.<Argument: Variable getVariable()>()": {
+        "eline": 53,
+        "epos": 20,
+        "spos": 17,
+        "sline": 53
+      }},
+      {"temp$12 = virtualinvoke temp$7.<java.util.LinkedList: int indexOf(java.lang.Object)>(temp$11)": {
+        "eline": 53,
+        "epos": 20,
+        "spos": 17,
+        "sline": 53
+      }},
+      {"index = temp$12": {
+        "eline": 53,
+        "epos": 20,
+        "spos": 17,
+        "sline": 53
+      }},
+      {"if index != -1 goto block_7 #2": {
+        "eline": 54,
+        "epos": 19,
+        "ifpos": "(53, 4)-(53, 19)",
+        "spos": 9,
+        "sline": 54
+      }}
+    ],
+    "preds": [4],
+    "succs": [
+      6,
+      7
+    ]
+  },
+  "4": {
+    "instructions": [{"goto block_5": {
+      "eline": 52,
+      "epos": 27,
+      "spos": 16,
+      "sline": 52
+    }}],
+    "preds": [3],
+    "succs": [5]
+  },
+  "9": {
+    "instructions": [{"goto block_11": {
+      "eline": 62,
+      "epos": 4,
+      "spos": 4,
+      "sline": 52
+    }}],
+    "preds": [
+      7,
+      8
+    ],
+    "succs": [11]
+  },
+  "8": {
+    "instructions": [
+      {"temp$19 = newArgs": {
+        "eline": 58,
+        "epos": 26,
+        "spos": 6,
+        "sline": 58
+      }},
+      {"temp$20 = i": {
+        "eline": 58,
+        "epos": 26,
+        "spos": 6,
+        "sline": 58
+      }},
+      {"temp$21 = args": {
+        "eline": 58,
+        "epos": 26,
+        "spos": 6,
+        "sline": 58
+      }},
+      {"temp$22 = i": {
+        "eline": 58,
+        "epos": 26,
+        "spos": 6,
+        "sline": 58
+      }},
+      {"temp$23 = temp$21[temp$22]": {
+        "eline": 58,
+        "epos": 26,
+        "spos": 6,
+        "sline": 58
+      }},
+      {"temp$19[temp$20] = temp$23": {
+        "eline": 58,
+        "epos": 15,
+        "spos": 13,
+        "sline": 58
+      }}
+    ],
+    "preds": [6],
+    "succs": [9]
+  },
+  "11": {
+    "instructions": [
+      {"temp$29 = i": {
+        "eline": 51,
+        "epos": 38,
+        "spos": 36,
+        "sline": 51
+      }},
+      {"temp$30 = temp$29 + 1": {
+        "eline": 51,
+        "epos": 36,
+        "spos": 36,
+        "sline": 51
+      }},
+      {"i = temp$30": {
+        "eline": 51,
+        "epos": 36,
+        "spos": 36,
+        "sline": 51
+      }},
+      {"goto block_1": {
+        "eline": 63,
+        "epos": 3,
+        "spos": 3,
+        "sline": 51
+      }}
+    ],
+    "preds": [
+      9,
+      10
+    ],
+    "succs": [1]
+  },
+  "12": {
+    "instructions": [
+      {"temp$31 = new Datalog": {
+        "eline": 63,
+        "epos": 3,
+        "spos": 3,
+        "sline": 51
+      }},
+      {"temp$32 = virtualinvoke atom.<Datalog: Predicate getPredicate()>()": {
+        "eline": 63,
+        "epos": 3,
+        "spos": 3,
+        "sline": 51
+      }},
+      {"specialinvoke temp$31.<Datalog: void <init>(Predicate,Argument[])>(temp$32, newArgs)": {
+        "eline": 64,
+        "epos": 50,
+        "spos": 10,
+        "sline": 64
+      }},
+      {"return temp$31": {
+        "eline": 64,
+        "epos": 51,
+        "spos": 3,
+        "sline": 64
+      }}
+    ],
+    "preds": [2],
+    "succs": []
+  }
+}

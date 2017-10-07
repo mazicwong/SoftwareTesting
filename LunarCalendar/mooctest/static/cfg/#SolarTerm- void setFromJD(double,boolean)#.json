@@ -1,0 +1,455 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$4 = jd": {
+        "eline": 106,
+        "epos": 18,
+        "spos": 9,
+        "sline": 106
+      }},
+      {"temp$5 = temp$4 + 0.5": {
+        "eline": 106,
+        "epos": 18,
+        "spos": 9,
+        "sline": 106
+      }},
+      {"jd = temp$5": {
+        "eline": 106,
+        "epos": 10,
+        "spos": 9,
+        "sline": 106
+      }},
+      {"temp$6 = virtualinvoke this.<SolarTerm: double int2(double)>(jd)": {
+        "eline": 108,
+        "epos": 27,
+        "spos": 20,
+        "sline": 108
+      }},
+      {"a = temp$6": {
+        "eline": 108,
+        "epos": 27,
+        "spos": 20,
+        "sline": 108
+      }},
+      {"temp$7 = a cmpl 2299161.0": {
+        "eline": 111,
+        "epos": 23,
+        "spos": 13,
+        "sline": 111
+      }},
+      {"if temp$7 <= 0 goto block_6 #1": {
+        "eline": 111,
+        "epos": 23,
+        "ifpos": "(110, 8)-(110, 23)",
+        "spos": 13,
+        "sline": 111
+      }}
+    ],
+    "preds": [
+      0,
+      2
+    ],
+    "succs": [
+      4,
+      6
+    ]
+  },
+  "2": {
+    "instructions": [
+      {"temp$0 = jd": {
+        "eline": 105,
+        "epos": 43,
+        "spos": 13,
+        "sline": 105
+      }},
+      {"temp$1 = jd - 2451545.0": {
+        "eline": 105,
+        "epos": 22,
+        "spos": 19,
+        "sline": 105
+      }},
+      {"temp$2 = virtualinvoke this.<SolarTerm: double deltaT2(double)>(temp$1)": {
+        "eline": 105,
+        "epos": 22,
+        "spos": 19,
+        "sline": 105
+      }},
+      {"temp$3 = temp$0 - temp$2": {
+        "eline": 105,
+        "epos": 22,
+        "spos": 19,
+        "sline": 105
+      }},
+      {"jd = temp$3": {
+        "eline": 105,
+        "epos": 14,
+        "spos": 13,
+        "sline": 105
+      }}
+    ],
+    "preds": [1],
+    "succs": [3]
+  },
+  "10": {
+    "instructions": [{"goto block_11": {
+      "eline": 124,
+      "epos": 18,
+      "spos": 13,
+      "sline": 124
+    }}],
+    "preds": [9],
+    "succs": [11]
+  },
+  "1": {
+    "instructions": [{"goto block_2": {
+      "eline": 104,
+      "epos": 15,
+      "spos": 13,
+      "sline": 104
+    }}],
+    "preds": [0],
+    "succs": [2]
+  },
+  "0": {
+    "instructions": [{"if utc == 0 goto block_3 #0": {
+      "eline": 104,
+      "epos": 15,
+      "ifpos": "(103, 8)-(103, 15)",
+      "spos": 13,
+      "sline": 104
+    }}],
+    "preds": [],
+    "succs": [
+      1,
+      3
+    ]
+  },
+  "7": {
+    "instructions": [{"goto block_8": {
+      "eline": 122,
+      "epos": 18,
+      "spos": 13,
+      "sline": 122
+    }}],
+    "preds": [6],
+    "succs": [8]
+  },
+  "6": {
+    "instructions": [
+      {"temp$18 = a": {
+        "eline": 115,
+        "epos": 18,
+        "spos": 9,
+        "sline": 115
+      }},
+      {"temp$19 = temp$18 + 1524.0": {
+        "eline": 115,
+        "epos": 18,
+        "spos": 9,
+        "sline": 115
+      }},
+      {"a = temp$19": {
+        "eline": 115,
+        "epos": 9,
+        "spos": 9,
+        "sline": 115
+      }},
+      {"temp$20 = a - 122.1": {
+        "eline": 116,
+        "epos": 45,
+        "spos": 20,
+        "sline": 116
+      }},
+      {"temp$21 = temp$20 / 365.25": {
+        "eline": 116,
+        "epos": 45,
+        "spos": 20,
+        "sline": 116
+      }},
+      {"temp$22 = virtualinvoke this.<SolarTerm: double int2(double)>(temp$21)": {
+        "eline": 116,
+        "epos": 45,
+        "spos": 20,
+        "sline": 116
+      }},
+      {"y = temp$22": {
+        "eline": 116,
+        "epos": 45,
+        "spos": 20,
+        "sline": 116
+      }},
+      {"temp$23 = 365.25 * y": {
+        "eline": 117,
+        "epos": 32,
+        "spos": 17,
+        "sline": 117
+      }},
+      {"temp$24 = virtualinvoke this.<SolarTerm: double int2(double)>(temp$23)": {
+        "eline": 117,
+        "epos": 32,
+        "spos": 17,
+        "sline": 117
+      }},
+      {"temp$25 = a - temp$24": {
+        "eline": 117,
+        "epos": 32,
+        "spos": 17,
+        "sline": 117
+      }},
+      {"d = temp$25": {
+        "eline": 117,
+        "epos": 9,
+        "spos": 9,
+        "sline": 117
+      }},
+      {"temp$26 = d / 30.6001": {
+        "eline": 118,
+        "epos": 36,
+        "spos": 20,
+        "sline": 118
+      }},
+      {"temp$27 = virtualinvoke this.<SolarTerm: double int2(double)>(temp$26)": {
+        "eline": 118,
+        "epos": 36,
+        "spos": 20,
+        "sline": 118
+      }},
+      {"m = temp$27": {
+        "eline": 118,
+        "epos": 36,
+        "spos": 20,
+        "sline": 118
+      }},
+      {"temp$28 = m * 30.6001": {
+        "eline": 119,
+        "epos": 38,
+        "spos": 22,
+        "sline": 119
+      }},
+      {"temp$29 = virtualinvoke this.<SolarTerm: double int2(double)>(temp$28)": {
+        "eline": 119,
+        "epos": 38,
+        "spos": 22,
+        "sline": 119
+      }},
+      {"temp$30 = d - temp$29": {
+        "eline": 119,
+        "epos": 38,
+        "spos": 22,
+        "sline": 119
+      }},
+      {"this.<SolarTerm: double D> = temp$30": {
+        "eline": 119,
+        "epos": 14,
+        "spos": 14,
+        "sline": 119
+      }},
+      {"temp$33 = m": {
+        "eline": 121,
+        "epos": 12,
+        "spos": 9,
+        "sline": 121
+      }},
+      {"temp$34 = (double) -1": {
+        "eline": 121,
+        "epos": 12,
+        "spos": 9,
+        "sline": 121
+      }},
+      {"temp$35 = temp$33 + temp$34": {
+        "eline": 121,
+        "epos": 9,
+        "spos": 9,
+        "sline": 121
+      }},
+      {"m = temp$35": {
+        "eline": 121,
+        "epos": 9,
+        "spos": 9,
+        "sline": 121
+      }},
+      {"temp$36 = m cmpl 12.0": {
+        "eline": 122,
+        "epos": 18,
+        "spos": 13,
+        "sline": 122
+      }},
+      {"if temp$36 <= 0 goto block_9 #2": {
+        "eline": 122,
+        "epos": 18,
+        "ifpos": "(121, 8)-(121, 18)",
+        "spos": 13,
+        "sline": 122
+      }}
+    ],
+    "preds": [
+      3,
+      5
+    ],
+    "succs": [
+      7,
+      9
+    ]
+  },
+  "5": {
+    "instructions": [
+      {"temp$8 = a - 1867216.25": {
+        "eline": 112,
+        "epos": 49,
+        "spos": 17,
+        "sline": 112
+      }},
+      {"temp$9 = temp$8 / 36524.25": {
+        "eline": 112,
+        "epos": 49,
+        "spos": 17,
+        "sline": 112
+      }},
+      {"temp$10 = virtualinvoke this.<SolarTerm: double int2(double)>(temp$9)": {
+        "eline": 112,
+        "epos": 49,
+        "spos": 17,
+        "sline": 112
+      }},
+      {"d = temp$10": {
+        "eline": 112,
+        "epos": 13,
+        "spos": 13,
+        "sline": 112
+      }},
+      {"temp$11 = a": {
+        "eline": 113,
+        "epos": 37,
+        "spos": 13,
+        "sline": 113
+      }},
+      {"temp$12 = 1.0": {
+        "reliable": false,
+        "eline": 113,
+        "epos": 37,
+        "spos": 13,
+        "sline": 113
+      }},
+      {"temp$13 = d / 4.0": {
+        "eline": 113,
+        "epos": 36,
+        "spos": 26,
+        "sline": 113
+      }},
+      {"temp$14 = virtualinvoke this.<SolarTerm: double int2(double)>(temp$13)": {
+        "eline": 113,
+        "epos": 36,
+        "spos": 26,
+        "sline": 113
+      }},
+      {"temp$15 = temp$12 + d": {
+        "eline": 113,
+        "epos": 36,
+        "spos": 26,
+        "sline": 113
+      }},
+      {"temp$16 = temp$15 - temp$14": {
+        "eline": 113,
+        "epos": 36,
+        "spos": 26,
+        "sline": 113
+      }},
+      {"temp$17 = temp$11 + temp$16": {
+        "eline": 113,
+        "epos": 36,
+        "spos": 26,
+        "sline": 113
+      }},
+      {"a = temp$17": {
+        "eline": 113,
+        "epos": 13,
+        "spos": 13,
+        "sline": 113
+      }}
+    ],
+    "preds": [4],
+    "succs": [6]
+  },
+  "4": {
+    "instructions": [{"goto block_5": {
+      "eline": 111,
+      "epos": 23,
+      "spos": 13,
+      "sline": 111
+    }}],
+    "preds": [3],
+    "succs": [5]
+  },
+  "9": {
+    "instructions": [
+      {"temp$39 = m cmpg 2.0": {
+        "eline": 124,
+        "epos": 18,
+        "spos": 13,
+        "sline": 124
+      }},
+      {"if temp$39 > 0 goto block_12 #3": {
+        "eline": 124,
+        "epos": 18,
+        "ifpos": "(123, 8)-(123, 18)",
+        "spos": 13,
+        "sline": 124
+      }}
+    ],
+    "preds": [
+      6,
+      8
+    ],
+    "succs": [
+      10,
+      12
+    ]
+  },
+  "8": {
+    "instructions": [
+      {"temp$37 = m": {
+        "eline": 123,
+        "epos": 20,
+        "spos": 13,
+        "sline": 123
+      }},
+      {"temp$38 = temp$37 - 12.0": {
+        "eline": 123,
+        "epos": 20,
+        "spos": 13,
+        "sline": 123
+      }},
+      {"m = temp$38": {
+        "eline": 123,
+        "epos": 13,
+        "spos": 13,
+        "sline": 123
+      }}
+    ],
+    "preds": [7],
+    "succs": [9]
+  },
+  "11": {
+    "instructions": [{"temp$41 = (double) 1": {
+      "eline": 126,
+      "epos": 16,
+      "spos": 13,
+      "sline": 126
+    }}],
+    "preds": [10],
+    "succs": [12]
+  },
+  "12": {
+    "instructions": [{"return": {
+      "eline": 126,
+      "epos": 13,
+      "spos": 13,
+      "sline": 126
+    }}],
+    "preds": [
+      9,
+      11
+    ],
+    "succs": []
+  }
+}

@@ -1,0 +1,18 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = this.<Rule: Datalog[] body>": {
+      "eline": 21,
+      "epos": 13,
+      "spos": 10,
+      "sline": 21
+    }},
+    {"return temp$0": {
+      "eline": 21,
+      "epos": 19,
+      "spos": 3,
+      "sline": 21
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

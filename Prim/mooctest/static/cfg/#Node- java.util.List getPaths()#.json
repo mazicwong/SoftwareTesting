@@ -1,0 +1,18 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = this.<Node: java.util.List paths>": {
+      "eline": 20,
+      "epos": 14,
+      "spos": 10,
+      "sline": 20
+    }},
+    {"return temp$0": {
+      "eline": 20,
+      "epos": 15,
+      "spos": 3,
+      "sline": 20
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

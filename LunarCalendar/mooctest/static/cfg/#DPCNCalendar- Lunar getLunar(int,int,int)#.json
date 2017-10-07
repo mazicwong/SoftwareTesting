@@ -1,0 +1,36 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = new Gregorian": {
+      "eline": 113,
+      "epos": 62,
+      "spos": 9,
+      "sline": 113
+    }},
+    {"specialinvoke temp$0.<Gregorian: void <init>(int,int,int)>(year, month, day)": {
+      "eline": 113,
+      "epos": 61,
+      "spos": 31,
+      "sline": 113
+    }},
+    {"gregorian = temp$0": {
+      "eline": 113,
+      "epos": 61,
+      "spos": 31,
+      "sline": 113
+    }},
+    {"temp$1 = staticinvoke <DPCNCalendar: Lunar gregorianToLunar(Gregorian)>(gregorian)": {
+      "eline": 113,
+      "epos": 61,
+      "spos": 31,
+      "sline": 113
+    }},
+    {"return temp$1": {
+      "eline": 114,
+      "epos": 43,
+      "spos": 9,
+      "sline": 114
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

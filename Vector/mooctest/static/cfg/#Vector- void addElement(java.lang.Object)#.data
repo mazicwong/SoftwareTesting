@@ -1,0 +1,54 @@
+[
+  {
+    "codes": "        elementData[elementCount] = null;                             ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public synchronized void addElement(E obj) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        modCount++; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        ensureCapacityHelper(elementCount + 1); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        elementData[elementCount++] = obj; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public synchronized boolean removeElement(Object obj) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        modCount++; ",
+    "blocks": []
+  },
+  {
+    "codes": "        int i = indexOf(obj); ",
+    "blocks": []
+  }
+]

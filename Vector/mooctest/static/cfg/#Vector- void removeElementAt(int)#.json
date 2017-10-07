@@ -1,0 +1,353 @@
+{
+  "3": {
+    "instructions": [{"if index < 0 goto block_5 #1": {
+      "eline": 113,
+      "epos": 28,
+      "ifpos": "(112, 15)-(112, 28)",
+      "spos": 20,
+      "sline": 113
+    }}],
+    "preds": [1],
+    "succs": [
+      4,
+      5
+    ]
+  },
+  "2": {
+    "instructions": [
+      {"temp$3 = new java.lang.ArrayIndexOutOfBoundsException": {
+        "eline": 110,
+        "epos": 61,
+        "spos": 13,
+        "sline": 110
+      }},
+      {"specialinvoke temp$3.<java.lang.ArrayIndexOutOfBoundsException: void <init>(java.lang.String)>(\" >= \")": {
+        "eline": 110,
+        "epos": 60,
+        "spos": 19,
+        "sline": 110
+      }},
+      {"throw temp$3": {
+        "eline": 110,
+        "epos": 60,
+        "spos": 19,
+        "sline": 110
+      }}
+    ],
+    "preds": [0],
+    "succs": []
+  },
+  "10": {
+    "instructions": [{"goto block_12": {
+      "eline": 118,
+      "epos": 33,
+      "spos": 29,
+      "sline": 118
+    }}],
+    "preds": [9],
+    "succs": [12]
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 109,
+      "epos": 33,
+      "spos": 22,
+      "sline": 109
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = this.<Vector: int modCount>": {
+        "eline": 108,
+        "epos": 16,
+        "spos": 9,
+        "sline": 108
+      }},
+      {"temp$1 = temp$0 + 1": {
+        "eline": 108,
+        "epos": 16,
+        "spos": 9,
+        "sline": 108
+      }},
+      {"this.<Vector: int modCount> = temp$1": {
+        "eline": 108,
+        "epos": 16,
+        "spos": 9,
+        "sline": 108
+      }},
+      {"temp$2 = this.<Vector: int elementCount>": {
+        "eline": 109,
+        "epos": 33,
+        "spos": 22,
+        "sline": 109
+      }},
+      {"if index >= temp$2 goto block_2 #0": {
+        "eline": 109,
+        "epos": 33,
+        "ifpos": "(108, 8)-(108, 33)",
+        "spos": 22,
+        "sline": 109
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  },
+  "7": {
+    "instructions": [{"goto block_12": {
+      "eline": 117,
+      "epos": 17,
+      "spos": 13,
+      "sline": 117
+    }}],
+    "preds": [6],
+    "succs": [12]
+  },
+  "6": {
+    "instructions": [
+      {"temp$5 = this.<Vector: int elementCount>": {
+        "eline": 116,
+        "epos": 28,
+        "spos": 17,
+        "sline": 116
+      }},
+      {"temp$6 = temp$5 - index": {
+        "eline": 116,
+        "epos": 28,
+        "spos": 17,
+        "sline": 116
+      }},
+      {"temp$7 = temp$6 - 1": {
+        "eline": 116,
+        "epos": 28,
+        "spos": 17,
+        "sline": 116
+      }},
+      {"j = temp$7": {
+        "eline": 116,
+        "epos": 28,
+        "spos": 17,
+        "sline": 116
+      }},
+      {"if j > 0 goto block_8 #2": {
+        "eline": 117,
+        "epos": 17,
+        "ifpos": "(116, 8)-(116, 17)",
+        "spos": 13,
+        "sline": 117
+      }}
+    ],
+    "preds": [4],
+    "succs": [
+      7,
+      8
+    ]
+  },
+  "5": {
+    "instructions": [
+      {"temp$4 = new java.lang.ArrayIndexOutOfBoundsException": {
+        "eline": 114,
+        "epos": 59,
+        "spos": 13,
+        "sline": 114
+      }},
+      {"specialinvoke temp$4.<java.lang.ArrayIndexOutOfBoundsException: void <init>(java.lang.String)>(\"<0\")": {
+        "eline": 114,
+        "epos": 58,
+        "spos": 19,
+        "sline": 114
+      }},
+      {"throw temp$4": {
+        "eline": 114,
+        "epos": 58,
+        "spos": 19,
+        "sline": 114
+      }}
+    ],
+    "preds": [3],
+    "succs": []
+  },
+  "4": {
+    "instructions": [{"goto block_6": {
+      "eline": 113,
+      "epos": 28,
+      "spos": 20,
+      "sline": 113
+    }}],
+    "preds": [3],
+    "succs": [6]
+  },
+  "9": {
+    "instructions": [{"if i < j goto block_11 #3": {
+      "eline": 118,
+      "epos": 33,
+      "ifpos": "(117, 26)-(117, 33)",
+      "spos": 29,
+      "sline": 118
+    }}],
+    "preds": [
+      8,
+      11
+    ],
+    "succs": [
+      10,
+      11
+    ]
+  },
+  "8": {
+    "instructions": [{"i = 0": {
+      "eline": 118,
+      "epos": 26,
+      "spos": 18,
+      "sline": 118
+    }}],
+    "preds": [6],
+    "succs": [9]
+  },
+  "11": {
+    "instructions": [
+      {"temp$8 = this.<Vector: java.lang.Object[] elementData>": {
+        "eline": 119,
+        "epos": 27,
+        "spos": 17,
+        "sline": 119
+      }},
+      {"temp$9 = index": {
+        "eline": 119,
+        "epos": 27,
+        "spos": 17,
+        "sline": 119
+      }},
+      {"temp$10 = temp$9 + i": {
+        "eline": 119,
+        "epos": 27,
+        "spos": 17,
+        "sline": 119
+      }},
+      {"temp$11 = this.<Vector: java.lang.Object[] elementData>": {
+        "eline": 119,
+        "epos": 52,
+        "spos": 42,
+        "sline": 119
+      }},
+      {"temp$12 = index": {
+        "eline": 119,
+        "epos": 52,
+        "spos": 42,
+        "sline": 119
+      }},
+      {"temp$13 = temp$12 + i": {
+        "eline": 119,
+        "epos": 52,
+        "spos": 42,
+        "sline": 119
+      }},
+      {"temp$14 = temp$13 + 1": {
+        "eline": 119,
+        "epos": 52,
+        "spos": 42,
+        "sline": 119
+      }},
+      {"temp$15 = temp$11[temp$14]": {
+        "eline": 119,
+        "epos": 52,
+        "spos": 42,
+        "sline": 119
+      }},
+      {"temp$8[temp$10] = temp$15": {
+        "eline": 119,
+        "epos": 38,
+        "spos": 28,
+        "sline": 119
+      }},
+      {"temp$16 = i": {
+        "eline": 118,
+        "epos": 38,
+        "spos": 36,
+        "sline": 118
+      }},
+      {"temp$17 = temp$16 + 1": {
+        "eline": 118,
+        "epos": 36,
+        "spos": 36,
+        "sline": 118
+      }},
+      {"i = temp$17": {
+        "eline": 118,
+        "epos": 36,
+        "spos": 36,
+        "sline": 118
+      }},
+      {"goto block_9": {
+        "eline": 120,
+        "epos": 13,
+        "spos": 13,
+        "sline": 118
+      }}
+    ],
+    "preds": [9],
+    "succs": [9]
+  },
+  "12": {
+    "instructions": [
+      {"temp$18 = this.<Vector: int elementCount>": {
+        "eline": 123,
+        "epos": 20,
+        "spos": 9,
+        "sline": 123
+      }},
+      {"temp$19 = temp$18 + -1": {
+        "eline": 123,
+        "epos": 20,
+        "spos": 9,
+        "sline": 123
+      }},
+      {"this.<Vector: int elementCount> = temp$19": {
+        "eline": 123,
+        "epos": 20,
+        "spos": 9,
+        "sline": 123
+      }},
+      {"temp$20 = this.<Vector: java.lang.Object[] elementData>": {
+        "eline": 124,
+        "epos": 19,
+        "spos": 9,
+        "sline": 124
+      }},
+      {"temp$21 = this.<Vector: int elementCount>": {
+        "eline": 124,
+        "epos": 32,
+        "spos": 21,
+        "sline": 124
+      }},
+      {"temp$22 = null": {
+        "reliable": false,
+        "eline": 124,
+        "epos": 33,
+        "spos": 20,
+        "sline": 124
+      }},
+      {"temp$20[temp$21] = temp$22": {
+        "eline": 124,
+        "epos": 33,
+        "spos": 20,
+        "sline": 124
+      }},
+      {"return": {
+        "eline": 124,
+        "epos": 33,
+        "spos": 20,
+        "sline": 124
+      }}
+    ],
+    "preds": [
+      7,
+      10
+    ],
+    "succs": []
+  }
+}

@@ -1,0 +1,192 @@
+[
+  {
+    "codes": "                       ",
+    "blocks": []
+  },
+  {
+    "codes": "                       ",
+    "blocks": []
+  },
+  {
+    "codes": "                           ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "    static int[][] buildMonthGregorian(int year, int month) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        calendar.clear(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        int[][] tmp = new int[6][7]; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                               ",
+    "blocks": []
+  },
+  {
+    "codes": "                                     ",
+    "blocks": []
+  },
+  {
+    "codes": "        calendar.set(year, month - 1, 1); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        int daysInMonth = getDaysInMonth(year, month); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        int dayOfWeek = calendar.get(Calendar.DAY_OF_WEEK) - Calendar.SUNDAY; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        int day = 1; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        for (int i = 0; i < 6; i++) { ",
+    "blocks": [
+      17,
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "codes": "            for (int j = 0; j < Calendar.DAY_OF_WEEK; j++) { ",
+    "blocks": [
+      17,
+      16,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "codes": "                tmp[i][j] = NOT_A_DAY; ",
+    "blocks": [
+      17,
+      16,
+      6
+    ]
+  },
+  {
+    "codes": "                if (i == 0 && j >= dayOfWeek) { ",
+    "blocks": [
+      17,
+      16,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "codes": "                    tmp[i][j] = day; ",
+    "blocks": [
+      17,
+      16,
+      10
+    ]
+  },
+  {
+    "codes": "                    day++; ",
+    "blocks": [
+      17,
+      16,
+      10
+    ]
+  },
+  {
+    "codes": "                    continue; ",
+    "blocks": [
+      17,
+      16,
+      10
+    ]
+  },
+  {
+    "codes": "                } ",
+    "blocks": [
+      17,
+      16
+    ]
+  },
+  {
+    "codes": "                if (i > 0 && day <= daysInMonth) { ",
+    "blocks": [
+      17,
+      16,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "codes": "                    tmp[i][j] = day; ",
+    "blocks": [
+      17,
+      16,
+      15
+    ]
+  },
+  {
+    "codes": "                    day++; ",
+    "blocks": [
+      17,
+      16,
+      15
+    ]
+  },
+  {
+    "codes": "                } ",
+    "blocks": [
+      17,
+      16
+    ]
+  },
+  {
+    "codes": "            } ",
+    "blocks": [
+      17,
+      16
+    ]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [17]
+  },
+  {
+    "codes": "        return tmp; ",
+    "blocks": [18]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "                 ",
+    "blocks": []
+  },
+  {
+    "codes": "       ",
+    "blocks": []
+  }
+]

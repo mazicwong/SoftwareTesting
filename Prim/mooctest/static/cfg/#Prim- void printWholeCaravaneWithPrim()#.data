@@ -1,0 +1,80 @@
+[
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn Collections.EMPTY_LIST; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic void printWholeCaravaneWithPrim() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif (!nodeNet.getNodes().isEmpty()) { ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\tNode node = nodeNet.getNodes().get(0); ",
+    "blocks": [2]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\tArrayList<Node> foundNodes = new ArrayList<Node>(); ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\t\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\tStringBuilder primPath = findWholeCaravaneWithPrim(node, foundNodes, ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\t\t\t\t1, new StringBuilder()); ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\t\tprimPath.deleteCharAt(primPath.lastIndexOf(\",\")); ",
+    "blocks": [
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "\t\t\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  }
+]

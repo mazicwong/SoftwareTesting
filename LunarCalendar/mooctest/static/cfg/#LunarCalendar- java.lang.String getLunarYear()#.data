@@ -1,0 +1,50 @@
+[
+  {
+    "codes": "        checkLunar(); ",
+    "blocks": []
+  },
+  {
+    "codes": "        return MONTH_NAME[lunar.month]; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public String getLunarYear() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        checkLunar(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        return TextUtils.getChineseNumber(lunar.year); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public String getFullLunarStr() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        checkLunar(); ",
+    "blocks": []
+  },
+  {
+    "codes": "        return String.format(\"%s年%s月%s\", getLunarYear(), getLunarMonth(), getLunarDay()); ",
+    "blocks": []
+  }
+]

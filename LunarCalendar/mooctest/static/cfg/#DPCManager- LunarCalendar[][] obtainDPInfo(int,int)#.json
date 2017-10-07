@@ -1,0 +1,312 @@
+{
+  "3": {
+    "instructions": [{"goto block_8": {
+      "eline": 42,
+      "epos": 56,
+      "spos": 35,
+      "sline": 42
+    }}],
+    "preds": [2],
+    "succs": [8]
+  },
+  "2": {
+    "instructions": [
+      {"temp$4 = interfaceinvoke dataOfYear.<java.util.Map: int size()>()": {
+        "eline": 42,
+        "epos": 56,
+        "spos": 35,
+        "sline": 42
+      }},
+      {"if temp$4 != 0 goto block_4 #0": {
+        "eline": 42,
+        "epos": 56,
+        "ifpos": "(41, 8)-(41, 56)",
+        "spos": 35,
+        "sline": 42
+      }}
+    ],
+    "preds": [0],
+    "succs": [
+      3,
+      4
+    ]
+  },
+  "10": {
+    "instructions": [
+      {"temp$12 = new java.util.HashMap": {
+        "eline": 52,
+        "epos": 67,
+        "spos": 13,
+        "sline": 52
+      }},
+      {"specialinvoke temp$12.<java.util.HashMap: void <init>()>()": {
+        "eline": 52,
+        "epos": 66,
+        "spos": 26,
+        "sline": 52
+      }},
+      {"dataOfYear = temp$12": {
+        "eline": 52,
+        "epos": 22,
+        "spos": 13,
+        "sline": 52
+      }}
+    ],
+    "preds": [8],
+    "succs": [11]
+  },
+  "1": {
+    "instructions": [{"goto block_8": {
+      "eline": 42,
+      "epos": 30,
+      "spos": 13,
+      "sline": 42
+    }}],
+    "preds": [0],
+    "succs": [8]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = <DPCManager: java.util.Map DATE_CACHE>": {
+        "eline": 41,
+        "epos": 74,
+        "spos": 9,
+        "sline": 41
+      }},
+      {"temp$1 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(year)": {
+        "eline": 41,
+        "epos": 74,
+        "spos": 9,
+        "sline": 41
+      }},
+      {"temp$2 = interfaceinvoke temp$0.<java.util.Map: java.lang.Object get(java.lang.Object)>(temp$1)": {
+        "eline": 41,
+        "epos": 74,
+        "spos": 9,
+        "sline": 41
+      }},
+      {"temp$3 = (java.util.Map) temp$2": {
+        "eline": 41,
+        "epos": 74,
+        "spos": 9,
+        "sline": 41
+      }},
+      {"dataOfYear = temp$3": {
+        "eline": 41,
+        "epos": 74,
+        "spos": 9,
+        "sline": 41
+      }},
+      {"if null != dataOfYear goto block_2 #0": {
+        "eline": 42,
+        "epos": 30,
+        "ifpos": "(41, 8)-(41, 56)",
+        "spos": 13,
+        "sline": 42
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  },
+  "7": {
+    "instructions": [
+      {"temp$8 = virtualinvoke this.<DPCManager: LunarCalendar[][] buildDPInfo(int,int)>(year, month)": {
+        "eline": 47,
+        "epos": 50,
+        "spos": 27,
+        "sline": 47
+      }},
+      {"dataOfMonth = temp$8": {
+        "eline": 47,
+        "epos": 23,
+        "spos": 13,
+        "sline": 47
+      }},
+      {"temp$9 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(month)": {
+        "eline": 48,
+        "epos": 47,
+        "spos": 13,
+        "sline": 48
+      }},
+      {"temp$10 = interfaceinvoke dataOfYear.<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>(temp$9, dataOfMonth)": {
+        "eline": 48,
+        "epos": 47,
+        "spos": 13,
+        "sline": 48
+      }},
+      {"temp$11 = (LunarCalendar[][]) temp$10": {
+        "eline": 48,
+        "epos": 47,
+        "spos": 13,
+        "sline": 48
+      }},
+      {"return dataOfMonth": {
+        "eline": 49,
+        "epos": 31,
+        "spos": 13,
+        "sline": 49
+      }}
+    ],
+    "preds": [5],
+    "succs": []
+  },
+  "6": {
+    "instructions": [{"return dataOfMonth": {
+      "eline": 45,
+      "epos": 35,
+      "spos": 17,
+      "sline": 45
+    }}],
+    "preds": [4],
+    "succs": []
+  },
+  "5": {
+    "instructions": [{"goto block_7": {
+      "eline": 44,
+      "epos": 35,
+      "spos": 17,
+      "sline": 44
+    }}],
+    "preds": [4],
+    "succs": [7]
+  },
+  "4": {
+    "instructions": [
+      {"temp$5 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(month)": {
+        "eline": 43,
+        "epos": 66,
+        "spos": 13,
+        "sline": 43
+      }},
+      {"temp$6 = interfaceinvoke dataOfYear.<java.util.Map: java.lang.Object get(java.lang.Object)>(temp$5)": {
+        "eline": 43,
+        "epos": 66,
+        "spos": 13,
+        "sline": 43
+      }},
+      {"temp$7 = (LunarCalendar[][]) temp$6": {
+        "eline": 43,
+        "epos": 66,
+        "spos": 13,
+        "sline": 43
+      }},
+      {"dataOfMonth = temp$7": {
+        "eline": 43,
+        "epos": 66,
+        "spos": 13,
+        "sline": 43
+      }},
+      {"if dataOfMonth != null goto block_6 #1": {
+        "eline": 44,
+        "epos": 35,
+        "ifpos": "(43, 12)-(43, 35)",
+        "spos": 17,
+        "sline": 44
+      }}
+    ],
+    "preds": [2],
+    "succs": [
+      5,
+      6
+    ]
+  },
+  "9": {
+    "instructions": [{"goto block_11": {
+      "eline": 51,
+      "epos": 30,
+      "spos": 13,
+      "sline": 51
+    }}],
+    "preds": [8],
+    "succs": [11]
+  },
+  "8": {
+    "instructions": [{"if null == dataOfYear goto block_10 #2": {
+      "eline": 51,
+      "epos": 30,
+      "ifpos": "(50, 8)-(50, 30)",
+      "spos": 13,
+      "sline": 51
+    }}],
+    "preds": [
+      1,
+      3
+    ],
+    "succs": [
+      9,
+      10
+    ]
+  },
+  "11": {
+    "instructions": [
+      {"temp$13 = virtualinvoke this.<DPCManager: LunarCalendar[][] buildDPInfo(int,int)>(year, month)": {
+        "eline": 54,
+        "epos": 64,
+        "spos": 41,
+        "sline": 54
+      }},
+      {"dataOfMonth = temp$13": {
+        "eline": 54,
+        "epos": 64,
+        "spos": 41,
+        "sline": 54
+      }},
+      {"temp$14 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(month)": {
+        "eline": 55,
+        "epos": 43,
+        "spos": 9,
+        "sline": 55
+      }},
+      {"temp$15 = interfaceinvoke dataOfYear.<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>(temp$14, dataOfMonth)": {
+        "eline": 55,
+        "epos": 43,
+        "spos": 9,
+        "sline": 55
+      }},
+      {"temp$16 = (LunarCalendar[][]) temp$15": {
+        "eline": 55,
+        "epos": 43,
+        "spos": 9,
+        "sline": 55
+      }},
+      {"temp$17 = <DPCManager: java.util.Map DATE_CACHE>": {
+        "eline": 56,
+        "epos": 41,
+        "spos": 9,
+        "sline": 56
+      }},
+      {"temp$18 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(year)": {
+        "eline": 56,
+        "epos": 41,
+        "spos": 9,
+        "sline": 56
+      }},
+      {"temp$19 = interfaceinvoke temp$17.<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>(temp$18, dataOfYear)": {
+        "eline": 56,
+        "epos": 41,
+        "spos": 9,
+        "sline": 56
+      }},
+      {"temp$20 = (java.util.Map) temp$19": {
+        "eline": 56,
+        "epos": 41,
+        "spos": 9,
+        "sline": 56
+      }},
+      {"return dataOfMonth": {
+        "eline": 57,
+        "epos": 27,
+        "spos": 9,
+        "sline": 57
+      }}
+    ],
+    "preds": [
+      9,
+      10
+    ],
+    "succs": []
+  }
+}

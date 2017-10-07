@@ -1,0 +1,82 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$3 = this.<Argument: Variable variable>": {
+        "eline": 41,
+        "epos": 17,
+        "spos": 10,
+        "sline": 41
+      }},
+      {"temp$4 = virtualinvoke temp$3.<Variable: java.lang.String toString()>()": {
+        "eline": 41,
+        "epos": 17,
+        "spos": 10,
+        "sline": 41
+      }},
+      {"return temp$4": {
+        "eline": 41,
+        "epos": 29,
+        "spos": 3,
+        "sline": 41
+      }}
+    ],
+    "preds": [0],
+    "succs": []
+  },
+  "2": {
+    "instructions": [
+      {"temp$1 = this.<Argument: Value value>": {
+        "eline": 40,
+        "epos": 15,
+        "spos": 11,
+        "sline": 40
+      }},
+      {"temp$2 = virtualinvoke temp$1.<Value: java.lang.String toString()>()": {
+        "eline": 40,
+        "epos": 15,
+        "spos": 11,
+        "sline": 40
+      }},
+      {"return temp$2": {
+        "eline": 40,
+        "epos": 27,
+        "spos": 4,
+        "sline": 40
+      }}
+    ],
+    "preds": [1],
+    "succs": []
+  },
+  "1": {
+    "instructions": [{"goto block_2": {
+      "eline": 39,
+      "epos": 13,
+      "spos": 7,
+      "sline": 39
+    }}],
+    "preds": [0],
+    "succs": [2]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = this.<Argument: boolean isValue>": {
+        "eline": 39,
+        "epos": 13,
+        "spos": 7,
+        "sline": 39
+      }},
+      {"if temp$0 == 0 goto block_3 #0": {
+        "eline": 39,
+        "epos": 13,
+        "ifpos": "(38, 2)-(38, 13)",
+        "spos": 7,
+        "sline": 39
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      3
+    ]
+  }
+}

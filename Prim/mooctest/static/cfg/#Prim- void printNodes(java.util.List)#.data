@@ -1,0 +1,66 @@
+[
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn allPossiblePaths; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tprivate void printNodes(List<Node> primNodes) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tStringBuilder builder = new StringBuilder(\"{\"); ",
+    "blocks": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "codes": "\t\tfor (Node node : primNodes) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\tbuilder.append(String.format(\" %s,\", node.getName())); ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tbuilder.deleteCharAt(builder.lastIndexOf(\",\")); ",
+    "blocks": [3]
+  },
+  {
+    "codes": "\t\tbuilder.append(\"}\"); ",
+    "blocks": [3]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

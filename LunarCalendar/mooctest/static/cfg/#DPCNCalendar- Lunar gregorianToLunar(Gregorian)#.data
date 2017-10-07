@@ -1,0 +1,215 @@
+[
+  {
+    "codes": "       ",
+    "blocks": []
+  },
+  {
+    "codes": "                           ",
+    "blocks": []
+  },
+  {
+    "codes": "                  ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "    private static Lunar gregorianToLunar(Gregorian gregorian) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        int index = gregorian.year - DAYS_AND_LEAP_MONTH_OF_LUNAR[0]; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        int data = (gregorian.year << 9) | (gregorian.month << 5) | (gregorian.day); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        if (DAYS_AND_LEAP_MONTH_OF_LUNAR[index] > data) { ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "            index--; ",
+    "blocks": [2]
+  },
+  {
+    "codes": "        } ",
+    "blocks": []
+  },
+  {
+    "codes": "        int lunarFirstDayInGregorian = DAYS_AND_LEAP_MONTH_OF_LUNAR[index]; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "        int y = getBitInt(lunarFirstDayInGregorian, 12, 9); ",
+    "blocks": [3]
+  },
+  {
+    "codes": "        int m = getBitInt(lunarFirstDayInGregorian, 4, 5); ",
+    "blocks": [3]
+  },
+  {
+    "codes": "        int d = getBitInt(lunarFirstDayInGregorian, 5, 0); ",
+    "blocks": [3]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        long offset = gregorianToNum(gregorian.year, gregorian.month, gregorian.day) - gregorianToNum(y, m, d); ",
+    "blocks": [3]
+  },
+  {
+    "codes": "        int days = FIRST_DAY_OF_LUNAR_IN_GREGORIAN[index]; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "        int leap = getBitInt(days, 4, 13); ",
+    "blocks": [3]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        int lunarY = index + DAYS_AND_LEAP_MONTH_OF_LUNAR[0]; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "        int lunarM = 1; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "        int lunarD; ",
+    "blocks": []
+  },
+  {
+    "codes": "        offset += 1; ",
+    "blocks": [3]
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        for (int i = 0; i < 13; i++) { ",
+    "blocks": [
+      3,
+      4,
+      5,
+      13
+    ]
+  },
+  {
+    "codes": "            int dm = getBitInt(days, 1, 12 - i) == 1 ? 30 : 29; ",
+    "blocks": [
+      6,
+      7,
+      8,
+      10,
+      13
+    ]
+  },
+  {
+    "codes": "            if (offset <= dm) ",
+    "blocks": [
+      10,
+      11,
+      13
+    ]
+  },
+  {
+    "codes": "                break; ",
+    "blocks": [
+      12,
+      13
+    ]
+  },
+  {
+    "codes": "            lunarM++; ",
+    "blocks": [13]
+  },
+  {
+    "codes": "            offset -= dm; ",
+    "blocks": [13]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [13]
+  },
+  {
+    "codes": "        lunarD = (int) offset; ",
+    "blocks": [14]
+  },
+  {
+    "codes": "        Lunar lunar = new Lunar(lunarY, lunarM, lunarD); ",
+    "blocks": [14]
+  },
+  {
+    "codes": "        lunar.isLeap = false; ",
+    "blocks": [14]
+  },
+  {
+    "codes": "        if (leap != 0 && lunarM > leap) { ",
+    "blocks": [
+      17,
+      16,
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "            lunar.month = lunarM - 1; ",
+    "blocks": [18]
+  },
+  {
+    "codes": "            if (lunarM == leap + 1) { ",
+    "blocks": [
+      19,
+      18
+    ]
+  },
+  {
+    "codes": "                lunar.isLeap = true; ",
+    "blocks": [20]
+  },
+  {
+    "codes": "            } ",
+    "blocks": []
+  },
+  {
+    "codes": "        } ",
+    "blocks": []
+  },
+  {
+    "codes": "        return lunar; ",
+    "blocks": [21]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "                 ",
+    "blocks": []
+  }
+]

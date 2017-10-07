@@ -1,0 +1,475 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = new Node": {
+      "eline": 5,
+      "epos": 27,
+      "spos": 3,
+      "sline": 5
+    }},
+    {"specialinvoke temp$0.<Node: void <init>(java.lang.String)>(\"V1\")": {
+      "eline": 5,
+      "epos": 26,
+      "spos": 13,
+      "sline": 5
+    }},
+    {"v1 = temp$0": {
+      "eline": 5,
+      "epos": 26,
+      "spos": 13,
+      "sline": 5
+    }},
+    {"temp$1 = new Node": {
+      "eline": 6,
+      "epos": 27,
+      "spos": 3,
+      "sline": 6
+    }},
+    {"specialinvoke temp$1.<Node: void <init>(java.lang.String)>(\"V2\")": {
+      "eline": 6,
+      "epos": 26,
+      "spos": 13,
+      "sline": 6
+    }},
+    {"v2 = temp$1": {
+      "eline": 6,
+      "epos": 26,
+      "spos": 13,
+      "sline": 6
+    }},
+    {"temp$2 = new Node": {
+      "eline": 7,
+      "epos": 27,
+      "spos": 3,
+      "sline": 7
+    }},
+    {"specialinvoke temp$2.<Node: void <init>(java.lang.String)>(\"V3\")": {
+      "eline": 7,
+      "epos": 26,
+      "spos": 13,
+      "sline": 7
+    }},
+    {"v3 = temp$2": {
+      "eline": 7,
+      "epos": 26,
+      "spos": 13,
+      "sline": 7
+    }},
+    {"temp$3 = new Node": {
+      "eline": 8,
+      "epos": 27,
+      "spos": 3,
+      "sline": 8
+    }},
+    {"specialinvoke temp$3.<Node: void <init>(java.lang.String)>(\"V4\")": {
+      "eline": 8,
+      "epos": 26,
+      "spos": 13,
+      "sline": 8
+    }},
+    {"v4 = temp$3": {
+      "eline": 8,
+      "epos": 26,
+      "spos": 13,
+      "sline": 8
+    }},
+    {"temp$4 = new Node": {
+      "eline": 9,
+      "epos": 27,
+      "spos": 3,
+      "sline": 9
+    }},
+    {"specialinvoke temp$4.<Node: void <init>(java.lang.String)>(\"V5\")": {
+      "eline": 9,
+      "epos": 26,
+      "spos": 13,
+      "sline": 9
+    }},
+    {"v5 = temp$4": {
+      "eline": 9,
+      "epos": 26,
+      "spos": 13,
+      "sline": 9
+    }},
+    {"temp$5 = new Node": {
+      "eline": 10,
+      "epos": 27,
+      "spos": 3,
+      "sline": 10
+    }},
+    {"specialinvoke temp$5.<Node: void <init>(java.lang.String)>(\"V6\")": {
+      "eline": 10,
+      "epos": 26,
+      "spos": 13,
+      "sline": 10
+    }},
+    {"v6 = temp$5": {
+      "eline": 10,
+      "epos": 26,
+      "spos": 13,
+      "sline": 10
+    }},
+    {"temp$6 = new Node": {
+      "eline": 11,
+      "epos": 27,
+      "spos": 3,
+      "sline": 11
+    }},
+    {"specialinvoke temp$6.<Node: void <init>(java.lang.String)>(\"V7\")": {
+      "eline": 11,
+      "epos": 26,
+      "spos": 13,
+      "sline": 11
+    }},
+    {"v7 = temp$6": {
+      "eline": 11,
+      "epos": 26,
+      "spos": 13,
+      "sline": 11
+    }},
+    {"temp$7 = new Path": {
+      "eline": 12,
+      "epos": 43,
+      "spos": 3,
+      "sline": 12
+    }},
+    {"specialinvoke temp$7.<Path: void <init>(int,Node)>(4, v2)": {
+      "eline": 12,
+      "epos": 41,
+      "spos": 27,
+      "sline": 12
+    }},
+    {"virtualinvoke v1.<Node: void addPathWithoutSource(Path)>(temp$7)": {
+      "eline": 12,
+      "epos": 41,
+      "spos": 27,
+      "sline": 12
+    }},
+    {"temp$8 = new Path": {
+      "eline": 13,
+      "epos": 43,
+      "spos": 3,
+      "sline": 13
+    }},
+    {"specialinvoke temp$8.<Path: void <init>(int,Node)>(1, v3)": {
+      "eline": 13,
+      "epos": 41,
+      "spos": 27,
+      "sline": 13
+    }},
+    {"virtualinvoke v1.<Node: void addPathWithoutSource(Path)>(temp$8)": {
+      "eline": 13,
+      "epos": 41,
+      "spos": 27,
+      "sline": 13
+    }},
+    {"temp$9 = new Path": {
+      "eline": 14,
+      "epos": 43,
+      "spos": 3,
+      "sline": 14
+    }},
+    {"specialinvoke temp$9.<Path: void <init>(int,Node)>(5, v6)": {
+      "eline": 14,
+      "epos": 41,
+      "spos": 27,
+      "sline": 14
+    }},
+    {"virtualinvoke v1.<Node: void addPathWithoutSource(Path)>(temp$9)": {
+      "eline": 14,
+      "epos": 41,
+      "spos": 27,
+      "sline": 14
+    }},
+    {"temp$10 = new Path": {
+      "eline": 15,
+      "epos": 43,
+      "spos": 3,
+      "sline": 15
+    }},
+    {"specialinvoke temp$10.<Path: void <init>(int,Node)>(3, v7)": {
+      "eline": 15,
+      "epos": 41,
+      "spos": 27,
+      "sline": 15
+    }},
+    {"virtualinvoke v1.<Node: void addPathWithoutSource(Path)>(temp$10)": {
+      "eline": 15,
+      "epos": 41,
+      "spos": 27,
+      "sline": 15
+    }},
+    {"temp$11 = new Path": {
+      "eline": 16,
+      "epos": 43,
+      "spos": 3,
+      "sline": 16
+    }},
+    {"specialinvoke temp$11.<Path: void <init>(int,Node)>(6, v4)": {
+      "eline": 16,
+      "epos": 41,
+      "spos": 27,
+      "sline": 16
+    }},
+    {"virtualinvoke v1.<Node: void addPathWithoutSource(Path)>(temp$11)": {
+      "eline": 16,
+      "epos": 41,
+      "spos": 27,
+      "sline": 16
+    }},
+    {"temp$12 = new Path": {
+      "eline": 19,
+      "epos": 43,
+      "spos": 3,
+      "sline": 19
+    }},
+    {"specialinvoke temp$12.<Path: void <init>(int,Node)>(1, v6)": {
+      "eline": 19,
+      "epos": 41,
+      "spos": 27,
+      "sline": 19
+    }},
+    {"virtualinvoke v2.<Node: void addPathWithoutSource(Path)>(temp$12)": {
+      "eline": 19,
+      "epos": 41,
+      "spos": 27,
+      "sline": 19
+    }},
+    {"temp$13 = new Path": {
+      "eline": 20,
+      "epos": 43,
+      "spos": 3,
+      "sline": 20
+    }},
+    {"specialinvoke temp$13.<Path: void <init>(int,Node)>(3, v5)": {
+      "eline": 20,
+      "epos": 41,
+      "spos": 27,
+      "sline": 20
+    }},
+    {"virtualinvoke v2.<Node: void addPathWithoutSource(Path)>(temp$13)": {
+      "eline": 20,
+      "epos": 41,
+      "spos": 27,
+      "sline": 20
+    }},
+    {"temp$14 = new Path": {
+      "eline": 22,
+      "epos": 43,
+      "spos": 3,
+      "sline": 22
+    }},
+    {"specialinvoke temp$14.<Path: void <init>(int,Node)>(8, v5)": {
+      "eline": 22,
+      "epos": 41,
+      "spos": 27,
+      "sline": 22
+    }},
+    {"virtualinvoke v3.<Node: void addPathWithoutSource(Path)>(temp$14)": {
+      "eline": 22,
+      "epos": 41,
+      "spos": 27,
+      "sline": 22
+    }},
+    {"temp$15 = new Path": {
+      "eline": 23,
+      "epos": 43,
+      "spos": 3,
+      "sline": 23
+    }},
+    {"specialinvoke temp$15.<Path: void <init>(int,Node)>(9, v6)": {
+      "eline": 23,
+      "epos": 41,
+      "spos": 27,
+      "sline": 23
+    }},
+    {"virtualinvoke v3.<Node: void addPathWithoutSource(Path)>(temp$15)": {
+      "eline": 23,
+      "epos": 41,
+      "spos": 27,
+      "sline": 23
+    }},
+    {"temp$16 = new Path": {
+      "eline": 25,
+      "epos": 43,
+      "spos": 3,
+      "sline": 25
+    }},
+    {"specialinvoke temp$16.<Path: void <init>(int,Node)>(5, v5)": {
+      "eline": 25,
+      "epos": 41,
+      "spos": 27,
+      "sline": 25
+    }},
+    {"virtualinvoke v4.<Node: void addPathWithoutSource(Path)>(temp$16)": {
+      "eline": 25,
+      "epos": 41,
+      "spos": 27,
+      "sline": 25
+    }},
+    {"temp$17 = new Path": {
+      "eline": 26,
+      "epos": 43,
+      "spos": 3,
+      "sline": 26
+    }},
+    {"specialinvoke temp$17.<Path: void <init>(int,Node)>(5, v7)": {
+      "eline": 26,
+      "epos": 41,
+      "spos": 27,
+      "sline": 26
+    }},
+    {"virtualinvoke v4.<Node: void addPathWithoutSource(Path)>(temp$17)": {
+      "eline": 26,
+      "epos": 41,
+      "spos": 27,
+      "sline": 26
+    }},
+    {"temp$18 = new Path": {
+      "eline": 27,
+      "epos": 43,
+      "spos": 3,
+      "sline": 27
+    }},
+    {"specialinvoke temp$18.<Path: void <init>(int,Node)>(4, v6)": {
+      "eline": 27,
+      "epos": 41,
+      "spos": 27,
+      "sline": 27
+    }},
+    {"virtualinvoke v4.<Node: void addPathWithoutSource(Path)>(temp$18)": {
+      "eline": 27,
+      "epos": 41,
+      "spos": 27,
+      "sline": 27
+    }},
+    {"temp$19 = new Path": {
+      "eline": 29,
+      "epos": 43,
+      "spos": 3,
+      "sline": 29
+    }},
+    {"specialinvoke temp$19.<Path: void <init>(int,Node)>(2, v6)": {
+      "eline": 29,
+      "epos": 41,
+      "spos": 27,
+      "sline": 29
+    }},
+    {"virtualinvoke v5.<Node: void addPathWithoutSource(Path)>(temp$19)": {
+      "eline": 29,
+      "epos": 41,
+      "spos": 27,
+      "sline": 29
+    }},
+    {"temp$20 = new Path": {
+      "eline": 31,
+      "epos": 43,
+      "spos": 3,
+      "sline": 31
+    }},
+    {"specialinvoke temp$20.<Path: void <init>(int,Node)>(6, v7)": {
+      "eline": 31,
+      "epos": 41,
+      "spos": 27,
+      "sline": 31
+    }},
+    {"virtualinvoke v6.<Node: void addPathWithoutSource(Path)>(temp$20)": {
+      "eline": 31,
+      "epos": 41,
+      "spos": 27,
+      "sline": 31
+    }},
+    {"temp$21 = new Path": {
+      "eline": 32,
+      "epos": 43,
+      "spos": 3,
+      "sline": 32
+    }},
+    {"specialinvoke temp$21.<Path: void <init>(int,Node)>(9, v3)": {
+      "eline": 32,
+      "epos": 41,
+      "spos": 27,
+      "sline": 32
+    }},
+    {"virtualinvoke v6.<Node: void addPathWithoutSource(Path)>(temp$21)": {
+      "eline": 32,
+      "epos": 41,
+      "spos": 27,
+      "sline": 32
+    }},
+    {"temp$22 = new Path": {
+      "eline": 33,
+      "epos": 43,
+      "spos": 3,
+      "sline": 33
+    }},
+    {"specialinvoke temp$22.<Path: void <init>(int,Node)>(4, v4)": {
+      "eline": 33,
+      "epos": 41,
+      "spos": 27,
+      "sline": 33
+    }},
+    {"virtualinvoke v6.<Node: void addPathWithoutSource(Path)>(temp$22)": {
+      "eline": 33,
+      "epos": 41,
+      "spos": 27,
+      "sline": 33
+    }},
+    {"temp$23 = new Path": {
+      "eline": 34,
+      "epos": 43,
+      "spos": 3,
+      "sline": 34
+    }},
+    {"specialinvoke temp$23.<Path: void <init>(int,Node)>(5, v1)": {
+      "eline": 34,
+      "epos": 41,
+      "spos": 27,
+      "sline": 34
+    }},
+    {"virtualinvoke v6.<Node: void addPathWithoutSource(Path)>(temp$23)": {
+      "eline": 34,
+      "epos": 41,
+      "spos": 27,
+      "sline": 34
+    }},
+    {"temp$24 = new NodeNetwork": {
+      "eline": 37,
+      "epos": 62,
+      "spos": 3,
+      "sline": 37
+    }},
+    {"temp$25 = newarray (Node)[7]": {
+      "eline": 37,
+      "epos": 62,
+      "spos": 3,
+      "sline": 37
+    }},
+    {"temp$25[0] = v1": {}},
+    {"temp$25[1] = v2": {}},
+    {"temp$25[2] = v3": {}},
+    {"temp$25[3] = v4": {}},
+    {"temp$25[4] = v5": {}},
+    {"temp$25[5] = v6": {}},
+    {"temp$25[6] = v7": {}},
+    {"specialinvoke temp$24.<NodeNetwork: void <init>(Node[])>(temp$25)": {
+      "eline": 37,
+      "epos": 61,
+      "spos": 25,
+      "sline": 37
+    }},
+    {"network = temp$24": {
+      "eline": 37,
+      "epos": 61,
+      "spos": 25,
+      "sline": 37
+    }},
+    {"return network": {
+      "eline": 39,
+      "epos": 17,
+      "spos": 3,
+      "sline": 39
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

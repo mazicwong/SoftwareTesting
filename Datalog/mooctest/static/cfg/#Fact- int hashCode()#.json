@@ -1,0 +1,60 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = this.<Fact: Predicate predicate>": {
+      "eline": 39,
+      "epos": 18,
+      "spos": 15,
+      "sline": 39
+    }},
+    {"temp$1 = virtualinvoke temp$0.<Predicate: int hashCode()>()": {
+      "eline": 39,
+      "epos": 18,
+      "spos": 15,
+      "sline": 39
+    }},
+    {"temp$2 = 17 * temp$1": {
+      "eline": 39,
+      "epos": 18,
+      "spos": 15,
+      "sline": 39
+    }},
+    {"temp$3 = temp$2": {
+      "eline": 39,
+      "epos": 18,
+      "spos": 15,
+      "sline": 39
+    }},
+    {"temp$4 = this.<Fact: Value[] values>": {
+      "eline": 39,
+      "epos": 67,
+      "spos": 64,
+      "sline": 39
+    }},
+    {"temp$5 = staticinvoke <java.util.Arrays: int hashCode(java.lang.Object[])>(temp$4)": {
+      "eline": 39,
+      "epos": 67,
+      "spos": 64,
+      "sline": 39
+    }},
+    {"temp$6 = 13 * temp$5": {
+      "eline": 39,
+      "epos": 67,
+      "spos": 64,
+      "sline": 39
+    }},
+    {"temp$7 = temp$3 + temp$6": {
+      "eline": 39,
+      "epos": 67,
+      "spos": 64,
+      "sline": 39
+    }},
+    {"return temp$7": {
+      "eline": 39,
+      "epos": 76,
+      "spos": 3,
+      "sline": 39
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

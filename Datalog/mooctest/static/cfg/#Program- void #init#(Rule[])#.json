@@ -1,0 +1,19 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+    {"this.<Program: Rule[] program> = rules": {
+      "eline": 11,
+      "epos": 14,
+      "spos": 8,
+      "sline": 11
+    }},
+    {"return": {
+      "eline": 11,
+      "epos": 14,
+      "spos": 8,
+      "sline": 11
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

@@ -1,0 +1,24 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = staticinvoke <DPCManager: DPCManager getInstance()>()": {
+      "eline": 35,
+      "epos": 75,
+      "spos": 69,
+      "sline": 35
+    }},
+    {"temp$1 = virtualinvoke temp$0.<DPCManager: LunarCalendar getDPInfo(int,int,int)>(year, month, day)": {
+      "eline": 35,
+      "epos": 75,
+      "spos": 69,
+      "sline": 35
+    }},
+    {"return temp$1": {
+      "eline": 36,
+      "epos": 68,
+      "spos": 9,
+      "sline": 36
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

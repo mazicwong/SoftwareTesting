@@ -1,0 +1,18 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<Vector: void <init>(int,int)>(initialCapacity, 0)": {
+      "eline": 35,
+      "epos": 32,
+      "spos": 9,
+      "sline": 35
+    }},
+    {"return": {
+      "eline": 35,
+      "epos": 32,
+      "spos": 9,
+      "sline": 35
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

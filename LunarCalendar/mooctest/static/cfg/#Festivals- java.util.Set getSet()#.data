@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "    void add(String festival) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        festivals.add(festival); ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public Set<String> getSet() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        return festivals; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    @Override ",
+    "blocks": []
+  },
+  {
+    "codes": "    public String toString() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        StringBuilder buffer = new StringBuilder(); ",
+    "blocks": []
+  }
+]

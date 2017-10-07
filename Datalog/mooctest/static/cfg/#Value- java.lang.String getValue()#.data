@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.value = value; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic String getValue() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn this.value; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic boolean equals(Object o) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif (o == null) ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\treturn false; ",
+    "blocks": []
+  }
+]

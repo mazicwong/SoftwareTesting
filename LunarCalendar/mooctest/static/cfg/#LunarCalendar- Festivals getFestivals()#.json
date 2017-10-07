@@ -1,0 +1,91 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$5 = this.<LunarCalendar: Festivals festivals>": {
+        "eline": 59,
+        "epos": 24,
+        "spos": 16,
+        "sline": 59
+      }},
+      {"return temp$5": {
+        "eline": 59,
+        "epos": 25,
+        "spos": 9,
+        "sline": 59
+      }}
+    ],
+    "preds": [
+      1,
+      2
+    ],
+    "succs": []
+  },
+  "2": {
+    "instructions": [
+      {"temp$1 = this.<LunarCalendar: int year>": {
+        "eline": 57,
+        "epos": 59,
+        "spos": 56,
+        "sline": 57
+      }},
+      {"temp$2 = this.<LunarCalendar: int month>": {
+        "eline": 57,
+        "epos": 66,
+        "spos": 62,
+        "sline": 57
+      }},
+      {"temp$3 = this.<LunarCalendar: int day>": {
+        "eline": 57,
+        "epos": 71,
+        "spos": 69,
+        "sline": 57
+      }},
+      {"temp$4 = staticinvoke <DPCNCalendar: Festivals buildDayFestivals(int,int,int)>(temp$1, temp$2, temp$3)": {
+        "eline": 57,
+        "epos": 71,
+        "spos": 69,
+        "sline": 57
+      }},
+      {"this.<LunarCalendar: Festivals festivals> = temp$4": {
+        "eline": 57,
+        "epos": 21,
+        "spos": 13,
+        "sline": 57
+      }}
+    ],
+    "preds": [0],
+    "succs": [3]
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 56,
+      "epos": 21,
+      "spos": 13,
+      "sline": 56
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = this.<LunarCalendar: Festivals festivals>": {
+        "eline": 56,
+        "epos": 21,
+        "spos": 13,
+        "sline": 56
+      }},
+      {"if temp$0 == null goto block_2 #0": {
+        "eline": 56,
+        "epos": 21,
+        "ifpos": "(55, 8)-(55, 29)",
+        "spos": 13,
+        "sline": 56
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  }
+}

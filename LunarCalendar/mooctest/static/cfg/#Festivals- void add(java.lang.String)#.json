@@ -1,0 +1,24 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = this.<Festivals: java.util.Set festivals>": {
+      "eline": 20,
+      "epos": 17,
+      "spos": 9,
+      "sline": 20
+    }},
+    {"interfaceinvoke temp$0.<java.util.Set: boolean add(java.lang.Object)>(festival)": {
+      "eline": 20,
+      "epos": 17,
+      "spos": 9,
+      "sline": 20
+    }},
+    {"return": {
+      "eline": 20,
+      "epos": 17,
+      "spos": 9,
+      "sline": 20
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

@@ -1,0 +1,61 @@
+[
+  {
+    "codes": "\tpublic List<Path> getPaths(){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn paths; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic void addPathWithoutSource(Path path){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif(path.getSrcNode() == null){ ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\tpath.setSrcNode(this); ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.addPathWithSource(path); ",
+    "blocks": [3]
+  },
+  {
+    "codes": "\t\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\tprivate void addPathWithSource(Path path) { ",
+    "blocks": []
+  }
+]

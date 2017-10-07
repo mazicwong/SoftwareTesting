@@ -1,0 +1,125 @@
+{
+  "3": {
+    "instructions": [{"if arguments == null goto block_5 #1": {
+      "eline": 13,
+      "epos": 23,
+      "ifpos": "(12, 2)-(12, 23)",
+      "spos": 7,
+      "sline": 13
+    }}],
+    "preds": [1],
+    "succs": [
+      4,
+      5
+    ]
+  },
+  "2": {
+    "instructions": [
+      {"temp$0 = new java.lang.NullPointerException": {
+        "eline": 11,
+        "epos": 62,
+        "spos": 4,
+        "sline": 11
+      }},
+      {"specialinvoke temp$0.<java.lang.NullPointerException: void <init>(java.lang.String)>(\"Predicate cannot be null\")": {
+        "eline": 11,
+        "epos": 61,
+        "spos": 10,
+        "sline": 11
+      }},
+      {"throw temp$0": {
+        "eline": 11,
+        "epos": 61,
+        "spos": 10,
+        "sline": 11
+      }}
+    ],
+    "preds": [0],
+    "succs": []
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 10,
+      "epos": 23,
+      "spos": 7,
+      "sline": 10
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [
+      {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+      {"if predicate == null goto block_2 #0": {
+        "eline": 10,
+        "epos": 23,
+        "ifpos": "(9, 2)-(9, 23)",
+        "spos": 7,
+        "sline": 10
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  },
+  "6": {
+    "instructions": [
+      {"this.<Datalog: Predicate predicate> = predicate": {
+        "eline": 16,
+        "epos": 16,
+        "spos": 8,
+        "sline": 16
+      }},
+      {"this.<Datalog: Argument[] arguments> = arguments": {
+        "eline": 17,
+        "epos": 16,
+        "spos": 8,
+        "sline": 17
+      }},
+      {"return": {
+        "eline": 17,
+        "epos": 16,
+        "spos": 8,
+        "sline": 17
+      }}
+    ],
+    "preds": [4],
+    "succs": []
+  },
+  "5": {
+    "instructions": [
+      {"temp$1 = new java.lang.NullPointerException": {
+        "eline": 14,
+        "epos": 62,
+        "spos": 4,
+        "sline": 14
+      }},
+      {"specialinvoke temp$1.<java.lang.NullPointerException: void <init>(java.lang.String)>(\"Arguments cannot be null\")": {
+        "eline": 14,
+        "epos": 61,
+        "spos": 10,
+        "sline": 14
+      }},
+      {"throw temp$1": {
+        "eline": 14,
+        "epos": 61,
+        "spos": 10,
+        "sline": 14
+      }}
+    ],
+    "preds": [3],
+    "succs": []
+  },
+  "4": {
+    "instructions": [{"goto block_6": {
+      "eline": 13,
+      "epos": 23,
+      "spos": 7,
+      "sline": 13
+    }}],
+    "preds": [3],
+    "succs": [6]
+  }
+}

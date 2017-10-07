@@ -1,0 +1,18 @@
+{"0": {
+  "instructions": [
+    {"this.<LunarCalendar: java.lang.String solarTerm> = solarTerm": {
+      "eline": 48,
+      "epos": 22,
+      "spos": 14,
+      "sline": 48
+    }},
+    {"return": {
+      "eline": 48,
+      "epos": 22,
+      "spos": 14,
+      "sline": 48
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

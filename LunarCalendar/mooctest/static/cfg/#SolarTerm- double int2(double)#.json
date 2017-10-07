@@ -1,0 +1,80 @@
+{
+  "3": {
+    "instructions": [{"return v": {
+      "eline": 133,
+      "epos": 17,
+      "spos": 9,
+      "sline": 133
+    }}],
+    "preds": [0],
+    "succs": []
+  },
+  "2": {
+    "instructions": [
+      {"temp$2 = v": {
+        "eline": 131,
+        "epos": 17,
+        "spos": 13,
+        "sline": 131
+      }},
+      {"temp$3 = temp$2 + 1.0": {
+        "eline": 131,
+        "epos": 17,
+        "spos": 13,
+        "sline": 131
+      }},
+      {"return temp$3": {
+        "eline": 132,
+        "epos": 25,
+        "spos": 13,
+        "sline": 132
+      }}
+    ],
+    "preds": [1],
+    "succs": []
+  },
+  "1": {
+    "instructions": [{"goto block_2": {
+      "eline": 131,
+      "epos": 17,
+      "spos": 13,
+      "sline": 131
+    }}],
+    "preds": [0],
+    "succs": [2]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = staticinvoke <java.lang.Math: double floor(double)>(v)": {
+        "eline": 130,
+        "epos": 26,
+        "spos": 9,
+        "sline": 130
+      }},
+      {"v = temp$0": {
+        "eline": 130,
+        "epos": 9,
+        "spos": 9,
+        "sline": 130
+      }},
+      {"temp$1 = v cmpg 0.0": {
+        "eline": 131,
+        "epos": 17,
+        "spos": 13,
+        "sline": 131
+      }},
+      {"if temp$1 >= 0 goto block_3 #0": {
+        "eline": 131,
+        "epos": 17,
+        "ifpos": "(130, 8)-(130, 17)",
+        "spos": 13,
+        "sline": 131
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      3
+    ]
+  }
+}

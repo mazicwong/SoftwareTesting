@@ -1,0 +1,54 @@
+[
+  {
+    "codes": "                      ",
+    "blocks": []
+  },
+  {
+    "codes": "                      ",
+    "blocks": []
+  },
+  {
+    "codes": "                  ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "    private static long gregorianToNum(int year, int month, int day) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        month = (month + 9) % 12; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        year = year - month / 10; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        return 365 * year + year / 4 - year / 100 + year / 400 + (month * 306 + 5) / 10 + (day - 1); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "                              ",
+    "blocks": []
+  },
+  {
+    "codes": "       ",
+    "blocks": []
+  }
+]

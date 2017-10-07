@@ -1,0 +1,86 @@
+[
+  {
+    "codes": "\tpublic int hashCode() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn 17 * this.predicate.hashCode() + 13 * Arrays.hashCode(this.values); ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic String toString() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tString res = this.predicate.toString(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tres += \"(\"; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tfor (int i = 0; i < values.length - 1; i++) { ",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "\t\t\tres += values[i].toString(); ",
+    "blocks": [3]
+  },
+  {
+    "codes": "\t\t\tres += \",\"; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": [3]
+  },
+  {
+    "codes": "\t\tif (values.length > 0) { ",
+    "blocks": [
+      4,
+      5
+    ]
+  },
+  {
+    "codes": "\t\t\tres += values[values.length - 1].toString(); ",
+    "blocks": [6]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tres += \")\"; ",
+    "blocks": [7]
+  },
+  {
+    "codes": "\t\treturn res; ",
+    "blocks": [7]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

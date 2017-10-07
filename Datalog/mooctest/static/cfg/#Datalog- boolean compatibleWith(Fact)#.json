@@ -1,0 +1,77 @@
+{
+  "3": {
+    "instructions": [{"temp$1 = 1": {
+      "reliable": false,
+      "eline": 53,
+      "epos": 13,
+      "spos": 10,
+      "sline": 53
+    }}],
+    "preds": [0],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [
+      {"temp$1 = 0": {
+        "reliable": false,
+        "eline": 53,
+        "epos": 13,
+        "spos": 10,
+        "sline": 53
+      }},
+      {"goto block_4": {
+        "eline": 53,
+        "epos": 13,
+        "spos": 10,
+        "sline": 53
+      }}
+    ],
+    "preds": [1],
+    "succs": [4]
+  },
+  "1": {
+    "instructions": [{"goto block_2": {
+      "eline": 53,
+      "epos": 13,
+      "spos": 10,
+      "sline": 53
+    }}],
+    "preds": [0],
+    "succs": [2]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = virtualinvoke this.<Datalog: Substitution substituteTo(Fact)>(fact)": {
+        "eline": 53,
+        "epos": 13,
+        "spos": 10,
+        "sline": 53
+      }},
+      {"if temp$0 != null goto block_3 #0": {
+        "eline": 53,
+        "epos": 13,
+        "ifpos": "(38, 78)-(52, 40)",
+        "spos": 10,
+        "sline": 53
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      3
+    ]
+  },
+  "4": {
+    "instructions": [{"return temp$1": {
+      "eline": 53,
+      "epos": 41,
+      "spos": 3,
+      "sline": 53
+    }}],
+    "preds": [
+      2,
+      3
+    ],
+    "succs": []
+  }
+}

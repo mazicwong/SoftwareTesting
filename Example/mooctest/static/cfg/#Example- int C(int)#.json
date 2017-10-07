@@ -1,0 +1,24 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = virtualinvoke this.<Example: int B(int)>(c)": {
+      "eline": 34,
+      "epos": 8,
+      "spos": 5,
+      "sline": 34
+    }},
+    {"c = temp$0": {
+      "eline": 34,
+      "epos": 3,
+      "spos": 3,
+      "sline": 34
+    }},
+    {"return c": {
+      "eline": 35,
+      "epos": 11,
+      "spos": 3,
+      "sline": 35
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

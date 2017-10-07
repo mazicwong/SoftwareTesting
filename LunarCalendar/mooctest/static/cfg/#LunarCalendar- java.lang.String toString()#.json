@@ -1,0 +1,168 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = new java.lang.StringBuffer": {
+      "eline": 158,
+      "epos": 5,
+      "spos": 5,
+      "sline": 147
+    }},
+    {"specialinvoke temp$0.<java.lang.StringBuffer: void <init>()>()": {
+      "eline": 150,
+      "epos": 36,
+      "spos": 16,
+      "sline": 149
+    }},
+    {"virtualinvoke temp$0.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(\"LunarCalendar{isToday=\")": {
+      "eline": 150,
+      "epos": 36,
+      "spos": 16,
+      "sline": 149
+    }},
+    {"temp$1 = this.<LunarCalendar: boolean isToday>": {
+      "eline": 150,
+      "epos": 36,
+      "spos": 30,
+      "sline": 150
+    }},
+    {"virtualinvoke temp$0.<java.lang.StringBuffer: java.lang.StringBuffer append(boolean)>(temp$1)": {
+      "eline": 150,
+      "epos": 36,
+      "spos": 30,
+      "sline": 150
+    }},
+    {"virtualinvoke temp$0.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(\", isWeekend=\")": {
+      "eline": 151,
+      "epos": 30,
+      "spos": 16,
+      "sline": 149
+    }},
+    {"temp$2 = this.<LunarCalendar: boolean isWeekend>": {
+      "eline": 151,
+      "epos": 42,
+      "spos": 34,
+      "sline": 151
+    }},
+    {"virtualinvoke temp$0.<java.lang.StringBuffer: java.lang.StringBuffer append(boolean)>(temp$2)": {
+      "eline": 151,
+      "epos": 42,
+      "spos": 34,
+      "sline": 151
+    }},
+    {"virtualinvoke temp$0.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(\", solarTerm=\\'\")": {
+      "eline": 152,
+      "epos": 31,
+      "spos": 16,
+      "sline": 149
+    }},
+    {"temp$3 = this.<LunarCalendar: java.lang.String solarTerm>": {
+      "eline": 152,
+      "epos": 43,
+      "spos": 35,
+      "sline": 152
+    }},
+    {"virtualinvoke temp$0.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(temp$3)": {
+      "eline": 152,
+      "epos": 43,
+      "spos": 35,
+      "sline": 152
+    }},
+    {"virtualinvoke temp$0.<java.lang.StringBuffer: java.lang.StringBuffer append(char)>(39)": {
+      "eline": 152,
+      "epos": 50,
+      "spos": 16,
+      "sline": 149
+    }},
+    {"virtualinvoke temp$0.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(\", festivals=\")": {
+      "eline": 153,
+      "epos": 30,
+      "spos": 16,
+      "sline": 149
+    }},
+    {"temp$4 = this.<LunarCalendar: Festivals festivals>": {
+      "eline": 153,
+      "epos": 42,
+      "spos": 34,
+      "sline": 153
+    }},
+    {"virtualinvoke temp$0.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(temp$4)": {
+      "eline": 153,
+      "epos": 42,
+      "spos": 34,
+      "sline": 153
+    }},
+    {"virtualinvoke temp$0.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(\", year=\")": {
+      "eline": 154,
+      "epos": 25,
+      "spos": 16,
+      "sline": 149
+    }},
+    {"temp$5 = this.<LunarCalendar: int year>": {
+      "eline": 154,
+      "epos": 32,
+      "spos": 29,
+      "sline": 154
+    }},
+    {"virtualinvoke temp$0.<java.lang.StringBuffer: java.lang.StringBuffer append(int)>(temp$5)": {
+      "eline": 154,
+      "epos": 32,
+      "spos": 29,
+      "sline": 154
+    }},
+    {"virtualinvoke temp$0.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(\", month=\")": {
+      "eline": 155,
+      "epos": 26,
+      "spos": 16,
+      "sline": 149
+    }},
+    {"temp$6 = this.<LunarCalendar: int month>": {
+      "eline": 155,
+      "epos": 34,
+      "spos": 30,
+      "sline": 155
+    }},
+    {"virtualinvoke temp$0.<java.lang.StringBuffer: java.lang.StringBuffer append(int)>(temp$6)": {
+      "eline": 155,
+      "epos": 34,
+      "spos": 30,
+      "sline": 155
+    }},
+    {"virtualinvoke temp$0.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(\", day=\")": {
+      "eline": 156,
+      "epos": 24,
+      "spos": 16,
+      "sline": 149
+    }},
+    {"temp$7 = this.<LunarCalendar: int day>": {
+      "eline": 156,
+      "epos": 30,
+      "spos": 28,
+      "sline": 156
+    }},
+    {"virtualinvoke temp$0.<java.lang.StringBuffer: java.lang.StringBuffer append(int)>(temp$7)": {
+      "eline": 156,
+      "epos": 30,
+      "spos": 28,
+      "sline": 156
+    }},
+    {"virtualinvoke temp$0.<java.lang.StringBuffer: java.lang.StringBuffer append(char)>(125)": {
+      "eline": 157,
+      "epos": 19,
+      "spos": 16,
+      "sline": 149
+    }},
+    {"temp$8 = virtualinvoke temp$0.<java.lang.StringBuffer: java.lang.String toString()>()": {
+      "eline": 157,
+      "epos": 19,
+      "spos": 16,
+      "sline": 149
+    }},
+    {"return temp$8": {
+      "eline": 157,
+      "epos": 20,
+      "spos": 9,
+      "sline": 149
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

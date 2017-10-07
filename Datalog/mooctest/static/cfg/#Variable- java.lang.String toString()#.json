@@ -1,0 +1,48 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = new java.lang.StringBuffer": {
+      "eline": 32,
+      "epos": 2,
+      "spos": 2,
+      "sline": 30
+    }},
+    {"specialinvoke temp$0.<java.lang.StringBuffer: void <init>()>()": {
+      "eline": 31,
+      "epos": 28,
+      "spos": 10,
+      "sline": 31
+    }},
+    {"virtualinvoke temp$0.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(\"VAR:\")": {
+      "eline": 31,
+      "epos": 28,
+      "spos": 10,
+      "sline": 31
+    }},
+    {"temp$1 = this.<Variable: java.lang.String identifier>": {
+      "eline": 31,
+      "epos": 28,
+      "spos": 19,
+      "sline": 31
+    }},
+    {"virtualinvoke temp$0.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(temp$1)": {
+      "eline": 31,
+      "epos": 28,
+      "spos": 19,
+      "sline": 31
+    }},
+    {"temp$2 = virtualinvoke temp$0.<java.lang.StringBuffer: java.lang.String toString()>()": {
+      "eline": 31,
+      "epos": 28,
+      "spos": 19,
+      "sline": 31
+    }},
+    {"return temp$2": {
+      "eline": 31,
+      "epos": 29,
+      "spos": 3,
+      "sline": 31
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

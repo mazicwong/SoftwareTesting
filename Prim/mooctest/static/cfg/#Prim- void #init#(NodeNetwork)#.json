@@ -1,0 +1,19 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+    {"this.<Prim: NodeNetwork nodeNet> = nodeNet": {
+      "eline": 12,
+      "epos": 14,
+      "spos": 8,
+      "sline": 12
+    }},
+    {"return": {
+      "eline": 12,
+      "epos": 14,
+      "spos": 8,
+      "sline": 12
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

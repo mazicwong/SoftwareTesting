@@ -1,0 +1,231 @@
+{
+  "3": {
+    "instructions": [{"goto block_5": {
+      "eline": 39,
+      "epos": 54,
+      "spos": 48,
+      "sline": 39
+    }}],
+    "preds": [2],
+    "succs": [5]
+  },
+  "2": {
+    "instructions": [
+      {"temp$2 = this.<SundySearch: int currentPos>": {
+        "eline": 38,
+        "epos": 22,
+        "spos": 13,
+        "sline": 38
+      }},
+      {"temp$3 = temp$2 + 1": {
+        "eline": 38,
+        "epos": 22,
+        "spos": 13,
+        "sline": 38
+      }},
+      {"this.<SundySearch: int currentPos> = temp$3": {
+        "eline": 38,
+        "epos": 22,
+        "spos": 13,
+        "sline": 38
+      }},
+      {"temp$4 = this.<SundySearch: java.lang.String text>": {
+        "eline": 39,
+        "epos": 21,
+        "spos": 18,
+        "sline": 39
+      }},
+      {"temp$5 = virtualinvoke temp$4.<java.lang.String: int length()>()": {
+        "eline": 39,
+        "epos": 21,
+        "spos": 18,
+        "sline": 39
+      }},
+      {"temp$6 = this.<SundySearch: int currentPos>": {
+        "eline": 39,
+        "epos": 43,
+        "spos": 34,
+        "sline": 39
+      }},
+      {"temp$7 = temp$5 - temp$6": {
+        "eline": 39,
+        "epos": 43,
+        "spos": 34,
+        "sline": 39
+      }},
+      {"temp$8 = this.<SundySearch: java.lang.String pattern>": {
+        "eline": 39,
+        "epos": 54,
+        "spos": 48,
+        "sline": 39
+      }},
+      {"temp$9 = virtualinvoke temp$8.<java.lang.String: int length()>()": {
+        "eline": 39,
+        "epos": 54,
+        "spos": 48,
+        "sline": 39
+      }},
+      {"if temp$7 < temp$9 goto block_4 #1": {
+        "eline": 39,
+        "epos": 54,
+        "ifpos": "(38, 12)-(38, 63)",
+        "spos": 48,
+        "sline": 39
+      }}
+    ],
+    "preds": [0],
+    "succs": [
+      3,
+      4
+    ]
+  },
+  "1": {
+    "instructions": [{"goto block_6": {
+      "eline": 37,
+      "epos": 43,
+      "spos": 34,
+      "sline": 37
+    }}],
+    "preds": [0],
+    "succs": [6]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = this.<SundySearch: int currentPos>": {
+        "eline": 37,
+        "epos": 43,
+        "spos": 34,
+        "sline": 37
+      }},
+      {"temp$1 = virtualinvoke this.<SundySearch: boolean matchFromSpecialPos(int)>(temp$0)": {
+        "eline": 37,
+        "epos": 43,
+        "spos": 34,
+        "sline": 37
+      }},
+      {"if temp$1 == 0 goto block_2 #0": {
+        "eline": 37,
+        "epos": 43,
+        "ifpos": "(36, 8)-(36, 44)",
+        "spos": 34,
+        "sline": 37
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  },
+  "7": {
+    "instructions": [
+      {"temp$19 = this.<SundySearch: java.util.List matchedPosList>": {
+        "eline": 50,
+        "epos": 29,
+        "spos": 16,
+        "sline": 50
+      }},
+      {"return temp$19": {
+        "eline": 50,
+        "epos": 30,
+        "spos": 9,
+        "sline": 50
+      }}
+    ],
+    "preds": [
+      5,
+      6
+    ],
+    "succs": []
+  },
+  "6": {
+    "instructions": [
+      {"temp$12 = this.<SundySearch: java.util.List matchedPosList>": {
+        "eline": 45,
+        "epos": 26,
+        "spos": 13,
+        "sline": 45
+      }},
+      {"temp$13 = this.<SundySearch: int currentPos>": {
+        "eline": 45,
+        "epos": 41,
+        "spos": 32,
+        "sline": 45
+      }},
+      {"temp$14 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(temp$13)": {
+        "eline": 45,
+        "epos": 41,
+        "spos": 32,
+        "sline": 45
+      }},
+      {"interfaceinvoke temp$12.<java.util.List: boolean add(java.lang.Object)>(temp$14)": {
+        "eline": 45,
+        "epos": 41,
+        "spos": 32,
+        "sline": 45
+      }},
+      {"temp$16 = this.<SundySearch: int currentPos>": {
+        "eline": 46,
+        "epos": 22,
+        "spos": 13,
+        "sline": 46
+      }},
+      {"temp$17 = temp$16 + 1": {
+        "eline": 46,
+        "epos": 22,
+        "spos": 13,
+        "sline": 46
+      }},
+      {"this.<SundySearch: int currentPos> = temp$17": {
+        "eline": 46,
+        "epos": 22,
+        "spos": 13,
+        "sline": 46
+      }},
+      {"virtualinvoke this.<SundySearch: java.util.List normalMatch()>()": {
+        "eline": 47,
+        "epos": 25,
+        "spos": 13,
+        "sline": 47
+      }}
+    ],
+    "preds": [1],
+    "succs": [7]
+  },
+  "5": {
+    "instructions": [
+      {"virtualinvoke this.<SundySearch: java.util.List normalMatch()>()": {
+        "eline": 42,
+        "epos": 25,
+        "spos": 13,
+        "sline": 42
+      }},
+      {"goto block_7": {
+        "eline": 48,
+        "epos": 9,
+        "spos": 9,
+        "sline": 37
+      }}
+    ],
+    "preds": [3],
+    "succs": [7]
+  },
+  "4": {
+    "instructions": [
+      {"temp$10 = this.<SundySearch: java.util.List matchedPosList>": {
+        "eline": 40,
+        "epos": 37,
+        "spos": 24,
+        "sline": 40
+      }},
+      {"return temp$10": {
+        "eline": 40,
+        "epos": 38,
+        "spos": 17,
+        "sline": 40
+      }}
+    ],
+    "preds": [2],
+    "succs": []
+  }
+}

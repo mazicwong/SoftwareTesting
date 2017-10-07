@@ -1,0 +1,69 @@
+[
+  {
+    "codes": "        } ",
+    "blocks": []
+  },
+  {
+    "codes": "        zb[0] = rad2mrad(zb[0] + (v + 2.9965 * t1) / rad); ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private double Mnn(double[] f) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        double v = 0, t1 = MnnT, t2 = t1 * t1, t3 = t2 * t1, t4 = t3 * t1; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        for (int i = 0; i < f.length; i += 6) ",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "            v += f[i] * Math.sin(f[i + 1] + t1 * f[i + 2] + t2 * f[i + 3] + t3 * f[i + 4] + t4 * f[i + 5]); ",
+    "blocks": [
+      0,
+      3
+    ]
+  },
+  {
+    "codes": "        return v; ",
+    "blocks": [
+      0,
+      4
+    ]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private ZD nutation(double t) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        ZD d = new ZD(); ",
+    "blocks": []
+  },
+  {
+    "codes": "        d.Lon = 0; ",
+    "blocks": []
+  }
+]

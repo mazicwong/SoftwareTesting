@@ -1,0 +1,50 @@
+[
+  {
+    "codes": "        checkLunar(); ",
+    "blocks": []
+  },
+  {
+    "codes": "        return TextUtils.getChineseNumber(lunar.year); ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public String getFullLunarStr() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        checkLunar(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        return String.format(\"%s年%s月%s\", getLunarYear(), getLunarMonth(), getLunarDay()); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public String getSubTitle() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (!festivals.getSet().isEmpty()) ",
+    "blocks": []
+  },
+  {
+    "codes": "            return festivals.getSet().iterator().next(); ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn pathExpl; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tprivate List<Path> getPossibilities(Node startNode, List<Node> foundNodes) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tList<Path> allPossiblePaths = new ArrayList<Path>(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tallPossiblePaths.addAll(startNode.getPaths()); ",
+    "blocks": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "codes": "\t\tfor (Node node : foundNodes) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\tallPossiblePaths.addAll(node.getPaths()); ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn allPossiblePaths; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tprivate void printNodes(List<Node> primNodes) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tStringBuilder builder = new StringBuilder(\"{\"); ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tfor (Node node : primNodes) { ",
+    "blocks": []
+  }
+]

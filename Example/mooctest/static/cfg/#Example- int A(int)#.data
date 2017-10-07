@@ -1,0 +1,69 @@
+[
+  {
+    "codes": "        b = n; ",
+    "blocks": []
+  },
+  {
+    "codes": "        c = i; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic int A(int a){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif(a>8){ ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\ta=B(a-18); ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\t\treturn a; ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\t}else{ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\ta=B(a); ",
+    "blocks": [3]
+  },
+  {
+    "codes": "\t\t\treturn a; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t}; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic int B(int b){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif(b>=0){ ",
+    "blocks": []
+  }
+]

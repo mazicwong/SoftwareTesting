@@ -1,0 +1,18 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = this.<Argument: Value value>": {
+      "eline": 31,
+      "epos": 13,
+      "spos": 10,
+      "sline": 31
+    }},
+    {"return temp$0": {
+      "eline": 31,
+      "epos": 20,
+      "spos": 3,
+      "sline": 31
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

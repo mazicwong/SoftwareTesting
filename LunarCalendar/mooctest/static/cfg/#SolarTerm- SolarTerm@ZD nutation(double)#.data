@@ -1,0 +1,120 @@
+[
+  {
+    "codes": "            v += f[i] * Math.sin(f[i + 1] + t1 * f[i + 2] + t2 * f[i + 3] + t3 * f[i + 4] + t4 * f[i + 5]); ",
+    "blocks": []
+  },
+  {
+    "codes": "        return v; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private ZD nutation(double t) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        ZD d = new ZD(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        d.Lon = 0; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        d.Obl = 0; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        t /= 36525; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        double c, t1 = t, t2 = t1 * t1, t3 = t2 * t1, t4 = t3 * t1; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        for (int i = 0; i < nutB.length; i += 9) { ",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "            c = nutB[i] + nutB[i + 1] * t1 + nutB[i + 2] * t2 + nutB[i + 3] * t3 + nutB[i + 4] * t4; ",
+    "blocks": [
+      0,
+      3
+    ]
+  },
+  {
+    "codes": "            d.Lon += (nutB[i + 5] + nutB[i + 6] * t / 10) * Math.sin(c); ",
+    "blocks": [
+      0,
+      3
+    ]
+  },
+  {
+    "codes": "            d.Obl += (nutB[i + 7] + nutB[i + 8] * t / 10) * Math.cos(c); ",
+    "blocks": [
+      0,
+      3
+    ]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [
+      0,
+      3
+    ]
+  },
+  {
+    "codes": "        d.Lon /= rad * 10000; ",
+    "blocks": [
+      0,
+      4
+    ]
+  },
+  {
+    "codes": "        d.Obl /= rad * 10000; ",
+    "blocks": [
+      0,
+      4
+    ]
+  },
+  {
+    "codes": "        return d; ",
+    "blocks": [
+      0,
+      4
+    ]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private void addGxc(double t, double[] zb) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        double t1 = t / 36525; ",
+    "blocks": []
+  },
+  {
+    "codes": "        double t2 = t1 * t1; ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,32 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+    {"temp$0 = new java.util.ArrayList": {}},
+    {"specialinvoke temp$0.<java.util.ArrayList: void <init>()>()": {
+      "eline": 8,
+      "epos": 49,
+      "spos": 29,
+      "sline": 8
+    }},
+    {"this.<Node: java.util.List paths> = temp$0": {
+      "eline": 8,
+      "epos": 50,
+      "spos": 2,
+      "sline": 8
+    }},
+    {"this.<Node: java.lang.String name> = name": {
+      "eline": 16,
+      "epos": 11,
+      "spos": 8,
+      "sline": 16
+    }},
+    {"return": {
+      "eline": 16,
+      "epos": 11,
+      "spos": 8,
+      "sline": 16
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

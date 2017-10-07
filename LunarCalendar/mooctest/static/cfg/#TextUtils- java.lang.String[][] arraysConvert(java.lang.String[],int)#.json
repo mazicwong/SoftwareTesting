@@ -1,0 +1,171 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$4 = tmp": {
+        "eline": 64,
+        "epos": 40,
+        "spos": 13,
+        "sline": 64
+      }},
+      {"temp$5 = i": {
+        "eline": 64,
+        "epos": 40,
+        "spos": 13,
+        "sline": 64
+      }},
+      {"temp$6 = newarray (java.lang.String)[column]": {
+        "eline": 64,
+        "epos": 40,
+        "spos": 13,
+        "sline": 64
+      }},
+      {"temp$4[temp$5] = temp$6": {
+        "eline": 64,
+        "epos": 18,
+        "spos": 16,
+        "sline": 64
+      }},
+      {"temp$7 = i * column": {
+        "eline": 65,
+        "epos": 65,
+        "spos": 13,
+        "sline": 65
+      }},
+      {"temp$8 = tmp": {
+        "eline": 65,
+        "epos": 65,
+        "spos": 13,
+        "sline": 65
+      }},
+      {"temp$9 = i": {
+        "eline": 65,
+        "epos": 65,
+        "spos": 13,
+        "sline": 65
+      }},
+      {"temp$10 = temp$8[temp$9]": {
+        "eline": 65,
+        "epos": 65,
+        "spos": 13,
+        "sline": 65
+      }},
+      {"staticinvoke <java.lang.System: void arraycopy(java.lang.Object,int,java.lang.Object,int,int)>(src, temp$7, temp$10, 0, column)": {
+        "eline": 65,
+        "epos": 65,
+        "spos": 13,
+        "sline": 65
+      }},
+      {"temp$11 = i": {
+        "eline": 63,
+        "epos": 36,
+        "spos": 34,
+        "sline": 63
+      }},
+      {"temp$12 = temp$11 + 1": {
+        "eline": 63,
+        "epos": 34,
+        "spos": 34,
+        "sline": 63
+      }},
+      {"i = temp$12": {
+        "eline": 63,
+        "epos": 34,
+        "spos": 34,
+        "sline": 63
+      }},
+      {"goto block_1": {
+        "eline": 66,
+        "epos": 9,
+        "spos": 9,
+        "sline": 63
+      }}
+    ],
+    "preds": [1],
+    "succs": [1]
+  },
+  "2": {
+    "instructions": [{"goto block_4": {
+      "eline": 63,
+      "epos": 31,
+      "spos": 25,
+      "sline": 63
+    }}],
+    "preds": [1],
+    "succs": [4]
+  },
+  "1": {
+    "instructions": [{"if i < row goto block_3 #0": {
+      "eline": 63,
+      "epos": 31,
+      "ifpos": "(62, 22)-(62, 31)",
+      "spos": 25,
+      "sline": 63
+    }}],
+    "preds": [
+      0,
+      3
+    ],
+    "succs": [
+      2,
+      3
+    ]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = lengthof src": {
+        "eline": 61,
+        "epos": 38,
+        "spos": 9,
+        "sline": 61
+      }},
+      {"temp$1 = temp$0 / column": {
+        "eline": 61,
+        "epos": 38,
+        "spos": 9,
+        "sline": 61
+      }},
+      {"row = temp$1": {
+        "eline": 61,
+        "epos": 38,
+        "spos": 9,
+        "sline": 61
+      }},
+      {"temp$2 = lengthof src": {
+        "eline": 62,
+        "epos": 59,
+        "spos": 9,
+        "sline": 62
+      }},
+      {"temp$3 = temp$2 / row": {
+        "eline": 62,
+        "epos": 59,
+        "spos": 9,
+        "sline": 62
+      }},
+      {"tmp = newmultiarray (java.lang.String)[row][temp$3]": {
+        "eline": 62,
+        "epos": 59,
+        "spos": 9,
+        "sline": 62
+      }},
+      {"i = 0": {
+        "eline": 63,
+        "epos": 22,
+        "spos": 14,
+        "sline": 63
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  },
+  "4": {
+    "instructions": [{"return tmp": {
+      "eline": 67,
+      "epos": 19,
+      "spos": 9,
+      "sline": 67
+    }}],
+    "preds": [2],
+    "succs": []
+  }
+}

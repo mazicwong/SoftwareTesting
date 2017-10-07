@@ -1,0 +1,58 @@
+[
+  {
+    "codes": "    private void checkYear(int year) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (year < 1900 || year > 2100) ",
+    "blocks": []
+  },
+  {
+    "codes": "            throw new RuntimeException(\"Year should be between 1900 and 2100\"); ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    @Override ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    public String toString() { ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        return \"Gregorian{\" + ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                \"year=\" + year + ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                \", month=\" + month + ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                \", day=\" + day + ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                '}'; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": [0]
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,36 @@
+{"0": {
+  "instructions": [
+    {"virtualinvoke this.<LunarCalendar: void checkLunar()>()": {
+      "eline": 130,
+      "epos": 20,
+      "spos": 9,
+      "sline": 130
+    }},
+    {"temp$0 = this.<LunarCalendar: Lunar lunar>": {
+      "eline": 131,
+      "epos": 47,
+      "spos": 43,
+      "sline": 131
+    }},
+    {"temp$1 = temp$0.<Lunar: int year>": {
+      "eline": 131,
+      "epos": 47,
+      "spos": 43,
+      "sline": 131
+    }},
+    {"temp$2 = staticinvoke <TextUtils: java.lang.String getChineseNumber(int)>(temp$1)": {
+      "eline": 131,
+      "epos": 47,
+      "spos": 43,
+      "sline": 131
+    }},
+    {"return temp$2": {
+      "eline": 131,
+      "epos": 54,
+      "spos": 9,
+      "sline": 131
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

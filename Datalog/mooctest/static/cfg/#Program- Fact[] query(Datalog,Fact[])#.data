@@ -1,0 +1,86 @@
+[
+  {
+    "codes": "                                 ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                                              ",
+    "blocks": []
+  },
+  {
+    "codes": "                            ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic Fact[] query(Datalog atom, Fact[] database) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tFact[] allFacts = deriveAll(database); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tLinkedList<Fact> result = new LinkedList<Fact>(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tfor (Fact fact : allFacts) { ",
+    "blocks": [
+      1,
+      2
+    ]
+  },
+  {
+    "codes": "\t\t\tif (atom.compatibleWith(fact)) ",
+    "blocks": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "\t\t\t\tresult.add(fact); ",
+    "blocks": [
+      1,
+      2,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": [
+      1,
+      2
+    ]
+  },
+  {
+    "codes": "\t\treturn result.toArray(new Fact[0]); ",
+    "blocks": [6]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                                           ",
+    "blocks": []
+  },
+  {
+    "codes": "                          ",
+    "blocks": []
+  }
+]

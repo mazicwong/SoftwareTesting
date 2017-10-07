@@ -1,0 +1,229 @@
+{
+  "3": {
+    "instructions": [{"if day == 1 goto block_5 #0": {
+      "eline": 381,
+      "epos": 66,
+      "ifpos": "(380, 12)-(380, 66)",
+      "spos": 45,
+      "sline": 381
+    }}],
+    "preds": [2],
+    "succs": [
+      4,
+      5
+    ]
+  },
+  "2": {
+    "instructions": [{"goto block_3": {
+      "eline": 381,
+      "epos": 40,
+      "spos": 17,
+      "sline": 381
+    }}],
+    "preds": [1],
+    "succs": [3]
+  },
+  "1": {
+    "instructions": [
+      {"temp$4 = <DPCNCalendar: java.util.Calendar calendar>": {
+        "eline": 380,
+        "epos": 57,
+        "spos": 13,
+        "sline": 380
+      }},
+      {"temp$5 = virtualinvoke temp$4.<java.util.Calendar: int get(int)>(7)": {
+        "eline": 380,
+        "epos": 57,
+        "spos": 13,
+        "sline": 380
+      }},
+      {"day = temp$5": {
+        "eline": 380,
+        "epos": 57,
+        "spos": 13,
+        "sline": 380
+      }},
+      {"if day == 7 goto block_5 #0": {
+        "eline": 381,
+        "epos": 40,
+        "ifpos": "(380, 12)-(380, 66)",
+        "spos": 17,
+        "sline": 381
+      }}
+    ],
+    "preds": [
+      0,
+      6
+    ],
+    "succs": [
+      2,
+      5
+    ]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = new java.util.HashSet": {
+        "eline": 375,
+        "epos": 50,
+        "spos": 9,
+        "sline": 375
+      }},
+      {"specialinvoke temp$0.<java.util.HashSet: void <init>()>()": {
+        "eline": 375,
+        "epos": 49,
+        "spos": 28,
+        "sline": 375
+      }},
+      {"set = temp$0": {
+        "eline": 375,
+        "epos": 49,
+        "spos": 28,
+        "sline": 375
+      }},
+      {"temp$1 = <DPCNCalendar: java.util.Calendar calendar>": {
+        "eline": 376,
+        "epos": 25,
+        "spos": 9,
+        "sline": 376
+      }},
+      {"virtualinvoke temp$1.<java.util.Calendar: void clear()>()": {
+        "eline": 376,
+        "epos": 25,
+        "spos": 9,
+        "sline": 376
+      }},
+      {"temp$2 = <DPCNCalendar: java.util.Calendar calendar>": {
+        "eline": 378,
+        "epos": 41,
+        "spos": 9,
+        "sline": 378
+      }},
+      {"temp$3 = month - 1": {
+        "eline": 378,
+        "epos": 41,
+        "spos": 9,
+        "sline": 378
+      }},
+      {"virtualinvoke temp$2.<java.util.Calendar: void set(int,int,int)>(year, temp$3, 1)": {
+        "eline": 378,
+        "epos": 41,
+        "spos": 9,
+        "sline": 378
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  },
+  "7": {
+    "instructions": [{"goto block_8": {
+      "eline": 385,
+      "epos": 58,
+      "spos": 18,
+      "sline": 385
+    }}],
+    "preds": [6],
+    "succs": [8]
+  },
+  "6": {
+    "instructions": [
+      {"temp$10 = <DPCNCalendar: java.util.Calendar calendar>": {
+        "eline": 384,
+        "epos": 50,
+        "spos": 13,
+        "sline": 384
+      }},
+      {"virtualinvoke temp$10.<java.util.Calendar: void add(int,int)>(6, 1)": {
+        "eline": 384,
+        "epos": 50,
+        "spos": 13,
+        "sline": 384
+      }},
+      {"temp$11 = <DPCNCalendar: java.util.Calendar calendar>": {
+        "eline": 385,
+        "epos": 58,
+        "spos": 18,
+        "sline": 385
+      }},
+      {"temp$12 = virtualinvoke temp$11.<java.util.Calendar: int get(int)>(2)": {
+        "eline": 385,
+        "epos": 58,
+        "spos": 18,
+        "sline": 385
+      }},
+      {"temp$13 = month - 1": {
+        "eline": 385,
+        "epos": 58,
+        "spos": 18,
+        "sline": 385
+      }},
+      {"if temp$12 == temp$13 goto block_1 #1": {
+        "eline": 385,
+        "epos": 58,
+        "ifpos": "(384, 10)-(384, 58)",
+        "spos": 18,
+        "sline": 385
+      }}
+    ],
+    "preds": [
+      4,
+      5
+    ],
+    "succs": [
+      7,
+      1
+    ]
+  },
+  "5": {
+    "instructions": [
+      {"temp$6 = <DPCNCalendar: java.util.Calendar calendar>": {
+        "eline": 382,
+        "epos": 61,
+        "spos": 17,
+        "sline": 382
+      }},
+      {"temp$7 = virtualinvoke temp$6.<java.util.Calendar: int get(int)>(5)": {
+        "eline": 382,
+        "epos": 61,
+        "spos": 17,
+        "sline": 382
+      }},
+      {"temp$8 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(temp$7)": {
+        "eline": 382,
+        "epos": 61,
+        "spos": 17,
+        "sline": 382
+      }},
+      {"interfaceinvoke set.<java.util.Set: boolean add(java.lang.Object)>(temp$8)": {
+        "eline": 382,
+        "epos": 61,
+        "spos": 17,
+        "sline": 382
+      }}
+    ],
+    "preds": [
+      1,
+      3
+    ],
+    "succs": [6]
+  },
+  "4": {
+    "instructions": [{"goto block_6": {
+      "eline": 381,
+      "epos": 66,
+      "spos": 45,
+      "sline": 381
+    }}],
+    "preds": [3],
+    "succs": [6]
+  },
+  "8": {
+    "instructions": [{"return set": {
+      "eline": 386,
+      "epos": 19,
+      "spos": 9,
+      "sline": 386
+    }}],
+    "preds": [7],
+    "succs": []
+  }
+}

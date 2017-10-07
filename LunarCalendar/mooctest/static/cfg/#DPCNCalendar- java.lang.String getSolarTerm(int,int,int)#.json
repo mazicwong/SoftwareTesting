@@ -1,0 +1,364 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$10 = tmp": {
+        "eline": 199,
+        "epos": 44,
+        "spos": 9,
+        "sline": 199
+      }},
+      {"temp$11 = month - 1": {
+        "eline": 199,
+        "epos": 44,
+        "spos": 9,
+        "sline": 199
+      }},
+      {"temp$12 = temp$11": {
+        "eline": 199,
+        "epos": 44,
+        "spos": 9,
+        "sline": 199
+      }},
+      {"stOfMonth = temp$10[temp$12]": {
+        "eline": 199,
+        "epos": 44,
+        "spos": 9,
+        "sline": 199
+      }},
+      {"temp$13 = stOfMonth": {
+        "eline": 200,
+        "epos": 48,
+        "spos": 13,
+        "sline": 200
+      }},
+      {"temp$14 = 0": {
+        "reliable": false,
+        "eline": 200,
+        "epos": 48,
+        "spos": 13,
+        "sline": 200
+      }},
+      {"temp$15 = temp$13[temp$14]": {
+        "eline": 200,
+        "epos": 48,
+        "spos": 13,
+        "sline": 200
+      }},
+      {"temp$16 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(java.lang.String)>(temp$15)": {
+        "eline": 200,
+        "epos": 48,
+        "spos": 13,
+        "sline": 200
+      }},
+      {"temp$17 = virtualinvoke temp$16.<java.lang.Integer: int intValue()>()": {
+        "eline": 200,
+        "epos": 48,
+        "spos": 13,
+        "sline": 200
+      }},
+      {"if temp$17 == day goto block_5 #1": {
+        "eline": 200,
+        "epos": 48,
+        "ifpos": "(199, 8)-(199, 48)",
+        "spos": 13,
+        "sline": 200
+      }}
+    ],
+    "preds": [
+      1,
+      2
+    ],
+    "succs": [
+      4,
+      5
+    ]
+  },
+  "2": {
+    "instructions": [
+      {"temp$4 = <DPCNCalendar: SolarTerm mSolarTerm>": {
+        "eline": 196,
+        "epos": 50,
+        "spos": 13,
+        "sline": 196
+      }},
+      {"temp$5 = virtualinvoke temp$4.<SolarTerm: java.lang.String[][] buildSolarTerm(int)>(year)": {
+        "eline": 196,
+        "epos": 50,
+        "spos": 13,
+        "sline": 196
+      }},
+      {"tmp = temp$5": {
+        "eline": 196,
+        "epos": 15,
+        "spos": 13,
+        "sline": 196
+      }},
+      {"temp$6 = <DPCNCalendar: java.util.HashMap CACHE_SOLAR_TERM>": {
+        "eline": 197,
+        "epos": 44,
+        "spos": 13,
+        "sline": 197
+      }},
+      {"temp$7 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(year)": {
+        "eline": 197,
+        "epos": 44,
+        "spos": 13,
+        "sline": 197
+      }},
+      {"temp$8 = virtualinvoke temp$6.<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>(temp$7, tmp)": {
+        "eline": 197,
+        "epos": 44,
+        "spos": 13,
+        "sline": 197
+      }},
+      {"temp$9 = (java.lang.String[][]) temp$8": {
+        "eline": 197,
+        "epos": 44,
+        "spos": 13,
+        "sline": 197
+      }}
+    ],
+    "preds": [0],
+    "succs": [3]
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 195,
+      "epos": 23,
+      "spos": 13,
+      "sline": 195
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = <DPCNCalendar: java.util.HashMap CACHE_SOLAR_TERM>": {
+        "eline": 194,
+        "epos": 52,
+        "spos": 9,
+        "sline": 194
+      }},
+      {"temp$1 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(year)": {
+        "eline": 194,
+        "epos": 52,
+        "spos": 9,
+        "sline": 194
+      }},
+      {"temp$2 = virtualinvoke temp$0.<java.util.HashMap: java.lang.Object get(java.lang.Object)>(temp$1)": {
+        "eline": 194,
+        "epos": 52,
+        "spos": 9,
+        "sline": 194
+      }},
+      {"temp$3 = (java.lang.String[][]) temp$2": {
+        "eline": 194,
+        "epos": 52,
+        "spos": 9,
+        "sline": 194
+      }},
+      {"tmp = temp$3": {
+        "eline": 194,
+        "epos": 52,
+        "spos": 9,
+        "sline": 194
+      }},
+      {"if null == tmp goto block_2 #0": {
+        "eline": 195,
+        "epos": 23,
+        "ifpos": "(194, 8)-(194, 23)",
+        "spos": 13,
+        "sline": 195
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  },
+  "7": {
+    "instructions": [{"goto block_9": {
+      "eline": 203,
+      "epos": 48,
+      "spos": 13,
+      "sline": 203
+    }}],
+    "preds": [6],
+    "succs": [9]
+  },
+  "6": {
+    "instructions": [
+      {"temp$24 = stOfMonth": {
+        "eline": 203,
+        "epos": 48,
+        "spos": 13,
+        "sline": 203
+      }},
+      {"temp$25 = 1": {
+        "reliable": false,
+        "eline": 203,
+        "epos": 48,
+        "spos": 13,
+        "sline": 203
+      }},
+      {"temp$26 = temp$24[temp$25]": {
+        "eline": 203,
+        "epos": 48,
+        "spos": 13,
+        "sline": 203
+      }},
+      {"temp$27 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(java.lang.String)>(temp$26)": {
+        "eline": 203,
+        "epos": 48,
+        "spos": 13,
+        "sline": 203
+      }},
+      {"temp$28 = virtualinvoke temp$27.<java.lang.Integer: int intValue()>()": {
+        "eline": 203,
+        "epos": 48,
+        "spos": 13,
+        "sline": 203
+      }},
+      {"if temp$28 == day goto block_8 #2": {
+        "eline": 203,
+        "epos": 48,
+        "ifpos": "(202, 8)-(202, 48)",
+        "spos": 13,
+        "sline": 203
+      }}
+    ],
+    "preds": [4],
+    "succs": [
+      7,
+      8
+    ]
+  },
+  "5": {
+    "instructions": [
+      {"temp$18 = <DPCNCalendar: java.lang.String[][] SOLAR_TERM>": {
+        "eline": 200,
+        "epos": 48,
+        "spos": 13,
+        "sline": 200
+      }},
+      {"temp$19 = month - 1": {
+        "eline": 200,
+        "epos": 48,
+        "spos": 13,
+        "sline": 200
+      }},
+      {"temp$20 = temp$19": {
+        "eline": 200,
+        "epos": 48,
+        "spos": 13,
+        "sline": 200
+      }},
+      {"temp$21 = temp$18[temp$20]": {
+        "eline": 200,
+        "epos": 48,
+        "spos": 13,
+        "sline": 200
+      }},
+      {"temp$22 = 0": {
+        "reliable": false,
+        "eline": 200,
+        "epos": 48,
+        "spos": 13,
+        "sline": 200
+      }},
+      {"temp$23 = temp$21[temp$22]": {
+        "eline": 200,
+        "epos": 48,
+        "spos": 13,
+        "sline": 200
+      }},
+      {"return temp$23": {
+        "eline": 201,
+        "epos": 44,
+        "spos": 13,
+        "sline": 201
+      }}
+    ],
+    "preds": [3],
+    "succs": []
+  },
+  "4": {
+    "instructions": [{"goto block_6": {
+      "eline": 200,
+      "epos": 48,
+      "spos": 13,
+      "sline": 200
+    }}],
+    "preds": [3],
+    "succs": [6]
+  },
+  "9": {
+    "instructions": [
+      {"temp$35 = null": {
+        "reliable": false,
+        "eline": 204,
+        "epos": 44,
+        "spos": 13,
+        "sline": 204
+      }},
+      {"return temp$35": {
+        "eline": 206,
+        "epos": 20,
+        "spos": 9,
+        "sline": 206
+      }}
+    ],
+    "preds": [7],
+    "succs": []
+  },
+  "8": {
+    "instructions": [
+      {"temp$29 = <DPCNCalendar: java.lang.String[][] SOLAR_TERM>": {
+        "eline": 203,
+        "epos": 48,
+        "spos": 13,
+        "sline": 203
+      }},
+      {"temp$30 = month - 1": {
+        "eline": 203,
+        "epos": 48,
+        "spos": 13,
+        "sline": 203
+      }},
+      {"temp$31 = temp$30": {
+        "eline": 203,
+        "epos": 48,
+        "spos": 13,
+        "sline": 203
+      }},
+      {"temp$32 = temp$29[temp$31]": {
+        "eline": 203,
+        "epos": 48,
+        "spos": 13,
+        "sline": 203
+      }},
+      {"temp$33 = 1": {
+        "reliable": false,
+        "eline": 203,
+        "epos": 48,
+        "spos": 13,
+        "sline": 203
+      }},
+      {"temp$34 = temp$32[temp$33]": {
+        "eline": 203,
+        "epos": 48,
+        "spos": 13,
+        "sline": 203
+      }},
+      {"return temp$34": {
+        "eline": 204,
+        "epos": 44,
+        "spos": 13,
+        "sline": 204
+      }}
+    ],
+    "preds": [6],
+    "succs": []
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$8 = virtualinvoke builder.<java.lang.StringBuilder: int lastIndexOf(java.lang.String)>(\",\")": {
+        "eline": 137,
+        "epos": 49,
+        "spos": 3,
+        "sline": 137
+      }},
+      {"virtualinvoke builder.<java.lang.StringBuilder: java.lang.StringBuilder deleteCharAt(int)>(temp$8)": {
+        "eline": 137,
+        "epos": 49,
+        "spos": 3,
+        "sline": 137
+      }},
+      {"virtualinvoke builder.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(\"}\")": {
+        "eline": 138,
+        "epos": 22,
+        "spos": 3,
+        "sline": 138
+      }},
+      {"return": {
+        "eline": 138,
+        "epos": 22,
+        "spos": 3,
+        "sline": 138
+      }}
+    ],
+    "preds": [1],
+    "succs": []
+  },
+  "2": {
+    "instructions": [
+      {"temp$3 = interfaceinvoke temp$1.<java.util.Iterator: java.lang.Object next()>()": {
+        "eline": 133,
+        "epos": 48,
+        "spos": 27,
+        "sline": 133
+      }},
+      {"node = (Node) temp$3": {
+        "eline": 133,
+        "epos": 48,
+        "spos": 27,
+        "sline": 133
+      }},
+      {"temp$4 = newarray (java.lang.Object)[1]": {
+        "eline": 135,
+        "epos": 57,
+        "spos": 4,
+        "sline": 135
+      }},
+      {"temp$5 = virtualinvoke node.<Node: java.lang.String getName()>()": {
+        "eline": 135,
+        "epos": 57,
+        "spos": 4,
+        "sline": 135
+      }},
+      {"temp$4[0] = temp$5": {}},
+      {"temp$6 = staticinvoke <java.lang.String: java.lang.String format(java.lang.String,java.lang.Object[])>(\" %s,\", temp$4)": {}},
+      {"virtualinvoke builder.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(temp$6)": {}},
+      {"goto block_1": {}}
+    ],
+    "preds": [1],
+    "succs": [1]
+  },
+  "1": {
+    "instructions": [
+      {"temp$2 = interfaceinvoke temp$1.<java.util.Iterator: boolean hasNext()>()": {
+        "eline": 133,
+        "epos": 48,
+        "spos": 27,
+        "sline": 133
+      }},
+      {"if temp$2 == 0 goto block_3 #0": {
+        "eline": 133,
+        "epos": 48,
+        "ifpos": "(128, 25)-(132, 48)",
+        "spos": 27,
+        "sline": 133
+      }}
+    ],
+    "preds": [
+      0,
+      2
+    ],
+    "succs": [
+      2,
+      3
+    ]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = new java.lang.StringBuilder": {
+        "eline": 133,
+        "epos": 49,
+        "spos": 3,
+        "sline": 133
+      }},
+      {"specialinvoke temp$0.<java.lang.StringBuilder: void <init>(java.lang.String)>(\"{\")": {
+        "eline": 133,
+        "epos": 48,
+        "spos": 27,
+        "sline": 133
+      }},
+      {"builder = temp$0": {
+        "eline": 133,
+        "epos": 48,
+        "spos": 27,
+        "sline": 133
+      }},
+      {"temp$1 = interfaceinvoke primNodes.<java.lang.Iterable: java.util.Iterator iterator()>()": {
+        "eline": 133,
+        "epos": 48,
+        "spos": 27,
+        "sline": 133
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  }
+}

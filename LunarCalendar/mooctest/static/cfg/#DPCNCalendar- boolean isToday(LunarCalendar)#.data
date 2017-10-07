@@ -1,0 +1,87 @@
+[
+  {
+    "codes": "       ",
+    "blocks": []
+  },
+  {
+    "codes": "                     ",
+    "blocks": []
+  },
+  {
+    "codes": "                   ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "    static boolean isToday(LunarCalendar day) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        Calendar c1 = Calendar.getInstance(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        Calendar c2 = Calendar.getInstance(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "                      ",
+    "blocks": []
+  },
+  {
+    "codes": "                                     ",
+    "blocks": []
+  },
+  {
+    "codes": "        c1.set(day.getYear(), day.getMonth() - 1, day.getDay()); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        return (c1.get(Calendar.YEAR) == c2.get(Calendar.YEAR)) && ",
+    "blocks": [
+      0,
+      1,
+      8
+    ]
+  },
+  {
+    "codes": "                (c1.get(Calendar.MONTH) == (c2.get(Calendar.MONTH))) && ",
+    "blocks": [
+      2,
+      3,
+      8
+    ]
+  },
+  {
+    "codes": "                (c1.get(Calendar.DAY_OF_MONTH) == c2.get(Calendar.DAY_OF_MONTH)); ",
+    "blocks": [
+      4,
+      5,
+      6,
+      8
+    ]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "                     ",
+    "blocks": []
+  },
+  {
+    "codes": "                                   ",
+    "blocks": []
+  }
+]

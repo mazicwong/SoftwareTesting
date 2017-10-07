@@ -1,0 +1,215 @@
+[
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                             ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "    public List<Integer> sundayMatch() { ",
+    "blocks": []
+  },
+  {
+    "codes": "                       ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (!matchFromSpecialPos(currentPos)) { ",
+    "blocks": [
+      0,
+      1,
+      14
+    ]
+  },
+  {
+    "codes": "                                                                      ",
+    "blocks": [14]
+  },
+  {
+    "codes": "            if ((currentPos + pattern.length() + 1) < text.length() ",
+    "blocks": [
+      2,
+      3,
+      6,
+      14
+    ]
+  },
+  {
+    "codes": "                    && !map.containsKey(text.charAt(currentPos + pattern.length() + 1))) { ",
+    "blocks": [
+      4,
+      5,
+      6,
+      14
+    ]
+  },
+  {
+    "codes": "                currentPos += pattern.length(); ",
+    "blocks": [
+      6,
+      14
+    ]
+  },
+  {
+    "codes": "            }else { ",
+    "blocks": [
+      6,
+      14
+    ]
+  },
+  {
+    "codes": "                                                                                                     ",
+    "blocks": [
+      6,
+      14
+    ]
+  },
+  {
+    "codes": "                if ((currentPos + pattern.length() + 1) > text.length()) { ",
+    "blocks": [
+      6,
+      7,
+      8,
+      9,
+      14
+    ]
+  },
+  {
+    "codes": "                    currentPos += 1; ",
+    "blocks": [
+      6,
+      9,
+      14
+    ]
+  },
+  {
+    "codes": "                } else { ",
+    "blocks": [
+      6,
+      9,
+      14
+    ]
+  },
+  {
+    "codes": "                    currentPos += pattern.length() - (Integer) map.get(text.charAt(currentPos + pattern.length())); ",
+    "blocks": [
+      6,
+      9,
+      10,
+      14
+    ]
+  },
+  {
+    "codes": "                } ",
+    "blocks": [
+      6,
+      9,
+      14
+    ]
+  },
+  {
+    "codes": "            } ",
+    "blocks": [
+      6,
+      14
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": [14]
+  },
+  {
+    "codes": "                                          ",
+    "blocks": [14]
+  },
+  {
+    "codes": "            if ((text.length() - currentPos) < pattern.length()) { ",
+    "blocks": [
+      11,
+      12,
+      14
+    ]
+  },
+  {
+    "codes": "                return matchedPosList; ",
+    "blocks": [
+      13,
+      14
+    ]
+  },
+  {
+    "codes": "            } ",
+    "blocks": [14]
+  },
+  {
+    "codes": " ",
+    "blocks": [14]
+  },
+  {
+    "codes": "            sundayMatch(); ",
+    "blocks": [14]
+  },
+  {
+    "codes": "        }else { ",
+    "blocks": [14]
+  },
+  {
+    "codes": "                                   ",
+    "blocks": [14]
+  },
+  {
+    "codes": "            matchedPosList.add(currentPos); ",
+    "blocks": [
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "            currentPos += 1; ",
+    "blocks": [
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "            sundayMatch(); ",
+    "blocks": [
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [14]
+  },
+  {
+    "codes": "        return matchedPosList; ",
+    "blocks": [16]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "    public boolean matchFromSpecialPos(int pos) { ",
+    "blocks": []
+  }
+]

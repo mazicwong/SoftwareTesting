@@ -1,0 +1,18 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = this.<Datalog: Argument[] arguments>": {
+      "eline": 25,
+      "epos": 13,
+      "spos": 10,
+      "sline": 25
+    }},
+    {"return temp$0": {
+      "eline": 25,
+      "epos": 24,
+      "spos": 3,
+      "sline": 25
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

@@ -1,0 +1,162 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$9 = this.<LunarCalendar: java.lang.String solarTerm>": {
+        "eline": 142,
+        "epos": 21,
+        "spos": 13,
+        "sline": 142
+      }},
+      {"if temp$9 != null goto block_5 #1": {
+        "eline": 142,
+        "epos": 21,
+        "ifpos": "(141, 8)-(141, 29)",
+        "spos": 13,
+        "sline": 142
+      }}
+    ],
+    "preds": [1],
+    "succs": [
+      4,
+      5
+    ]
+  },
+  "2": {
+    "instructions": [
+      {"temp$3 = this.<LunarCalendar: Festivals festivals>": {
+        "eline": 141,
+        "epos": 28,
+        "spos": 20,
+        "sline": 141
+      }},
+      {"temp$4 = virtualinvoke temp$3.<Festivals: java.util.Set getSet()>()": {
+        "eline": 141,
+        "epos": 28,
+        "spos": 20,
+        "sline": 141
+      }},
+      {"temp$5 = interfaceinvoke temp$4.<java.util.Set: java.util.Iterator iterator()>()": {
+        "eline": 141,
+        "epos": 28,
+        "spos": 20,
+        "sline": 141
+      }},
+      {"temp$6 = (java.util.Iterator) temp$5": {
+        "eline": 141,
+        "epos": 28,
+        "spos": 20,
+        "sline": 141
+      }},
+      {"temp$7 = interfaceinvoke temp$6.<java.util.Iterator: java.lang.Object next()>()": {
+        "eline": 141,
+        "epos": 28,
+        "spos": 20,
+        "sline": 141
+      }},
+      {"temp$8 = (java.lang.String) temp$7": {
+        "eline": 141,
+        "epos": 28,
+        "spos": 20,
+        "sline": 141
+      }},
+      {"return temp$8": {
+        "eline": 141,
+        "epos": 56,
+        "spos": 13,
+        "sline": 141
+      }}
+    ],
+    "preds": [0],
+    "succs": []
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 140,
+      "epos": 22,
+      "spos": 14,
+      "sline": 140
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = this.<LunarCalendar: Festivals festivals>": {
+        "eline": 140,
+        "epos": 22,
+        "spos": 14,
+        "sline": 140
+      }},
+      {"temp$1 = virtualinvoke temp$0.<Festivals: java.util.Set getSet()>()": {
+        "eline": 140,
+        "epos": 22,
+        "spos": 14,
+        "sline": 140
+      }},
+      {"temp$2 = interfaceinvoke temp$1.<java.util.Set: boolean isEmpty()>()": {
+        "eline": 140,
+        "epos": 22,
+        "spos": 14,
+        "sline": 140
+      }},
+      {"if temp$2 == 0 goto block_2 #0": {
+        "eline": 140,
+        "epos": 22,
+        "ifpos": "(139, 8)-(139, 41)",
+        "spos": 14,
+        "sline": 140
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  },
+  "6": {
+    "instructions": [
+      {"temp$11 = virtualinvoke this.<LunarCalendar: java.lang.String getLunarDay()>()": {
+        "eline": 144,
+        "epos": 28,
+        "spos": 16,
+        "sline": 144
+      }},
+      {"return temp$11": {
+        "eline": 144,
+        "epos": 29,
+        "spos": 9,
+        "sline": 144
+      }}
+    ],
+    "preds": [4],
+    "succs": []
+  },
+  "5": {
+    "instructions": [
+      {"temp$10 = this.<LunarCalendar: java.lang.String solarTerm>": {
+        "eline": 143,
+        "epos": 28,
+        "spos": 20,
+        "sline": 143
+      }},
+      {"return temp$10": {
+        "eline": 143,
+        "epos": 29,
+        "spos": 13,
+        "sline": 143
+      }}
+    ],
+    "preds": [3],
+    "succs": []
+  },
+  "4": {
+    "instructions": [{"goto block_6": {
+      "eline": 142,
+      "epos": 21,
+      "spos": 13,
+      "sline": 142
+    }}],
+    "preds": [3],
+    "succs": [6]
+  }
+}

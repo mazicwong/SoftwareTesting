@@ -1,0 +1,87 @@
+[
+  {
+    "codes": "       ",
+    "blocks": []
+  },
+  {
+    "codes": "                       ",
+    "blocks": []
+  },
+  {
+    "codes": "                  ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "    private static int getBit(int number) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        int temp = 10; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        int bit = 1; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        while (number / temp != 0) { ",
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "            temp *= 10; ",
+    "blocks": [
+      0,
+      3
+    ]
+  },
+  {
+    "codes": "            ++bit; ",
+    "blocks": [
+      0,
+      3
+    ]
+  },
+  {
+    "codes": "        } ",
+    "blocks": [
+      0,
+      3
+    ]
+  },
+  {
+    "codes": "        return bit; ",
+    "blocks": [
+      0,
+      4
+    ]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "        ",
+    "blocks": []
+  },
+  {
+    "codes": "                   ",
+    "blocks": []
+  },
+  {
+    "codes": "       ",
+    "blocks": []
+  }
+]

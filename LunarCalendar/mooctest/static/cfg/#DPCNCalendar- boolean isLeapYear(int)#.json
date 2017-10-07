@@ -1,0 +1,147 @@
+{
+  "3": {
+    "instructions": [{"goto block_4": {
+      "eline": 290,
+      "epos": 51,
+      "spos": 37,
+      "sline": 290
+    }}],
+    "preds": [2],
+    "succs": [4]
+  },
+  "2": {
+    "instructions": [
+      {"temp$1 = year % 100": {
+        "eline": 290,
+        "epos": 51,
+        "spos": 37,
+        "sline": 290
+      }},
+      {"if temp$1 != 0 goto block_7 #0": {
+        "eline": 290,
+        "epos": 51,
+        "ifpos": "(278, 20)-(289, 74)",
+        "spos": 37,
+        "sline": 290
+      }}
+    ],
+    "preds": [0],
+    "succs": [
+      3,
+      7
+    ]
+  },
+  "1": {
+    "instructions": [{"goto block_4": {
+      "eline": 290,
+      "epos": 30,
+      "spos": 18,
+      "sline": 290
+    }}],
+    "preds": [0],
+    "succs": [4]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = year % 4": {
+        "eline": 290,
+        "epos": 30,
+        "spos": 18,
+        "sline": 290
+      }},
+      {"if temp$0 == 0 goto block_2 #0": {
+        "eline": 290,
+        "epos": 30,
+        "ifpos": "(278, 20)-(289, 74)",
+        "spos": 18,
+        "sline": 290
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  },
+  "7": {
+    "instructions": [{"temp$3 = 1": {
+      "reliable": false,
+      "eline": 290,
+      "epos": 73,
+      "spos": 59,
+      "sline": 290
+    }}],
+    "preds": [
+      2,
+      4
+    ],
+    "succs": [8]
+  },
+  "6": {
+    "instructions": [
+      {"temp$3 = 0": {
+        "reliable": false,
+        "eline": 290,
+        "epos": 73,
+        "spos": 59,
+        "sline": 290
+      }},
+      {"goto block_8": {
+        "eline": 290,
+        "epos": 73,
+        "spos": 59,
+        "sline": 290
+      }}
+    ],
+    "preds": [5],
+    "succs": [8]
+  },
+  "5": {
+    "instructions": [{"goto block_6": {
+      "eline": 290,
+      "epos": 73,
+      "spos": 59,
+      "sline": 290
+    }}],
+    "preds": [4],
+    "succs": [6]
+  },
+  "4": {
+    "instructions": [
+      {"temp$2 = year % 400": {
+        "eline": 290,
+        "epos": 73,
+        "spos": 59,
+        "sline": 290
+      }},
+      {"if temp$2 == 0 goto block_7 #0": {
+        "eline": 290,
+        "epos": 73,
+        "ifpos": "(278, 20)-(289, 74)",
+        "spos": 59,
+        "sline": 290
+      }}
+    ],
+    "preds": [
+      1,
+      3
+    ],
+    "succs": [
+      5,
+      7
+    ]
+  },
+  "8": {
+    "instructions": [{"return temp$3": {
+      "eline": 290,
+      "epos": 75,
+      "spos": 9,
+      "sline": 290
+    }}],
+    "preds": [
+      6,
+      7
+    ],
+    "succs": []
+  }
+}

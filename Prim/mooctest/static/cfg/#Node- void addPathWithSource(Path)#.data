@@ -1,0 +1,60 @@
+[
+  {
+    "codes": "\t\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\tprivate void addPathWithSource(Path path) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif(!this.paths.contains(path)){ ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\tpaths.add(path); ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\t\tpath.getDestinationNode().addPathWithSource(new Path(path.getWeight(), this, path.getDestinationNode())); ",
+    "blocks": [
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic String getName(){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn this.name; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,408 @@
+{
+  "15": {
+    "instructions": [
+      {"temp$21 = newarray (java.lang.Object)[3]": {
+        "eline": 113,
+        "epos": 39,
+        "spos": 4,
+        "sline": 111
+      }},
+      {"temp$22 = virtualinvoke smallPath.<Path: Node getSrcNode()>()": {
+        "eline": 113,
+        "epos": 39,
+        "spos": 4,
+        "sline": 111
+      }},
+      {"temp$23 = virtualinvoke temp$22.<Node: java.lang.String getName()>()": {
+        "eline": 113,
+        "epos": 39,
+        "spos": 4,
+        "sline": 111
+      }},
+      {"temp$21[0] = temp$23": {}},
+      {"temp$24 = virtualinvoke smallPath.<Path: int getWeight()>()": {}},
+      {"temp$25 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(temp$24)": {}},
+      {"temp$21[1] = temp$25": {}},
+      {"temp$26 = virtualinvoke smallPath.<Path: Node getDestinationNode()>()": {}},
+      {"temp$27 = virtualinvoke temp$26.<Node: java.lang.String getName()>()": {}},
+      {"temp$21[2] = temp$27": {}},
+      {"temp$28 = staticinvoke <java.lang.String: java.lang.String format(java.lang.String,java.lang.Object[])>(\" (%s-- %d --> %s) ,  \", temp$21)": {}},
+      {"virtualinvoke pathExpl.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(temp$28)": {}},
+      {"temp$30 = virtualinvoke smallPath.<Path: Node getDestinationNode()>()": {
+        "eline": 115,
+        "epos": 50,
+        "spos": 4,
+        "sline": 115
+      }},
+      {"interfaceinvoke foundNodes.<java.util.List: boolean add(java.lang.Object)>(temp$30)": {
+        "eline": 115,
+        "epos": 50,
+        "spos": 4,
+        "sline": 115
+      }},
+      {"temp$32 = virtualinvoke smallPath.<Path: Node getDestinationNode()>()": {
+        "eline": 117,
+        "epos": 31,
+        "spos": 11,
+        "sline": 116
+      }},
+      {"temp$33 = k + 1": {
+        "eline": 117,
+        "epos": 31,
+        "spos": 11,
+        "sline": 116
+      }},
+      {"temp$34 = virtualinvoke this.<Prim: java.lang.StringBuilder findWholeCaravaneWithPrim(Node,java.util.List,int,java.lang.StringBuilder)>(temp$32, foundNodes, temp$33, pathExpl)": {
+        "eline": 117,
+        "epos": 20,
+        "spos": 20,
+        "sline": 117
+      }},
+      {"return temp$34": {
+        "eline": 117,
+        "epos": 32,
+        "spos": 4,
+        "sline": 116
+      }}
+    ],
+    "preds": [13],
+    "succs": []
+  },
+  "16": {
+    "instructions": [{"return pathExpl": {
+      "eline": 120,
+      "epos": 18,
+      "spos": 3,
+      "sline": 120
+    }}],
+    "preds": [14],
+    "succs": []
+  },
+  "13": {
+    "instructions": [
+      {"virtualinvoke sBuilder.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(\"}\")": {
+        "eline": 108,
+        "epos": 23,
+        "spos": 3,
+        "sline": 108
+      }},
+      {"if smallPath != null goto block_15 #4": {
+        "eline": 110,
+        "epos": 23,
+        "ifpos": "(109, 2)-(109, 23)",
+        "spos": 7,
+        "sline": 110
+      }}
+    ],
+    "preds": [1],
+    "succs": [
+      14,
+      15
+    ]
+  },
+  "14": {
+    "instructions": [{"goto block_16": {
+      "eline": 110,
+      "epos": 23,
+      "spos": 7,
+      "sline": 110
+    }}],
+    "preds": [13],
+    "succs": [16]
+  },
+  "11": {
+    "instructions": [{"smallPath = currentPath": {
+      "eline": 104,
+      "epos": 13,
+      "spos": 5,
+      "sline": 104
+    }}],
+    "preds": [9],
+    "succs": [12]
+  },
+  "12": {
+    "instructions": [{"goto block_1": {
+      "eline": 107,
+      "epos": 3,
+      "spos": 3,
+      "sline": 91
+    }}],
+    "preds": [
+      10,
+      11
+    ],
+    "succs": [1]
+  },
+  "3": {
+    "instructions": [
+      {"temp$5 = interfaceinvoke pathIt.<java.util.Iterator: java.lang.Object next()>()": {
+        "eline": 92,
+        "epos": 36,
+        "spos": 4,
+        "sline": 92
+      }},
+      {"temp$6 = (Path) temp$5": {
+        "eline": 92,
+        "epos": 36,
+        "spos": 4,
+        "sline": 92
+      }},
+      {"currentPath = temp$6": {
+        "eline": 92,
+        "epos": 36,
+        "spos": 4,
+        "sline": 92
+      }},
+      {"temp$7 = virtualinvoke currentPath.<Path: Node getDestinationNode()>()": {
+        "eline": 93,
+        "epos": 60,
+        "spos": 19,
+        "sline": 93
+      }},
+      {"temp$8 = interfaceinvoke foundNodes.<java.util.List: boolean contains(java.lang.Object)>(temp$7)": {
+        "eline": 93,
+        "epos": 60,
+        "spos": 19,
+        "sline": 93
+      }},
+      {"if temp$8 == 0 goto block_6 #1": {
+        "eline": 93,
+        "epos": 60,
+        "ifpos": "(92, 3)-(92, 60)",
+        "spos": 19,
+        "sline": 93
+      }}
+    ],
+    "preds": [2],
+    "succs": [
+      4,
+      6
+    ]
+  },
+  "2": {
+    "instructions": [{"goto block_3": {
+      "eline": 91,
+      "epos": 25,
+      "spos": 17,
+      "sline": 91
+    }}],
+    "preds": [1],
+    "succs": [3]
+  },
+  "1": {
+    "instructions": [
+      {"temp$4 = interfaceinvoke pathIt.<java.util.Iterator: boolean hasNext()>()": {
+        "eline": 91,
+        "epos": 25,
+        "spos": 17,
+        "sline": 91
+      }},
+      {"if temp$4 == 0 goto block_13 #0": {
+        "eline": 91,
+        "epos": 25,
+        "ifpos": "(90, 2)-(90, 25)",
+        "spos": 17,
+        "sline": 91
+      }}
+    ],
+    "preds": [
+      0,
+      5,
+      8,
+      12
+    ],
+    "succs": [
+      2,
+      13
+    ]
+  },
+  "10": {
+    "instructions": [{"goto block_12": {
+      "eline": 103,
+      "epos": 54,
+      "spos": 8,
+      "sline": 103
+    }}],
+    "preds": [9],
+    "succs": [12]
+  },
+  "0": {
+    "instructions": [
+      {"smallPath = null": {
+        "eline": 85,
+        "epos": 24,
+        "spos": 3,
+        "sline": 85
+      }},
+      {"temp$0 = new java.lang.StringBuilder": {
+        "eline": 86,
+        "epos": 50,
+        "spos": 3,
+        "sline": 86
+      }},
+      {"specialinvoke temp$0.<java.lang.StringBuilder: void <init>(java.lang.String)>(\"{\")": {
+        "eline": 86,
+        "epos": 49,
+        "spos": 28,
+        "sline": 86
+      }},
+      {"sBuilder = temp$0": {
+        "eline": 86,
+        "epos": 49,
+        "spos": 28,
+        "sline": 86
+      }},
+      {"temp$1 = virtualinvoke this.<Prim: java.util.List getPossibilities(Node,java.util.List)>(startNode, foundNodes)": {
+        "eline": 88,
+        "epos": 68,
+        "spos": 30,
+        "sline": 88
+      }},
+      {"possibilities = temp$1": {
+        "eline": 88,
+        "epos": 68,
+        "spos": 30,
+        "sline": 88
+      }},
+      {"temp$2 = interfaceinvoke possibilities.<java.util.List: java.util.Iterator iterator()>()": {
+        "eline": 90,
+        "epos": 51,
+        "spos": 3,
+        "sline": 90
+      }},
+      {"temp$3 = (java.util.Iterator) temp$2": {
+        "eline": 90,
+        "epos": 51,
+        "spos": 3,
+        "sline": 90
+      }},
+      {"pathIt = temp$3": {
+        "eline": 90,
+        "epos": 51,
+        "spos": 3,
+        "sline": 90
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  },
+  "7": {
+    "instructions": [{"goto block_9": {
+      "eline": 99,
+      "epos": 24,
+      "spos": 8,
+      "sline": 99
+    }}],
+    "preds": [6],
+    "succs": [9]
+  },
+  "6": {
+    "instructions": [
+      {"temp$9 = newarray (java.lang.Object)[3]": {
+        "eline": 98,
+        "epos": 39,
+        "spos": 4,
+        "sline": 96
+      }},
+      {"temp$10 = virtualinvoke currentPath.<Path: Node getSrcNode()>()": {
+        "eline": 98,
+        "epos": 39,
+        "spos": 4,
+        "sline": 96
+      }},
+      {"temp$11 = virtualinvoke temp$10.<Node: java.lang.String getName()>()": {
+        "eline": 98,
+        "epos": 39,
+        "spos": 4,
+        "sline": 96
+      }},
+      {"temp$9[0] = temp$11": {}},
+      {"temp$12 = virtualinvoke currentPath.<Path: int getWeight()>()": {}},
+      {"temp$13 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(temp$12)": {}},
+      {"temp$9[1] = temp$13": {}},
+      {"temp$14 = virtualinvoke currentPath.<Path: Node getDestinationNode()>()": {}},
+      {"temp$15 = virtualinvoke temp$14.<Node: java.lang.String getName()>()": {}},
+      {"temp$9[2] = temp$15": {}},
+      {"temp$16 = staticinvoke <java.lang.String: java.lang.String format(java.lang.String,java.lang.Object[])>(\"(%s - %d -> %s), \", temp$9)": {}},
+      {"virtualinvoke sBuilder.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(temp$16)": {}},
+      {"if smallPath == null goto block_8 #2": {
+        "eline": 99,
+        "epos": 24,
+        "ifpos": "(98, 3)-(98, 24)",
+        "spos": 8,
+        "sline": 99
+      }}
+    ],
+    "preds": [3],
+    "succs": [
+      7,
+      8
+    ]
+  },
+  "5": {
+    "instructions": [{"goto block_1": {
+      "eline": 94,
+      "epos": 13,
+      "spos": 5,
+      "sline": 94
+    }}],
+    "preds": [4],
+    "succs": [1]
+  },
+  "4": {
+    "instructions": [{"goto block_5": {
+      "eline": 93,
+      "epos": 60,
+      "spos": 19,
+      "sline": 93
+    }}],
+    "preds": [3],
+    "succs": [5]
+  },
+  "9": {
+    "instructions": [
+      {"temp$18 = virtualinvoke smallPath.<Path: int getWeight()>()": {
+        "eline": 103,
+        "epos": 54,
+        "spos": 8,
+        "sline": 103
+      }},
+      {"temp$19 = virtualinvoke currentPath.<Path: int getWeight()>()": {
+        "eline": 103,
+        "epos": 54,
+        "spos": 8,
+        "sline": 103
+      }},
+      {"if temp$18 > temp$19 goto block_11 #3": {
+        "eline": 103,
+        "epos": 54,
+        "ifpos": "(102, 3)-(102, 54)",
+        "spos": 8,
+        "sline": 103
+      }}
+    ],
+    "preds": [7],
+    "succs": [
+      10,
+      11
+    ]
+  },
+  "8": {
+    "instructions": [
+      {"smallPath = currentPath": {
+        "eline": 100,
+        "epos": 13,
+        "spos": 5,
+        "sline": 100
+      }},
+      {"goto block_1": {
+        "eline": 101,
+        "epos": 13,
+        "spos": 5,
+        "sline": 101
+      }}
+    ],
+    "preds": [6],
+    "succs": [1]
+  }
+}

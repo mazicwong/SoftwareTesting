@@ -1,0 +1,65 @@
+{
+  "3": {
+    "instructions": [{"return": {
+      "eline": 120,
+      "epos": 17,
+      "spos": 13,
+      "sline": 120
+    }}],
+    "preds": [
+      1,
+      2
+    ],
+    "succs": []
+  },
+  "2": {
+    "instructions": [
+      {"temp$1 = virtualinvoke this.<LunarCalendar: Lunar getLunar()>()": {
+        "eline": 120,
+        "epos": 30,
+        "spos": 21,
+        "sline": 120
+      }},
+      {"this.<LunarCalendar: Lunar lunar> = temp$1": {
+        "eline": 120,
+        "epos": 17,
+        "spos": 13,
+        "sline": 120
+      }}
+    ],
+    "preds": [0],
+    "succs": [3]
+  },
+  "1": {
+    "instructions": [{"goto block_3": {
+      "eline": 119,
+      "epos": 17,
+      "spos": 13,
+      "sline": 119
+    }}],
+    "preds": [0],
+    "succs": [3]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = this.<LunarCalendar: Lunar lunar>": {
+        "eline": 119,
+        "epos": 17,
+        "spos": 13,
+        "sline": 119
+      }},
+      {"if temp$0 == null goto block_2 #0": {
+        "eline": 119,
+        "epos": 17,
+        "ifpos": "(118, 8)-(118, 25)",
+        "spos": 13,
+        "sline": 119
+      }}
+    ],
+    "preds": [],
+    "succs": [
+      1,
+      2
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+    {"virtualinvoke this.<Gregorian: void checkYear(int)>(year)": {
+      "eline": 13,
+      "epos": 23,
+      "spos": 9,
+      "sline": 13
+    }},
+    {"virtualinvoke this.<Gregorian: void init(int,int,int)>(year, month, day)": {
+      "eline": 14,
+      "epos": 30,
+      "spos": 9,
+      "sline": 14
+    }},
+    {"return": {
+      "eline": 14,
+      "epos": 30,
+      "spos": 9,
+      "sline": 14
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

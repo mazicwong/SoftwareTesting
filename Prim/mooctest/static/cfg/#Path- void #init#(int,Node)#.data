@@ -1,0 +1,54 @@
+[
+  {
+    "codes": "\t\tthis.weight = weight; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.destinationNode = destinationNode; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.srcNode = srcNode; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic Path(int weight, Node destinationNode) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tsuper(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tthis.weight = weight; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tthis.destinationNode = destinationNode; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\t ",
+    "blocks": []
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic int getWeight() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn weight; ",
+    "blocks": []
+  }
+]

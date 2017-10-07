@@ -1,0 +1,42 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = 1 << length": {
+      "eline": 411,
+      "epos": 64,
+      "spos": 56,
+      "sline": 411
+    }},
+    {"temp$1 = temp$0 - 1": {
+      "eline": 411,
+      "epos": 64,
+      "spos": 56,
+      "sline": 411
+    }},
+    {"temp$2 = temp$1 << shift": {
+      "eline": 411,
+      "epos": 64,
+      "spos": 56,
+      "sline": 411
+    }},
+    {"temp$3 = data & temp$2": {
+      "eline": 411,
+      "epos": 64,
+      "spos": 56,
+      "sline": 411
+    }},
+    {"temp$4 = temp$3 >> shift": {
+      "eline": 411,
+      "epos": 64,
+      "spos": 56,
+      "sline": 411
+    }},
+    {"return temp$4": {
+      "eline": 412,
+      "epos": 64,
+      "spos": 9,
+      "sline": 412
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

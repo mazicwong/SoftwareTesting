@@ -1,0 +1,86 @@
+[
+  {
+    "codes": "        d.Obl /= rad * 10000; ",
+    "blocks": []
+  },
+  {
+    "codes": "        return d; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private void addGxc(double t, double[] zb) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        double t1 = t / 36525; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        double t2 = t1 * t1; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        double t3 = t2 * t1; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        double t4 = t3 * t1; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        double l = GXC_l[0] + GXC_l[1] * t1 + GXC_l[2] * t2 + GXC_l[3] * t3 + GXC_l[4] * t4; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        double p = GXC_p[0] + GXC_p[1] * t1 + GXC_p[2] * t2; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        double e = GXC_e[0] + GXC_e[1] * t1 + GXC_e[2] * t2; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        double dL = l - zb[0], dP = p - zb[0]; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        zb[0] -= GXC_k * (Math.cos(dL) - e * Math.cos(dP)) / Math.cos(zb[1]); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        zb[1] -= GXC_k * Math.sin(zb[1]) * (Math.sin(dL) - e * Math.sin(dP)); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        zb[0] = rad2mrad(zb[0]); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    private double[] earCal(double jd) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        EnnT = jd / 365250; ",
+    "blocks": []
+  },
+  {
+    "codes": "        double[] llr = new double[3]; ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,256 @@
+{
+  "3": {
+    "instructions": [
+      {"temp$4 = this.<Datalog: Argument[] arguments>": {
+        "eline": 98,
+        "epos": 11,
+        "spos": 8,
+        "sline": 98
+      }},
+      {"temp$5 = i": {
+        "eline": 98,
+        "epos": 11,
+        "spos": 8,
+        "sline": 98
+      }},
+      {"temp$6 = temp$4[temp$5]": {
+        "eline": 98,
+        "epos": 11,
+        "spos": 8,
+        "sline": 98
+      }},
+      {"temp$7 = virtualinvoke temp$6.<Argument: boolean isValue()>()": {
+        "eline": 98,
+        "epos": 11,
+        "spos": 8,
+        "sline": 98
+      }},
+      {"if temp$7 == 0 goto block_6 #1": {
+        "eline": 98,
+        "epos": 11,
+        "ifpos": "(97, 3)-(97, 34)",
+        "spos": 8,
+        "sline": 98
+      }}
+    ],
+    "preds": [1],
+    "succs": [
+      4,
+      6
+    ]
+  },
+  "2": {
+    "instructions": [{"goto block_8": {
+      "eline": 97,
+      "epos": 26,
+      "spos": 23,
+      "sline": 97
+    }}],
+    "preds": [1],
+    "succs": [8]
+  },
+  "1": {
+    "instructions": [
+      {"temp$2 = this.<Datalog: Argument[] arguments>": {
+        "eline": 97,
+        "epos": 26,
+        "spos": 23,
+        "sline": 97
+      }},
+      {"temp$3 = lengthof temp$2": {
+        "eline": 97,
+        "epos": 26,
+        "spos": 23,
+        "sline": 97
+      }},
+      {"if i < temp$3 goto block_3 #0": {
+        "eline": 97,
+        "epos": 26,
+        "ifpos": "(96, 16)-(96, 43)",
+        "spos": 23,
+        "sline": 97
+      }}
+    ],
+    "preds": [
+      0,
+      7
+    ],
+    "succs": [
+      2,
+      3
+    ]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = this.<Datalog: Argument[] arguments>": {
+        "eline": 96,
+        "epos": 33,
+        "spos": 30,
+        "sline": 96
+      }},
+      {"temp$1 = lengthof temp$0": {
+        "eline": 96,
+        "epos": 33,
+        "spos": 30,
+        "sline": 96
+      }},
+      {"values = newarray (Value)[temp$1]": {
+        "eline": 96,
+        "epos": 33,
+        "spos": 30,
+        "sline": 96
+      }},
+      {"i = 0": {
+        "eline": 97,
+        "epos": 16,
+        "spos": 8,
+        "sline": 97
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  },
+  "7": {
+    "instructions": [
+      {"temp$15 = i": {
+        "eline": 97,
+        "epos": 48,
+        "spos": 46,
+        "sline": 97
+      }},
+      {"temp$16 = temp$15 + 1": {
+        "eline": 97,
+        "epos": 46,
+        "spos": 46,
+        "sline": 97
+      }},
+      {"i = temp$16": {
+        "eline": 97,
+        "epos": 46,
+        "spos": 46,
+        "sline": 97
+      }},
+      {"goto block_1": {
+        "eline": 103,
+        "epos": 3,
+        "spos": 3,
+        "sline": 97
+      }}
+    ],
+    "preds": [5],
+    "succs": [1]
+  },
+  "6": {
+    "instructions": [
+      {"temp$14 = null": {
+        "reliable": false,
+        "eline": 102,
+        "epos": 4,
+        "spos": 4,
+        "sline": 98
+      }},
+      {"return temp$14": {
+        "eline": 101,
+        "epos": 16,
+        "spos": 5,
+        "sline": 101
+      }}
+    ],
+    "preds": [3],
+    "succs": []
+  },
+  "5": {
+    "instructions": [
+      {"temp$8 = values": {
+        "eline": 99,
+        "epos": 45,
+        "spos": 5,
+        "sline": 99
+      }},
+      {"temp$9 = i": {
+        "eline": 99,
+        "epos": 45,
+        "spos": 5,
+        "sline": 99
+      }},
+      {"temp$10 = this.<Datalog: Argument[] arguments>": {
+        "eline": 99,
+        "epos": 20,
+        "spos": 17,
+        "sline": 99
+      }},
+      {"temp$11 = i": {
+        "eline": 99,
+        "epos": 20,
+        "spos": 17,
+        "sline": 99
+      }},
+      {"temp$12 = temp$10[temp$11]": {
+        "eline": 99,
+        "epos": 20,
+        "spos": 17,
+        "sline": 99
+      }},
+      {"temp$13 = virtualinvoke temp$12.<Argument: Value getValue()>()": {
+        "eline": 99,
+        "epos": 20,
+        "spos": 17,
+        "sline": 99
+      }},
+      {"temp$8[temp$9] = temp$13": {
+        "eline": 99,
+        "epos": 13,
+        "spos": 11,
+        "sline": 99
+      }},
+      {"goto block_7": {
+        "eline": 102,
+        "epos": 4,
+        "spos": 4,
+        "sline": 98
+      }}
+    ],
+    "preds": [4],
+    "succs": [7]
+  },
+  "4": {
+    "instructions": [{"goto block_5": {
+      "eline": 98,
+      "epos": 11,
+      "spos": 8,
+      "sline": 98
+    }}],
+    "preds": [3],
+    "succs": [5]
+  },
+  "8": {
+    "instructions": [
+      {"temp$17 = new Fact": {
+        "eline": 103,
+        "epos": 3,
+        "spos": 3,
+        "sline": 97
+      }},
+      {"temp$18 = this.<Datalog: Predicate predicate>": {
+        "eline": 104,
+        "epos": 22,
+        "spos": 19,
+        "sline": 104
+      }},
+      {"specialinvoke temp$17.<Fact: void <init>(Predicate,Value[])>(temp$18, values)": {
+        "eline": 104,
+        "epos": 41,
+        "spos": 10,
+        "sline": 104
+      }},
+      {"return temp$17": {
+        "eline": 104,
+        "epos": 42,
+        "spos": 3,
+        "sline": 104
+      }}
+    ],
+    "preds": [2],
+    "succs": []
+  }
+}

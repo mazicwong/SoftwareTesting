@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "public class Prim { ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tprivate NodeNetwork nodeNet; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic Prim(NodeNetwork nodeNet) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.nodeNet = nodeNet; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic List<Node> findWholeCaravaneWithPrim() { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tif (!nodeNet.getNodes().isEmpty()) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\tNode node = nodeNet.getNodes().get(0); ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,156 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = month": {
+      "eline": 398,
+      "epos": 33,
+      "spos": 9,
+      "sline": 398
+    }},
+    {"temp$1 = temp$0 + 9": {
+      "eline": 398,
+      "epos": 33,
+      "spos": 9,
+      "sline": 398
+    }},
+    {"temp$2 = temp$1 % 12": {
+      "eline": 398,
+      "epos": 33,
+      "spos": 9,
+      "sline": 398
+    }},
+    {"month = temp$2": {
+      "eline": 398,
+      "epos": 13,
+      "spos": 9,
+      "sline": 398
+    }},
+    {"temp$3 = month / 10": {
+      "eline": 399,
+      "epos": 33,
+      "spos": 9,
+      "sline": 399
+    }},
+    {"temp$4 = year - temp$3": {
+      "eline": 399,
+      "epos": 33,
+      "spos": 9,
+      "sline": 399
+    }},
+    {"year = temp$4": {
+      "eline": 399,
+      "epos": 12,
+      "spos": 9,
+      "sline": 399
+    }},
+    {"temp$5 = 365 * year": {
+      "eline": 399,
+      "epos": 12,
+      "spos": 9,
+      "sline": 399
+    }},
+    {"temp$6 = temp$5": {
+      "eline": 399,
+      "epos": 12,
+      "spos": 9,
+      "sline": 399
+    }},
+    {"temp$7 = year / 4": {
+      "eline": 399,
+      "epos": 12,
+      "spos": 9,
+      "sline": 399
+    }},
+    {"temp$8 = year / 100": {
+      "eline": 399,
+      "epos": 12,
+      "spos": 9,
+      "sline": 399
+    }},
+    {"temp$9 = temp$6 + temp$7": {
+      "eline": 399,
+      "epos": 12,
+      "spos": 9,
+      "sline": 399
+    }},
+    {"temp$10 = temp$9 - temp$8": {
+      "eline": 399,
+      "epos": 12,
+      "spos": 9,
+      "sline": 399
+    }},
+    {"temp$11 = temp$10": {
+      "eline": 399,
+      "epos": 12,
+      "spos": 9,
+      "sline": 399
+    }},
+    {"temp$12 = year / 400": {
+      "eline": 399,
+      "epos": 12,
+      "spos": 9,
+      "sline": 399
+    }},
+    {"temp$13 = temp$11 + temp$12": {
+      "eline": 399,
+      "epos": 12,
+      "spos": 9,
+      "sline": 399
+    }},
+    {"temp$14 = month * 306": {
+      "eline": 399,
+      "epos": 12,
+      "spos": 9,
+      "sline": 399
+    }},
+    {"temp$15 = temp$14": {
+      "eline": 399,
+      "epos": 12,
+      "spos": 9,
+      "sline": 399
+    }},
+    {"temp$16 = temp$15 + 5": {
+      "eline": 399,
+      "epos": 12,
+      "spos": 9,
+      "sline": 399
+    }},
+    {"temp$17 = temp$16 / 10": {
+      "eline": 399,
+      "epos": 12,
+      "spos": 9,
+      "sline": 399
+    }},
+    {"temp$18 = temp$13 + temp$17": {
+      "eline": 399,
+      "epos": 12,
+      "spos": 9,
+      "sline": 399
+    }},
+    {"temp$19 = day - 1": {
+      "eline": 399,
+      "epos": 12,
+      "spos": 9,
+      "sline": 399
+    }},
+    {"temp$20 = temp$18 + temp$19": {
+      "eline": 399,
+      "epos": 12,
+      "spos": 9,
+      "sline": 399
+    }},
+    {"temp$21 = (long) temp$20": {
+      "eline": 399,
+      "epos": 12,
+      "spos": 9,
+      "sline": 399
+    }},
+    {"return temp$21": {
+      "eline": 400,
+      "epos": 100,
+      "spos": 9,
+      "sline": 400
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

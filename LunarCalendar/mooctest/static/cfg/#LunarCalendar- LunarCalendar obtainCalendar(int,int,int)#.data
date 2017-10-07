@@ -1,0 +1,50 @@
+[
+  {
+    "codes": "        this.year = year; ",
+    "blocks": []
+  },
+  {
+    "codes": "        this.month = month; ",
+    "blocks": []
+  },
+  {
+    "codes": "        this.day = day; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public static LunarCalendar obtainCalendar(int year, int month, int day) { ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        return DPCManager.getInstance().getDPInfo(year, month, day); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    void setFestivals(Festivals festivals) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        this.festivals = festivals; ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  }
+]

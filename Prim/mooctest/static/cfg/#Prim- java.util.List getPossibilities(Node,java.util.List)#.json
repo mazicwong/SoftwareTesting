@@ -1,0 +1,115 @@
+{
+  "3": {
+    "instructions": [{"return allPossiblePaths": {
+      "eline": 129,
+      "epos": 26,
+      "spos": 3,
+      "sline": 129
+    }}],
+    "preds": [1],
+    "succs": []
+  },
+  "2": {
+    "instructions": [
+      {"temp$5 = interfaceinvoke temp$3.<java.util.Iterator: java.lang.Object next()>()": {
+        "eline": 125,
+        "epos": 48,
+        "spos": 3,
+        "sline": 125
+      }},
+      {"node = (Node) temp$5": {
+        "eline": 125,
+        "epos": 48,
+        "spos": 3,
+        "sline": 125
+      }},
+      {"temp$6 = virtualinvoke node.<Node: java.util.List getPaths()>()": {
+        "eline": 127,
+        "epos": 44,
+        "spos": 4,
+        "sline": 127
+      }},
+      {"interfaceinvoke allPossiblePaths.<java.util.List: boolean addAll(java.util.Collection)>(temp$6)": {
+        "eline": 127,
+        "epos": 44,
+        "spos": 4,
+        "sline": 127
+      }},
+      {"goto block_1": {
+        "eline": 127,
+        "epos": 44,
+        "spos": 4,
+        "sline": 127
+      }}
+    ],
+    "preds": [1],
+    "succs": [1]
+  },
+  "1": {
+    "instructions": [
+      {"temp$4 = interfaceinvoke temp$3.<java.util.Iterator: boolean hasNext()>()": {
+        "eline": 125,
+        "epos": 48,
+        "spos": 3,
+        "sline": 125
+      }},
+      {"if temp$4 == 0 goto block_3 #0": {
+        "eline": 125,
+        "epos": 48,
+        "ifpos": "(123, 53)-(124, 47)",
+        "spos": 3,
+        "sline": 125
+      }}
+    ],
+    "preds": [
+      0,
+      2
+    ],
+    "succs": [
+      2,
+      3
+    ]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = new java.util.ArrayList": {
+        "eline": 124,
+        "epos": 54,
+        "spos": 3,
+        "sline": 124
+      }},
+      {"specialinvoke temp$0.<java.util.ArrayList: void <init>()>()": {
+        "eline": 124,
+        "epos": 53,
+        "spos": 33,
+        "sline": 124
+      }},
+      {"allPossiblePaths = temp$0": {
+        "eline": 124,
+        "epos": 53,
+        "spos": 33,
+        "sline": 124
+      }},
+      {"temp$1 = virtualinvoke startNode.<Node: java.util.List getPaths()>()": {
+        "eline": 125,
+        "epos": 48,
+        "spos": 3,
+        "sline": 125
+      }},
+      {"interfaceinvoke allPossiblePaths.<java.util.List: boolean addAll(java.util.Collection)>(temp$1)": {
+        "eline": 125,
+        "epos": 48,
+        "spos": 3,
+        "sline": 125
+      }},
+      {"temp$3 = interfaceinvoke foundNodes.<java.lang.Iterable: java.util.Iterator iterator()>()": {
+        "eline": 125,
+        "epos": 48,
+        "spos": 3,
+        "sline": 125
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  }
+}

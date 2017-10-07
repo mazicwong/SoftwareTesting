@@ -1,0 +1,88 @@
+[
+  {
+    "codes": "                                   ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                                         ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                          ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic Substitution extend(Variable variable, Value value) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tint index = from.indexOf(variable); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tif (index != -1) {                                                      ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "\t\t\tif (!to.get(index).equals(value)) {                              ",
+    "blocks": [
+      2,
+      3
+    ]
+  },
+  {
+    "codes": "\t\t\t\treturn null;                             ",
+    "blocks": [4]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tSubstitution s = new Substitution(this.from, this.to); ",
+    "blocks": [5]
+  },
+  {
+    "codes": "\t\ts.from.add(variable); ",
+    "blocks": [5]
+  },
+  {
+    "codes": "\t\ts.to.add(value); ",
+    "blocks": [5]
+  },
+  {
+    "codes": "\t\treturn s; ",
+    "blocks": [5]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                                              ",
+    "blocks": []
+  },
+  {
+    "codes": "                                          ",
+    "blocks": []
+  }
+]

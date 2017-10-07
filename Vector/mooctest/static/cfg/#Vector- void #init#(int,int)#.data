@@ -1,0 +1,69 @@
+[
+  {
+    "codes": "                                                                    ",
+    "blocks": []
+  },
+  {
+    "codes": "    private static final long serialVersionUID = -2767605614048989439L; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public Vector(int initialCapacity, int capacityIncrement) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        super(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "        if (initialCapacity < 0) ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "            throw new IllegalArgumentException(\"Illegal Capacity: \" ",
+    "blocks": [2]
+  },
+  {
+    "codes": "                                               + initialCapacity); ",
+    "blocks": [2]
+  },
+  {
+    "codes": "        this.elementData = new Object[initialCapacity]; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "        this.capacityIncrement = capacityIncrement; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public Vector(int initialCapacity) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        this(initialCapacity, 0); ",
+    "blocks": []
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  }
+]

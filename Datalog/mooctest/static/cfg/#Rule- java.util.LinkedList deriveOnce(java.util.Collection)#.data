@@ -1,0 +1,74 @@
+[
+  {
+    "codes": "                    ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                               ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                   ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic LinkedList<Fact> deriveOnce(Collection<Fact> database) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tLinkedList<Datalog> bodyList = new LinkedList<Datalog>(Arrays.asList(body)); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tLinkedList<Substitution> subs = findAllSubstitutions(database, bodyList); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tLinkedList<Fact> result = new LinkedList<Fact>(); ",
+    "blocks": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "codes": "\t\tfor (Substitution s : subs) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\t\tresult.add(s.applyOn(head).toFact()); ",
+    "blocks": [2]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn result; ",
+    "blocks": [3]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                                                                            ",
+    "blocks": []
+  },
+  {
+    "codes": "                           ",
+    "blocks": []
+  }
+]

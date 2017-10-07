@@ -1,0 +1,31 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+    {"this.<LunarCalendar: int year> = year": {
+      "eline": 30,
+      "epos": 17,
+      "spos": 14,
+      "sline": 30
+    }},
+    {"this.<LunarCalendar: int month> = month": {
+      "eline": 31,
+      "epos": 18,
+      "spos": 14,
+      "sline": 31
+    }},
+    {"this.<LunarCalendar: int day> = day": {
+      "eline": 32,
+      "epos": 16,
+      "spos": 14,
+      "sline": 32
+    }},
+    {"return": {
+      "eline": 32,
+      "epos": 16,
+      "spos": 14,
+      "sline": 32
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

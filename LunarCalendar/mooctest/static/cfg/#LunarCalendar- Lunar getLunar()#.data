@@ -1,0 +1,63 @@
+[
+  {
+    "codes": "    private Festivals festivals; ",
+    "blocks": []
+  },
+  {
+    "codes": "    private int year, month, day; ",
+    "blocks": []
+  },
+  {
+    "codes": "    private Lunar lunar; ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    public Lunar getLunar() { ",
+    "blocks": []
+  },
+  {
+    "codes": "        if (lunar == null) ",
+    "blocks": [
+      0,
+      1
+    ]
+  },
+  {
+    "codes": "            lunar = DPCNCalendar.getLunar(year, month, day); ",
+    "blocks": [
+      0,
+      2
+    ]
+  },
+  {
+    "codes": "        return lunar; ",
+    "blocks": [
+      0,
+      3
+    ]
+  },
+  {
+    "codes": "    } ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "    LunarCalendar(int year, int month, int day) { ",
+    "blocks": []
+  },
+  {
+    "codes": "        this.year = year; ",
+    "blocks": []
+  },
+  {
+    "codes": "        this.month = month; ",
+    "blocks": []
+  }
+]

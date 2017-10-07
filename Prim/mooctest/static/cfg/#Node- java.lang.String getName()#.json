@@ -1,0 +1,18 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = this.<Node: java.lang.String name>": {
+      "eline": 39,
+      "epos": 13,
+      "spos": 10,
+      "sline": 39
+    }},
+    {"return temp$0": {
+      "eline": 39,
+      "epos": 19,
+      "spos": 3,
+      "sline": 39
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

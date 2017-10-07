@@ -1,0 +1,24 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = new Argument": {
+      "eline": 14,
+      "epos": 41,
+      "spos": 31,
+      "sline": 14
+    }},
+    {"specialinvoke temp$0.<Argument: void <init>(Value,Variable,boolean)>(value, null, 1)": {
+      "eline": 15,
+      "epos": 40,
+      "spos": 10,
+      "sline": 15
+    }},
+    {"return temp$0": {
+      "eline": 15,
+      "epos": 41,
+      "spos": 3,
+      "sline": 15
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}
